@@ -36,6 +36,9 @@ Copy `.env.example` to `.env` if you want to manage values locally.
 - `POST /api/auth/signup`
 - `POST /api/auth/login`
 - `GET /api/auth/me`
+- `POST /api/auth/find-id`
+- `POST /api/auth/reset-password/request`
+- `POST /api/auth/reset-password/confirm`
 - `POST /api/stt/transcriptions`
 - `POST /api/practice/question-sets`
 - `POST /api/mock-tests/sessions`

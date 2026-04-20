@@ -11,7 +11,6 @@ class UserProfileResponse(BaseModel):
     id: int
     username: str
     name: str
-    phone: str
     email: str | None
     birth_date: date | None
     created_at: datetime

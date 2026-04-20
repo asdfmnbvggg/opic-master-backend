@@ -9,8 +9,6 @@ from app.schemas.auth import (
     AuthMessageResponse,
     FindIdRequest,
     LoginRequest,
-    PhoneSendCodeRequest,
-    PhoneVerifyCodeRequest,
     ResetPasswordConfirmRequest,
     ResetPasswordRequest,
     SignupRequest,
@@ -49,16 +47,6 @@ def check_username(
     db: Session = Depends(get_db),
 ) -> UsernameCheckResponse:
     return AuthService(db).check_username(username)
-
-
-@router.post("/phone/send-code", response_model=AuthMessageResponse)
-def send_phone_code(payload: PhoneSendCodeRequest, db: Session = Depends(get_db)) -> AuthMessageResponse:
-    return AuthService(db).send_phone_code(payload)
-
-
-@router.post("/phone/verify-code", response_model=AuthMessageResponse)
-def verify_phone_code(payload: PhoneVerifyCodeRequest, db: Session = Depends(get_db)) -> AuthMessageResponse:
-    return AuthService(db).verify_phone_code(payload)
 
 
 @router.post("/find-id", response_model=AuthMessageResponse)
