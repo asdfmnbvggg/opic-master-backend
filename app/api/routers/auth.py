@@ -7,6 +7,8 @@ from app.api.deps import get_current_user, get_db
 from app.db.models.user import User
 from app.schemas.auth import (
     AuthMessageResponse,
+    EmailSendVerificationRequest,
+    EmailVerifyRequest,
     FindIdRequest,
     LoginRequest,
     ResetPasswordConfirmRequest,
@@ -47,6 +49,22 @@ def check_username(
     db: Session = Depends(get_db),
 ) -> UsernameCheckResponse:
     return AuthService(db).check_username(username)
+
+
+@router.post("/email/send-verification", response_model=AuthMessageResponse)
+def send_email_verification(
+    payload: EmailSendVerificationRequest,
+    db: Session = Depends(get_db),
+) -> AuthMessageResponse:
+    return AuthService(db).send_email_verification(payload)
+
+
+@router.post("/email/verify", response_model=AuthMessageResponse)
+def verify_email(
+    payload: EmailVerifyRequest,
+    db: Session = Depends(get_db),
+) -> AuthMessageResponse:
+    return AuthService(db).verify_email(payload)
 
 
 @router.post("/find-id", response_model=AuthMessageResponse)

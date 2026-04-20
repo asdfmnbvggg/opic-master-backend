@@ -29,6 +29,12 @@ Copy `.env.example` to `.env` if you want to manage values locally.
 - `DATABASE_URL`
 - `ACCESS_TOKEN_EXPIRE_MINUTES`
 - `APP_SECRET_KEY`
+- `SMTP_HOST`
+- `SMTP_PORT`
+- `SMTP_USERNAME`
+- `SMTP_PASSWORD`
+- `SMTP_FROM_EMAIL`
+- `SMTP_USE_TLS`
 
 ## API
 
@@ -49,3 +55,4 @@ Copy `.env.example` to `.env` if you want to manage values locally.
 
 - `TODO(USER)` comments mark places where your project-specific policy or external integration should be added.
 - The current evaluation logic is rule-based placeholder logic so the frontend can be connected first.
+- Real email sending now uses SMTP settings from `.env`. If SMTP is not configured, email send requests will fail.

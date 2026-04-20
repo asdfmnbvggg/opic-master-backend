@@ -27,6 +27,15 @@ class UsernameCheckResponse(BaseModel):
     message: str
 
 
+class EmailSendVerificationRequest(BaseModel):
+    email: str
+
+
+class EmailVerifyRequest(BaseModel):
+    email: str
+    code: str = Field(min_length=6, max_length=6)
+
+
 class FindIdRequest(BaseModel):
     name: str
     email: str
@@ -45,3 +54,4 @@ class ResetPasswordConfirmRequest(BaseModel):
 class AuthMessageResponse(BaseModel):
     message: str
     resetLink: str | None = None
+    verificationCode: str | None = None
