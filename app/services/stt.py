@@ -3,10 +3,11 @@ from __future__ import annotations
 import logging
 import os
 import tempfile
+from importlib import import_module
 from functools import lru_cache
+from typing import Any
 
 from fastapi import HTTPException
-from faster_whisper import WhisperModel
 
 from app.config import STT_COMPUTE_TYPE, STT_DEVICE, STT_MODEL_SIZE
 
@@ -14,14 +15,27 @@ logger = logging.getLogger("opic-master-backend.stt")
 
 
 @lru_cache(maxsize=1)
-def get_whisper_model() -> WhisperModel:
+def get_whisper_model() -> Any:
+    try:
+        whisper_module = import_module("faster_whisper")
+        whisper_model_cls = whisper_module.WhisperModel
+    except Exception as exc:
+        logger.exception("Failed to import faster-whisper runtime")
+        raise HTTPException(
+            status_code=503,
+            detail=(
+                "STT service is unavailable in this environment. "
+                f"faster-whisper runtime could not be loaded: {exc}"
+            ),
+        ) from exc
+
     logger.info(
         "Loading faster-whisper model model_size=%s device=%s compute_type=%s",
         STT_MODEL_SIZE,
         STT_DEVICE,
         STT_COMPUTE_TYPE,
     )
-    return WhisperModel(
+    return whisper_model_cls(
         STT_MODEL_SIZE,
         device=STT_DEVICE,
         compute_type=STT_COMPUTE_TYPE,
