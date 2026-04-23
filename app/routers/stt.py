@@ -5,7 +5,7 @@ from typing import Any
 
 from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 
-from app.services.stt import transcribe_audio_bytes
+from app.services.stt import transcribe_audio_payload
 
 router = APIRouter(prefix="/api/stt", tags=["stt"])
 logger = logging.getLogger("opic-master-backend.api.stt")
@@ -24,7 +24,7 @@ async def transcribe_audio(
     if not audio_bytes:
         raise HTTPException(status_code=400, detail="audioFile must not be empty.")
 
-    transcript = transcribe_audio_bytes(
+    stt_payload = transcribe_audio_payload(
         audio_bytes=audio_bytes,
         content_type=audioFile.content_type,
         language=language,
@@ -36,15 +36,18 @@ async def transcribe_audio(
         audioFile.filename,
         audioFile.content_type,
         len(audio_bytes),
-        len(transcript),
+        len(str(stt_payload["transcript"])),
     )
 
     return {
-        "transcript": transcript,
+        "transcript": stt_payload["transcript"],
         "language": language,
         "questionId": questionId,
-        "provider": "faster-whisper",
+        "provider": stt_payload["provider"],
         "fileName": audioFile.filename,
         "contentType": audioFile.content_type,
         "fileSize": len(audio_bytes),
+        "confidence": stt_payload.get("confidence"),
+        "languageProbability": stt_payload.get("languageProbability"),
+        "segments": stt_payload.get("segments", []),
     }

@@ -50,6 +50,8 @@ STT_DEVICE = _get_env("STT_DEVICE", "cpu")
 STT_COMPUTE_TYPE = _get_env("STT_COMPUTE_TYPE", "int8")
 BACKEND_HOST = _get_env("BACKEND_HOST", "127.0.0.1")
 BACKEND_PORT = int(_get_env("BACKEND_PORT", "8000"))
+PUBLIC_BACKEND_BASE_URL = _get_env("PUBLIC_BACKEND_BASE_URL", f"http://{BACKEND_HOST}:{BACKEND_PORT}").rstrip("/")
+STT_SERVICE_URL = _get_env("STT_SERVICE_URL", "http://127.0.0.1:8001").rstrip("/")
 DATABASE_URL = _resolve_database_url(_get_env("DATABASE_URL", "sqlite:///./opic_master.db"))
 ACCESS_TOKEN_EXPIRE_MINUTES = int(_get_env("ACCESS_TOKEN_EXPIRE_MINUTES", "120"))
 APP_SECRET_KEY = _get_env("APP_SECRET_KEY", "change-me-in-production")
@@ -68,3 +70,7 @@ CORS_ALLOW_ORIGINS = [
     ).split(",")
     if origin.strip()
 ]
+
+MEDIA_ROOT = Path(_get_env("MEDIA_ROOT", str((Path(__file__).resolve().parent.parent / "storage").as_posix())))
+MEDIA_URL_PREFIX = _get_env("MEDIA_URL_PREFIX", "/media").rstrip("/") or "/media"
+EVALUATION_AUDIO_DIR = MEDIA_ROOT / "evaluation-audio"
