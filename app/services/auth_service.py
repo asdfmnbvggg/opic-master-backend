@@ -62,7 +62,7 @@ class AuthService:
     def login(self, payload: LoginRequest) -> TokenResponse:
         user = self.db.scalar(select(User).where(User.username == payload.username))
         if user is None or not verify_password(payload.password, user.password_hash):
-            raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid username or password.")
+            raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="아이디와 비밀번호를 다시 확인해주세요.")
 
         user.last_login_at = datetime.utcnow()
         self.db.commit()
