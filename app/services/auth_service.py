@@ -9,6 +9,7 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.core.security import create_access_token, hash_password, verify_password
+from app.config import FRONTEND_BASE_URL
 from app.db.models.user import EmailVerification, PasswordResetToken, User
 from app.schemas.auth import (
     AuthMessageResponse,
@@ -159,7 +160,7 @@ class AuthService:
         self.db.add(reset_token)
         self.db.commit()
 
-        reset_link = f"http://localhost:5173/reset-password?token={token}"
+        reset_link = f"{FRONTEND_BASE_URL}/reset-password?token={token}"
         EmailService.send_email(
             to_email=payload.email,
             subject="[OPIc Speaking Practice] 비밀번호 재설정 안내",
