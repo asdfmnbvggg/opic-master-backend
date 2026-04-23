@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 import smtplib
 from email.message import EmailMessage
 
@@ -13,6 +14,8 @@ from app.config import (
     SMTP_USERNAME,
     SMTP_USE_TLS,
 )
+
+logger = logging.getLogger(__name__)
 
 
 class EmailService:
@@ -36,7 +39,9 @@ class EmailService:
                     server.starttls()
                 server.login(SMTP_USERNAME, SMTP_PASSWORD)
                 server.send_message(message)
+            logger.info("Email sent successfully to %s with subject %s", to_email, subject)
         except Exception as exc:
+            logger.exception("Failed to send email to %s", to_email)
             raise HTTPException(
                 status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
                 detail=f"Failed to send email: {exc}",

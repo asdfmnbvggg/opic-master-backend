@@ -10,7 +10,6 @@ from sqlalchemy.orm import Session
 
 from app.core.security import create_access_token, hash_password, verify_password
 from app.db.models.user import EmailVerification, PasswordResetToken, User
-from app.services.email_service import EmailService
 from app.schemas.auth import (
     AuthMessageResponse,
     EmailSendVerificationRequest,
@@ -23,6 +22,7 @@ from app.schemas.auth import (
     TokenResponse,
     UsernameCheckResponse,
 )
+from app.services.email_service import EmailService
 
 
 class AuthService:
@@ -89,20 +89,18 @@ class AuthService:
         self.db.add(verification)
         self.db.commit()
 
-        # TODO(USER): 운영 환경에서는 발신 메일 주소와 SMTP 계정을 프로젝트 전용 계정으로 분리하는 것이 좋습니다.
         EmailService.send_email(
             to_email=payload.email,
-            subject="[OPIc Master] 이메일 인증 코드",
+            subject="[OPIc Master] Email Verification Code",
             body=(
-                "안녕하세요.\n\n"
-                f"이메일 인증 코드: {code}\n"
-                "인증 코드는 10분 동안 유효합니다.\n\n"
-                "본인이 요청하지 않았다면 이 메일을 무시해주세요."
+                "Hello,\n\n"
+                "Thank you for signing up for OPIc Master.\n"
+                f"Your email verification code is: {code}\n\n"
+                "This code will expire in 10 minutes.\n"
+                "If you did not request this email, you can safely ignore it."
             ),
         )
-        return AuthMessageResponse(
-            message="이메일 인증 코드가 발송되었습니다.",
-        )
+        return AuthMessageResponse(message=f"{payload.email}로 이메일 인증 코드가 발송되었습니다.")
 
     def verify_email(self, payload: EmailVerifyRequest) -> AuthMessageResponse:
         verification = self.db.scalar(
@@ -125,8 +123,17 @@ class AuthService:
         if user is None:
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Matching user not found.")
 
-        masked_username = self._mask_username(user.username)
-        return AuthMessageResponse(message=f"가입된 아이디는 {masked_username} 입니다.")
+        EmailService.send_email(
+            to_email=payload.email,
+            subject="[OPIc Master] Username Reminder",
+            body=(
+                "Hello,\n\n"
+                "You requested to find your username for OPIc Master.\n"
+                f"Your username is: {user.username}\n\n"
+                "If you did not request this email, you can safely ignore it."
+            ),
+        )
+        return AuthMessageResponse(message=f"{payload.email}로 아이디 안내 메일을 발송했습니다.")
 
     def request_password_reset(self, payload: ResetPasswordRequest) -> AuthMessageResponse:
         user = self.db.scalar(select(User).where(User.username == payload.username).where(User.email == payload.email))
@@ -143,20 +150,19 @@ class AuthService:
         self.db.commit()
 
         reset_link = f"http://localhost:5173/reset-password?token={token}"
-        # TODO(USER): 운영 배포 시 reset 링크 도메인을 실제 프론트 도메인으로 변경해야 합니다.
         EmailService.send_email(
             to_email=payload.email,
-            subject="[OPIc Master] 비밀번호 재설정 링크",
+            subject="[OPIc Master] Password Reset Link",
             body=(
-                "안녕하세요.\n\n"
-                "아래 링크를 눌러 비밀번호를 재설정해주세요.\n"
+                "Hello,\n\n"
+                "Click the link below to reset your password:\n"
                 f"{reset_link}\n\n"
-                "링크는 1시간 동안 유효합니다.\n"
-                "본인이 요청하지 않았다면 이 메일을 무시해주세요."
+                "This link will expire in 1 hour.\n"
+                "If you did not request a password reset, you can safely ignore it."
             ),
         )
         return AuthMessageResponse(
-            message="비밀번호 재설정 링크를 이메일로 발송했습니다.",
+            message=f"{payload.email}로 비밀번호 재설정 메일을 발송했습니다.",
             resetLink=reset_link,
         )
 
@@ -203,12 +209,6 @@ class AuthService:
                 "email": user.email,
             },
         )
-
-    @staticmethod
-    def _mask_username(username: str) -> str:
-        if len(username) <= 2:
-            return username[0] + "*"
-        return username[:2] + "*" * max(1, len(username) - 2)
 
     @staticmethod
     def _is_valid_password(password: str) -> bool:
