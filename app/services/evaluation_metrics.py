@@ -74,6 +74,29 @@ def compute_answer_metrics(
     sentences = [part.strip() for part in SENTENCE_SPLIT_PATTERN.split(normalized_transcript) if part.strip()]
 
     word_count = len(tokens)
+    if not normalized_transcript or word_count == 0:
+        silence_duration_seconds = max(0.0, float(audio_duration_seconds or 0.0))
+        silence_ratio = round((silence_duration_seconds / audio_duration_seconds) if audio_duration_seconds > 0 else 1.0, 4)
+        return {
+            "word_count": 0,
+            "sentence_count": 0,
+            "avg_sentence_length": 0.0,
+            "repetition_rate": 0.0,
+            "lexical_diversity": 0.0,
+            "keyword_similarity": 0.0,
+            "speech_duration_seconds": 0.0,
+            "silence_duration_seconds": round(silence_duration_seconds, 2),
+            "silence_ratio": silence_ratio,
+            "pause_count": 0,
+            "avg_pause_seconds": 0.0,
+            "speech_rate_wpm": 0.0,
+            "filler_count": 0,
+            "filler_ratio": 0.0,
+            "too_short": True,
+            "too_much_silence": True,
+            "is_gradable": False,
+        }
+
     sentence_count = len(sentences) or (1 if normalized_transcript else 0)
     avg_sentence_length = round(word_count / sentence_count, 2) if sentence_count else 0.0
 

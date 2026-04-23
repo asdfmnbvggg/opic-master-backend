@@ -415,6 +415,31 @@ class EvaluationService:
             "isGradable": answer.is_gradable,
         }
 
+        if not (answer.used_transcript or "").strip() and int(answer.word_count or 0) == 0:
+            feedback = build_answer_feedback(
+                question_text=answer.question_text,
+                transcript="",
+                metrics={
+                    "word_count": int(answer.word_count or 0),
+                    "sentence_count": int(answer.sentence_count or 0),
+                    "avg_sentence_length": float(answer.avg_sentence_length or 0.0),
+                    "repetition_rate": float(answer.repetition_rate or 0.0),
+                    "lexical_diversity": float(answer.lexical_diversity or 0.0),
+                    "keyword_similarity": float(answer.keyword_similarity or 0.0),
+                    "speech_duration_seconds": float(answer.speech_duration_seconds or 0.0),
+                    "silence_duration_seconds": float(answer.silence_duration_seconds or 0.0),
+                    "silence_ratio": float(answer.silence_ratio or 0.0),
+                    "pause_count": int(answer.pause_count or 0),
+                    "avg_pause_seconds": float(answer.avg_pause_seconds or 0.0),
+                    "speech_rate_wpm": float(answer.speech_rate_wpm or 0.0),
+                    "filler_count": int(answer.filler_count or 0),
+                    "filler_ratio": float(answer.filler_ratio or 0.0),
+                    "too_short": bool(answer.too_short),
+                    "too_much_silence": bool(answer.too_much_silence),
+                    "is_gradable": bool(answer.is_gradable),
+                },
+            )
+
         feedback_payload = {
             "strengths": feedback.get("strengths", []),
             "weaknesses": feedback.get("weaknesses", []),
