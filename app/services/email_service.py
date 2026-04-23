@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 class EmailService:
     @staticmethod
-    def send_email(*, to_email: str, subject: str, body: str) -> None:
+    def send_email(*, to_email: str, subject: str, body: str, html_body: str | None = None) -> None:
         if not SMTP_HOST or not SMTP_USERNAME or not SMTP_PASSWORD or not SMTP_FROM_EMAIL:
             raise HTTPException(
                 status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
@@ -32,6 +32,8 @@ class EmailService:
         message["From"] = SMTP_FROM_EMAIL
         message["To"] = to_email
         message.set_content(body)
+        if html_body:
+            message.add_alternative(html_body, subtype="html")
 
         try:
             with smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=20) as server:

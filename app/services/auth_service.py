@@ -91,13 +91,23 @@ class AuthService:
 
         EmailService.send_email(
             to_email=payload.email,
-            subject="[OPIc Master] Email Verification Code",
+            subject="[OPIc Speaking Practice] 이메일 인증 코드",
             body=(
-                "Hello,\n\n"
-                "Thank you for signing up for OPIc Master.\n"
-                f"Your email verification code is: {code}\n\n"
-                "This code will expire in 10 minutes.\n"
-                "If you did not request this email, you can safely ignore it."
+                "안녕하세요.\n\n"
+                "OPIc Speaking Practice에 가입해 주셔서 감사합니다.\n"
+                f"이메일 인증 코드는: {code}\n\n"
+                "인증 코드는 10분 후 만료됩니다.\n"
+                "직접 요청하지 않았다면 이 메일은 무시하셔도 됩니다."
+            ),
+            html_body=(
+                "<div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #111827;\">"
+                "<p>안녕하세요.</p>"
+                "<p>OPIc Speaking Practice에 가입해 주셔서 감사합니다.</p>"
+                "<p>이메일 인증 코드는 아래와 같습니다.</p>"
+                f"<p style=\"font-size: 32px; font-weight: 700; letter-spacing: 2px; color: #111827; margin: 24px 0;\">{code}</p>"
+                "<p>인증 코드는 10분 후 만료됩니다.</p>"
+                "<p>직접 요청하지 않았다면 이 메일은 무시하셔도 됩니다.</p>"
+                "</div>"
             ),
         )
         return AuthMessageResponse(message=f"{payload.email}로 이메일 인증 코드가 발송되었습니다.")
@@ -125,12 +135,12 @@ class AuthService:
 
         EmailService.send_email(
             to_email=payload.email,
-            subject="[OPIc Master] Username Reminder",
+            subject="[OPIc Speaking Practice] 아이디 안내",
             body=(
-                "Hello,\n\n"
-                "You requested to find your username for OPIc Master.\n"
-                f"Your username is: {user.username}\n\n"
-                "If you did not request this email, you can safely ignore it."
+                "안녕하세요.\n\n"
+                "OPIc Speaking Practice에서 요청하신 아이디 안내입니다.\n"
+                f"당신의 아이디는: {user.username}\n\n"
+                "직접 요청하지 않았다면 이 메일은 무시하셔도 됩니다."
             ),
         )
         return AuthMessageResponse(message=f"{payload.email}로 아이디 안내 메일을 발송했습니다.")
@@ -152,13 +162,24 @@ class AuthService:
         reset_link = f"http://localhost:5173/reset-password?token={token}"
         EmailService.send_email(
             to_email=payload.email,
-            subject="[OPIc Master] Password Reset Link",
+            subject="[OPIc Speaking Practice] 비밀번호 재설정 안내",
             body=(
-                "Hello,\n\n"
-                "Click the link below to reset your password:\n"
-                f"{reset_link}\n\n"
-                "This link will expire in 1 hour.\n"
-                "If you did not request a password reset, you can safely ignore it."
+                "안녕하세요.\n\n"
+                "OPIc Speaking Practice에서 요청하신 비밀번호 재설정 안내입니다.\n"
+                f"아래 링크를 클릭하여 비밀번호를 재설정하세요:\n{reset_link}\n\n"
+                "이 링크는 1시간 후 만료됩니다.\n"
+                "비밀번호 재설정을 요청하지 않았다면 이 메일은 무시하셔도 됩니다."
+            ),
+            html_body=(
+                "<div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #111827;\">"
+                "<p>안녕하세요.</p>"
+                "<p>OPIc Speaking Practice에서 요청하신 비밀번호 재설정 안내입니다.</p>"
+                "<p>아래 버튼을 눌러 새 비밀번호를 설정해주세요.</p>"
+                f"<p style=\"margin: 24px 0;\"><a href=\"{reset_link}\" style=\"display: inline-block; background: #facc15; color: #111827; padding: 12px 20px; border-radius: 10px; font-weight: 700; text-decoration: none;\">비밀번호 재설정하기</a></p>"
+                f"<p style=\"font-size: 13px; color: #4b5563; word-break: break-all;\">버튼이 작동하지 않으면 아래 링크를 복사해 열어주세요.<br>{reset_link}</p>"
+                "<p>이 링크는 1시간 후 만료됩니다.</p>"
+                "<p>비밀번호 재설정을 요청하지 않았다면 이 메일은 무시하셔도 됩니다.</p>"
+                "</div>"
             ),
         )
         return AuthMessageResponse(
