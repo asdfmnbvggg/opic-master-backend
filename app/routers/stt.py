@@ -5,7 +5,7 @@ from typing import Any
 
 from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 
-from app.services.stt import transcribe_audio_payload
+from app.services.stt_client import transcribe_with_fallback
 
 router = APIRouter(prefix="/api/stt", tags=["stt"])
 logger = logging.getLogger("opic-master-backend.api.stt")
@@ -24,10 +24,11 @@ async def transcribe_audio(
     if not audio_bytes:
         raise HTTPException(status_code=400, detail="audioFile must not be empty.")
 
-    stt_payload = transcribe_audio_payload(
+    stt_payload = transcribe_with_fallback(
         audio_bytes=audio_bytes,
         content_type=audioFile.content_type,
         language=language,
+        question_id=questionId,
     )
 
     logger.info(
