@@ -16,6 +16,15 @@ py -m pip install -r requirements.txt
 py -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
+Run the command from the `opic-master-backend` directory.
+
+## Local Setup
+
+1. Copy `.env.example` to `.env`
+2. Keep `DATABASE_URL=sqlite:///./opic_master.db` unless you intentionally want a custom database path
+3. Start the backend from the `opic-master-backend` directory
+4. Confirm the backend is running at `http://127.0.0.1:8000/health`
+
 ## Environment Variables
 
 Copy `.env.example` to `.env` if you want to manage values locally.
@@ -56,3 +65,4 @@ Copy `.env.example` to `.env` if you want to manage values locally.
 - `TODO(USER)` comments mark places where your project-specific policy or external integration should be added.
 - The current evaluation logic is rule-based placeholder logic so the frontend can be connected first.
 - Real email sending now uses SMTP settings from `.env`. If SMTP is not configured, email send requests will fail.
+- The default SQLite setting is resolved to a writable local path automatically.
