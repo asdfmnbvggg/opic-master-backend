@@ -29,10 +29,10 @@ def _get_env(name: str, default: str) -> str:
 
 def _default_sqlite_url() -> str:
     if os.name == "nt":
-        local_app_data = Path(os.getenv("LOCALAPPDATA", Path.home() / "AppData" / "Local"))
-        db_dir = local_app_data / "opic-master-backend"
+        temp_root = Path(os.getenv("TEMP", Path.home() / "AppData" / "Local" / "Temp"))
+        db_dir = temp_root / "opic-master-backend"
         db_dir.mkdir(parents=True, exist_ok=True)
-        return f"sqlite:///{db_dir.as_posix()}/opic_master.db"
+        return f"sqlite:///{(db_dir / 'opic_master.db').as_posix()}"
 
     project_root = Path(__file__).resolve().parent.parent
     return f"sqlite:///{(project_root / 'opic_master.db').as_posix()}"

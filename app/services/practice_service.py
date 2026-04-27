@@ -277,7 +277,8 @@ class PracticeService:
         if not file_path.exists():
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"Question data file not found: {file_path.name}")
 
-        with file_path.open("r", encoding="utf-8") as file:
+        # Some source files were saved with a UTF-8 BOM, so accept both plain UTF-8 and UTF-8-SIG.
+        with file_path.open("r", encoding="utf-8-sig") as file:
             raw_items = json.load(file)
 
         return [
