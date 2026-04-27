@@ -1,13 +1,15 @@
 from __future__ import annotations
 
 import json
+import random
 from datetime import datetime
+from pathlib import Path
 
 from fastapi import HTTPException, status
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.db.models.practice import PracticeAnswer, PracticeFeedback, PracticeQuestion, PracticeQuestionSet, PracticeSession
+from app.db.models.practice import PracticeAnswer, PracticeFeedback, PracticeQuestionSet, PracticeSession
 from app.db.models.saved_content import StudyRecord
 from app.schemas.practice import (
     PracticeEvaluationRequest,
@@ -18,47 +20,81 @@ from app.schemas.practice import (
     PracticeSessionResponse,
 )
 
-PRACTICE_SEED_QUESTIONS = [
-    {
-        "category": "cafe",
-        "difficulty": "5-6",
-        "question_type": "topics",
-        "text": "Tell me about your favorite cafe.",
-        "translation": "가장 좋아하는 카페에 대해 말해보세요.",
-        "hint": "location, atmosphere, menu, reason",
-    },
-    {
-        "category": "travel",
-        "difficulty": "5-6",
-        "question_type": "topics",
-        "text": "Describe a memorable travel experience.",
-        "translation": "기억에 남는 여행 경험을 설명해보세요.",
-        "hint": "where, with whom, what happened, feeling",
-    },
-    {
-        "category": "exercise",
-        "difficulty": "3-4",
-        "question_type": "topics",
-        "text": "What kind of exercise do you enjoy?",
-        "translation": "어떤 운동을 즐기는지 말해보세요.",
-        "hint": "type, frequency, reason, effect",
-    },
-]
+DATA_ROOT = Path(__file__).resolve().parents[3] / "opic-master-data"
+QUESTION_COUNT = 3
+TOPIC_NAME_MAP = {
+    "performance": "공연",
+    "공연": "공연",
+    "domestic_travel": "국내여행",
+    "국내여행": "국내여행",
+    "국내 여행": "국내여행",
+    "cafe": "카페",
+    "카페": "카페",
+    "exercise": "운동",
+    "운동": "운동",
+    "home": "집",
+    "집": "집",
+    "cooking": "요리",
+    "요리": "요리",
+    "camping": "캠핑",
+    "캠핑": "캠핑",
+    "jogging_walking": "조깅산책",
+    "조깅산책": "조깅산책",
+    "조깅/산책": "조깅산책",
+    "조깅/걷기": "조깅산책",
+    "housing": "사는지역",
+    "사는지역": "사는지역",
+    "주거": "사는지역",
+    "abroad": "해외여행",
+    "해외여행": "해외여행",
+    "해외 여행": "해외여행",
+    "holiday": "휴일",
+    "휴일": "휴일",
+    "휴일/연휴": "휴일",
+    "neighbor": "이웃",
+    "이웃": "이웃",
+    "drinking_bar": "술집",
+    "술집": "술집",
+    "술집/회식": "술집",
+    "music": "음악",
+    "음악": "음악",
+    "game": "게임",
+    "게임": "게임",
+    "beach": "해변",
+    "해변": "해변",
+    "바다": "해변",
+    "park": "공원",
+    "공원": "공원",
+    "mountain": "산",
+    "산": "산",
+    "shopping": "쇼핑",
+    "쇼핑": "쇼핑",
+    "movie": "영화",
+    "영화": "영화",
+    "job": "구직",
+    "구직": "구직",
+    "직장": "구직",
+    "sns": "SNS",
+    "SNS": "SNS",
+}
 
 
 class PracticeService:
     def __init__(self, db: Session):
         self.db = db
-        self._ensure_seed_questions()
 
     def create_question_set(self, user_id: int, payload: PracticeQuestionSetCreateRequest) -> PracticeQuestionSetResponse:
-        questions = self._select_questions(payload)
+        questions = self._load_questions_by_ids(
+            difficulty=payload.difficulty,
+            selected_type=payload.selectedType,
+            selected_topics=payload.selectedTopics,
+        )
         question_set = PracticeQuestionSet(
             user_id=user_id,
             difficulty=payload.difficulty,
             question_type=payload.selectedType,
-            selected_topics=json.dumps(payload.selectedTopics),
-            question_ids=json.dumps([question.id for question in questions]),
+            selected_topics=json.dumps(payload.selectedTopics, ensure_ascii=False),
+            question_ids=json.dumps([question.id for question in questions], ensure_ascii=False),
         )
         self.db.add(question_set)
         self.db.commit()
@@ -73,8 +109,13 @@ class PracticeService:
         )
         if question_set is None:
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Question set not found.")
-        question_ids = json.loads(question_set.question_ids)
-        questions = self.db.scalars(select(PracticeQuestion).where(PracticeQuestion.id.in_(question_ids))).all()
+
+        questions = self._load_questions_by_ids(
+            difficulty=question_set.difficulty,
+            selected_type=question_set.question_type,
+            selected_topics=json.loads(question_set.selected_topics),
+            question_ids=json.loads(question_set.question_ids),
+        )
         return self._build_question_set_response(question_set, questions)
 
     def create_session(self, user_id: int, payload: PracticeSessionCreateRequest) -> PracticeSessionResponse:
@@ -132,14 +173,14 @@ class PracticeService:
 
         detailed_feedback = self._build_feedback(payload.answers)
         strengths = [
-            "핵심 문장을 먼저 말하려는 흐름이 보입니다.",
-            "주제와 관련된 기본 어휘 사용은 안정적입니다.",
-            "답변 길이가 너무 짧지만 않다면 전달력은 충분합니다.",
+            "?듭떖 臾몄옣??癒쇱? 留먰븯?ㅻ뒗 ?먮쫫??蹂댁엯?덈떎.",
+            "二쇱젣? 愿?⑤맂 湲곕낯 ?댄쐶 ?ъ슜? ?덉젙?곸엯?덈떎.",
+            "?듬? 湲몄씠媛 ?덈Т 吏㏃?留??딅떎硫??꾨떖?μ? 異⑸텇?⑸땲??",
         ]
         improvements = [
-            "구체적인 예시를 1개씩만 더 추가해보세요.",
-            "답변 첫 문장을 더 직접적으로 시작해보세요.",
-            "because, for example 같은 연결 표현을 늘려보세요.",
+            "援ъ껜?곸씤 ?덉떆瑜?1媛쒖뵫留???異붽??대낫?몄슂.",
+            "?듬? 泥?臾몄옣????吏곸젒?곸쑝濡??쒖옉?대낫?몄슂.",
+            "because, for example 媛숈? ?곌껐 ?쒗쁽???섎젮蹂댁꽭??",
         ]
 
         feedback = self.db.scalar(select(PracticeFeedback).where(PracticeFeedback.session_id == session.id))
@@ -193,35 +234,111 @@ class PracticeService:
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Practice session not found.")
         return session
 
-    def _select_questions(self, payload: PracticeQuestionSetCreateRequest) -> list[PracticeQuestion]:
-        query = select(PracticeQuestion)
-        if payload.selectedType == "topics" and payload.selectedTopics:
-            query = query.where(PracticeQuestion.category.in_(payload.selectedTopics))
-        questions = self.db.scalars(query).all()
-        if payload.selectedType == "random":
-            return questions[:2]
-        return questions
+    def _load_questions_by_ids(
+        self,
+        difficulty: str,
+        selected_type: str,
+        selected_topics: list[str],
+        question_ids: list[str] | None = None,
+    ) -> list[PracticeQuestionItem]:
+        questions = self._load_questions_from_source(difficulty, selected_type, selected_topics)
+        if question_ids is None:
+            return self._pick_random_questions(questions)
+
+        question_map = {question.id: question for question in questions}
+        ordered_questions = [question_map[question_id] for question_id in question_ids if question_id in question_map]
+        if len(ordered_questions) != len(question_ids):
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Some practice questions could not be loaded.")
+        return ordered_questions
+
+    def _load_questions_from_source(
+        self,
+        difficulty: str,
+        selected_type: str,
+        selected_topics: list[str],
+    ) -> list[PracticeQuestionItem]:
+        level_prefix = self._resolve_level_prefix(difficulty)
+
+        if selected_type == "topics":
+            if not selected_topics:
+                raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="A topic must be selected.")
+            topic_name = self._normalize_topic_name(selected_topics[0])
+            file_path = DATA_ROOT / f"{level_prefix}_topic" / f"{level_prefix}_topic_{topic_name}.json"
+            category = topic_name
+        elif selected_type == "random":
+            file_path = DATA_ROOT / f"{level_prefix}_돌발문제.json"
+            category = "돌발문제"
+        elif selected_type == "roleplaying":
+            file_path = DATA_ROOT / f"{level_prefix}_롤플레잉.json"
+            category = "롤플레잉"
+        else:
+            raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Unsupported practice type.")
+
+        if not file_path.exists():
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"Question data file not found: {file_path.name}")
+
+        with file_path.open("r", encoding="utf-8") as file:
+            raw_items = json.load(file)
+
+        return [
+            PracticeQuestionItem(
+                id=f"{level_prefix}:{selected_type}:{category}:{item['id']}",
+                category=self._resolve_question_category(selected_type, category, item),
+                text=item["text"],
+                translation=item.get("translation", ""),
+                hint=item.get("hint", ""),
+            )
+            for item in raw_items
+        ]
+
+    @staticmethod
+    def _pick_random_questions(questions: list[PracticeQuestionItem]) -> list[PracticeQuestionItem]:
+        if not questions:
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No practice questions available.")
+        sample_size = min(QUESTION_COUNT, len(questions))
+        return random.sample(questions, k=sample_size)
+
+    @staticmethod
+    def _resolve_level_prefix(difficulty: str) -> str:
+        if difficulty == "3-4":
+            return "level34"
+        if difficulty == "5-6":
+            return "level56"
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Unsupported difficulty.")
+
+    @staticmethod
+    def _resolve_question_category(selected_type: str, fallback_category: str, item: dict[str, object]) -> str:
+        if selected_type == "topics":
+            return fallback_category
+        topic_title = item.get("topicTitle")
+        if isinstance(topic_title, str) and topic_title.strip():
+            return topic_title
+        return fallback_category
+
+    @staticmethod
+    def _normalize_topic_name(topic: str) -> str:
+        normalized = topic.strip()
+        mapped = TOPIC_NAME_MAP.get(normalized)
+        if mapped:
+            return mapped
+
+        mapped = TOPIC_NAME_MAP.get(normalized.lower())
+        if mapped:
+            return mapped
+
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"Unsupported topic: {topic}")
 
     @staticmethod
     def _build_question_set_response(
         question_set: PracticeQuestionSet,
-        questions: list[PracticeQuestion],
+        questions: list[PracticeQuestionItem],
     ) -> PracticeQuestionSetResponse:
         return PracticeQuestionSetResponse(
             questionSetId=question_set.id,
             difficulty=question_set.difficulty,
             selectedType=question_set.question_type,
             selectedTopics=json.loads(question_set.selected_topics),
-            questions=[
-                PracticeQuestionItem(
-                    id=question.id,
-                    category=question.category,
-                    text=question.text,
-                    translation=question.translation,
-                    hint=question.hint,
-                )
-                for question in questions
-            ],
+            questions=questions,
         )
 
     @staticmethod
@@ -230,7 +347,7 @@ class PracticeService:
         for index, answer in enumerate(answers, start=1):
             transcript = answer.transcript.strip()
             word_count = len(transcript.split())
-            # TODO(USER): 실제 채점 모델을 붙일 때는 이 규칙 기반 피드백을 LLM/평가 엔진 응답으로 교체하세요.
+            # TODO(USER): ?ㅼ젣 梨꾩젏 紐⑤뜽??遺숈씪 ?뚮뒗 ??洹쒖튃 湲곕컲 ?쇰뱶諛깆쓣 LLM/?됯? ?붿쭊 ?묐떟?쇰줈 援먯껜?섏꽭??
             feedback_items.append(
                 {
                     "questionIndex": index,
@@ -239,29 +356,21 @@ class PracticeService:
                     "feedbackPoints": [
                         {
                             "label": "Summary",
-                            "text": "답변 길이가 적절합니다." if word_count >= 20 else "조금 더 길게 답해보면 좋습니다.",
+                            "text": "?듬? 湲몄씠媛 ?곸젅?⑸땲??" if word_count >= 20 else "議곌툑 ??湲멸쾶 ?듯빐蹂대㈃ 醫뗭뒿?덈떎.",
                         },
                         {
                             "label": "Grammar",
-                            "text": "기본 문장 구조는 유지되고 있습니다.",
+                            "text": "湲곕낯 臾몄옣 援ъ“???좎??섍퀬 ?덉뒿?덈떎.",
                         },
                         {
                             "label": "Vocabulary",
-                            "text": "반복 단어를 줄이고 유사 표현을 추가해보세요.",
+                            "text": "諛섎났 ?⑥뼱瑜?以꾩씠怨??좎궗 ?쒗쁽??異붽??대낫?몄슂.",
                         },
                         {
                             "label": "Content",
-                            "text": "이유와 예시를 함께 말하면 더 설득력 있어집니다.",
+                            "text": "?댁쑀? ?덉떆瑜??④퍡 留먰븯硫????ㅻ뱷???덉뼱吏묐땲??",
                         },
                     ],
                 }
             )
         return feedback_items
-
-    def _ensure_seed_questions(self) -> None:
-        if self.db.scalar(select(PracticeQuestion.id).limit(1)) is not None:
-            return
-        for item in PRACTICE_SEED_QUESTIONS:
-            # TODO(USER): 실제 서비스용 문제은행이 준비되면 이 시드 데이터는 교체하세요.
-            self.db.add(PracticeQuestion(**item))
-        self.db.commit()

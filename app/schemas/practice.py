@@ -1,16 +1,16 @@
 from __future__ import annotations
 
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class PracticeQuestionSetCreateRequest(BaseModel):
     difficulty: str
     selectedType: str
-    selectedTopics: list[str] = []
+    selectedTopics: list[str] = Field(default_factory=list)
 
 
 class PracticeQuestionItem(BaseModel):
-    id: int
+    id: str
     category: str
     text: str
     translation: str
