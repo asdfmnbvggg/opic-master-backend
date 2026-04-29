@@ -267,7 +267,7 @@ class PracticeService:
             category = topic_name
         elif selected_type == "random":
             file_path = DATA_ROOT / f"{level_prefix}_돌발문제.json"
-            category = "돌발문제"
+            category = "돌발 문제"
         elif selected_type == "roleplaying":
             file_path = DATA_ROOT / f"{level_prefix}_롤플레잉.json"
             category = "롤플레잉"
@@ -311,9 +311,6 @@ class PracticeService:
     def _resolve_question_category(selected_type: str, fallback_category: str, item: dict[str, object]) -> str:
         if selected_type == "topics":
             return fallback_category
-        topic_title = item.get("topicTitle")
-        if isinstance(topic_title, str) and topic_title.strip():
-            return topic_title
         return fallback_category
 
     @staticmethod

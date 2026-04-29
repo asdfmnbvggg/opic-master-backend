@@ -228,6 +228,8 @@ class EvaluationService:
 
     def save_answer(self, *, user_id: int, answer_id: int) -> SavedAnswerResponse:
         answer = self._get_answer(answer_id, user_id)
+        question_metadata = self._find_question_metadata(answer)
+        saved_category = question_metadata.get("category") or answer.question_type
         existing = self.db.scalar(
             select(SavedQuestion)
             .where(SavedQuestion.user_id == user_id)
@@ -242,15 +244,54 @@ class EvaluationService:
                 user_id=user_id,
                 question_text=answer.question_text,
                 answer_text=answer.used_transcript,
-                category=answer.question_type,
+                category=saved_category,
                 level=answer.mode,
                 question_index=answer.question_order,
             )
             self.db.add(existing)
             self.db.commit()
             self.db.refresh(existing)
+        elif saved_category and existing.category != saved_category:
+            existing.category = saved_category
+            self.db.commit()
+            self.db.refresh(existing)
 
         return SavedAnswerResponse(savedId=existing.id, message="Question and answer saved.")
+
+    def _find_question_metadata(self, answer: EvaluationAnswer) -> dict[str, str | None]:
+        session = self._get_session(answer.session_id, answer.user_id)
+        metadata = self._deserialize_json(session.metadata_json, {})
+        selected_type = metadata.get("selectedType") if isinstance(metadata.get("selectedType"), str) else None
+        questions = metadata.get("questions", [])
+        if not isinstance(questions, list):
+            return {"category": None, "hint": None, "translation": None}
+
+        for question in questions:
+            if not isinstance(question, dict):
+                continue
+            if question.get("questionId") == answer.question_id or question.get("questionText") == answer.question_text:
+                question_category = question.get("category") if isinstance(question.get("category"), str) else None
+                return {
+                    "category": self._resolve_saved_category(selected_type, question_category, answer.question_type),
+                    "hint": question.get("hint") if isinstance(question.get("hint"), str) else None,
+                    "translation": question.get("translation") if isinstance(question.get("translation"), str) else None,
+                }
+
+        return {"category": None, "hint": None, "translation": None}
+
+    @staticmethod
+    def _resolve_saved_category(
+        selected_type: str | None,
+        question_category: str | None,
+        fallback_category: str | None,
+    ) -> str | None:
+        if selected_type == "topics":
+            return question_category or fallback_category
+        if selected_type == "random":
+            return "돌발 문제"
+        if selected_type == "roleplaying":
+            return "롤플레잉"
+        return question_category or fallback_category
 
     def _apply_metrics_and_feedback(self, answer: EvaluationAnswer) -> None:
         segments = self._deserialize_json(answer.stt_segments_json, [])

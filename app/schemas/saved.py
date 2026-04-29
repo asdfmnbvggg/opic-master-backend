@@ -17,6 +17,8 @@ class SavedQuestionItem(BaseModel):
     answer: str
     category: str | None
     level: str | None
+    hint: str | None = None
+    translation: str | None = None
     savedDate: str
     deleted: bool
 
