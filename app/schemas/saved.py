@@ -20,6 +20,8 @@ class SavedQuestionItem(BaseModel):
     hint: str | None = None
     translation: str | None = None
     savedDate: str
+    deletedDate: str | None = None
+    daysLeft: int | None = None
     deleted: bool
 
 

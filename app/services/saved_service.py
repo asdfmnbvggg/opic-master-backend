@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Any
 
 from fastapi import HTTPException, status
@@ -24,10 +24,13 @@ from app.schemas.saved import (
 
 
 class SavedService:
+    TRASH_RETENTION_DAYS = 7
+
     def __init__(self, db: Session):
         self.db = db
 
     def get_saved_questions(self, user_id: int) -> SavedQuestionListResponse:
+        self._delete_expired_questions(user_id)
         items = self.db.scalars(
             select(SavedQuestion).where(SavedQuestion.user_id == user_id).order_by(SavedQuestion.saved_at.desc())
         ).all()
@@ -90,6 +93,7 @@ class SavedService:
 
     def _to_saved_question(self, item: SavedQuestion) -> SavedQuestionItem:
         metadata = self._find_question_metadata(item)
+        deleted_date = item.deleted_at.strftime("%Y-%m-%d") if item.deleted_at else None
         return SavedQuestionItem(
             id=item.id,
             question=item.question_text,
@@ -99,8 +103,36 @@ class SavedService:
             hint=metadata.get("hint"),
             translation=metadata.get("translation"),
             savedDate=item.saved_at.strftime("%Y-%m-%d"),
+            deletedDate=deleted_date,
+            daysLeft=self._calculate_days_left(item.deleted_at),
             deleted=item.deleted_at is not None,
         )
+
+    def _delete_expired_questions(self, user_id: int) -> None:
+        cutoff = datetime.utcnow() - timedelta(days=self.TRASH_RETENTION_DAYS)
+        expired_items = self.db.scalars(
+            select(SavedQuestion)
+            .where(SavedQuestion.user_id == user_id)
+            .where(SavedQuestion.deleted_at.is_not(None))
+            .where(SavedQuestion.deleted_at <= cutoff)
+        ).all()
+        if not expired_items:
+            return
+
+        for item in expired_items:
+            self.db.delete(item)
+        self.db.commit()
+
+    def _calculate_days_left(self, deleted_at: datetime | None) -> int | None:
+        if deleted_at is None:
+            return None
+
+        expires_at = deleted_at + timedelta(days=self.TRASH_RETENTION_DAYS)
+        remaining = expires_at - datetime.utcnow()
+        if remaining.total_seconds() <= 0:
+            return 0
+
+        return max(1, remaining.days + (1 if remaining.seconds or remaining.microseconds else 0))
 
     def _find_question_metadata(self, item: SavedQuestion) -> dict[str, str | None]:
         answer = self.db.scalar(
