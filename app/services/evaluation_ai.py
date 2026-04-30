@@ -521,7 +521,15 @@ def _estimate_grade_from_average(scores: dict[str, int]) -> str:
         return "IM3"
     if average >= 50:
         return "IM2"
-    return "IM1"
+    if average >= 40:
+        return "IM1"
+    if average >= 30:
+        return "IL"
+    if average >= 20:
+        return "NH"
+    if average >= 10:
+        return "NM"
+    return "NL"
 
 
 def _pick_focus_area(scores: dict[str, int]) -> str:

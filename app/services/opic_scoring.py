@@ -83,23 +83,23 @@ DIMENSION_LABELS = {
 }
 
 MAIN_FEEDBACK = {
-    "fluency": "오픽에서는 멈추지 않고 이어 말하는 힘이 가장 중요합니다. 완벽하게 말하려고 멈추기보다, 짧게라도 계속 이어가세요.",
-    "responseLength": "지금 답변은 너무 짧아서 상위 등급으로 연결되기 어렵습니다. 이유, 경험, 느낌을 붙여 최소 30초 이상 말해보세요.",
+    "fluency": "오픽에서는 완벽한 문장보다 멈추지 않고 이어 말하는 힘이 더 중요합니다. 짧게라도 계속 이어가세요.",
+    "responseLength": "답변이 짧으면 상위 등급으로 올라가기 어렵습니다. 이유, 경험, 느낌을 붙여 최소 30초 이상 말해보세요.",
     "contentRichness": "오픽 답변은 디테일이 점수를 끌어올립니다. 언제, 어디서, 왜, 어땠는지를 꼭 넣어보세요.",
     "coherence": "문장 하나하나는 괜찮아도 흐름이 약하면 오픽 답변처럼 들리지 않습니다. because, so, then으로 연결해보세요.",
     "vocabulary": "같은 표현 반복이 많으면 준비된 짧은 답변처럼 보일 수 있습니다. 쉬운 단어라도 바꿔 말하는 폭을 늘려보세요.",
-    "grammar": "오픽은 문법 시험이 아니라 전달력 시험에 가깝습니다. 긴 문장보다 짧고 안정적인 문장으로 밀어붙이는 편이 좋습니다.",
-    "pronunciation": "발음을 너무 빨리 처리하면 전달력이 떨어집니다. 속도를 조금 낮추고 문장 끝을 또렷하게 살려보세요.",
-    "taskCompletion": "질문에서 묻는 포인트를 먼저 직접 답한 뒤에 예시를 붙여야 오픽식 답변으로 평가받기 쉽습니다.",
+    "grammar": "오픽은 문법 시험보다 전달력 평가에 가깝습니다. 긴 문장보다 짧고 안정적인 문장으로 끝까지 가는 편이 좋습니다.",
+    "pronunciation": "너무 빠르게 말하면 전달력이 떨어집니다. 속도를 조금 낮추고 문장 끝을 또렷하게 살려보세요.",
+    "taskCompletion": "질문에서 묻는 포인트를 먼저 직접 답한 뒤 예시를 붙여야 오픽식 답변으로 평가받기 쉽습니다.",
 }
 
 TIP_MAP = {
     "fluency": "막히는 순간에는 침묵하지 말고 'well', 'let me think', 'actually' 같은 완충 표현으로 시간을 벌어보세요.",
-    "responseLength": "답변을 한 문장으로 끝내지 말고 의견 1개, 이유 1개, 경험 1개, 느낌 1개 순서로 확장해보세요.",
+    "responseLength": "답변을 의견 1개, 이유 1개, 경험 1개, 느낌 1개 순서로 확장해보세요.",
     "contentRichness": "when, where, why, how you felt 중 최소 3개를 넣으면 디테일 점수가 훨씬 안정됩니다.",
     "coherence": "'because', 'so', 'then', 'after that', 'for example'를 미리 입에 붙여두면 흐름 점수가 좋아집니다.",
-    "vocabulary": "favorite, relaxing, convenient, memorable 같이 자주 쓰는 오픽 표현 묶음을 통째로 익혀두세요.",
-    "grammar": "문법을 고치려다 멈추기보다, 쉬운 구조로 끝까지 말하는 쪽이 실제 오픽 채점에 더 유리합니다.",
+    "vocabulary": "favorite, relaxing, convenient, memorable 같은 오픽 기본 표현 묶음을 통째로 익혀두세요.",
+    "grammar": "문법을 고치려다 멈추기보다 쉬운 구조로 끝까지 말하는 쪽이 실제 오픽 채점에 더 유리합니다.",
     "pronunciation": "STT 인식률이 낮다면 속도를 10%만 줄이고 강세를 분명히 주는 연습이 먼저입니다.",
     "taskCompletion": "질문 키워드를 첫 두 문장 안에 다시 말해주면 질문 대응력 점수가 안정적으로 올라갑니다.",
 }
@@ -109,15 +109,23 @@ SUMMARY_BY_GRADE = {
     "IH": "길고 자연스럽게 이어 가면서도 디테일이 보여서 IH권 답변 흐름이 잘 만들어졌습니다.",
     "IM3": "기본 전달은 충분하지만 오픽 기준으로는 길이, 디테일, 연결감 중 한두 축을 더 밀어 올릴 필요가 있습니다.",
     "IM2": "질문에는 반응하고 있지만 답변이 아직 짧고 단순해서 IM3로 넘어가기엔 힘이 부족합니다.",
-    "IM1": "답변이 매우 짧거나 자주 끊겨서 아직 등급형 답변으로 보기 어렵습니다. 먼저 계속 말하는 연습이 필요합니다.",
+    "IM1": "짧더라도 최소한의 답변은 성립하지만 아직 등급형 답변으로 보기에는 확장과 흐름이 부족합니다.",
+    "IL": "질문에 대한 반응은 있으나 문장 길이와 정보량이 매우 제한적이라 기초 단계 답변에 가깝습니다.",
+    "NH": "아주 기본적인 반응은 보이지만 질문 대응과 발화 지속성이 약해 하위 구간으로 판단됩니다.",
+    "NM": "단어 몇 개 또는 매우 짧은 구로만 반응하는 수준이라 의미 전달이 제한적입니다.",
+    "NL": "발화량이 거의 없거나 채점 가능한 답변이 성립하지 않아 최하위 구간으로 판단됩니다.",
 }
 
 GRADE_REASON = {
-    "AL": "점수도 높고 핵심 게이트를 모두 통과했습니다.",
+    "AL": "점수와 상위 게이트 조건을 모두 충족했습니다.",
     "IH": "점수뿐 아니라 길이, 유창성, 디테일 조건을 함께 충족했습니다.",
     "IM3": "기본 점수는 확보했지만 IH 게이트까지는 아직 부족합니다.",
-    "IM2": "짧더라도 질문 대응과 최소 확장은 성립해 IM1보다는 한 단계 위로 봅니다.",
-    "IM1": "질문 대응, 길이, 유창성 중 최소 조건이 아직 부족합니다.",
+    "IM2": "짧더라도 질문 대응과 최소 확장 구조는 성립해 IM1보다 높은 단계로 평가했습니다.",
+    "IM1": "최소한의 답변은 성립했지만 길이와 디테일이 부족해 IM2 게이트까지는 도달하지 못했습니다.",
+    "IL": "질문과 관련된 반응은 있었지만 답변 분량과 정보량이 매우 제한적입니다.",
+    "NH": "발화는 있었지만 응답 완성도가 낮아 IL 단계로 보기 어렵습니다.",
+    "NM": "짧은 단어 수준의 반응만 있어 의미 전달이 매우 제한적입니다.",
+    "NL": "채점 가능한 수준의 발화가 거의 없었습니다.",
 }
 
 
@@ -131,7 +139,7 @@ def build_opic_assessment(
     if not transcript.strip() or word_count == 0:
         breakdown = {key: 0 for key in OPIC_WEIGHTS}
         gate = {"im2Candidate": False, "ihCandidate": False, "alCandidate": False}
-        grade = "IM1"
+        grade = "NL"
         return {
             "score": 0.0,
             "score100": 0,
@@ -168,8 +176,9 @@ def build_opic_assessment(
         2,
     )
     gate = _build_gate_status(weighted_score, breakdown, metrics)
-    grade = _resolve_grade(weighted_score, gate)
+    grade = _resolve_grade(weighted_score, gate, breakdown, metrics)
     weakest_dimension = _pick_weakest_dimension(breakdown)
+
     weak_points = [DIMENSION_LABELS[key] for key, value in breakdown.items() if value <= 2]
     if not weak_points:
         weak_points = [DIMENSION_LABELS[weakest_dimension]]
@@ -216,10 +225,11 @@ def build_opic_session_summary(answer_feedback: list[dict[str, Any]]) -> dict[st
     averaged_metrics = {
         "word_count": sum(_estimate_word_count(item) for item in active_items) / len(active_items),
         "speech_duration_seconds": sum(_estimate_duration(item) for item in active_items) / len(active_items),
+        "keyword_similarity": sum(_estimate_similarity(item) for item in active_items) / len(active_items),
         "is_gradable": bool(gradable_items),
     }
     gate = _build_gate_status(averaged_score, averaged_breakdown, averaged_metrics)
-    grade = _resolve_grade(averaged_score, gate)
+    grade = _resolve_grade(averaged_score, gate, averaged_breakdown, averaged_metrics)
     weakest_dimension = _pick_weakest_dimension(averaged_breakdown)
 
     weak_points = [DIMENSION_LABELS[key] for key, value in averaged_breakdown.items() if value < 3]
@@ -435,7 +445,20 @@ def _build_gate_status(
     }
 
 
-def _resolve_grade(score: float, gate: dict[str, bool]) -> str:
+def _resolve_grade(
+    score: float,
+    gate: dict[str, bool],
+    breakdown: dict[str, float | int],
+    metrics: dict[str, float | int | bool | None],
+) -> str:
+    word_count = float(metrics.get("word_count") or 0.0)
+    speech_duration = float(metrics.get("speech_duration_seconds") or 0.0)
+    keyword_similarity = float(metrics.get("keyword_similarity") or 0.0)
+    task_score = float(breakdown.get("taskCompletion", 0))
+    length_score = float(breakdown.get("responseLength", 0))
+    fluency_score = float(breakdown.get("fluency", 0))
+    content_score = float(breakdown.get("contentRichness", 0))
+
     if gate["alCandidate"]:
         return "AL"
     if score >= 3.0 and gate["ihCandidate"]:
@@ -444,7 +467,27 @@ def _resolve_grade(score: float, gate: dict[str, bool]) -> str:
         return "IM3"
     if gate["im2Candidate"]:
         return "IM2"
-    return "IM1"
+    if (
+        score >= 1.10
+        and task_score >= 1
+        and length_score >= 1
+        and word_count >= 8
+        and speech_duration >= 5
+    ):
+        return "IM1"
+    if (
+        score >= 0.85
+        and keyword_similarity >= 0.08
+        and word_count >= 6
+        and speech_duration >= 4
+        and (fluency_score >= 1 or content_score >= 1)
+    ):
+        return "IL"
+    if score >= 0.55 and word_count >= 4 and speech_duration >= 2.5:
+        return "NH"
+    if score >= 0.25 and word_count >= 2 and speech_duration >= 1.0:
+        return "NM"
+    return "NL"
 
 
 def _build_tags(breakdown: dict[str, float | int]) -> list[str]:
@@ -470,14 +513,22 @@ def _build_summary(grade: str, breakdown: dict[str, float | int]) -> str:
         return f"{base} 다만 예시와 감정 표현을 조금만 더 넣으면 한 단계 더 안정적입니다."
     if grade == "IM3" and float(breakdown.get("responseLength", 0)) < 4:
         return f"{base} 특히 답변 길이를 더 끌어올리는 것이 가장 빠른 개선 포인트입니다."
-    if grade in {"IM1", "IM2"} and float(breakdown.get("fluency", 0)) <= 2:
+    if grade in {"IM1", "IL", "NH", "NM", "NL"} and float(breakdown.get("fluency", 0)) <= 2:
         return f"{base} 지금은 정확성보다 멈추지 않고 이어 말하는 습관이 우선입니다."
     return base
 
 
 def _build_main_feedback(grade: str, weakest_dimension: str, breakdown: dict[str, float | int]) -> str:
+    if grade == "NL":
+        return "지금은 채점 가능한 발화량 자체가 부족합니다. 한두 단어만이라도 끊기지 않고 먼저 소리 내는 연습이 필요합니다."
+    if grade == "NM":
+        return "단어 수준 반응에서 짧은 문장 수준으로 올라가는 것이 우선입니다. 질문과 관련된 쉬운 문장을 두세 개 이어보세요."
+    if grade == "NH":
+        return "아주 기본적인 반응은 되고 있지만 문장 길이와 질문 대응을 더 분명히 보여줘야 합니다."
+    if grade == "IL":
+        return "질문에 반응은 하고 있으니, 이제 이유 한 가지와 예시 한 가지를 붙여 답변을 문장형으로 늘리는 연습이 필요합니다."
     if grade == "IM1":
-        return "지금 단계에서는 어려운 문장을 만들기보다, 질문과 관련된 쉬운 문장을 3~4개라도 끊기지 않고 이어 말하는 연습이 가장 중요합니다."
+        return "지금 단계에서는 어려운 문장을 만들기보다 질문과 관련된 쉬운 문장을 3~4개라도 끊기지 않고 이어 말하는 연습이 가장 중요합니다."
     if grade == "IM2" and float(breakdown.get("responseLength", 0)) <= 2:
         return "IM2에서 IM3로 올라가려면 한 줄 답변을 멈추고 이유와 경험을 붙여 답변 길이를 먼저 늘려야 합니다."
     if grade == "IM3" and float(breakdown.get("contentRichness", 0)) <= 3:
@@ -519,3 +570,8 @@ def _estimate_word_count(item: dict[str, Any]) -> float:
 def _estimate_duration(item: dict[str, Any]) -> float:
     length_score = float(item.get("breakdown", {}).get("responseLength", 0))
     return max(0.0, length_score * 8)
+
+
+def _estimate_similarity(item: dict[str, Any]) -> float:
+    task_score = float(item.get("breakdown", {}).get("taskCompletion", 0))
+    return min(1.0, task_score / 5.0)
