@@ -52,11 +52,19 @@ FILLER_WORDS = {
     "er",
     "hmm",
     "like",
-    "so",
     "uh",
     "uhm",
     "um",
     "well",
+}
+
+CONNECTOR_WORDS = {
+    "so",
+    "because",
+    "then",
+    "actually",
+    "and",
+    "but",
 }
 
 
@@ -84,6 +92,8 @@ def compute_answer_metrics(
             "repetition_rate": 0.0,
             "lexical_diversity": 0.0,
             "keyword_similarity": 0.0,
+            "connector_count": 0,
+            "connector_ratio": 0.0,
             "speech_duration_seconds": 0.0,
             "silence_duration_seconds": round(silence_duration_seconds, 2),
             "silence_ratio": silence_ratio,
@@ -103,6 +113,8 @@ def compute_answer_metrics(
     repetition_rate = round(_calculate_repetition_rate(meaningful_tokens), 4)
     lexical_diversity = round((len(set(meaningful_tokens)) / len(meaningful_tokens)) if meaningful_tokens else 0.0, 4)
     keyword_similarity = round(_calculate_keyword_similarity(question_text, meaningful_tokens), 4)
+    connector_count = sum(1 for token in tokens if token in CONNECTOR_WORDS)
+    connector_ratio = round((connector_count / sentence_count) if sentence_count else 0.0, 4)
 
     filler_count = sum(1 for token in tokens if token in FILLER_WORDS)
     filler_ratio = round((filler_count / word_count) if word_count else 0.0, 4)
@@ -117,8 +129,7 @@ def compute_answer_metrics(
 
     too_short = word_count < 20 or speech_duration_seconds < 15
     too_much_silence = silence_ratio >= 0.35 or (audio_duration_seconds >= 20 and speech_duration_seconds < 8)
-    low_confidence = transcript_confidence is not None and transcript_confidence < 0.45
-    is_gradable = not (too_short or too_much_silence or low_confidence)
+    is_gradable = not (too_short or too_much_silence)
 
     return {
         "word_count": word_count,
@@ -127,6 +138,8 @@ def compute_answer_metrics(
         "repetition_rate": repetition_rate,
         "lexical_diversity": lexical_diversity,
         "keyword_similarity": keyword_similarity,
+        "connector_count": connector_count,
+        "connector_ratio": connector_ratio,
         "speech_duration_seconds": round(speech_duration_seconds, 2),
         "silence_duration_seconds": round(silence_duration_seconds, 2),
         "silence_ratio": silence_ratio,

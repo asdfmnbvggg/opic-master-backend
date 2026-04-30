@@ -100,7 +100,7 @@ TIP_MAP = {
     "coherence": "'because', 'so', 'then', 'after that', 'for example'를 미리 입에 붙여두면 흐름 점수가 좋아집니다.",
     "vocabulary": "favorite, relaxing, convenient, memorable 같은 오픽 기본 표현 묶음을 통째로 익혀두세요.",
     "grammar": "문법을 고치려다 멈추기보다 쉬운 구조로 끝까지 말하는 쪽이 실제 오픽 채점에 더 유리합니다.",
-    "pronunciation": "STT 인식률이 낮다면 속도를 10%만 줄이고 강세를 분명히 주는 연습이 먼저입니다.",
+    "pronunciation": "전달력을 높이려면 너무 빨리 밀어붙이지 말고 문장 끝을 또렷하게 정리하는 연습이 필요합니다.",
     "taskCompletion": "질문 키워드를 첫 두 문장 안에 다시 말해주면 질문 대응력 점수가 안정적으로 올라갑니다.",
 }
 
@@ -164,7 +164,7 @@ def build_opic_assessment(
         "fluency": _score_fluency(metrics),
         "responseLength": _score_response_length(metrics),
         "contentRichness": _score_content_richness(transcript),
-        "coherence": _score_coherence(transcript),
+        "coherence": _score_coherence(metrics),
         "vocabulary": _score_vocabulary(metrics),
         "grammar": _score_grammar(metrics),
         "pronunciation": _score_pronunciation(metrics),
@@ -307,16 +307,22 @@ def _score_content_richness(transcript: str) -> int:
     return sum(1 for signal in signals if signal)
 
 
-def _score_coherence(transcript: str) -> int:
-    normalized = transcript.lower()
-    connector_count = sum(len(pattern.findall(normalized)) for pattern in CONNECTOR_PATTERNS)
+def _score_coherence(metrics: dict[str, float | int | bool | None]) -> int:
+    connector_count = int(metrics.get("connector_count") or 0)
+    connector_ratio = float(metrics.get("connector_ratio") or 0.0)
+
     if connector_count == 0:
-        return 1
-    if connector_count <= 2:
-        return 3
-    if connector_count <= 4:
-        return 4
-    return 5
+        score = 1
+    elif connector_count <= 2:
+        score = 3
+    elif connector_count <= 4:
+        score = 4
+    else:
+        score = 5
+
+    if connector_ratio >= 1.0 and score < 5:
+        score += 1
+    return _clamp_score(score)
 
 
 def _score_vocabulary(metrics: dict[str, float | int | bool | None]) -> int:
@@ -335,26 +341,20 @@ def _score_vocabulary(metrics: dict[str, float | int | bool | None]) -> int:
 
 
 def _score_grammar(metrics: dict[str, float | int | bool | None]) -> int:
-    transcript_confidence = metrics.get("transcript_confidence")
     sentence_count = int(metrics.get("sentence_count") or 0)
     avg_sentence_length = float(metrics.get("avg_sentence_length") or 0.0)
     filler_ratio = float(metrics.get("filler_ratio") or 0.0)
     word_count = int(metrics.get("word_count") or 0)
 
-    if transcript_confidence is not None and float(transcript_confidence) < 0.45:
-        score = 1
-    elif word_count < 12 or sentence_count <= 1:
+    if word_count < 12 or sentence_count <= 1:
+        score = 2
+    elif avg_sentence_length < 3:
         score = 2
     else:
         score = 3
         if 4 <= avg_sentence_length <= 18 and filler_ratio < 0.12:
             score = 4
-        if (
-            transcript_confidence is not None
-            and float(transcript_confidence) >= 0.85
-            and 6 <= avg_sentence_length <= 16
-            and sentence_count >= 3
-        ):
+        if 6 <= avg_sentence_length <= 16 and sentence_count >= 3 and filler_ratio < 0.08:
             score = 5
 
     if filler_ratio > 0.18 and score > 1:
@@ -363,20 +363,21 @@ def _score_grammar(metrics: dict[str, float | int | bool | None]) -> int:
 
 
 def _score_pronunciation(metrics: dict[str, float | int | bool | None]) -> int:
-    transcript_confidence = metrics.get("transcript_confidence")
-    if transcript_confidence is None:
-        return 3 if bool(metrics.get("is_gradable")) else 2
+    speech_rate_wpm = float(metrics.get("speech_rate_wpm") or 0.0)
+    filler_ratio = float(metrics.get("filler_ratio") or 0.0)
+    silence_ratio = float(metrics.get("silence_ratio") or 0.0)
 
-    confidence = float(transcript_confidence)
-    if confidence < 0.45:
+    if silence_ratio >= 0.45 or speech_rate_wpm <= 60:
         return 1
-    if confidence < 0.60:
+    if silence_ratio >= 0.30 or filler_ratio >= 0.18 or speech_rate_wpm >= 190:
         return 2
-    if confidence < 0.75:
+    if silence_ratio >= 0.18 or filler_ratio >= 0.10 or speech_rate_wpm >= 165:
         return 3
-    if confidence < 0.88:
+    if silence_ratio < 0.10 and filler_ratio < 0.05 and 100 <= speech_rate_wpm <= 145:
+        return 5
+    if filler_ratio < 0.08 and 90 <= speech_rate_wpm <= 155:
         return 4
-    return 5
+    return 3
 
 
 def _score_task_completion(

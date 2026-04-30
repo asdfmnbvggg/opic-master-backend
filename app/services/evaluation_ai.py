@@ -38,6 +38,8 @@ def build_answer_feedback(
     repetition_rate = float(metrics.get("repetition_rate") or 0.0)
     lexical_diversity = float(metrics.get("lexical_diversity") or 0.0)
     avg_sentence_length = float(metrics.get("avg_sentence_length") or 0.0)
+    connector_count = int(metrics.get("connector_count") or 0)
+    connector_ratio = float(metrics.get("connector_ratio") or 0.0)
     too_short = bool(metrics.get("too_short", False))
     too_much_silence = bool(metrics.get("too_much_silence", False))
     is_gradable = bool(metrics.get("is_gradable", False))
@@ -97,6 +99,8 @@ def build_answer_feedback(
         "feedback": feedback,
         "tips": tips[:4],
         "opic": opic_assessment,
+        "connectorCount": connector_count,
+        "connectorRatio": connector_ratio,
         "tooShort": too_short,
         "tooMuchSilence": too_much_silence,
         "questionRelevance": question_relevance_text,
@@ -226,6 +230,8 @@ def _build_empty_answer_feedback(opic_assessment: dict[str, Any]) -> dict[str, A
             "시간, 장소, 느낌 중 하나만 추가해도 답변 밀도가 훨씬 좋아집니다.",
         ],
         "opic": opic_assessment,
+        "connectorCount": 0,
+        "connectorRatio": 0.0,
         "tooShort": True,
         "tooMuchSilence": True,
         "questionRelevance": "답변이 부족해 질문 적합도를 판단하기 어렵습니다.",

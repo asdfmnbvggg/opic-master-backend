@@ -90,6 +90,8 @@ class EvaluationMetricsResponse(BaseModel):
     repetitionRate: float
     lexicalDiversity: float
     keywordSimilarity: float
+    connectorCount: int
+    connectorRatio: float
     speechDurationSeconds: float
     silenceDurationSeconds: float
     silenceRatio: float
@@ -132,7 +134,6 @@ class EvaluationAnswerResponse(BaseModel):
     originalTranscript: str
     editedTranscript: str | None = None
     usedTranscript: str
-    transcriptConfidence: float | None = None
     metrics: EvaluationMetricsResponse
     feedback: EvaluationAnswerFeedbackResponse
     createdAt: str
