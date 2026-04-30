@@ -23,6 +23,7 @@ from app.schemas.evaluation import (
 )
 from app.services.evaluation_ai import build_answer_feedback, build_session_summary
 from app.services.evaluation_metrics import compute_answer_metrics
+from app.services.opic_scoring import build_opic_session_summary
 from app.services.stt import guess_file_suffix
 from app.services.stt_client import transcribe_with_fallback
 
@@ -305,7 +306,10 @@ class EvaluationService:
         feedback = build_answer_feedback(
             question_text=answer.question_text,
             transcript=answer.used_transcript,
-            metrics=metrics,
+            metrics={
+                **metrics,
+                "transcript_confidence": answer.transcript_confidence,
+            },
         )
 
         answer.word_count = int(metrics["word_count"])
@@ -326,7 +330,7 @@ class EvaluationService:
         answer.too_much_silence = bool(metrics["too_much_silence"])
         answer.is_gradable = bool(metrics["is_gradable"])
         answer.feedback_json = json.dumps(feedback)
-        answer.estimated_sub_grade = feedback.get("estimatedSubGrade")
+        answer.estimated_sub_grade = None
 
     def _sync_session_progress(self, session: EvaluationSession) -> None:
         answers = self._get_session_answers(session.id)
@@ -392,6 +396,8 @@ class EvaluationService:
         answers: list[EvaluationAnswer],
     ) -> EvaluationSessionResponse:
         metadata = self._deserialize_json(session.metadata_json, {})
+        answer_feedback = [self._deserialize_json(answer.feedback_json, {}) for answer in answers]
+        opic_overall = build_opic_session_summary(answer_feedback)
         questions = [
             EvaluationQuestionPayload(**question)
             for question in metadata.get("questions", [])
@@ -414,6 +420,7 @@ class EvaluationService:
                     "engagement": 0,
                 },
             ),
+            "opic": opic_overall,
             "estimatedGrade": session.estimated_grade,
             "isGradable": session.is_gradable,
         }
@@ -478,6 +485,7 @@ class EvaluationService:
                     "too_short": bool(answer.too_short),
                     "too_much_silence": bool(answer.too_much_silence),
                     "is_gradable": bool(answer.is_gradable),
+                    "transcript_confidence": answer.transcript_confidence,
                 },
             )
 
@@ -513,7 +521,7 @@ class EvaluationService:
                 },
             ),
             "tips": feedback.get("tips", []),
-            "estimatedSubGrade": feedback.get("estimatedSubGrade"),
+            "opic": self._build_answer_opic_payload(feedback.get("opic")),
             "tooShort": feedback.get("tooShort", answer.too_short),
             "tooMuchSilence": feedback.get("tooMuchSilence", answer.too_much_silence),
             "questionRelevance": feedback.get("questionRelevance", ""),
@@ -539,10 +547,27 @@ class EvaluationService:
             transcriptConfidence=answer.transcript_confidence,
             metrics=metrics,
             feedback=feedback_payload,
-            estimatedSubGrade=answer.estimated_sub_grade,
             createdAt=answer.created_at.isoformat(),
             updatedAt=answer.updated_at.isoformat(),
         )
+
+    @staticmethod
+    def _build_answer_opic_payload(raw_opic: Any) -> dict[str, Any] | None:
+        if not isinstance(raw_opic, dict):
+            return None
+
+        return {
+            "score": raw_opic.get("score", 0.0),
+            "score100": raw_opic.get("score100", 0),
+            "summary": raw_opic.get("summary", ""),
+            "mainFeedback": raw_opic.get("mainFeedback", ""),
+            "weights": raw_opic.get("weights", {}),
+            "breakdown": raw_opic.get("breakdown", {}),
+            "weakPoints": raw_opic.get("weakPoints", []),
+            "tips": raw_opic.get("tips", []),
+            "tags": raw_opic.get("tags", []),
+            "isGradable": raw_opic.get("isGradable", False),
+        }
 
     @staticmethod
     def _deserialize_json(raw_value: str | None, default: Any) -> Any:

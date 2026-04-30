@@ -56,6 +56,33 @@ class EvaluationFeedbackTextResponse(BaseModel):
     keywordSimilarity: str
 
 
+class OpicGateResponse(BaseModel):
+    im2Candidate: bool
+    ihCandidate: bool
+    alCandidate: bool
+
+
+class OpicAnswerEvaluationResponse(BaseModel):
+    score: float
+    score100: int
+    summary: str
+    mainFeedback: str
+    weights: dict[str, float]
+    breakdown: dict[str, float | int]
+    weakPoints: list[str]
+    tips: list[str]
+    tags: list[str]
+    isGradable: bool
+
+
+class OpicOverallEvaluationResponse(OpicAnswerEvaluationResponse):
+    grade: str
+    gradeReason: str
+    gate: OpicGateResponse
+    gradableAnswers: int | None = None
+    totalAnswers: int | None = None
+
+
 class EvaluationMetricsResponse(BaseModel):
     wordCount: int
     sentenceCount: int
@@ -82,7 +109,7 @@ class EvaluationAnswerFeedbackResponse(BaseModel):
     scores: EvaluationScoresResponse
     feedback: EvaluationFeedbackTextResponse
     tips: list[str]
-    estimatedSubGrade: str | None = None
+    opic: OpicAnswerEvaluationResponse | None = None
     tooShort: bool
     tooMuchSilence: bool
     questionRelevance: str
@@ -108,7 +135,6 @@ class EvaluationAnswerResponse(BaseModel):
     transcriptConfidence: float | None = None
     metrics: EvaluationMetricsResponse
     feedback: EvaluationAnswerFeedbackResponse
-    estimatedSubGrade: str | None = None
     createdAt: str
     updatedAt: str
 
@@ -119,6 +145,7 @@ class EvaluationSessionOverallResponse(BaseModel):
     feedback: dict[str, str]
     tips: list[str]
     categoryScores: dict[str, int]
+    opic: OpicOverallEvaluationResponse | None = None
     estimatedGrade: str | None = None
     isGradable: bool
 
