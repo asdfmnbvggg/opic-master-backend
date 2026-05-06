@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-import re
 import uuid
 from datetime import datetime
 from pathlib import Path
@@ -110,6 +109,9 @@ class EvaluationService:
         answer.question_type = question_type
         answer.question_text = question_text
         answer.audio_duration_seconds = max(0.0, float(client_duration_seconds or 0.0))
+        self._discard_existing_audio_file(answer)
+        answer.audio_file_path = None
+        answer.audio_url = None
 
         stt_payload: dict[str, Any]
         if audio_bytes:
@@ -218,6 +220,7 @@ class EvaluationService:
             study_record.score = score
             study_record.duration_seconds = round(sum(answer.audio_duration_seconds for answer in answers))
 
+        self._discard_session_audio_files(answers)
         self.db.commit()
         self.db.refresh(session)
         return self._build_session_response(session, answers)
@@ -338,7 +341,7 @@ class EvaluationService:
             1
             for answer in answers
             if (answer.used_transcript or answer.original_transcript or "").strip()
-            or answer.audio_file_path
+            or float(answer.audio_duration_seconds or 0.0) > 0
         )
         if session.status != "completed":
             session.status = "in_progress"
@@ -381,7 +384,10 @@ class EvaluationService:
         session_dir = EVALUATION_AUDIO_DIR / f"session-{session_id}"
         session_dir.mkdir(parents=True, exist_ok=True)
 
-        safe_question_id = re.sub(r"[^A-Za-z0-9_-]+", "-", question_id).strip("-") or "question"
+        safe_question_id = "".join(
+            character if character.isalnum() or character in {"-", "_"} else "-"
+            for character in question_id
+        ).strip("-") or "question"
         file_name = f"{safe_question_id}-{uuid.uuid4().hex[:10]}{guess_file_suffix(content_type)}"
         file_path = session_dir / file_name
         file_path.write_bytes(audio_bytes)
@@ -389,6 +395,33 @@ class EvaluationService:
         relative_path = file_path.relative_to(MEDIA_ROOT).as_posix()
         audio_url = f"{PUBLIC_BACKEND_BASE_URL}{MEDIA_URL_PREFIX}/{relative_path}"
         return file_path, audio_url
+
+    @staticmethod
+    def _discard_existing_audio_file(answer: EvaluationAnswer) -> None:
+        if not answer.audio_file_path:
+            return
+
+        try:
+            Path(answer.audio_file_path).unlink(missing_ok=True)
+        except OSError:
+            pass
+
+    def _discard_session_audio_files(self, answers: list[EvaluationAnswer]) -> None:
+        session_dirs: set[Path] = set()
+
+        for answer in answers:
+            if answer.audio_file_path:
+                audio_path = Path(answer.audio_file_path)
+                session_dirs.add(audio_path.parent)
+            self._discard_existing_audio_file(answer)
+            answer.audio_file_path = None
+            answer.audio_url = None
+
+        for session_dir in session_dirs:
+            try:
+                session_dir.rmdir()
+            except OSError:
+                pass
 
     def _build_session_response(
         self,

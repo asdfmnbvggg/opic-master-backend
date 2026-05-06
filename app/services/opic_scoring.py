@@ -350,9 +350,9 @@ def _score_response_length(metrics: dict[str, float | int | bool | None]) -> int
     sentence_count = int(metrics.get("sentence_count") or 0)
     word_count = int(metrics.get("word_count") or 0)
 
-    time_score = _bucket_score(speech_duration, thresholds=[15.0, 30.0, 45.0, 65.0])
-    sentence_score = _bucket_score(float(sentence_count), thresholds=[3.0, 5.0, 8.0, 11.0])
-    word_score = _bucket_score(float(word_count), thresholds=[25.0, 50.0, 75.0, 100.0])
+    time_score = _bucket_score(speech_duration, thresholds=[15.0, 30.0, 45.0, 55.0])
+    sentence_score = _bucket_score(float(sentence_count), thresholds=[3.0, 5.0, 7.0, 9.0])
+    word_score = _bucket_score(float(word_count), thresholds=[25.0, 50.0, 75.0, 90.0])
 
     blended = round((time_score * 0.5) + (sentence_score * 0.25) + (word_score * 0.25))
     return _clamp_score(blended)
@@ -500,26 +500,26 @@ def _build_gate_status(
         and float(breakdown.get("responseLength", 0)) >= 4
         and float(breakdown.get("contentRichness", 0)) >= 4
         and float(breakdown.get("coherence", 0)) >= 3
-        and word_count >= 90
-        and sentence_count >= 10
-        and speech_duration >= 55
+        and word_count >= 65
+        and sentence_count >= 6
+        and speech_duration >= 38
         and 85 <= speech_rate_wpm <= 170
-        and silence_ratio < 0.25
+        and silence_ratio < 0.28
     )
     al_candidate = (
-        score >= 4.5
-        and float(breakdown.get("fluency", 0)) >= 5
+        score >= 4.2
+        and float(breakdown.get("fluency", 0)) >= 4
         and float(breakdown.get("contentRichness", 0)) >= 5
         and float(breakdown.get("coherence", 0)) >= 4
         and float(breakdown.get("vocabulary", 0)) >= 4
-        and word_count >= 115
-        and sentence_count >= 13
-        and speech_duration >= 75
-        and 95 <= speech_rate_wpm <= 160
-        and silence_ratio < 0.16
-        and connector_count >= 4
-        and lexical_diversity >= 0.48
-        and repetition_rate <= 0.30
+        and word_count >= 85
+        and sentence_count >= 8
+        and speech_duration >= 52
+        and 90 <= speech_rate_wpm <= 170
+        and silence_ratio < 0.22
+        and connector_count >= 3
+        and lexical_diversity >= 0.42
+        and repetition_rate <= 0.38
     )
     return {
         "im2Candidate": im2_candidate,
@@ -544,7 +544,7 @@ def _resolve_grade(
 
     if gate["alCandidate"]:
         return "AL"
-    if score >= 3.8 and gate["ihCandidate"]:
+    if score >= 3.6 and gate["ihCandidate"]:
         return "IH"
     if score >= 3.1:
         return "IM3"
