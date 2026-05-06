@@ -72,6 +72,7 @@ class OpicAnswerEvaluationResponse(BaseModel):
     weakPoints: list[str]
     tips: list[str]
     tags: list[str]
+    metricSnapshot: dict[str, float | int] = Field(default_factory=dict)
     isGradable: bool
 
 

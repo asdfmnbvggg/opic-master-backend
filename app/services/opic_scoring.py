@@ -157,6 +157,7 @@ def build_opic_assessment(
             ],
             "tags": ["채점 가능한 답변 부족"],
             "gate": gate,
+            "metricSnapshot": _build_metric_snapshot(metrics),
             "isGradable": False,
         }
 
@@ -200,6 +201,7 @@ def build_opic_assessment(
         "tips": tips,
         "tags": _build_tags(breakdown),
         "gate": gate,
+        "metricSnapshot": _build_metric_snapshot(metrics),
         "isGradable": bool(metrics.get("is_gradable", False)),
     }
 
@@ -222,12 +224,8 @@ def build_opic_session_summary(answer_feedback: list[dict[str, Any]]) -> dict[st
         for key in dimension_keys
     }
     averaged_score = round(sum(float(item.get("score", 0.0)) for item in active_items) / len(active_items), 2)
-    averaged_metrics = {
-        "word_count": sum(_estimate_word_count(item) for item in active_items) / len(active_items),
-        "speech_duration_seconds": sum(_estimate_duration(item) for item in active_items) / len(active_items),
-        "keyword_similarity": sum(_estimate_similarity(item) for item in active_items) / len(active_items),
-        "is_gradable": bool(gradable_items),
-    }
+    averaged_metrics = _average_metric_snapshots(active_items)
+    averaged_metrics["is_gradable"] = bool(gradable_items)
     gate = _build_gate_status(averaged_score, averaged_breakdown, averaged_metrics)
     grade = _resolve_grade(averaged_score, gate, averaged_breakdown, averaged_metrics)
     weakest_dimension = _pick_weakest_dimension(averaged_breakdown)
@@ -253,9 +251,74 @@ def build_opic_session_summary(answer_feedback: list[dict[str, Any]]) -> dict[st
         "tips": tips,
         "tags": _build_tags(averaged_breakdown),
         "gate": gate,
+        "metricSnapshot": averaged_metrics,
         "gradableAnswers": len(gradable_items),
         "totalAnswers": len(opic_items),
         "isGradable": bool(gradable_items),
+    }
+
+
+def _build_metric_snapshot(metrics: dict[str, float | int | bool | None]) -> dict[str, float | int]:
+    return {
+        "wordCount": int(metrics.get("word_count") or 0),
+        "sentenceCount": int(metrics.get("sentence_count") or 0),
+        "avgSentenceLength": round(float(metrics.get("avg_sentence_length") or 0.0), 2),
+        "speechDurationSeconds": round(float(metrics.get("speech_duration_seconds") or 0.0), 2),
+        "speechRateWpm": round(float(metrics.get("speech_rate_wpm") or 0.0), 2),
+        "silenceRatio": round(float(metrics.get("silence_ratio") or 0.0), 4),
+        "avgPauseSeconds": round(float(metrics.get("avg_pause_seconds") or 0.0), 2),
+        "fillerRatio": round(float(metrics.get("filler_ratio") or 0.0), 4),
+        "connectorCount": int(metrics.get("connector_count") or 0),
+        "connectorRatio": round(float(metrics.get("connector_ratio") or 0.0), 4),
+        "lexicalDiversity": round(float(metrics.get("lexical_diversity") or 0.0), 4),
+        "repetitionRate": round(float(metrics.get("repetition_rate") or 0.0), 4),
+        "keywordSimilarity": round(float(metrics.get("keyword_similarity") or 0.0), 4),
+    }
+
+
+def _average_metric_snapshots(items: list[dict[str, Any]]) -> dict[str, float | int]:
+    snapshots = [
+        item.get("metricSnapshot")
+        for item in items
+        if isinstance(item.get("metricSnapshot"), dict)
+    ]
+    if not snapshots:
+        return {
+            "word_count": sum(_estimate_word_count(item) for item in items) / len(items),
+            "speech_duration_seconds": sum(_estimate_duration(item) for item in items) / len(items),
+            "keyword_similarity": sum(_estimate_similarity(item) for item in items) / len(items),
+        }
+
+    def average(key: str) -> float:
+        return round(sum(float(snapshot.get(key) or 0.0) for snapshot in snapshots) / len(snapshots), 4)
+
+    return {
+        "word_count": average("wordCount"),
+        "sentence_count": average("sentenceCount"),
+        "avg_sentence_length": average("avgSentenceLength"),
+        "speech_duration_seconds": average("speechDurationSeconds"),
+        "speech_rate_wpm": average("speechRateWpm"),
+        "silence_ratio": average("silenceRatio"),
+        "avg_pause_seconds": average("avgPauseSeconds"),
+        "filler_ratio": average("fillerRatio"),
+        "connector_count": average("connectorCount"),
+        "connector_ratio": average("connectorRatio"),
+        "lexical_diversity": average("lexicalDiversity"),
+        "repetition_rate": average("repetitionRate"),
+        "keyword_similarity": average("keywordSimilarity"),
+        "wordCount": average("wordCount"),
+        "sentenceCount": average("sentenceCount"),
+        "avgSentenceLength": average("avgSentenceLength"),
+        "speechDurationSeconds": average("speechDurationSeconds"),
+        "speechRateWpm": average("speechRateWpm"),
+        "silenceRatio": average("silenceRatio"),
+        "avgPauseSeconds": average("avgPauseSeconds"),
+        "fillerRatio": average("fillerRatio"),
+        "connectorCount": average("connectorCount"),
+        "connectorRatio": average("connectorRatio"),
+        "lexicalDiversity": average("lexicalDiversity"),
+        "repetitionRate": average("repetitionRate"),
+        "keywordSimilarity": average("keywordSimilarity"),
     }
 
 
@@ -287,9 +350,9 @@ def _score_response_length(metrics: dict[str, float | int | bool | None]) -> int
     sentence_count = int(metrics.get("sentence_count") or 0)
     word_count = int(metrics.get("word_count") or 0)
 
-    time_score = _bucket_score(speech_duration, thresholds=[10.0, 20.0, 30.0, 45.0])
-    sentence_score = _bucket_score(float(sentence_count), thresholds=[2.0, 4.0, 6.0, 7.0])
-    word_score = _bucket_score(float(word_count), thresholds=[15.0, 30.0, 50.0, 75.0])
+    time_score = _bucket_score(speech_duration, thresholds=[15.0, 30.0, 45.0, 65.0])
+    sentence_score = _bucket_score(float(sentence_count), thresholds=[3.0, 5.0, 8.0, 11.0])
+    word_score = _bucket_score(float(word_count), thresholds=[25.0, 50.0, 75.0, 100.0])
 
     blended = round((time_score * 0.5) + (sentence_score * 0.25) + (word_score * 0.25))
     return _clamp_score(blended)
@@ -414,9 +477,15 @@ def _build_gate_status(
 ) -> dict[str, bool]:
     word_count = float(metrics.get("word_count") or 0.0)
     speech_duration = float(metrics.get("speech_duration_seconds") or 0.0)
+    sentence_count = float(metrics.get("sentence_count") or 0.0)
+    speech_rate_wpm = float(metrics.get("speech_rate_wpm") or 0.0)
+    silence_ratio = float(metrics.get("silence_ratio") or 0.0)
+    connector_count = float(metrics.get("connector_count") or 0.0)
+    lexical_diversity = float(metrics.get("lexical_diversity") or 0.0)
+    repetition_rate = float(metrics.get("repetition_rate") or 0.0)
 
     im2_candidate = (
-        score >= 1.45
+        score >= 2.4
         and float(breakdown.get("responseLength", 0)) >= 2
         and float(breakdown.get("taskCompletion", 0)) >= 2
         and (
@@ -431,13 +500,26 @@ def _build_gate_status(
         and float(breakdown.get("responseLength", 0)) >= 4
         and float(breakdown.get("contentRichness", 0)) >= 4
         and float(breakdown.get("coherence", 0)) >= 3
+        and word_count >= 90
+        and sentence_count >= 10
+        and speech_duration >= 55
+        and 85 <= speech_rate_wpm <= 170
+        and silence_ratio < 0.25
     )
     al_candidate = (
-        score >= 4.2
+        score >= 4.5
         and float(breakdown.get("fluency", 0)) >= 5
         and float(breakdown.get("contentRichness", 0)) >= 5
         and float(breakdown.get("coherence", 0)) >= 4
         and float(breakdown.get("vocabulary", 0)) >= 4
+        and word_count >= 115
+        and sentence_count >= 13
+        and speech_duration >= 75
+        and 95 <= speech_rate_wpm <= 160
+        and silence_ratio < 0.16
+        and connector_count >= 4
+        and lexical_diversity >= 0.48
+        and repetition_rate <= 0.30
     )
     return {
         "im2Candidate": im2_candidate,
@@ -462,14 +544,14 @@ def _resolve_grade(
 
     if gate["alCandidate"]:
         return "AL"
-    if score >= 3.0 and gate["ihCandidate"]:
+    if score >= 3.8 and gate["ihCandidate"]:
         return "IH"
-    if score >= 2.0:
+    if score >= 3.1:
         return "IM3"
     if gate["im2Candidate"]:
         return "IM2"
     if (
-        score >= 1.10
+        score >= 1.70
         and task_score >= 1
         and length_score >= 1
         and word_count >= 8
@@ -477,7 +559,7 @@ def _resolve_grade(
     ):
         return "IM1"
     if (
-        score >= 0.85
+        score >= 1.10
         and keyword_similarity >= 0.08
         and word_count >= 6
         and speech_duration >= 4

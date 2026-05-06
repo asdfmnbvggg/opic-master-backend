@@ -567,6 +567,7 @@ class EvaluationService:
             "weakPoints": raw_opic.get("weakPoints", []),
             "tips": raw_opic.get("tips", []),
             "tags": raw_opic.get("tags", []),
+            "metricSnapshot": raw_opic.get("metricSnapshot", {}),
             "isGradable": raw_opic.get("isGradable", False),
         }
 

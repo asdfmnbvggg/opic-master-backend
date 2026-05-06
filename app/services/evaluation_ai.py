@@ -519,17 +519,17 @@ def _estimate_grade_from_average(scores: dict[str, int]) -> str:
         return "데이터 부족"
 
     average = sum(scores.values()) / len(scores)
-    if average >= 82:
+    if average >= 90:
         return "AL"
-    if average >= 72:
+    if average >= 76:
         return "IH"
     if average >= 62:
         return "IM3"
-    if average >= 50:
+    if average >= 48:
         return "IM2"
-    if average >= 40:
+    if average >= 34:
         return "IM1"
-    if average >= 30:
+    if average >= 22:
         return "IL"
     if average >= 20:
         return "NH"
