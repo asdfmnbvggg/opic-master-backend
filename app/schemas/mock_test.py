@@ -19,6 +19,9 @@ class MockTestQuestionItem(BaseModel):
     questionOrder: int
     questionType: str
     questionText: str
+    translation: str = ""
+    hint: str = ""
+    category: str = ""
 
 
 class MockTestSessionResponse(BaseModel):
