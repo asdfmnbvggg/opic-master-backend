@@ -4,16 +4,17 @@ import re
 from typing import Any
 
 OPIC_WEIGHTS = {
-    "taskCompletion": 0.15,
-    "contentRichness": 0.15,
-    "textType": 0.15,
-    "coherence": 0.12,
-    "fluency": 0.12,
-    "timeFrameControl": 0.10,
-    "lexicalSophistication": 0.08,
-    "vocabulary": 0.05,
-    "grammar": 0.05,
-    "pronunciation": 0.03,
+    "taskCompletion": 0.14,
+    "contentRichness": 0.14,
+    "textType": 0.14,
+    "coherence": 0.11,
+    "fluency": 0.11,
+    "timeFrameControl": 0.09,
+    "functionHandling": 0.08,
+    "lexicalSophistication": 0.07,
+    "vocabulary": 0.04,
+    "grammar": 0.04,
+    "pronunciation": 0.04,
     "responseLength": 0.0,
 }
 
@@ -229,7 +230,7 @@ def build_opic_assessment(
     }
 
     weighted_score = round(
-        sum(float(breakdown[key]) * float(weight) for key, weight in OPIC_WEIGHTS.items()),
+        sum(float(breakdown.get(key, 0)) * float(weight) for key, weight in OPIC_WEIGHTS.items()),
         2,
     )
     gate = _build_gate_status(weighted_score, breakdown, metrics)
