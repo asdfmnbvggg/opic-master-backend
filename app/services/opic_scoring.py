@@ -4,14 +4,17 @@ import re
 from typing import Any
 
 OPIC_WEIGHTS = {
-    "fluency": 0.20,
-    "responseLength": 0.15,
-    "contentRichness": 0.20,
-    "coherence": 0.15,
-    "vocabulary": 0.10,
+    "taskCompletion": 0.15,
+    "contentRichness": 0.15,
+    "textType": 0.15,
+    "coherence": 0.12,
+    "fluency": 0.12,
+    "timeFrameControl": 0.10,
+    "lexicalSophistication": 0.08,
+    "vocabulary": 0.05,
     "grammar": 0.05,
-    "pronunciation": 0.05,
-    "taskCompletion": 0.10,
+    "pronunciation": 0.03,
+    "responseLength": 0.0,
 }
 
 TOKEN_PATTERN = re.compile(r"[A-Za-z']+")
@@ -29,7 +32,8 @@ LOCATION_PATTERN = re.compile(
     r"\b("
     r"home|house|room|school|office|company|cafe|coffee shop|restaurant|park|beach|mountain|"
     r"library|gym|mall|store|supermarket|hospital|airport|station|subway|bus stop|city|"
-    r"village|hotel|apartment|campus|classroom|my place|my hometown"
+    r"village|hotel|apartment|campus|classroom|my place|my hometown|work|workplace|"
+    r"meeting|team|project"
     r")\b",
     re.IGNORECASE,
 )
@@ -41,7 +45,8 @@ FEELING_PATTERN = re.compile(
     r"\b("
     r"happy|sad|excited|nervous|relaxed|relaxing|stressful|stressed|fun|funny|boring|"
     r"interesting|comfortable|uncomfortable|great|good|bad|amazing|terrible|"
-    r"love|like|enjoy|prefer|favorite|memorable|special"
+    r"love|like|enjoy|prefer|favorite|memorable|special|calm|calmly|confused|"
+    r"difficult|challenging|satisfied|proud|worried"
     r")\b",
     re.IGNORECASE,
 )
@@ -51,6 +56,45 @@ EXAMPLE_PATTERN = re.compile(
     r")\b",
     re.IGNORECASE,
 )
+PAST_PATTERN = re.compile(
+    r"\b(went|did|was|were|watched|visited|had|made|took|bought|met|saw|"
+    r"played|used|started|finished|decided|experienced|remembered|felt)\b",
+    re.IGNORECASE,
+)
+FUTURE_PATTERN = re.compile(
+    r"\b(will|going to|plan to|want to|would like to|hope to|next time|tomorrow|next week|next month)\b",
+    re.IGNORECASE,
+)
+PRESENT_PATTERN = re.compile(
+    r"\b(usually|often|every day|every week|sometimes|always|like|likes|go|goes|watch|watches|"
+    r"play|plays|enjoy|enjoys|prefer|prefers|live|lives|work|works|study|studies)\b",
+    re.IGNORECASE,
+)
+FUNCTION_PATTERNS = {
+    "reason": re.compile(r"\b(because|since|the reason|that's why|in order to|so)\b", re.IGNORECASE),
+    "example": re.compile(r"\b(for example|for instance|such as|especially|one time)\b", re.IGNORECASE),
+    "experience": re.compile(r"\b(when i|i remember|experience|experienced|last time|one time|recently|last week|last month|last year)\b", re.IGNORECASE),
+    "result": re.compile(r"\b(after that|finally|as a result|so|therefore|then|because of that)\b", re.IGNORECASE),
+    "problem_solving": re.compile(r"\b(problem|issue|trouble|solve|solved|fix|fixed|handle|handled|decided|solution)\b", re.IGNORECASE),
+}
+COMMON_WEAK_WORDS = {
+    "good",
+    "nice",
+    "fun",
+    "like",
+    "thing",
+    "things",
+    "very",
+    "really",
+    "so",
+    "bad",
+    "big",
+    "small",
+    "many",
+    "much",
+    "get",
+    "got",
+}
 
 CONNECTOR_PATTERNS = [
     re.compile(pattern, re.IGNORECASE)
@@ -138,7 +182,15 @@ def build_opic_assessment(
     word_count = int(metrics.get("word_count") or 0)
     if not transcript.strip() or word_count == 0:
         breakdown = {key: 0 for key in OPIC_WEIGHTS}
-        gate = {"im2Candidate": False, "ihCandidate": False, "alCandidate": False}
+        breakdown["responseLength"] = 0
+        breakdown["functionHandling"] = 0
+        gate = {
+            "im1Candidate": False,
+            "im2Candidate": False,
+            "im3Candidate": False,
+            "ihCandidate": False,
+            "alCandidate": False,
+        }
         grade = "NL"
         return {
             "score": 0.0,
@@ -149,7 +201,7 @@ def build_opic_assessment(
             "gradeReason": GRADE_REASON[grade],
             "weights": OPIC_WEIGHTS,
             "breakdown": breakdown,
-            "weakPoints": [DIMENSION_LABELS[key] for key in breakdown],
+            "weakPoints": [DIMENSION_LABELS.get(key, key) for key in breakdown],
             "tips": [
                 TIP_MAP["fluency"],
                 TIP_MAP["responseLength"],
@@ -165,7 +217,11 @@ def build_opic_assessment(
         "fluency": _score_fluency(metrics),
         "responseLength": _score_response_length(metrics),
         "contentRichness": _score_content_richness(transcript),
+        "textType": _score_text_type(metrics),
         "coherence": _score_coherence(metrics),
+        "timeFrameControl": _score_time_frame_control(transcript),
+        "functionHandling": _score_function_handling(transcript),
+        "lexicalSophistication": _score_lexical_sophistication(transcript, metrics),
         "vocabulary": _score_vocabulary(metrics),
         "grammar": _score_grammar(metrics),
         "pronunciation": _score_pronunciation(metrics),
@@ -180,11 +236,11 @@ def build_opic_assessment(
     grade = _resolve_grade(weighted_score, gate, breakdown, metrics)
     weakest_dimension = _pick_weakest_dimension(breakdown)
 
-    weak_points = [DIMENSION_LABELS[key] for key, value in breakdown.items() if value <= 2]
+    weak_points = [DIMENSION_LABELS.get(key, key) for key, value in breakdown.items() if value <= 2]
     if not weak_points:
-        weak_points = [DIMENSION_LABELS[weakest_dimension]]
+        weak_points = [DIMENSION_LABELS.get(weakest_dimension, weakest_dimension)]
 
-    tips = [TIP_MAP[key] for key, value in breakdown.items() if value <= 3][:3]
+    tips = [TIP_MAP.get(key, MAIN_FEEDBACK.get(key, key)) for key, value in breakdown.items() if value <= 3][:3]
     if not tips:
         tips = ["답변을 서론 1문장, 이유 2문장, 경험 2문장, 느낌 1문장 구조로 고정해두면 실전에서 훨씬 안정적입니다."]
 
@@ -217,7 +273,7 @@ def build_opic_session_summary(answer_feedback: list[dict[str, Any]]) -> dict[st
 
     gradable_items = [item for item in opic_items if bool(item.get("isGradable"))]
     active_items = gradable_items or opic_items
-    dimension_keys = list(OPIC_WEIGHTS.keys())
+    dimension_keys = list(dict.fromkeys([*OPIC_WEIGHTS.keys(), "responseLength", "functionHandling"]))
 
     averaged_breakdown = {
         key: round(sum(float(item["breakdown"].get(key, 0)) for item in active_items) / len(active_items), 2)
@@ -230,11 +286,11 @@ def build_opic_session_summary(answer_feedback: list[dict[str, Any]]) -> dict[st
     grade = _resolve_grade(averaged_score, gate, averaged_breakdown, averaged_metrics)
     weakest_dimension = _pick_weakest_dimension(averaged_breakdown)
 
-    weak_points = [DIMENSION_LABELS[key] for key, value in averaged_breakdown.items() if value < 3]
+    weak_points = [DIMENSION_LABELS.get(key, key) for key, value in averaged_breakdown.items() if value < 3]
     if not weak_points:
-        weak_points = [DIMENSION_LABELS[weakest_dimension]]
+        weak_points = [DIMENSION_LABELS.get(weakest_dimension, weakest_dimension)]
 
-    tips = [TIP_MAP[key] for key, value in averaged_breakdown.items() if value < 3.5][:3]
+    tips = [TIP_MAP.get(key, MAIN_FEEDBACK.get(key, key)) for key, value in averaged_breakdown.items() if value < 3.5][:3]
     if not tips:
         tips = ["전체적으로 안정적이므로 디테일과 예시 밀도를 조금 더 높여 AL 방향으로 다듬어보세요."]
 
@@ -370,6 +426,99 @@ def _score_content_richness(transcript: str) -> int:
     return sum(1 for signal in signals if signal)
 
 
+def _score_text_type(metrics: dict[str, float | int | bool | None]) -> int:
+    sentence_count = int(metrics.get("sentence_count") or 0)
+    avg_sentence_length = float(metrics.get("avg_sentence_length") or 0.0)
+    connector_count = int(metrics.get("connector_count") or 0)
+
+    if sentence_count <= 2 and avg_sentence_length < 6:
+        return 1
+    if sentence_count >= 10 and connector_count >= 4:
+        return 5
+    if sentence_count >= 7 and connector_count >= 2:
+        return 4
+    if sentence_count >= 4:
+        return 3
+    if sentence_count >= 2 and avg_sentence_length >= 6:
+        return 2
+    return 1
+
+
+def _score_time_frame_control(transcript: str) -> int:
+    normalized = transcript.lower()
+    has_past = bool(PAST_PATTERN.search(normalized))
+    has_present = bool(PRESENT_PATTERN.search(normalized))
+    has_future = bool(FUTURE_PATTERN.search(normalized))
+    marker_count = sum([has_past, has_present, has_future])
+
+    if marker_count >= 3:
+        return 5
+    if marker_count == 2:
+        return 4
+    if marker_count == 1:
+        return 3
+    if TIME_PATTERN.search(normalized):
+        return 2
+    return 1
+
+
+def _score_function_handling(transcript: str) -> int:
+    normalized = transcript.lower()
+    matched_functions = sum(1 for pattern in FUNCTION_PATTERNS.values() if pattern.search(normalized))
+
+    if matched_functions >= 5:
+        return 5
+    if matched_functions >= 4:
+        return 4
+    if matched_functions >= 3:
+        return 3
+    if matched_functions >= 1:
+        return 2
+    return 1
+
+
+def _score_lexical_sophistication(
+    transcript: str,
+    metrics: dict[str, float | int | bool | None],
+) -> int:
+    tokens = [token.lower() for token in TOKEN_PATTERN.findall(transcript)]
+    if not tokens:
+        return 1
+
+    unique_ratio = len(set(tokens)) / max(len(tokens), 1)
+    avg_word_length = sum(len(token) for token in tokens) / max(len(tokens), 1)
+    lexical_diversity = float(metrics.get("lexical_diversity") or 0.0)
+    repetition_rate = float(metrics.get("repetition_rate") or 0.0)
+    weak_word_ratio = sum(1 for token in tokens if token in COMMON_WEAK_WORDS) / max(len(tokens), 1)
+    long_word_ratio = sum(1 for token in tokens if len(token) >= 8) / max(len(tokens), 1)
+
+    score = 1
+    if unique_ratio >= 0.34 and avg_word_length >= 4.0:
+        score = 2
+    if unique_ratio >= 0.42 and avg_word_length >= 4.2:
+        score = 3
+    if unique_ratio >= 0.50 and avg_word_length >= 4.5 and long_word_ratio >= 0.05:
+        score = 4
+    if unique_ratio >= 0.58 and avg_word_length >= 4.8 and long_word_ratio >= 0.08:
+        score = 5
+    if lexical_diversity >= 0.50 and repetition_rate <= 0.35 and avg_word_length >= 4.1:
+        score = max(score, 3)
+    if lexical_diversity >= 0.58 and repetition_rate <= 0.35 and avg_word_length >= 4.4:
+        score = max(score, 4)
+    if lexical_diversity >= 0.62 and repetition_rate <= 0.30 and avg_word_length >= 4.6:
+        score = max(score, 5)
+    if lexical_diversity >= 0.60 and repetition_rate <= 0.30 and len(tokens) >= 90 and long_word_ratio >= 0.04:
+        score = max(score, 4)
+
+    if repetition_rate > 0.42:
+        score -= 1
+    if repetition_rate > 0.55:
+        score -= 1
+    if weak_word_ratio > 0.18:
+        score -= 1
+    return _clamp_score(score)
+
+
 def _score_coherence(metrics: dict[str, float | int | bool | None]) -> int:
     connector_count = int(metrics.get("connector_count") or 0)
     connector_ratio = float(metrics.get("connector_ratio") or 0.0)
@@ -484,45 +633,85 @@ def _build_gate_status(
     lexical_diversity = float(metrics.get("lexical_diversity") or 0.0)
     repetition_rate = float(metrics.get("repetition_rate") or 0.0)
 
-    im2_candidate = (
-        score >= 2.4
-        and float(breakdown.get("responseLength", 0)) >= 2
-        and float(breakdown.get("taskCompletion", 0)) >= 2
-        and (
-            float(breakdown.get("fluency", 0)) >= 2
-            or float(breakdown.get("contentRichness", 0)) >= 2
-        )
+    task_completion = float(breakdown.get("taskCompletion", 0))
+    content_richness = float(breakdown.get("contentRichness", 0))
+    coherence = float(breakdown.get("coherence", 0))
+    fluency = float(breakdown.get("fluency", 0))
+    grammar = float(breakdown.get("grammar", 0))
+    pronunciation = float(breakdown.get("pronunciation", 0))
+    text_type = float(breakdown.get("textType", 0))
+    function_handling = float(breakdown.get("functionHandling", 0))
+    time_frame_control = float(breakdown.get("timeFrameControl", 0))
+    lexical_sophistication = float(breakdown.get("lexicalSophistication", 0))
+
+    im1_candidate = (
+        score >= 1.70
         and word_count >= 12
-        and speech_duration >= 8
+        and sentence_count >= 2
+        and speech_duration >= 5
+        and task_completion >= 2
+    )
+    im2_candidate = (
+        score >= 2.30
+        and word_count >= 30
+        and sentence_count >= 4
+        and speech_duration >= 18
+        and task_completion >= 2.5
+        and content_richness >= 2.3
+        and coherence >= 2.3
+        and text_type >= 2.3
+    )
+    im3_candidate = (
+        score >= 3.00
+        and word_count >= 50
+        and sentence_count >= 6
+        and speech_duration >= 28
+        and task_completion >= 3
+        and content_richness >= 3
+        and coherence >= 3
+        and text_type >= 3
+        and function_handling >= 2.8
+        and lexical_sophistication >= 2.5
     )
     ih_candidate = (
-        float(breakdown.get("fluency", 0)) >= 4
-        and float(breakdown.get("responseLength", 0)) >= 4
-        and float(breakdown.get("contentRichness", 0)) >= 4
-        and float(breakdown.get("coherence", 0)) >= 3
-        and word_count >= 65
-        and sentence_count >= 6
+        score >= 3.50
+        and word_count >= 70
+        and sentence_count >= 8
         and speech_duration >= 38
-        and 85 <= speech_rate_wpm <= 170
-        and silence_ratio < 0.28
+        and fluency >= 3.5
+        and task_completion >= 3.7
+        and content_richness >= 3.5
+        and coherence >= 3.5
+        and text_type >= 3.5
+        and function_handling >= 3.5
+        and time_frame_control >= 3
+        and lexical_sophistication >= 3
+        and silence_ratio <= 0.30
+        and repetition_rate <= 0.42
     )
     al_candidate = (
-        score >= 4.2
-        and float(breakdown.get("fluency", 0)) >= 4
-        and float(breakdown.get("contentRichness", 0)) >= 5
-        and float(breakdown.get("coherence", 0)) >= 4
-        and float(breakdown.get("vocabulary", 0)) >= 4
-        and word_count >= 85
-        and sentence_count >= 8
+        score >= 4.10
+        and word_count >= 90
+        and sentence_count >= 10
         and speech_duration >= 52
-        and 90 <= speech_rate_wpm <= 170
-        and silence_ratio < 0.22
-        and connector_count >= 3
-        and lexical_diversity >= 0.42
-        and repetition_rate <= 0.38
+        and fluency >= 4
+        and task_completion >= 4
+        and content_richness >= 4.2
+        and coherence >= 4
+        and text_type >= 4
+        and function_handling >= 4
+        and time_frame_control >= 4
+        and lexical_sophistication >= 3.7
+        and grammar >= 3.7
+        and pronunciation >= 3.5
+        and silence_ratio <= 0.24
+        and repetition_rate <= 0.35
+        and connector_count >= 4
     )
     return {
+        "im1Candidate": im1_candidate,
         "im2Candidate": im2_candidate,
+        "im3Candidate": im3_candidate,
         "ihCandidate": ih_candidate,
         "alCandidate": al_candidate,
     }
@@ -542,21 +731,15 @@ def _resolve_grade(
     fluency_score = float(breakdown.get("fluency", 0))
     content_score = float(breakdown.get("contentRichness", 0))
 
-    if gate["alCandidate"]:
+    if gate.get("alCandidate"):
         return "AL"
-    if score >= 3.6 and gate["ihCandidate"]:
+    if gate.get("ihCandidate"):
         return "IH"
-    if score >= 3.1:
+    if gate.get("im3Candidate"):
         return "IM3"
-    if gate["im2Candidate"]:
+    if gate.get("im2Candidate"):
         return "IM2"
-    if (
-        score >= 1.70
-        and task_score >= 1
-        and length_score >= 1
-        and word_count >= 8
-        and speech_duration >= 5
-    ):
+    if gate.get("im1Candidate"):
         return "IM1"
     if (
         score >= 1.10
@@ -618,7 +801,7 @@ def _build_main_feedback(grade: str, weakest_dimension: str, breakdown: dict[str
         return "IM3에서 IH로 가는 핵심은 디테일입니다. 시간, 장소, 이유, 느낌이 들어가야 답변이 확 살아납니다."
     if grade == "IH" and float(breakdown.get("vocabulary", 0)) <= 3:
         return "IH권에서는 기본 전달은 충분합니다. 이제는 같은 표현 반복을 줄여 답변을 더 자연스럽게 다듬어보세요."
-    return MAIN_FEEDBACK[weakest_dimension]
+    return MAIN_FEEDBACK.get(weakest_dimension, MAIN_FEEDBACK["vocabulary"])
 
 
 def _pick_weakest_dimension(breakdown: dict[str, float | int]) -> str:
