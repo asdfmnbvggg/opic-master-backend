@@ -259,8 +259,8 @@ class MockTestService:
         return [
             SELF_INTRO_QUESTION,
             *topic_questions,
-            *self._pick_questions(roleplay_questions, 3),
-            *self._pick_questions(sudden_questions, 2),
+            *self._pick_roleplay_topic_questions(roleplay_questions, 3),
+            *self._pick_sudden_topic_questions(sudden_questions, 2),
         ][:MOCK_TEST_QUESTION_COUNT]
 
     def _load_grouped_topic_questions(self, level_prefix: str, selected_topics: list[str]) -> list[dict[str, str]]:
@@ -306,10 +306,37 @@ class MockTestService:
                 "translation": str(item.get("translation", "")),
                 "hint": str(item.get("hint", "")),
                 "category": str(item.get("topicTitle") or category),
+                "sourceId": str(item.get("id", "")),
+                "topicId": str(item.get("topicId", "")),
             }
             for item in items
             if item.get("text")
         ]
+
+    @staticmethod
+    def _pick_roleplay_topic_questions(questions: list[dict[str, str]], count: int) -> list[dict[str, str]]:
+        return MockTestService._pick_grouped_topic_questions(questions, count)
+
+    @staticmethod
+    def _pick_sudden_topic_questions(questions: list[dict[str, str]], count: int) -> list[dict[str, str]]:
+        return MockTestService._pick_grouped_topic_questions(questions, count)
+
+    @staticmethod
+    def _pick_grouped_topic_questions(questions: list[dict[str, str]], count: int) -> list[dict[str, str]]:
+        grouped_questions: dict[str, list[dict[str, str]]] = {}
+        for question in questions:
+            topic_id = question.get("topicId")
+            if not topic_id:
+                continue
+            grouped_questions.setdefault(topic_id, []).append(question)
+
+        if not grouped_questions:
+            return MockTestService._pick_questions(questions, count)
+
+        selected_topic_id = random.choice(list(grouped_questions.keys()))
+        selected_questions = grouped_questions[selected_topic_id]
+        picked_questions = MockTestService._pick_questions(selected_questions, count)
+        return sorted(picked_questions, key=lambda question: int(question.get("sourceId") or 0))
 
     @staticmethod
     def _pick_questions(questions: list[dict[str, str]], count: int) -> list[dict[str, str]]:
