@@ -71,6 +71,22 @@ PRESENT_PATTERN = re.compile(
     r"play|plays|enjoy|enjoys|prefer|prefers|live|lives|work|works|study|studies)\b",
     re.IGNORECASE,
 )
+QUESTION_OPENING_PATTERN = re.compile(
+    r"^(what|when|where|why|how|who|which|do|does|did|is|are|am|was|were|can|could|would|will|have|has)\b",
+    re.IGNORECASE,
+)
+COMPARISON_PATTERN = re.compile(
+    r"\b(than|different|difference|similar|compare|compared|compared to|while|whereas|both|instead of)\b",
+    re.IGNORECASE,
+)
+PROBLEM_PATTERN = re.compile(
+    r"\b(problem|issue|trouble|broken|delay|wrong|mistake|lost|change|cancel|repair|refund|complain)\b",
+    re.IGNORECASE,
+)
+SOLUTION_PATTERN = re.compile(
+    r"\b(so i|i decided|i asked|i called|i solved|i fixed|i changed|i canceled|i explained|i requested|i tried)\b",
+    re.IGNORECASE,
+)
 FUNCTION_PATTERNS = {
     "reason": re.compile(r"\b(because|since|the reason|that's why|in order to|so)\b", re.IGNORECASE),
     "example": re.compile(r"\b(for example|for instance|such as|especially|one time)\b", re.IGNORECASE),
@@ -181,6 +197,7 @@ def build_opic_assessment(
     metrics: dict[str, float | int | bool | None],
 ) -> dict[str, Any]:
     word_count = int(metrics.get("word_count") or 0)
+    question_profile = _analyze_question_profile(question_text)
     if not transcript.strip() or word_count == 0:
         breakdown = {key: 0 for key in OPIC_WEIGHTS}
         breakdown["responseLength"] = 0
@@ -211,22 +228,37 @@ def build_opic_assessment(
             "tags": ["채점 가능한 답변 부족"],
             "gate": gate,
             "metricSnapshot": _build_metric_snapshot(metrics),
+            "analysis": {
+                "questionProfile": question_profile,
+                "responseProfile": {},
+                "tenseFeedback": {"severity": "none", "message": "", "tip": "", "missing": []},
+                "functionFeedback": {"message": "", "missing": []},
+                "rubricScores": {
+                    "function": 0.0,
+                    "accuracy": 0.0,
+                    "contentContext": 0.0,
+                    "textType": 0.0,
+                },
+            },
             "isGradable": False,
         }
 
+    transcript_profile = _analyze_transcript_profile(transcript)
+    tense_feedback = _analyze_tense_feedback(question_profile, transcript_profile)
+    function_feedback = _analyze_function_feedback(question_profile, transcript_profile)
     breakdown = {
         "fluency": _score_fluency(metrics),
         "responseLength": _score_response_length(metrics),
         "contentRichness": _score_content_richness(transcript),
         "textType": _score_text_type(metrics),
         "coherence": _score_coherence(metrics),
-        "timeFrameControl": _score_time_frame_control(transcript),
-        "functionHandling": _score_function_handling(transcript),
+        "timeFrameControl": _score_time_frame_control(question_profile, transcript_profile),
+        "functionHandling": _score_function_handling(question_profile, transcript_profile),
         "lexicalSophistication": _score_lexical_sophistication(transcript, metrics),
         "vocabulary": _score_vocabulary(metrics),
-        "grammar": _score_grammar(metrics),
+        "grammar": _score_grammar(metrics, tense_feedback),
         "pronunciation": _score_pronunciation(metrics),
-        "taskCompletion": _score_task_completion(question_text, transcript, metrics),
+        "taskCompletion": _score_task_completion(question_text, transcript, metrics, question_profile, transcript_profile),
     }
 
     weighted_score = round(
@@ -259,6 +291,13 @@ def build_opic_assessment(
         "tags": _build_tags(breakdown),
         "gate": gate,
         "metricSnapshot": _build_metric_snapshot(metrics),
+        "analysis": {
+            "questionProfile": question_profile,
+            "responseProfile": transcript_profile,
+            "tenseFeedback": tense_feedback,
+            "functionFeedback": function_feedback,
+            "rubricScores": _build_rubric_scores(breakdown),
+        },
         "isGradable": bool(metrics.get("is_gradable", False)),
     }
 
@@ -445,27 +484,105 @@ def _score_text_type(metrics: dict[str, float | int | bool | None]) -> int:
     return 1
 
 
-def _score_time_frame_control(transcript: str) -> int:
-    normalized = transcript.lower()
-    has_past = bool(PAST_PATTERN.search(normalized))
-    has_present = bool(PRESENT_PATTERN.search(normalized))
-    has_future = bool(FUTURE_PATTERN.search(normalized))
-    marker_count = sum([has_past, has_present, has_future])
+def _score_time_frame_control(question_profile: dict[str, Any], transcript_profile: dict[str, Any]) -> int:
+    expected = set(question_profile.get("expectedTimeframes", []))
+    counts = transcript_profile.get("timeframeCounts", {})
+    matched = sum(1 for frame in expected if int(counts.get(frame, 0)) > 0)
+    total_markers = sum(int(value) for value in counts.values())
 
-    if marker_count >= 3:
-        return 5
-    if marker_count == 2:
-        return 4
-    if marker_count == 1:
+    if not expected:
+        if total_markers >= 3:
+            return 4
+        if total_markers >= 1:
+            return 3
+        return 1
+
+    if len(expected) == 1:
+        frame = next(iter(expected))
+        expected_count = int(counts.get(frame, 0))
+        other_count = total_markers - expected_count
+        if expected_count >= 3 and other_count <= expected_count:
+            return 5
+        if expected_count >= 1:
+            return 4 if other_count <= expected_count + 1 else 3
+        return 1 if total_markers == 0 else 2
+
+    if matched == len(expected):
+        return 5 if all(int(counts.get(frame, 0)) >= 1 for frame in expected) else 4
+    if matched >= 1:
         return 3
-    if TIME_PATTERN.search(normalized):
-        return 2
-    return 1
+    return 1 if total_markers == 0 else 2
 
 
-def _score_function_handling(transcript: str) -> int:
-    normalized = transcript.lower()
-    matched_functions = sum(1 for pattern in FUNCTION_PATTERNS.values() if pattern.search(normalized))
+def _score_function_handling(question_profile: dict[str, Any], transcript_profile: dict[str, Any]) -> int:
+    function_type = str(question_profile.get("functionType") or "general")
+    required_question_count = int(question_profile.get("requiredQuestionCount") or 0)
+    question_sentence_count = int(transcript_profile.get("questionSentenceCount") or 0)
+    matched_functions = int(transcript_profile.get("matchedFunctionCount") or 0)
+    detail_signal_count = int(transcript_profile.get("detailSignalCount") or 0)
+    comparison_signal_count = int(transcript_profile.get("comparisonSignalCount") or 0)
+    past_count = int(transcript_profile.get("timeframeCounts", {}).get("past", 0))
+    reason_signal = bool(transcript_profile.get("functionSignals", {}).get("reason"))
+    example_signal = bool(transcript_profile.get("functionSignals", {}).get("example"))
+    result_signal = bool(transcript_profile.get("functionSignals", {}).get("result"))
+    problem_signal = bool(transcript_profile.get("problemSignal"))
+    solution_signal = bool(transcript_profile.get("solutionSignal"))
+
+    if bool(question_profile.get("requiresQuestionForm")):
+        if question_sentence_count >= required_question_count:
+            return 5
+        if question_sentence_count >= max(2, required_question_count - 1):
+            return 4
+        if question_sentence_count >= 2:
+            return 3
+        if question_sentence_count >= 1:
+            return 2
+        return 1
+
+    if function_type == "compare":
+        if comparison_signal_count >= 2 and detail_signal_count >= 2:
+            return 5
+        if comparison_signal_count >= 1 and detail_signal_count >= 2:
+            return 4
+        if comparison_signal_count >= 1:
+            return 3
+        return 2 if detail_signal_count >= 2 else 1
+
+    if function_type == "problem_solving":
+        if problem_signal and solution_signal and result_signal:
+            return 5
+        if problem_signal and solution_signal:
+            return 4
+        if problem_signal or solution_signal:
+            return 3
+        return 1
+
+    if function_type in {"past_experience", "narrate"}:
+        if past_count >= 3 and example_signal and detail_signal_count >= 2:
+            return 5
+        if past_count >= 2 and detail_signal_count >= 2:
+            return 4
+        if past_count >= 1:
+            return 3
+        return 1
+
+    if function_type in {"explain", "reason"}:
+        if reason_signal and example_signal and detail_signal_count >= 2:
+            return 5
+        if reason_signal and detail_signal_count >= 2:
+            return 4
+        if reason_signal:
+            return 3
+        return 2 if detail_signal_count >= 2 else 1
+
+    if function_type == "describe":
+        if detail_signal_count >= 4:
+            return 5
+        if detail_signal_count >= 3:
+            return 4
+        if detail_signal_count >= 2:
+            return 3
+        return 2 if matched_functions >= 1 else 1
 
     if matched_functions >= 5:
         return 5
@@ -553,7 +670,10 @@ def _score_vocabulary(metrics: dict[str, float | int | bool | None]) -> int:
     return 5
 
 
-def _score_grammar(metrics: dict[str, float | int | bool | None]) -> int:
+def _score_grammar(
+    metrics: dict[str, float | int | bool | None],
+    tense_feedback: dict[str, Any],
+) -> int:
     sentence_count = int(metrics.get("sentence_count") or 0)
     avg_sentence_length = float(metrics.get("avg_sentence_length") or 0.0)
     filler_ratio = float(metrics.get("filler_ratio") or 0.0)
@@ -569,6 +689,12 @@ def _score_grammar(metrics: dict[str, float | int | bool | None]) -> int:
             score = 4
         if 6 <= avg_sentence_length <= 16 and sentence_count >= 3 and filler_ratio < 0.08:
             score = 5
+
+    tense_severity = str(tense_feedback.get("severity") or "")
+    if tense_severity == "weak":
+        score = min(score, 2)
+    elif tense_severity == "mixed":
+        score = min(score, 4)
 
     if filler_ratio > 0.18 and score > 1:
         score -= 1
@@ -597,6 +723,8 @@ def _score_task_completion(
     question_text: str,
     transcript: str,
     metrics: dict[str, float | int | bool | None],
+    question_profile: dict[str, Any],
+    transcript_profile: dict[str, Any],
 ) -> int:
     similarity = float(metrics.get("keyword_similarity") or 0.0)
     word_count = int(metrics.get("word_count") or 0)
@@ -617,7 +745,228 @@ def _score_task_completion(
 
     if word_count >= 45 and score < 5:
         score += 1
+
+    function_score = _score_function_handling(question_profile, transcript_profile)
+    if bool(question_profile.get("requiresQuestionForm")):
+        required_question_count = int(question_profile.get("requiredQuestionCount") or 0)
+        question_sentence_count = int(transcript_profile.get("questionSentenceCount") or 0)
+        if question_sentence_count == 0:
+            return 1
+        if question_sentence_count < max(2, required_question_count - 1):
+            score = min(score, 2)
+    elif str(question_profile.get("functionType") or "") == "compare" and int(transcript_profile.get("comparisonSignalCount") or 0) == 0:
+        score = min(score, 2)
+    elif function_score <= 2:
+        score = min(score, function_score)
+
     return _clamp_score(score)
+
+
+def _analyze_question_profile(question_text: str) -> dict[str, Any]:
+    normalized = question_text.lower().strip()
+    expected_timeframes: set[str] = set()
+
+    if re.search(r"\b(last|yesterday|ago|used to|when you were|when i was|child|childhood|grew up)\b", normalized):
+        expected_timeframes.add("past")
+    if re.search(r"\b(now|these days|currently|usually|normally|do you|where do you|what do you)\b", normalized):
+        expected_timeframes.add("present")
+    if re.search(r"\b(will|going to|plan to|future|tomorrow|next)\b", normalized):
+        expected_timeframes.add("future")
+    if "different from" in normalized or "how is it different" in normalized:
+        expected_timeframes.update({"past", "present"})
+    if not expected_timeframes:
+        expected_timeframes.add("present")
+
+    requires_question_form = "ask me" in normalized and "question" in normalized
+    required_question_count = 0
+    if requires_question_form:
+        if "four" in normalized or "3 or 4" in normalized or "three or four" in normalized:
+            required_question_count = 4
+        elif "three" in normalized:
+            required_question_count = 3
+        else:
+            required_question_count = 2
+
+    function_type = "general"
+    if requires_question_form:
+        function_type = "ask_questions"
+    elif re.search(r"\b(different|difference|compare|similar)\b", normalized):
+        function_type = "compare"
+    elif re.search(r"\b(problem|issue|broken|change|cancel|repair|refund|complain)\b", normalized):
+        function_type = "problem_solving"
+    elif re.search(r"\b(last|ago|used to|when you were|child|childhood|experience|remember)\b", normalized):
+        function_type = "past_experience"
+    elif re.search(r"\b(why|how are|how do|how is)\b", normalized):
+        function_type = "explain"
+    elif re.search(r"\b(describe|tell me about|what does|what is|what kind of)\b", normalized):
+        function_type = "describe"
+
+    return {
+        "functionType": function_type,
+        "requiresQuestionForm": requires_question_form,
+        "requiredQuestionCount": required_question_count,
+        "expectedTimeframes": sorted(expected_timeframes),
+        "requiresComparison": function_type == "compare",
+    }
+
+
+def _analyze_transcript_profile(transcript: str) -> dict[str, Any]:
+    normalized = transcript.strip()
+    sentence_candidates = [part.strip() for part in re.split(r"(?<=[.!?])\s+|\n+", normalized) if part.strip()]
+    timeframe_counts = {
+        "past": len(PAST_PATTERN.findall(normalized)),
+        "present": len(PRESENT_PATTERN.findall(normalized)),
+        "future": len(FUTURE_PATTERN.findall(normalized)),
+    }
+    function_signals = {
+        key: bool(pattern.search(normalized))
+        for key, pattern in FUNCTION_PATTERNS.items()
+    }
+    question_sentence_count = sum(1 for sentence in sentence_candidates if _looks_like_question(sentence))
+
+    return {
+        "sentenceCount": len(sentence_candidates),
+        "questionSentenceCount": question_sentence_count,
+        "timeframeCounts": timeframe_counts,
+        "detailSignalCount": sum(
+            1
+            for pattern in [TIME_PATTERN, LOCATION_PATTERN, REASON_PATTERN, FEELING_PATTERN, EXAMPLE_PATTERN]
+            if pattern.search(normalized)
+        ),
+        "comparisonSignalCount": len(COMPARISON_PATTERN.findall(normalized)),
+        "matchedFunctionCount": sum(1 for matched in function_signals.values() if matched),
+        "functionSignals": function_signals,
+        "problemSignal": bool(PROBLEM_PATTERN.search(normalized)),
+        "solutionSignal": bool(SOLUTION_PATTERN.search(normalized)),
+    }
+
+
+def _analyze_tense_feedback(question_profile: dict[str, Any], transcript_profile: dict[str, Any]) -> dict[str, Any]:
+    expected = list(question_profile.get("expectedTimeframes", []))
+    counts = transcript_profile.get("timeframeCounts", {})
+    missing = [frame for frame in expected if int(counts.get(frame, 0)) == 0]
+
+    if not expected:
+        return {"severity": "none", "message": "", "tip": "", "missing": []}
+
+    if len(expected) == 1:
+        frame = expected[0]
+        matched_count = int(counts.get(frame, 0))
+        if matched_count >= 2:
+            return {
+                "severity": "good",
+                "message": "질문이 요구한 시제를 대체로 안정적으로 유지했습니다.",
+                "tip": "",
+                "missing": [],
+            }
+        if matched_count == 1:
+            return {
+                "severity": "mixed",
+                "message": "기대한 시제는 보이지만 문장 전체에서 일관되게 유지되지는 않았습니다.",
+                "tip": f"질문이 { _timeframe_label(frame) }를 요구하면 핵심 동사 시제를 끝까지 같은 축으로 유지해 보세요.",
+                "missing": [],
+            }
+        return {
+            "severity": "weak",
+            "message": f"질문은 { _timeframe_label(frame) }를 요구했지만 답변에서 그 시제 흔적이 거의 보이지 않습니다.",
+            "tip": f"{ _timeframe_label(frame) }를 나타내는 시간 표현과 동사 형태를 첫 두 문장부터 분명하게 넣어보세요.",
+            "missing": [frame],
+        }
+
+    if not missing:
+        return {
+            "severity": "good",
+            "message": "과거/현재처럼 여러 시간 축을 요구한 질문에서 시제를 비교적 안정적으로 나눠 썼습니다.",
+            "tip": "",
+            "missing": [],
+        }
+    if len(missing) < len(expected):
+        return {
+            "severity": "mixed",
+            "message": "여러 시제가 필요한 질문인데 일부 시간 축이 빠져 비교가 약해졌습니다.",
+            "tip": "과거와 현재를 비교하는 질문이라면 각각 한두 문장씩 분리해서 답하면 시제 관리가 훨씬 또렷해집니다.",
+            "missing": missing,
+        }
+    return {
+        "severity": "weak",
+        "message": "질문이 요구한 시간 축을 거의 반영하지 못해 시제와 내용의 방향이 어긋났습니다.",
+        "tip": "질문의 시간 단서를 먼저 잡고, 과거면 과거 경험, 현재면 현재 습관, 미래면 계획을 바로 말해 보세요.",
+        "missing": missing,
+    }
+
+
+def _analyze_function_feedback(question_profile: dict[str, Any], transcript_profile: dict[str, Any]) -> dict[str, Any]:
+    function_type = str(question_profile.get("functionType") or "general")
+
+    if bool(question_profile.get("requiresQuestionForm")):
+        required_count = int(question_profile.get("requiredQuestionCount") or 0)
+        actual_count = int(transcript_profile.get("questionSentenceCount") or 0)
+        if actual_count >= required_count:
+            return {"message": "질문하기 유형의 요구를 맞춰 여러 개의 질문을 만들었습니다.", "missing": []}
+        return {
+            "message": f"질문하기 유형인데 실제 질문 문장 수가 부족합니다. 최소 {required_count}개 정도는 질문 형태로 이어져야 합니다.",
+            "missing": ["question_form"],
+        }
+
+    if function_type == "compare" and int(transcript_profile.get("comparisonSignalCount") or 0) == 0:
+        return {
+            "message": "비교형 질문인데 차이점이나 공통점을 드러내는 표현이 부족합니다.",
+            "missing": ["comparison"],
+        }
+
+    if function_type == "problem_solving" and not bool(transcript_profile.get("solutionSignal")):
+        return {
+            "message": "문제 해결형 질문인데 문제 이후 어떻게 해결했는지 단계가 약합니다.",
+            "missing": ["solution"],
+        }
+
+    if function_type in {"explain", "reason"} and not bool(transcript_profile.get("functionSignals", {}).get("reason")):
+        return {
+            "message": "설명형 질문인데 이유를 직접 연결해 주는 표현이 부족합니다.",
+            "missing": ["reason"],
+        }
+
+    return {"message": "", "missing": []}
+
+
+def _build_rubric_scores(breakdown: dict[str, float | int]) -> dict[str, float]:
+    return {
+        "function": round((float(breakdown.get("taskCompletion", 0)) * 0.6) + (float(breakdown.get("functionHandling", 0)) * 0.4), 2),
+        "accuracy": round(
+            (float(breakdown.get("grammar", 0)) * 0.35)
+            + (float(breakdown.get("pronunciation", 0)) * 0.2)
+            + (float(breakdown.get("fluency", 0)) * 0.2)
+            + (float(breakdown.get("vocabulary", 0)) * 0.1)
+            + (float(breakdown.get("timeFrameControl", 0)) * 0.15),
+            2,
+        ),
+        "contentContext": round(
+            (float(breakdown.get("taskCompletion", 0)) * 0.35)
+            + (float(breakdown.get("contentRichness", 0)) * 0.4)
+            + (float(breakdown.get("functionHandling", 0)) * 0.15)
+            + (float(breakdown.get("timeFrameControl", 0)) * 0.1),
+            2,
+        ),
+        "textType": round(
+            (float(breakdown.get("responseLength", 0)) * 0.35)
+            + (float(breakdown.get("textType", 0)) * 0.35)
+            + (float(breakdown.get("coherence", 0)) * 0.3),
+            2,
+        ),
+    }
+
+
+def _looks_like_question(sentence: str) -> bool:
+    normalized = sentence.strip()
+    return normalized.endswith("?") or bool(QUESTION_OPENING_PATTERN.search(normalized))
+
+
+def _timeframe_label(frame: str) -> str:
+    return {
+        "past": "과거 시제",
+        "present": "현재 시제",
+        "future": "미래 시제",
+    }.get(frame, frame)
 
 
 def _build_gate_status(
@@ -767,6 +1116,10 @@ def _build_tags(breakdown: dict[str, float | int]) -> list[str]:
         tags.append("내용은 있는데 연결이 약함")
     if float(breakdown.get("taskCompletion", 0)) < 3:
         tags.append("질문 대응 부족")
+    if float(breakdown.get("timeFrameControl", 0)) < 3:
+        tags.append("시제 관리 약함")
+    if float(breakdown.get("functionHandling", 0)) < 3:
+        tags.append("질문 기능 수행 부족")
     if float(breakdown.get("responseLength", 0)) <= 2 and float(breakdown.get("contentRichness", 0)) <= 2:
         tags.append("짧고 단순한 답변")
     if not tags:

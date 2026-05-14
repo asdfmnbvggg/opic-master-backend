@@ -274,9 +274,13 @@ def _build_answer_scores(
     repetition_rate = float(metrics.get("repetition_rate") or 0.0)
     keyword_similarity = float(metrics.get("keyword_similarity") or 0.0)
     silence_ratio = float(metrics.get("silence_ratio") or 0.0)
+    function_handling = float(breakdown.get("functionHandling", 0))
+    time_frame_control = float(breakdown.get("timeFrameControl", 0))
 
     return {
-        "grammar": _bounded_score(35 + float(breakdown.get("grammar", 0)) * 12 + min(word_count, 50) * 0.25),
+        "grammar": _bounded_score(
+            30 + float(breakdown.get("grammar", 0)) * 11 + time_frame_control * 5 + min(word_count, 50) * 0.22
+        ),
         "fluency": _bounded_score(
             28
             + float(breakdown.get("fluency", 0)) * 14
@@ -290,8 +294,11 @@ def _build_answer_scores(
             24
             + float(breakdown.get("taskCompletion", 0)) * 15
             + float(breakdown.get("responseLength", 0)) * 5
+            + function_handling * 4
         ),
-        "relevance": _bounded_score(30 + float(breakdown.get("taskCompletion", 0)) * 12 + keyword_similarity * 25),
+        "relevance": _bounded_score(
+            28 + float(breakdown.get("taskCompletion", 0)) * 11 + function_handling * 6 + keyword_similarity * 22
+        ),
         "speed": _bounded_score(52 + max(0.0, 20 - abs(130 - speech_rate_wpm) * 0.18) - silence_ratio * 12),
         "engagement": _bounded_score(
             20
@@ -300,6 +307,24 @@ def _build_answer_scores(
             + float(breakdown.get("coherence", 0)) * 6
         ),
     }
+
+
+def _get_tense_feedback(opic_assessment: dict[str, Any]) -> dict[str, Any]:
+    analysis = opic_assessment.get("analysis", {})
+    if isinstance(analysis, dict):
+        tense_feedback = analysis.get("tenseFeedback", {})
+        if isinstance(tense_feedback, dict):
+            return tense_feedback
+    return {}
+
+
+def _get_function_feedback(opic_assessment: dict[str, Any]) -> dict[str, Any]:
+    analysis = opic_assessment.get("analysis", {})
+    if isinstance(analysis, dict):
+        function_feedback = analysis.get("functionFeedback", {})
+        if isinstance(function_feedback, dict):
+            return function_feedback
+    return {}
 
 
 def _collect_answer_strengths(
@@ -327,6 +352,11 @@ def _collect_answer_strengths(
 
     if not strengths:
         strengths.append("기본적인 질문 대응은 되고 있어, 길이와 디테일을 더 보강하면 빠르게 좋아질 수 있습니다.")
+    if float(breakdown.get("timeFrameControl", 0)) >= 4:
+        strengths.append("과거·현재·미래처럼 질문이 요구한 시간 축을 비교적 안정적으로 관리했습니다.")
+    if float(breakdown.get("functionHandling", 0)) >= 4:
+        strengths.append("질문 유형에 맞게 설명·비교·질문하기 같은 기능을 비교적 정확하게 수행했습니다.")
+
     return _unique_items(strengths)
 
 
@@ -335,6 +365,8 @@ def _collect_answer_weaknesses(
     opic_assessment: dict[str, Any],
 ) -> list[str]:
     breakdown = opic_assessment.get("breakdown", {})
+    tense_feedback = _get_tense_feedback(opic_assessment)
+    function_feedback = _get_function_feedback(opic_assessment)
     weaknesses: list[str] = []
 
     if float(breakdown.get("taskCompletion", 0)) <= 2:
@@ -352,6 +384,10 @@ def _collect_answer_weaknesses(
     if float(breakdown.get("pronunciation", 0)) <= 2:
         weaknesses.append("발음 또는 인식 정확도가 낮아 전달력이 일부 떨어졌습니다.")
 
+    if str(tense_feedback.get("severity") or "") in {"mixed", "weak"}:
+        weaknesses.append(str(tense_feedback.get("message") or "질문이 요구한 시제를 안정적으로 유지하지 못했습니다."))
+    if str(function_feedback.get("message") or ""):
+        weaknesses.append(str(function_feedback.get("message")))
     if not weaknesses and not bool(metrics.get("is_gradable", False)):
         weaknesses.append("발화량이 부족해 정확한 약점 판정이 어렵습니다.")
     if not weaknesses:
@@ -364,11 +400,24 @@ def _collect_answer_tips(
     opic_assessment: dict[str, Any],
 ) -> list[str]:
     tips = [tip for tip in opic_assessment.get("tips", []) if isinstance(tip, str)]
+    tense_feedback = _get_tense_feedback(opic_assessment)
+    function_feedback = _get_function_feedback(opic_assessment)
 
     if bool(metrics.get("too_short", False)):
         tips.insert(0, "첫 문장에 결론을 말하고, 두 번째 문장부터 이유와 예시를 붙여 길이를 늘려보세요.")
     if bool(metrics.get("too_much_silence", False)):
         tips.insert(0, "멈출 것 같으면 짧은 filler로 버티면서 다음 문장을 바로 이어가세요.")
+
+    if str(tense_feedback.get("tip") or ""):
+        tips.insert(0, str(tense_feedback.get("tip")))
+    if "question_form" in function_feedback.get("missing", []):
+        tips.insert(0, "질문하기 유형에서는 의문사나 do/does/did로 시작하는 질문 문장을 3~4개 이어서 만들어 보세요.")
+    if "comparison" in function_feedback.get("missing", []):
+        tips.insert(0, "비교형 질문에서는 in the past, now, different from, than 같은 비교 표지를 먼저 넣어 주세요.")
+    if "solution" in function_feedback.get("missing", []):
+        tips.insert(0, "문제 해결형 답변은 문제 설명 뒤에 내가 한 행동과 결과를 순서대로 붙이면 훨씬 안정적입니다.")
+    if "reason" in function_feedback.get("missing", []):
+        tips.insert(0, "설명형 질문에서는 첫 문장 뒤에 because, so, that's why 같은 이유 연결어를 바로 붙여 보세요.")
 
     return _unique_items(tips)[:4] or [
         "질문 키워드를 첫 문장에 다시 말한 뒤 이유와 경험을 차례대로 붙여보세요.",
@@ -379,6 +428,12 @@ def _collect_answer_tips(
 
 def _build_grammar_feedback(opic_assessment: dict[str, Any], metrics: dict[str, float | int | bool | None]) -> str:
     grammar_score = float(opic_assessment.get("breakdown", {}).get("grammar", 0))
+    tense_feedback = _get_tense_feedback(opic_assessment)
+    tense_severity = str(tense_feedback.get("severity") or "")
+    if tense_severity == "weak":
+        return str(tense_feedback.get("message") or "질문이 요구한 시제를 거의 맞추지 못해 문법 전달력이 크게 떨어졌습니다.")
+    if tense_severity == "mixed":
+        return str(tense_feedback.get("message") or "문장 안에서 시제가 부분적으로 보이지만 끝까지 일관되게 유지되지는 않았습니다.")
     if grammar_score >= 4:
         return "문장이 대체로 안정적으로 이어져 의미 전달에 큰 무리가 없습니다."
     if grammar_score >= 3:
@@ -413,6 +468,9 @@ def _build_vocabulary_feedback(opic_assessment: dict[str, Any], metrics: dict[st
 def _build_completion_feedback(opic_assessment: dict[str, Any], metrics: dict[str, float | int | bool | None]) -> str:
     task_score = float(opic_assessment.get("breakdown", {}).get("taskCompletion", 0))
     length_score = float(opic_assessment.get("breakdown", {}).get("responseLength", 0))
+    function_feedback = _get_function_feedback(opic_assessment)
+    if str(function_feedback.get("message") or ""):
+        return str(function_feedback.get("message"))
     if task_score >= 4 and length_score >= 4:
         return "질문에 맞는 내용을 충분한 길이로 답해 답변 완성도가 좋습니다."
     if task_score >= 3:
@@ -477,6 +535,8 @@ def _build_session_weaknesses(
 ) -> list[str]:
     weaknesses: list[str] = []
     breakdown = opic_summary.get("breakdown", {}) if isinstance(opic_summary, dict) else {}
+    repeated_tense_issue = tag_counter.get("시제 관리 약함", 0) >= 2
+    repeated_function_issue = tag_counter.get("질문 기능 수행 부족", 0) >= 2
 
     if float(breakdown.get("responseLength", 0)) < 3:
         weaknesses.append("전체적으로 답변 길이가 짧아 상위 등급으로 이어지기 어렵습니다.")
@@ -489,6 +549,11 @@ def _build_session_weaknesses(
     if averaged_scores.get("vocabulary", 100) < 65:
         weaknesses.append("자주 쓰는 단어 반복이 많아 어휘 폭이 좁게 느껴집니다.")
 
+    if repeated_tense_issue:
+        weaknesses.append("과거, 현재, 미래처럼 질문이 요구한 시제를 끝까지 일관되게 유지하지 못하는 답변이 반복되었습니다.")
+    if repeated_function_issue:
+        weaknesses.append("질문하기, 비교하기, 이유 설명하기처럼 문항이 요구한 답변 방식 자체를 놓치는 경우가 반복되었습니다.")
+
     for tag, count in tag_counter.most_common(2):
         if count >= 2:
             weaknesses.append(f"반복적으로 보인 패턴: {tag}")
@@ -499,6 +564,15 @@ def _build_session_weaknesses(
 def _build_session_tips(opic_summary: dict[str, Any] | None, weaknesses: list[str]) -> list[str]:
     if isinstance(opic_summary, dict):
         tips = [tip for tip in opic_summary.get("tips", []) if isinstance(tip, str)]
+        joined_tips = " ".join(tips)
+        joined_weaknesses = " ".join(weaknesses)
+        has_tense_issue = "시제" in joined_weaknesses
+        has_function_issue = "답변 방식" in joined_weaknesses
+        has_question_sentence_tip = "질문문" in joined_tips
+        if has_tense_issue and "시제" not in joined_tips:
+            tips.insert(0, "질문이 과거를 묻는지 현재를 묻는지 먼저 정하고, 첫 문장부터 그 시제에 맞는 동사 형태를 끝까지 유지해 보세요.")
+        if has_function_issue and not has_question_sentence_tip:
+            tips.insert(0, "문항이 질문하기인지 비교하기인지 먼저 판별하고, 질문형이면 의문문 3~4개, 비교형이면 과거와 현재를 나눠 답하는 식으로 틀을 먼저 잡아보세요.")
         if tips:
             return _unique_items(tips)[:4]
 
@@ -507,13 +581,15 @@ def _build_session_tips(opic_summary: dict[str, Any] | None, weaknesses: list[st
     if "길이" in joined:
         fallback.append("모든 답변을 결론 1문장, 이유 2문장, 경험 2문장 구조로 연습해보세요.")
     if "디테일" in joined:
-        fallback.append("시간, 장소, 이유, 느낌 중 최소 세 가지를 의식적으로 넣어보세요.")
+        fallback.append("시간, 장소, 이유, 느낌 중 최소 두 가지를 의식적으로 넣어보세요.")
     if "유창성" in joined or "멈춤" in joined:
-        fallback.append("막히는 순간 filler를 써서 침묵 시간을 줄이는 연습이 필요합니다.")
+        fallback.append("막힐 때는 짧은 filler를 써서 침묵 구간을 줄이는 연습이 필요합니다.")
+    if "시제" in joined:
+        fallback.append("질문이 요구한 시제를 먼저 정한 뒤, 과거면 과거 경험만, 현재면 현재 습관만 중심으로 말하는 연습을 해보세요.")
+    if "답변 방식" in joined:
+        fallback.append("질문하기, 비교하기, 문제 해결하기처럼 문항 기능을 먼저 구분하고 그 기능에 맞는 문장 틀을 바로 꺼내는 연습이 필요합니다.")
 
-    return _unique_items(fallback)[:4] or ["질문 키워드를 먼저 받아주고 이유와 경험을 붙이는 기본 틀을 반복 연습해보세요."]
-
-
+    return _unique_items(fallback)[:4] or ["질문 키워드를 먼저 받아주고 이유와 경험을 붙이는 기본 답변 틀을 반복 연습해보세요."]
 def _estimate_grade_from_average(scores: dict[str, int]) -> str:
     if not scores:
         return "데이터 부족"
