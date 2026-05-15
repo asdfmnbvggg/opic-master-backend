@@ -45,6 +45,18 @@ def _resolve_database_url(value: str) -> str:
     return normalized
 
 
+def _resolve_question_data_root(value: str) -> Path:
+    if value.strip():
+        return Path(value).expanduser().resolve()
+
+    project_root = Path(__file__).resolve().parent.parent
+    bundled_data_root = project_root / "question-data"
+    if bundled_data_root.exists():
+        return bundled_data_root
+
+    return project_root.parent / "opic-master-data"
+
+
 STT_MODEL_SIZE = _get_env("STT_MODEL_SIZE", "base.en")
 STT_DEVICE = _get_env("STT_DEVICE", "cpu")
 STT_COMPUTE_TYPE = _get_env("STT_COMPUTE_TYPE", "int8")
@@ -55,6 +67,7 @@ BACKEND_PORT = int(_get_env("BACKEND_PORT", "8000"))
 PUBLIC_BACKEND_BASE_URL = _get_env("PUBLIC_BACKEND_BASE_URL", f"http://{BACKEND_HOST}:{BACKEND_PORT}").rstrip("/")
 STT_SERVICE_URL = _get_env("STT_SERVICE_URL", "http://127.0.0.1:8001").rstrip("/")
 DATABASE_URL = _resolve_database_url(_get_env("DATABASE_URL", "sqlite:///./opic_master.db"))
+QUESTION_DATA_ROOT = _resolve_question_data_root(_get_env("QUESTION_DATA_ROOT", ""))
 ACCESS_TOKEN_EXPIRE_MINUTES = int(_get_env("ACCESS_TOKEN_EXPIRE_MINUTES", "120"))
 APP_SECRET_KEY = _get_env("APP_SECRET_KEY", "change-me-in-production")
 if not IS_DEVELOPMENT and APP_SECRET_KEY == "change-me-in-production":

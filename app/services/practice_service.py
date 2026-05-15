@@ -3,12 +3,12 @@ from __future__ import annotations
 import json
 import random
 from datetime import datetime
-from pathlib import Path
 
 from fastapi import HTTPException, status
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
+from app.config import QUESTION_DATA_ROOT
 from app.db.models.practice import PracticeAnswer, PracticeFeedback, PracticeQuestionSet, PracticeSession
 from app.db.models.saved_content import StudyRecord
 from app.schemas.practice import (
@@ -20,7 +20,7 @@ from app.schemas.practice import (
     PracticeSessionResponse,
 )
 
-DATA_ROOT = Path(__file__).resolve().parents[3] / "opic-master-data"
+DATA_ROOT = QUESTION_DATA_ROOT
 QUESTION_COUNT = 3
 TOPIC_NAME_MAP = {
     "performance": "공연",
