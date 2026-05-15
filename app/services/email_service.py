@@ -21,11 +21,34 @@ from app.config import (
 
 logger = logging.getLogger(__name__)
 
+RESEND_UNSUPPORTED_SENDER_DOMAINS = {"gmail.com", "googlemail.com"}
+
+
+def _email_domain(email: str) -> str:
+    if "@" not in email:
+        return ""
+    return email.rsplit("@", maxsplit=1)[1].strip().lower()
+
+
+def _can_send_via_resend() -> bool:
+    if not RESEND_API_KEY or not RESEND_FROM_EMAIL:
+        return False
+
+    domain = _email_domain(RESEND_FROM_EMAIL)
+    if domain in RESEND_UNSUPPORTED_SENDER_DOMAINS:
+        logger.warning(
+            "RESEND_FROM_EMAIL uses %s, which cannot be used as a Resend sender; falling back to SMTP.",
+            domain,
+        )
+        return False
+
+    return True
+
 
 class EmailService:
     @staticmethod
     def send_email(*, to_email: str, subject: str, body: str, html_body: str | None = None) -> None:
-        if RESEND_API_KEY and RESEND_FROM_EMAIL:
+        if _can_send_via_resend():
             EmailService._send_via_resend(
                 to_email=to_email,
                 subject=subject,
