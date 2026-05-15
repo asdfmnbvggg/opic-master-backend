@@ -68,4 +68,4 @@ Copy `.env.example` to `.env` if you want to manage values locally.
 - The current evaluation logic is rule-based placeholder logic so the frontend can be connected first.
 - Real email sending uses Resend only when both `RESEND_API_KEY` and `RESEND_FROM_EMAIL` are configured. Otherwise, it uses SMTP settings from `.env`.
 - For Resend, `RESEND_FROM_EMAIL` must use a verified Resend domain. Gmail addresses such as `your-email@gmail.com` should be used with SMTP, not Resend.
-- The default SQLite setting is resolved to a writable local path automatically.
+- The default SQLite setting is resolved to a writable local path automatically. On Windows, `sqlite:///./opic_master.db` is stored under `%LOCALAPPDATA%\opic-master-backend\opic_master.db`; an older `%TEMP%\opic-master-backend\opic_master.db` file is copied over automatically the first time the backend starts.

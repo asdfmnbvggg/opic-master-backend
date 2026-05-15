@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import shutil
 from pathlib import Path
 
 
@@ -29,10 +30,14 @@ def _get_env(name: str, default: str) -> str:
 
 def _default_sqlite_url() -> str:
     if os.name == "nt":
-        temp_root = Path(os.getenv("TEMP", Path.home() / "AppData" / "Local" / "Temp"))
-        db_dir = temp_root / "opic-master-backend"
+        data_root = Path(os.getenv("LOCALAPPDATA", Path.home() / "AppData" / "Local"))
+        db_dir = data_root / "opic-master-backend"
+        db_path = db_dir / "opic_master.db"
+        legacy_temp_db = Path(os.getenv("TEMP", data_root / "Temp")) / "opic-master-backend" / "opic_master.db"
         db_dir.mkdir(parents=True, exist_ok=True)
-        return f"sqlite:///{(db_dir / 'opic_master.db').as_posix()}"
+        if not db_path.exists() and legacy_temp_db.exists():
+            shutil.copy2(legacy_temp_db, db_path)
+        return f"sqlite:///{db_path.as_posix()}"
 
     project_root = Path(__file__).resolve().parent.parent
     return f"sqlite:///{(project_root / 'opic_master.db').as_posix()}"
