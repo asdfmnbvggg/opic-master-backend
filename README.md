@@ -44,6 +44,8 @@ Copy `.env.example` to `.env` if you want to manage values locally.
 - `SMTP_PASSWORD`
 - `SMTP_FROM_EMAIL`
 - `SMTP_USE_TLS`
+- `RESEND_API_KEY`
+- `RESEND_FROM_EMAIL`
 
 ## API
 
@@ -64,5 +66,6 @@ Copy `.env.example` to `.env` if you want to manage values locally.
 
 - `TODO(USER)` comments mark places where your project-specific policy or external integration should be added.
 - The current evaluation logic is rule-based placeholder logic so the frontend can be connected first.
-- Real email sending now uses SMTP settings from `.env`. If SMTP is not configured, email send requests will fail.
+- Real email sending uses Resend only when both `RESEND_API_KEY` and `RESEND_FROM_EMAIL` are configured. Otherwise, it uses SMTP settings from `.env`.
+- For Resend, `RESEND_FROM_EMAIL` must use a verified Resend domain. Gmail addresses such as `your-email@gmail.com` should be used with SMTP, not Resend.
 - The default SQLite setting is resolved to a writable local path automatically.

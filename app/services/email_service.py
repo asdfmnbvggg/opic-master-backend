@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 class EmailService:
     @staticmethod
     def send_email(*, to_email: str, subject: str, body: str, html_body: str | None = None) -> None:
-        if RESEND_API_KEY:
+        if RESEND_API_KEY and RESEND_FROM_EMAIL:
             EmailService._send_via_resend(
                 to_email=to_email,
                 subject=subject,
@@ -33,6 +33,9 @@ class EmailService:
                 html_body=html_body,
             )
             return
+
+        if RESEND_API_KEY and not RESEND_FROM_EMAIL:
+            logger.warning("RESEND_API_KEY is configured, but RESEND_FROM_EMAIL is empty; falling back to SMTP.")
 
         EmailService._send_via_smtp(
             to_email=to_email,
