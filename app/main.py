@@ -17,7 +17,7 @@ from app.api.routers.records import router as records_router
 from app.api.routers.saved import router as saved_router
 from app.api.routers.stt import router as stt_router
 from app.api.routers.users import router as users_router
-from app.config import CORS_ALLOW_ORIGINS, MEDIA_ROOT, MEDIA_URL_PREFIX
+from app.config import CORS_ALLOW_ORIGINS, IS_DEVELOPMENT, MEDIA_ROOT, MEDIA_URL_PREFIX, SERVE_MEDIA_FILES
 from app.db.base import Base
 from app.db import models as _models
 from app.db.session import engine
@@ -38,16 +38,19 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=CORS_ALLOW_ORIGINS,
-    allow_origin_regex=r"https?://(localhost|127\.0\.0\.1)(:\d+)?$",
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+cors_options = {
+    "allow_origins": CORS_ALLOW_ORIGINS,
+    "allow_credentials": True,
+    "allow_methods": ["*"],
+    "allow_headers": ["*"],
+}
+if IS_DEVELOPMENT:
+    cors_options["allow_origin_regex"] = r"https?://(localhost|127\.0\.0\.1)(:\d+)?$"
 
-app.mount(MEDIA_URL_PREFIX, StaticFiles(directory=MEDIA_ROOT), name="media")
+app.add_middleware(CORSMiddleware, **cors_options)
+
+if SERVE_MEDIA_FILES:
+    app.mount(MEDIA_URL_PREFIX, StaticFiles(directory=MEDIA_ROOT), name="media")
 
 app.include_router(health_router)
 app.include_router(auth_router)

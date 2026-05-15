@@ -185,7 +185,6 @@ class AuthService:
         )
         return AuthMessageResponse(
             message=f"{payload.email}로 비밀번호 재설정 메일을 발송했습니다.",
-            resetLink=reset_link,
         )
 
     def confirm_password_reset(self, payload: ResetPasswordConfirmRequest) -> AuthMessageResponse:

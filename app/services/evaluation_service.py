@@ -10,7 +10,13 @@ from fastapi import HTTPException, status
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.config import EVALUATION_AUDIO_DIR, MEDIA_ROOT, MEDIA_URL_PREFIX, PUBLIC_BACKEND_BASE_URL
+from app.config import (
+    EVALUATION_AUDIO_DIR,
+    MEDIA_ROOT,
+    MEDIA_URL_PREFIX,
+    PUBLIC_BACKEND_BASE_URL,
+    SAVE_EVALUATION_AUDIO,
+)
 from app.db.models.evaluation import EvaluationAnswer, EvaluationSession
 from app.db.models.saved_content import SavedQuestion, StudyRecord
 from app.schemas.evaluation import (
@@ -115,14 +121,16 @@ class EvaluationService:
 
         stt_payload: dict[str, Any]
         if audio_bytes:
-            audio_path, audio_url = self._persist_audio_file(
-                session_id=session.id,
-                question_id=question_id,
-                audio_bytes=audio_bytes,
-                content_type=content_type,
-            )
-            answer.audio_file_path = audio_path.as_posix()
-            answer.audio_url = audio_url
+            if SAVE_EVALUATION_AUDIO:
+                audio_path, audio_url = self._persist_audio_file(
+                    session_id=session.id,
+                    question_id=question_id,
+                    audio_bytes=audio_bytes,
+                    content_type=content_type,
+                )
+                answer.audio_file_path = audio_path.as_posix()
+                answer.audio_url = audio_url
+
             try:
                 stt_payload = transcribe_with_fallback(
                     audio_bytes=audio_bytes,

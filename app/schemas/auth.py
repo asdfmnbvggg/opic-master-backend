@@ -53,5 +53,3 @@ class ResetPasswordConfirmRequest(BaseModel):
 
 class AuthMessageResponse(BaseModel):
     message: str
-    resetLink: str | None = None
-    verificationCode: str | None = None

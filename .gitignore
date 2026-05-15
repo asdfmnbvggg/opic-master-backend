@@ -4,4 +4,6 @@ __pycache__/
 .pytest_cache/
 *.pyc
 storage/evaluation-audio/
+storage/
+*.db
 *.db-journal
