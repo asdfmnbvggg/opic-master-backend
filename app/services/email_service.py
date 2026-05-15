@@ -65,6 +65,7 @@ class EmailService:
             headers={
                 "Authorization": f"Bearer {RESEND_API_KEY}",
                 "Content-Type": "application/json",
+                "User-Agent": "opic-master-backend/1.0",
             },
         )
 
