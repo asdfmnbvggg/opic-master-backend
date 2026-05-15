@@ -65,6 +65,8 @@ SMTP_USERNAME = _get_env("SMTP_USERNAME", "")
 SMTP_PASSWORD = _get_env("SMTP_PASSWORD", "")
 SMTP_FROM_EMAIL = _get_env("SMTP_FROM_EMAIL", "")
 SMTP_USE_TLS = _get_env("SMTP_USE_TLS", "true").lower() == "true"
+RESEND_API_KEY = _get_env("RESEND_API_KEY", "")
+RESEND_FROM_EMAIL = _get_env("RESEND_FROM_EMAIL", SMTP_FROM_EMAIL)
 FRONTEND_BASE_URL = _get_env("FRONTEND_BASE_URL", "http://127.0.0.1:5173").rstrip("/")
 CORS_ALLOW_ORIGINS = [
     origin.strip()
