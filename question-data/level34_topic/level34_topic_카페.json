@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "text": "Tell me about your favorite cafe. What makes it special to you?",
+        "hint": "cozy atmosphere(아늑한 분위기), comfortable seats(편한 좌석), wooden tables(나무 테이블), soft lighting(부드러운 조명), quiet music(조용한 음악), large windows(큰 창문), nice interior(좋은 인테리어), warm mood(따뜻한 분위기), clean space(깨끗한 공간), good location(좋은 위치)",
+        "translation": "가장 좋아하는 카페에 대해 말해 주세요. 그곳이 당신에게 특별한 이유는 무엇인가요?"
+    },
+    {
+        "id": 2,
+        "text": "Describe the atmosphere and interior of your favorite cafe.",
+        "hint": "cozy atmosphere(아늑한 분위기), comfortable seats(편한 좌석), wooden tables(나무 테이블), soft lighting(부드러운 조명), quiet music(조용한 음악), large windows(큰 창문), nice interior(좋은 인테리어), warm mood(따뜻한 분위기), clean space(깨끗한 공간), good location(좋은 위치)",
+        "translation": "가장 좋아하는 카페의 분위기와 인테리어를 설명해 주세요."
+    },
+    {
+        "id": 3,
+        "text": "Tell me about a memorable experience you had at a cafe.",
+        "hint": "memorable visit(기억에 남는 방문), met an old friend(오랜 친구를 만났다), birthday cake(생일 케이크), kind staff(친절한 직원), wrong order(잘못된 주문), crowded cafe(붐비는 카페), quiet corner(조용한 구석), good conversation(좋은 대화), felt relaxed(편안했다), special memory(특별한 기억)",
+        "translation": "카페에서 있었던 기억에 남는 경험에 대해 말해 주세요."
+    },
+    {
+        "id": 4,
+        "text": "Tell me about the cafe you often go to. What does it look like? What is special about the cafe?",
+        "hint": "cozy atmosphere(아늑한 분위기), comfortable seats(편한 좌석), wooden tables(나무 테이블), soft lighting(부드러운 조명), quiet music(조용한 음악), large windows(큰 창문), nice interior(좋은 인테리어), warm mood(따뜻한 분위기), clean space(깨끗한 공간), good location(좋은 위치)",
+        "translation": "자주 가는 카페에 대해 이야기해 주세요. 어떻게 생겼나요? 그 카페의 특별한 점은 무엇인가요?"
+    },
+    {
+        "id": 5,
+        "text": "When you go to a cafe, what do you usually do there? Do you read or do you eat something?",
+        "hint": "study alone(혼자 공부하다), meet friends(친구를 만나다), read a book(책을 읽다), use laptop(노트북을 사용하다), relax(쉬다), talk together(함께 이야기하다), listen to music(음악을 듣다), quiet time(조용한 시간), group study(그룹 공부), personal time(개인 시간)",
+        "translation": "카페에 가면 보통 뭘 하세요? 책을 읽으시나요, 아니면 뭔가를 드시나요?"
+    },
+    {
+        "id": 6,
+        "text": "Tell me about the first time you went to a cafe. When was it, and how did you like it?",
+        "hint": "first cafe visit(첫 카페 방문), with friends(친구들과 함께), sweet drink(달콤한 음료), small dessert(작은 디저트), new experience(새로운 경험), felt excited(신났다), nice smell(좋은 향기), comfortable place(편안한 장소), good memory(좋은 기억), started liking cafes(카페를 좋아하게 되었다)",
+        "translation": "카페에 처음 갔던 때에 대해 이야기해 주세요. 언제였고, 어땠나요?"
+    },
+    {
+        "id": 7,
+        "text": "Tell me about the cafes or coffee shops in your country. Please tell me about them in as much detail as you can.",
+        "hint": "iced americano(아이스 아메리카노), latte(라떼), green tea(녹차), smoothie(스무디), cheesecake(치즈케이크), sandwich(샌드위치), sweet dessert(달콤한 디저트), favorite drink(좋아하는 음료), reasonable price(합리적인 가격), tastes good(맛이 좋다)",
+        "translation": "당신 나라의 카페나 커피숍에 대해 알려주세요. 가능한 한 자세히 알려주세요."
+    },
+    {
+        "id": 8,
+        "text": "I work at a cafe. Ask me three or four questions about the cafe and what I do there.",
+        "hint": "favorite cafe(좋아하는 카페), coffee(커피), dessert(디저트), cozy atmosphere(아늑한 분위기), comfortable seats(편한 좌석), friendly staff(친절한 직원), quiet music(조용한 음악), good location(좋은 위치), relaxing place(편안한 장소), nice interior(좋은 인테리어)",
+        "translation": "저는 카페에서 일합니다. 카페와 제가 거기서 하는 일에 대해 서너 가지 질문을 해 주세요."
+    },
+    {
+        "id": 9,
+        "text": "You said you often go to cafes. Can you describe a cafe you like to visit and explain why you like it?",
+        "hint": "favorite cafe(좋아하는 카페), cozy atmosphere(아늑한 분위기), comfortable seats(편한 좌석), good coffee(맛있는 커피), friendly staff(친절한 직원), quiet place(조용한 장소), nice interior(좋은 인테리어), close to home(집에서 가까운), relaxing mood(편안한 분위기), good memory(좋은 기억)",
+        "translation": "당신은 카페에 자주 간다고 했습니다. 방문하기 좋아하는 카페를 묘사하고 왜 좋아하는지 설명해 줄 수 있나요?"
+    },
+    {
+        "id": 10,
+        "text": "Where is the cafe located, and what does it look like inside? What makes the atmosphere special?",
+        "hint": "good location(좋은 위치), near the station(역 근처), large windows(큰 창문), wooden tables(나무 테이블), soft lighting(부드러운 조명), quiet music(조용한 음악), warm mood(따뜻한 분위기), clean interior(깨끗한 내부), plants(식물들), special atmosphere(특별한 분위기)",
+        "translation": "그 카페는 어디에 위치해 있고 내부는 어떤 모습인가요? 무엇이 그 분위기를 특별하게 만드나요?"
+    },
+    {
+        "id": 11,
+        "text": "What do you usually do when you spend time at a cafe? Do you go there to study, relax, or meet people?",
+        "hint": "study alone(혼자 공부하다), relax(쉬다), meet friends(친구를 만나다), read a book(책을 읽다), use laptop(노트북을 사용하다), drink coffee(커피를 마시다), have dessert(디저트를 먹다), quiet time(조용한 시간), talk together(함께 이야기하다), take a break(휴식을 취하다)",
+        "translation": "카페에서 시간을 보낼 때 보통 무엇을 하나요? 공부하거나, 쉬거나, 사람들을 만나러 가나요?"
+    },
+    {
+        "id": 12,
+        "text": "Who do you usually go to cafes with? How is your time different when you go alone?",
+        "hint": "with friends(친구들과 함께), alone(혼자), with family(가족과 함께), study partner(공부 파트너), talk a lot(많이 이야기하다), focus better(더 잘 집중하다), personal time(개인 시간), enjoy silence(조용함을 즐기다), share dessert(디저트를 나누다), different mood(다른 분위기)",
+        "translation": "보통 누구와 카페에 가나요? 혼자 갈 때는 시간이 어떻게 다른가요?"
+    },
+    {
+        "id": 13,
+        "text": "What do you usually order at a cafe? Why do you like that drink or food?",
+        "hint": "iced americano(아이스 아메리카노), latte(라떼), vanilla latte(바닐라 라떼), green tea(녹차), smoothie(스무디), cheesecake(치즈케이크), sandwich(샌드위치), sweet flavor(달콤한 맛), refreshing taste(상쾌한 맛), favorite menu(좋아하는 메뉴)",
+        "translation": "카페에서 보통 무엇을 주문하나요? 왜 그 음료나 음식을 좋아하나요?"
+    },
+    {
+        "id": 14,
+        "text": "How have cafes changed compared to the past? What were they like before, and what are they like now?",
+        "hint": "modern cafe(현대적인 카페), old coffee shop(옛날 커피숍), study cafe(스터디 카페), unique interior(독특한 인테리어), photo spot(사진 명소), special menu(특별한 메뉴), more comfortable(더 편안한), more expensive(더 비싼), social media(소셜 미디어), changed a lot(많이 변했다)",
+        "translation": "카페는 과거와 비교해 어떻게 변했나요? 예전에는 어땠고 지금은 어떤가요?"
+    },
+    {
+        "id": 15,
+        "text": "Why do you think cafes are popular these days? What do people usually do there?",
+        "hint": "popular place(인기 있는 장소), comfortable space(편안한 공간), study area(공부 공간), remote work(원격 근무), meet friends(친구를 만나다), take pictures(사진을 찍다), good coffee(맛있는 커피), dessert menu(디저트 메뉴), relaxing mood(편안한 분위기), social media(소셜 미디어)",
+        "translation": "요즘 카페가 왜 인기 있다고 생각하나요? 사람들은 그곳에서 보통 무엇을 하나요?"
+    },
+    {
+        "id": 16,
+        "text": "Tell me about a memorable experience you had at a cafe. When did it happen, and who were you with?",
+        "hint": "memorable visit(기억에 남는 방문), close friend(친한 친구), birthday cake(생일 케이크), rainy day(비 오는 날), quiet corner(조용한 구석), good conversation(좋은 대화), special drink(특별한 음료), took pictures(사진을 찍었다), felt happy(행복했다), warm memory(따뜻한 기억)",
+        "translation": "카페에서 있었던 기억에 남는 경험에 대해 말해 주세요. 언제 있었고 누구와 함께였나요?"
+    },
+    {
+        "id": 17,
+        "text": "What made that cafe experience special or meaningful to you? Please explain the situation in detail.",
+        "hint": "special memory(특별한 기억), meaningful time(의미 있는 시간), honest conversation(솔직한 대화), kind staff(친절한 직원), relaxing atmosphere(편안한 분위기), important moment(중요한 순간), felt comforted(위로받았다), shared feelings(감정을 나눴다), favorite place(좋아하는 장소), unforgettable(잊을 수 없는)",
+        "translation": "그 카페 경험이 당신에게 특별하거나 의미 있었던 이유는 무엇인가요? 상황을 자세히 설명해 주세요."
+    },
+    {
+        "id": 18,
+        "text": "Have you ever had an unexpected problem at a cafe? What happened, and how did you handle it?",
+        "hint": "wrong order(잘못된 주문), long wait(긴 대기), crowded cafe(붐비는 카페), spilled drink(음료를 쏟았다), noisy table(시끄러운 테이블), asked for help(도움을 요청했다), talked to staff(직원에게 말했다), changed seat(자리를 옮겼다), solved the problem(문제를 해결했다), felt relieved(안도했다)",
+        "translation": "카페에서 예상치 못한 문제가 있었던 적이 있나요? 무슨 일이 있었고 어떻게 처리했나요?"
+    },
+    {
+        "id": 19,
+        "text": "Tell me about the last time you went to a cafe. Where did you go, and what did you do there?",
+        "hint": "last visit(마지막 방문), nearby cafe(근처 카페), with friends(친구들과 함께), ordered coffee(커피를 주문했다), ate dessert(디저트를 먹었다), studied there(그곳에서 공부했다), used laptop(노트북을 사용했다), talked a lot(많이 이야기했다), relaxed(쉬었다), felt satisfied(만족했다)",
+        "translation": "마지막으로 카페에 갔던 때에 대해 말해 주세요. 어디에 갔고 그곳에서 무엇을 했나요?"
+    }
+]

@@ -1,0 +1,122 @@
+﻿[
+    {
+        "id":  1,
+        "text":  "Tell me about a bar or pub you like to visit. What makes it special?",
+        "hint":  "cozy bar(아늑한 바), friendly staff(친절한 직원), good music(좋은 음악), cold beer(시원한 맥주), tasty snacks(맛있는 안주), comfortable seats(편한 좌석), nice atmosphere(좋은 분위기), close to home(집에서 가까운), reasonable price(합리적인 가격), relaxing place(편안한 장소)",
+        "translation":  "좋아하는 바나 펍에 대해 말해 주세요. 그곳이 특별한 이유는 무엇인가요?"
+    },
+    {
+        "id":  2,
+        "text":  "Describe the atmosphere in your favorite drinking establishment.",
+        "hint":  "dim lighting(은은한 조명), wooden tables(나무 테이블), soft music(부드러운 음악), quiet corner(조용한 구석), lively mood(활기찬 분위기), crowded on weekends(주말에 붐비는), clean interior(깨끗한 내부), warm atmosphere(따뜻한 분위기), small bar(작은 바), comfortable place(편안한 장소)",
+        "translation":  "가장 좋아하는 술집의 분위기를 설명해 주세요."
+    },
+    {
+        "id":  3,
+        "text":  "What kind of drinks do you enjoy and why?",
+        "hint":  "draft beer(생맥주), cocktail(칵테일), wine(와인), soju(소주), light drink(가벼운 술), sweet flavor(달콤한 맛), refreshing taste(상쾌한 맛), not too strong(너무 세지 않은), goes well with snacks(안주와 잘 어울리는), favorite drink(좋아하는 술)",
+        "translation":  "어떤 종류의 음료를 즐기시나요? 그리고 그 이유는 무엇인가요?"
+    },
+    {
+        "id":  4,
+        "text":  "Tell me about the bar you most often go to. What does it look like?",
+        "hint":  "bar counter(바 카운터), high chairs(높은 의자), neon sign(네온사인), small tables(작은 테이블), drink menu(음료 메뉴), snack menu(안주 메뉴), music speaker(음악 스피커), dim lights(어두운 조명), cozy interior(아늑한 인테리어), friendly vibe(친근한 분위기)",
+        "translation":  "당신이 가장 자주 가는 바에 대해 이야기해 주세요. 어떻게 생겼나요?"
+    },
+    {
+        "id":  5,
+        "text":  "Who do you go to the bar with? When do you usually go? What else do you do other than drinking?",
+        "hint":  "with friends(친구들과 함께), after work(퇴근 후), weekend night(주말 밤), talk a lot(많이 이야기하다), listen to music(음악을 듣다), eat snacks(안주를 먹다), play games(게임을 하다), celebrate(축하하다), relax(쉬다), spend time together(함께 시간을 보내다)",
+        "translation":  "누구랑 술집에 가세요? 보통 언제 가세요? 술 마시는 것 외에 다른 활동은 무엇을 하세요?"
+    },
+    {
+        "id":  6,
+        "text":  "Have you ever had a memorable experience at a bar? What happened and why is it memorable?",
+        "hint":  "memorable night(기억에 남는 밤), birthday party(생일 파티), surprise event(깜짝 이벤트), old friends(오랜 친구들), funny moment(재미있는 순간), sang together(함께 노래했다), good conversation(좋은 대화), special drink(특별한 음료), felt happy(행복했다), unforgettable(잊을 수 없는)",
+        "translation":  "술집에서 기억에 남는 경험을 해본 적이 있나요? 무슨 일이었고, 왜 기억에 남나요?"
+    },
+    {
+        "id":  7,
+        "text":  "You said you like going to bars. Where is your favorite bar? Where is it located?",
+        "hint":  "favorite bar(좋아하는 바), near my home(집 근처), downtown(시내), close to subway(지하철과 가까운), easy to find(찾기 쉬운), popular place(인기 있는 장소), quiet street(조용한 거리), good location(좋은 위치), local pub(동네 펍), cozy place(아늑한 장소)",
+        "translation":  "당신은 술집에 가는 것을 좋아한다고 했습니다. 가장 좋아하는 술집은 어디인가요? 어디에 위치해 있나요?"
+    },
+    {
+        "id":  8,
+        "text":  "Please describe the bar. Is it big or small? What does it look like?",
+        "hint":  "small bar(작은 바), spacious bar(넓은 바), bar counter(바 카운터), wooden tables(나무 테이블), comfortable seats(편한 좌석), dim lighting(은은한 조명), neon sign(네온사인), clean interior(깨끗한 내부), modern style(현대적인 스타일), cozy atmosphere(아늑한 분위기)",
+        "translation":  "그 술집을 묘사해 주세요. 큰가요, 작은가요? 어떤 모습인가요?"
+    },
+    {
+        "id":  9,
+        "text":  "What is the atmosphere like at the bar? Is it quiet or loud?",
+        "hint":  "quiet atmosphere(조용한 분위기), loud music(큰 음악 소리), lively mood(활기찬 분위기), relaxing vibe(편안한 느낌), crowded place(붐비는 장소), soft music(부드러운 음악), friendly vibe(친근한 분위기), warm lighting(따뜻한 조명), fun mood(재미있는 분위기), comfortable(편안한)",
+        "translation":  "그 술집의 분위기는 어떤가요? 조용한가요, 아니면 시끄러운가요?"
+    },
+    {
+        "id":  10,
+        "text":  "Who do you usually go to a bar with? Do you go with friends?",
+        "hint":  "with friends(친구들과 함께), coworkers(직장 동료들), close friend(친한 친구), group gathering(모임), after work(퇴근 후), weekend night(주말 밤), celebrate together(함께 축하하다), talk together(함께 이야기하다), good company(좋은 동행), spend time(시간을 보내다)",
+        "translation":  "보통 누구와 술집에 가나요? 친구들과 함께 가나요?"
+    },
+    {
+        "id":  11,
+        "text":  "What do you usually do at a bar? Do you talk, listen to music, or relax?",
+        "hint":  "talk with friends(친구들과 이야기하다), listen to music(음악을 듣다), relax(쉬다), enjoy drinks(술을 즐기다), eat snacks(안주를 먹다), play simple games(간단한 게임을 하다), take pictures(사진을 찍다), share stories(이야기를 나누다), laugh a lot(많이 웃다), enjoy the mood(분위기를 즐기다)",
+        "translation":  "술집에서 보통 무엇을 하나요? 이야기하거나, 음악을 듣거나, 쉬나요?"
+    },
+    {
+        "id":  12,
+        "text":  "What do you usually eat or drink at a bar? What do you like the most?",
+        "hint":  "cold beer(시원한 맥주), cocktail(칵테일), wine(와인), soju(소주), fried chicken(치킨), french fries(감자튀김), nachos(나초), spicy food(매운 음식), favorite snack(좋아하는 안주), refreshing drink(상쾌한 음료)",
+        "translation":  "술집에서 보통 무엇을 먹거나 마시나요? 무엇을 가장 좋아하나요?"
+    },
+    {
+        "id":  13,
+        "text":  "How often do you go to a bar? Do you go often or not very often?",
+        "hint":  "once a month(한 달에 한 번), sometimes(가끔), not very often(자주 가지 않는), on weekends(주말에), after work(퇴근 후), special occasion(특별한 날), meet friends(친구를 만나다), social life(사회생활), relax after work(퇴근 후 쉬다), depends on schedule(일정에 따라 다르다)",
+        "translation":  "얼마나 자주 술집에 가나요? 자주 가나요, 아니면 별로 자주 가지 않나요?"
+    },
+    {
+        "id":  14,
+        "text":  "Tell me about your usual time at a bar. What do you do first? What do you do before you leave?",
+        "hint":  "find a table(자리를 찾다), order drinks(술을 주문하다), choose snacks(안주를 고르다), talk with friends(친구들과 이야기하다), listen to music(음악을 듣다), pay the bill(계산하다), take a taxi(택시를 타다), say goodbye(작별 인사하다), go home safely(안전하게 집에 가다), good night(좋은 밤)",
+        "translation":  "술집에서 보내는 평소 시간에 대해 말해 주세요. 먼저 무엇을 하나요? 떠나기 전에는 무엇을 하나요?"
+    },
+    {
+        "id":  15,
+        "text":  "Do you think bars have changed? What were they like before?",
+        "hint":  "changed a lot(많이 변했다), old-style bar(옛날식 술집), simple menu(단순한 메뉴), smoky room(담배 연기 나는 공간), cheap drinks(저렴한 술), loud place(시끄러운 장소), fewer options(적은 선택지), casual mood(편한 분위기), local pub(동네 술집), old memory(오래된 기억)",
+        "translation":  "술집이 변했다고 생각하나요? 예전에는 어땠나요?"
+    },
+    {
+        "id":  16,
+        "text":  "What are bars like now? What is different?",
+        "hint":  "modern interior(현대적인 인테리어), craft beer(수제 맥주), fancy cocktails(멋진 칵테일), non-smoking area(금연 구역), better service(더 좋은 서비스), stylish mood(세련된 분위기), online reviews(온라인 후기), reservation app(예약 앱), more expensive(더 비싼), many choices(많은 선택지)",
+        "translation":  "요즘 술집은 어떤가요? 무엇이 다른가요?"
+    },
+    {
+        "id":  17,
+        "text":  "Tell me about a memorable experience at a bar. What happened?",
+        "hint":  "memorable night(기억에 남는 밤), birthday celebration(생일 축하), surprise party(깜짝 파티), old friends(오랜 친구들), funny accident(재미있는 사건), special drink(특별한 술), live music(라이브 음악), great conversation(멋진 대화), took pictures(사진을 찍었다), unforgettable moment(잊을 수 없는 순간)",
+        "translation":  "술집에서 있었던 기억에 남는 경험에 대해 말해 주세요. 무슨 일이 있었나요?"
+    },
+    {
+        "id":  18,
+        "text":  "Why do you remember that bar experience? How did you feel?",
+        "hint":  "felt happy(행복했다), felt excited(신났다), felt touched(감동받았다), special memory(특별한 기억), good friends(좋은 친구들), meaningful time(의미 있는 시간), laughed a lot(많이 웃었다), warm feeling(따뜻한 느낌), relaxed(편안했다), still remember(아직도 기억한다)",
+        "translation":  "왜 그 술집 경험을 기억하나요? 기분이 어땠나요?"
+    },
+    {
+        "id":  19,
+        "text":  "Tell me about the first time you went to a bar. Where did you go? Who did you go with?",
+        "hint":  "first time(처음), college friends(대학 친구들), downtown bar(시내 바), small pub(작은 펍), nervous(긴장한), excited(신난), new experience(새로운 경험), went together(함께 갔다), ordered drinks(술을 주문했다), memorable start(기억에 남는 시작)",
+        "translation":  "처음 술집에 갔던 때에 대해 말해 주세요. 어디에 갔나요? 누구와 함께 갔나요?"
+    },
+    {
+        "id":  20,
+        "text":  "What did you eat or drink at that time? How was it?",
+        "hint":  "first drink(첫 술), cold beer(시원한 맥주), sweet cocktail(달콤한 칵테일), fried snacks(튀긴 안주), spicy chicken(매운 치킨), tasted good(맛이 좋았다), too strong(너무 셌다), interesting flavor(흥미로운 맛), enjoyed it(즐겼다), good memory(좋은 기억)",
+        "translation":  "그때 무엇을 먹거나 마셨나요? 어땠나요?"
+    }
+]

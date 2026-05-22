@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "text": "Tell me about a performance or show you recently attended. What was it about?",
+        "hint": "memorable(기억에 남는), main actor(주연 배우), live music(라이브 음악), amazing stage(멋진 무대), touching story(감동적인 이야기), exciting scene(신나는 장면), audience reaction(관객 반응), standing ovation(기립 박수), felt moved(감동받았다), special memory(특별한 기억)",
+        "translation": "최근에 관람한 공연이나 쇼에 대해 말해 주세요. 어떤 내용이었나요?"
+    },
+    {
+        "id": 2,
+        "text": "Describe the atmosphere and how the audience reacted during the performance.",
+        "hint": "musical(뮤지컬), concert(콘서트), play(연극), live performance(라이브 공연), stage(무대), actor(배우), singer(가수), audience(관객), exciting(신나는), touching(감동적인)",
+        "translation": "공연 중의 분위기와 관객들의 반응을 설명해 주세요."
+    },
+    {
+        "id": 3,
+        "text": "What kind of performances do you enjoy the most and why?",
+        "hint": "musical(뮤지컬), concert(콘서트), play(연극), live performance(라이브 공연), stage(무대), actor(배우), singer(가수), audience(관객), exciting(신나는), touching(감동적인)",
+        "translation": "어떤 종류의 공연을 가장 즐기시나요? 그리고 그 이유는 무엇인가요?"
+    },
+    {
+        "id": 4,
+        "text": "What kind of plays or performances do you like to see? Why do you like to see those types of plays or performances?",
+        "hint": "musical(뮤지컬), concert(콘서트), play(연극), live performance(라이브 공연), stage(무대), actor(배우), singer(가수), audience(관객), exciting(신나는), touching(감동적인)",
+        "translation": "어떤 종류의 연극이나 공연을 보는 것을 좋아하세요? 그런 종류의 연극이나 공연을 보는 것을 좋아하는 이유는 무엇인가요?"
+    },
+    {
+        "id": 5,
+        "text": "When did you start seeing plays or performances? How did you first become interested in going to see plays or performances?",
+        "hint": "memorable(기억에 남는), main actor(주연 배우), live music(라이브 음악), amazing stage(멋진 무대), touching story(감동적인 이야기), exciting scene(신나는 장면), audience reaction(관객 반응), standing ovation(기립 박수), felt moved(감동받았다), special memory(특별한 기억)",
+        "translation": "언제부터 연극이나 공연을 보기 시작하셨나요? 연극이나 공연을 보러 가는 것에 처음 관심을 갖게 된 계기는 무엇이었나요?"
+    },
+    {
+        "id": 6,
+        "text": "Tell me about a memorable performance or a play you've watched. What was it about? Why is it so memorable?",
+        "hint": "memorable(기억에 남는), main actor(주연 배우), live music(라이브 음악), amazing stage(멋진 무대), touching story(감동적인 이야기), exciting scene(신나는 장면), audience reaction(관객 반응), standing ovation(기립 박수), felt moved(감동받았다), special memory(특별한 기억)",
+        "translation": "기억에 남는 공연이나 연극에 대해 이야기해 주세요. 어떤 내용이었나요? 왜 그렇게 기억에 남나요?"
+    },
+    {
+        "id": 7,
+        "text": "You said you like watching performances. What kind of performances do you like? Why do you like them?",
+        "hint": "musical(뮤지컬), concert(콘서트), play(연극), live performance(라이브 공연), stage(무대), actor(배우), singer(가수), audience(관객), exciting(신나는), touching(감동적인)",
+        "translation": "당신은 공연 보는 것을 좋아한다고 했습니다. 어떤 종류의 공연을 좋아하나요? 왜 그것들을 좋아하나요?"
+    },
+    {
+        "id": 8,
+        "text": "Do you have a favorite actor, singer, or performer? Who is that person? Why do you like him or her?",
+        "hint": "actor(배우), singer(가수), performer(공연자), voice(목소리), acting skill(연기력), stage presence(무대 장악력), talented(재능 있는), famous(유명한), charming(매력적인), role(역할)",
+        "translation": "좋아하는 배우, 가수, 또는 공연자가 있나요? 그 사람은 누구인가요? 왜 그 사람을 좋아하나요?"
+    },
+    {
+        "id": 9,
+        "text": "Tell me about a performance you remember. What performance was it? Where did you see it?",
+        "hint": "theater(극장), concert hall(콘서트홀), seat(좌석), stage(무대), lighting(조명), sound system(음향 시설), lobby(로비), ticket booth(매표소), crowded(붐비는), comfortable(편안한)",
+        "translation": "기억나는 공연에 대해 말해 주세요. 어떤 공연이었나요? 어디에서 봤나요?"
+    },
+    {
+        "id": 10,
+        "text": "What was the performance like? Was it exciting, funny, or touching? Tell me about it.",
+        "hint": "musical(뮤지컬), concert(콘서트), play(연극), live performance(라이브 공연), stage(무대), actor(배우), singer(가수), audience(관객), exciting(신나는), touching(감동적인)",
+        "translation": "그 공연은 어땠나요? 신났나요, 재미있었나요, 아니면 감동적이었나요? 그것에 대해 말해 주세요."
+    },
+    {
+        "id": 11,
+        "text": "Where do you usually watch performances? Is it a theater, concert hall, or another place? Please describe the place.",
+        "hint": "theater(극장), concert hall(콘서트홀), seat(좌석), stage(무대), lighting(조명), sound system(음향 시설), lobby(로비), ticket booth(매표소), crowded(붐비는), comfortable(편안한)",
+        "translation": "보통 어디에서 공연을 보나요? 극장, 콘서트홀, 아니면 다른 장소인가요? 그 장소를 묘사해 주세요."
+    },
+    {
+        "id": 12,
+        "text": "How often do you go to see performances? Who do you usually go with? Tell me about it.",
+        "hint": "buy tickets(표를 사다), meet friends(친구를 만나다), have dinner(저녁을 먹다), take pictures(사진을 찍다), find seats(자리를 찾다), watch quietly(조용히 보다), clap(박수치다), talk about the show(공연에 대해 이야기하다), go home(집에 가다), weekend(주말)",
+        "translation": "얼마나 자주 공연을 보러 가나요? 보통 누구와 함께 가나요? 그것에 대해 말해 주세요."
+    },
+    {
+        "id": 13,
+        "text": "What do you usually do before watching a performance? Do you eat something, take pictures, or meet friends?",
+        "hint": "buy tickets(표를 사다), meet friends(친구를 만나다), have dinner(저녁을 먹다), take pictures(사진을 찍다), find seats(자리를 찾다), watch quietly(조용히 보다), clap(박수치다), talk about the show(공연에 대해 이야기하다), go home(집에 가다), weekend(주말)",
+        "translation": "공연을 보기 전에 보통 무엇을 하나요? 무엇을 먹거나, 사진을 찍거나, 친구들을 만나나요?"
+    },
+    {
+        "id": 14,
+        "text": "What do you usually do after the performance ends? Do you go home right away, or do you talk about the show?",
+        "hint": "buy tickets(표를 사다), meet friends(친구를 만나다), have dinner(저녁을 먹다), take pictures(사진을 찍다), find seats(자리를 찾다), watch quietly(조용히 보다), clap(박수치다), talk about the show(공연에 대해 이야기하다), go home(집에 가다), weekend(주말)",
+        "translation": "공연이 끝난 후에는 보통 무엇을 하나요? 바로 집에 가나요, 아니면 공연에 대해 이야기하나요?"
+    },
+    {
+        "id": 15,
+        "text": "Has your taste in performances changed? What did you like before? What do you like now?",
+        "hint": "buy tickets(표를 사다), meet friends(친구를 만나다), have dinner(저녁을 먹다), take pictures(사진을 찍다), find seats(자리를 찾다), watch quietly(조용히 보다), clap(박수치다), talk about the show(공연에 대해 이야기하다), go home(집에 가다), weekend(주말)",
+        "translation": "공연에 대한 취향이 변했나요? 예전에는 무엇을 좋아했나요? 지금은 무엇을 좋아하나요?"
+    },
+    {
+        "id": 16,
+        "text": "Tell me about the first performance you saw. When did you see it? How did you feel at that time?",
+        "hint": "memorable(기억에 남는), main actor(주연 배우), live music(라이브 음악), amazing stage(멋진 무대), touching story(감동적인 이야기), exciting scene(신나는 장면), audience reaction(관객 반응), standing ovation(기립 박수), felt moved(감동받았다), special memory(특별한 기억)",
+        "translation": "처음 본 공연에 대해 말해 주세요. 언제 봤나요? 그때 기분이 어땠나요?"
+    },
+    {
+        "id": 17,
+        "text": "Tell me about the most memorable performance you have watched. Why do you remember it so well?",
+        "hint": "memorable(기억에 남는), main actor(주연 배우), live music(라이브 음악), amazing stage(멋진 무대), touching story(감동적인 이야기), exciting scene(신나는 장면), audience reaction(관객 반응), standing ovation(기립 박수), felt moved(감동받았다), special memory(특별한 기억)",
+        "translation": "당신이 본 가장 기억에 남는 공연에 대해 말해 주세요. 왜 그 공연을 그렇게 잘 기억하나요?"
+    },
+    {
+        "id": 18,
+        "text": "Would you like to watch more performances in the future? What kind of performance do you want to see next?",
+        "hint": "musical(뮤지컬), concert(콘서트), play(연극), comedy show(코미디 쇼), preference(선호), taste(취향), used to like(예전에 좋아했다), nowadays(요즘), want to watch(보고 싶다), new style(새로운 스타일)",
+        "translation": "앞으로 공연을 더 보고 싶나요? 다음에는 어떤 종류의 공연을 보고 싶나요?"
+    }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "text": "Tell me about an overseas trip you took. Where did you go?",
+    "hint": "overseas trip, destination, experience",
+    "translation": "다녀온 해외 여행에 대해 말해 주세요. 어디에 갔나요?"
+  },
+  {
+    "id": 2,
+    "text": "What was the most interesting thing you experienced abroad?",
+    "hint": "interesting, abroad, experience",
+    "translation": "해외에서 가장 흥미로웠던 것은 무엇인가요?"
+  },
+  {
+    "id": 3,
+    "text": "How do you prepare for international travel?",
+    "hint": "preparation, international travel",
+    "translation": "국제 여행을 위해 어떻게 준비하나요?"
+  },
+  {
+    "id": 4,
+    "text": "You indicated in the survey that you like to take vacations internationally. Tell me about a city or a country you have visited. Where was it? What did the place look like? What kind of impression did you get at the location?",
+    "hint": "take vacations internationally(해외로 휴가를 가다), city(도시), country(나라), visited(방문한), location(장소), look like(~처럼 보이다), impression(인상), foreign culture(외국 문화), scenery(풍경), describe(묘사하다)",
+    "translation": "당신은 설문조사에서 해외로 휴가를 가는 것을 좋아한다고 응답했습니다. 당신이 방문한 도시나 나라에 대해 말해보세요. 그곳은 어디였나요? 그곳은 어떻게 생겼나요? 당신은 그 장소에서 어떤 인상을 받았나요?"
+  },
+  {
+    "id": 5,
+    "text": "Where do people in your country like to visit when they travel abroad? Why do they like visiting those locations? What are the special reasons they like to go to those areas? Tell me about it in detail.",
+    "hint": "travel abroad(해외여행을 하다), people in my country(우리나라 사람들), popular destinations(인기 있는 여행지), locations(장소들), special reasons(특별한 이유), sightseeing(관광), shopping(쇼핑), food culture(음식 문화), attractive(매력적인), in detail(자세히)",
+    "translation": "당신의 나라 사람들은 해외여행을 갈 때 어디를 방문하기를 좋아하나요? 왜 그들은 그 장소들을 방문하는 것을 좋아하나요? 그들이 그 지역에 가는 것을 좋아하는 특별한 이유는 무엇인가요? 그것에 대해 자세히 말해 주세요."
+  },
+  {
+    "id": 6,
+    "text": "What do you typically prepare before you travel internationally? What do you do before the trip? What things do you usually bring in your luggage? Please tell me what you do before going on a trip in detail.",
+    "hint": "travel internationally(해외 여행을 하다), prepare before a trip(여행 전에 준비하다), luggage(짐), passport(여권), flight ticket(항공권), book accommodation(숙소를 예약하다), exchange money(환전하다), pack clothes(옷을 챙기다), travel documents(여행 서류), in detail(자세히)",
+    "translation": "당신은 해외 여행을 하기 전에 보통 무엇을 준비하나요? 당신은 여행 전에 무엇을 하나요? 당신은 보통 당신의 짐에 어떤 것들을 가지고 가나요? 여행 가기 전에 무엇을 하는지 자세히 말해 주세요."
+  },
+  {
+    "id": 7,
+    "text": "What do you typically do when you take an overseas trip? What kinds of activities do you like to do while traveling around? When and where do you go traveling? Talk about all the details.",
+    "hint": "overseas trip(해외여행), typically do(주로 하다), activities(활동), traveling around(여행하면서), sightseeing(관광), try local food(현지 음식을 먹어보다), visit landmarks(명소를 방문하다), take photos(사진을 찍다), travel season(여행 시기), all the details(모든 세부사항)",
+    "translation": "당신은 해외여행을 갈 때 주로 무엇을 하나요? 당신은 여행하면서 어떤 종류의 활동을 하는 것을 좋아하나요? 언제 어디로 여행을 가나요? 모든 세부 사항에 대해 이야기 해주세요."
+  },
+  {
+    "id": 8,
+    "text": "How have the ways people take overseas travel vacations changed over the years? How are overseas vacations people used to take in the past, and what about now? What are the differences and the similarities? Provide as many details as possible.",
+    "hint": "vacation styles(휴가 방식), changed over the years(몇 년 동안 변했다), in the past(과거에는), now(지금은), differences(차이점), similarities(유사점), online booking(온라인 예약), independent travel(자유 여행), package tour(패키지 여행), as many details as possible(가능한 많은 세부사항)",
+    "translation": "사람들이 해외여행 휴가를 보내는 방식은 몇 년 동안 어떻게 변해 왔나요? 과거에는 사람들이 해외 휴가를 어떻게 보냈고, 지금은 어떤가요? 차이점과 유사점은 무엇인가요? 가능한 한 많은 세부 정보를 알려주세요."
+  },
+  {
+    "id": 9,
+    "text": "Tell me about a memorable or unforgettable experience you had when you took a trip abroad. Maybe something happened that was funny, unexpected, challenging, or embarrassing. What happened, and how did you deal with it? What made this experience so memorable? Use as many details as possible to explain the whole story.",
+    "hint": "memorable experience(기억에 남는 경험), unforgettable(잊을 수 없는), trip abroad(해외여행), funny(웃긴), unexpected(예상치 못한), challenging(도전적인), embarrassing(당황스러운), deal with(대처하다), whole story(전체 이야기), as many details as possible(가능한 많은 세부사항)",
+    "translation": "해외여행을 갔을 때 겪은 기억에 남거나 잊을 수 없는 경험에 대해 말해주세요. 어쩌면 웃기거나, 예상하지 못하거나, 도전적이거나, 당황스러운 일이 일어났을지도 모릅니다. 무슨 일이 일어났고, 어떻게 대처했나요? 무엇이 이 경험을 그렇게 기억에 남게 했나요? 가능한 한 많은 세부 사항을 사용하여 전체 이야기를 설명해주세요."
+  },
+  {
+    "id": 10,
+    "text": "Sometimes, unexpected things can occur during traveling. Have you experienced anything unusual or unexpected on a trip? What happened? How did you deal with it? Describe your experience in detail.",
+    "hint": "unexpected things(예상치 못한 일), during traveling(여행 중에), unusual(특이한), unexpected(예상치 못한), what happened(무슨 일이 있었는지), deal with(대처하다), lost luggage(짐 분실), missed flight(비행기 놓침), solve the problem(문제를 해결하다), in detail(자세히)",
+    "translation": "때때로, 여행 중에 예상치 못한 일이 일어날 수 있습니다. 여행 중에 특이하거나 예상치 못한 일을 겪은 적이 있나요? 무슨 일인가요? 어떻게 대처하셨나요? 당신의 경험을 자세히 묘사해 주세요."
+  },
+  {
+    "id": 11,
+    "text": "Tell me about an overseas trip you took when you were young. Where did you visit? What was that country like? What did you do, and what did you see there? Tell me what happened from beginning to end.",
+    "hint": "overseas trip(해외여행), when I was young(어렸을 때), visit(방문하다), country(나라), what it was like(어땠는지), what I did(했던 것), what I saw(본 것), from beginning to end(처음부터 끝까지), childhood memory(어린 시절 기억), travel story(여행 이야기)",
+    "translation": "어렸을 때 갔던 해외여행에 대해 말해주세요. 당신은 어디를 방문했나요? 그 나라는 어땠나요? 당신은 무엇을 했고, 거기서 무엇을 보았나요? 무슨 일이 있었는지 처음부터 끝까지 말해 주세요."
+  },
+  {
+    "id": 12,
+    "text": "You mentioned that you enjoy traveling abroad. Can you describe a country or city you have visited? Where was it, what was it like, and what impression did you have of that place?",
+    "hint": "traveling abroad(해외여행), country or city(나라나 도시), visited(방문한), where it was(어디였는지), what it was like(어땠는지), impression(인상), local culture(현지 문화), scenery(풍경), atmosphere(분위기), describe(묘사하다)",
+    "translation": "당신은 해외여행을 즐긴다고 말했습니다. 방문한 나라나 도시를 묘사해 줄 수 있나요? 그곳은 어디였고 어떤 곳이었으며, 그 장소에 대해 어떤 인상을 받았나요?"
+  },
+  {
+    "id": 13,
+    "text": "Where do people in your country usually go when they travel overseas? Why are those destinations popular? Please explain what makes those places attractive to travelers.",
+    "hint": "travel overseas(해외여행을 하다), usually go(보통 가다), destinations(목적지), popular(인기 있는), attractive to travelers(여행자에게 매력적인), famous landmarks(유명한 명소), shopping areas(쇼핑 지역), food(음식), culture(문화), explain(설명하다)",
+    "translation": "당신의 나라 사람들은 해외여행을 할 때 보통 어디로 가나요? 왜 그런 여행지들이 인기가 있나요? 무엇이 그 장소들을 여행자들에게 매력적으로 만드는지 설명해주세요."
+  },
+  {
+    "id": 14,
+    "text": "Before you go on an international trip, what do you usually prepare? What do you do before leaving, and what items do you usually pack? Please describe your preparation process in detail.",
+    "hint": "international trip(국제 여행), prepare(준비하다), before leaving(떠나기 전에), pack items(물건을 챙기다), passport(여권), visa(비자), itinerary(일정표), travel insurance(여행 보험), preparation process(준비 과정), in detail(자세히)",
+    "translation": "국제 여행을 가기 전에 보통 무엇을 준비하나요? 떠나기 전에 무엇을 하고, 어떤 물건들을 보통 챙기나요? 준비 과정을 자세히 묘사해주세요."
+  },
+  {
+    "id": 15,
+    "text": "When you travel abroad, what do you usually do during the trip? What activities do you enjoy, and when or where do you usually travel? Please give me many details.",
+    "hint": "travel abroad(해외여행을 하다), during the trip(여행 중에), activities(활동), enjoy(즐기다), when or where(언제 또는 어디서), sightseeing(관광), local food(현지 음식), museum(박물관), shopping(쇼핑), many details(많은 세부사항)",
+    "translation": "해외여행을 할 때 여행 중에 보통 무엇을 하나요? 어떤 활동을 즐기고, 보통 언제 어디로 여행하나요? 많은 세부사항을 알려주세요."
+  },
+  {
+    "id": 16,
+    "text": "How have people’s overseas travel vacation styles changed over the years? How did people usually spend their overseas vacations in the past, and how do they spend them now? Please compare the differences and similarities in detail.",
+    "hint": "vacation styles(휴가 방식), changed over the years(수년간 변했다), spend vacations(휴가를 보내다), in the past(과거에는), now(지금은), compare(비교하다), differences(차이점), similarities(유사점), travel apps(여행 앱), in detail(자세히)",
+    "translation": "사람들의 해외여행 휴가 방식은 몇 년 동안 어떻게 변했나요? 과거에는 사람들이 보통 해외 휴가를 어떻게 보냈고, 지금은 어떻게 보내나요? 차이점과 유사점을 자세히 비교해주세요."
+  },
+  {
+    "id": 17,
+    "text": "Tell me about an unforgettable experience you had while traveling abroad. Did anything funny, surprising, difficult, or embarrassing happen? What happened, how did you handle it, and why was it so memorable?",
+    "hint": "unforgettable experience(잊을 수 없는 경험), traveling abroad(해외여행 중), funny(웃긴), surprising(놀라운), difficult(어려운), embarrassing(당황스러운), what happened(무슨 일이 있었는지), handle it(처리하다), memorable(기억에 남는), travel memory(여행 추억)",
+    "translation": "해외여행 중에 겪은 잊을 수 없는 경험에 대해 말해주세요. 웃기거나, 놀랍거나, 어렵거나, 당황스러운 일이 있었나요? 무슨 일이 있었고, 어떻게 처리했으며, 왜 그렇게 기억에 남나요?"
+  },
+  {
+    "id": 18,
+    "text": "Have you ever had something unexpected happen during a trip abroad? What was unusual about the situation? How did you deal with it? Please describe the experience in detail.",
+    "hint": "unexpected happen(예상치 못한 일이 일어나다), trip abroad(해외여행), unusual situation(특이한 상황), deal with(대처하다), describe the experience(경험을 묘사하다), travel problem(여행 문제), language barrier(언어 장벽), ask for help(도움을 요청하다), solve(해결하다), in detail(자세히)",
+    "translation": "해외여행 중 예상치 못한 일이 일어난 적이 있나요? 그 상황에서 무엇이 특이했나요? 어떻게 대처했나요? 그 경험을 자세히 묘사해주세요."
+  },
+  {
+    "id": 19,
+    "text": "Tell me about an overseas trip you took when you were younger. Where did you go, and what was the country like? What did you do and see there? Please tell the story from beginning to end.",
+    "hint": "overseas trip(해외여행), when I was younger(어렸을 때), where I went(간 곳), country(나라), what it was like(어땠는지), what I did(했던 것), what I saw(본 것), story(이야기), from beginning to end(처음부터 끝까지), childhood travel(어린 시절 여행)",
+    "translation": "어렸을 때 갔던 해외여행에 대해 말해주세요. 어디에 갔고 그 나라는 어땠나요? 그곳에서 무엇을 하고 무엇을 보았나요? 처음부터 끝까지 이야기를 말해주세요."
+  },
+  {
+    "id": 20,
+    "text": "You said you enjoy traveling abroad. Can you describe a country or city you have visited? Where was it located, what did the place look like, and what kind of impression did it leave on you?",
+    "hint": "traveling abroad(해외여행), country or city(나라나 도시), visited(방문한), located(위치한), look like(~처럼 보이다), impression(인상), local atmosphere(현지 분위기), landmarks(명소들), culture(문화), memorable place(기억에 남는 장소)",
+    "translation": "당신은 해외여행을 즐긴다고 했습니다. 방문한 나라나 도시를 묘사해 줄 수 있나요? 어디에 위치해 있었고, 그 장소는 어떻게 생겼으며, 어떤 인상을 남겼나요?"
+  },
+  {
+    "id": 21,
+    "text": "Where do people in your country usually travel when they go abroad these days? Please explain why those destinations are popular and what people usually enjoy doing there.",
+    "hint": "go abroad(해외에 가다), these days(요즘), destinations(여행지), popular(인기 있는), enjoy doing(즐겨 하다), sightseeing(관광), shopping(쇼핑), local food(현지 음식), cultural activities(문화 활동), travel trend(여행 트렌드)",
+    "translation": "요즘 당신의 나라 사람들은 해외에 갈 때 보통 어디로 여행하나요? 왜 그런 여행지들이 인기가 있는지, 그리고 사람들이 그곳에서 보통 무엇을 즐겨 하는지 설명해주세요."
+  },
+  {
+    "id": 22,
+    "text": "Before traveling internationally, how do you usually prepare? Please describe how you check your passport, book transportation and accommodation, exchange money, pack your luggage, and plan your schedule.",
+    "hint": "traveling internationally(국제 여행), prepare(준비하다), check passport(여권을 확인하다), book transportation(교통편을 예약하다), book accommodation(숙소를 예약하다), exchange money(환전하다), pack luggage(짐을 싸다), plan schedule(일정을 계획하다), travel documents(여행 서류), checklist(체크리스트)",
+    "translation": "해외여행을 하기 전에 보통 어떻게 준비하나요? 여권을 확인하고, 교통편과 숙소를 예약하고, 환전하고, 짐을 싸고, 일정을 계획하는 방법을 묘사해주세요."
+  },
+  {
+    "id": 23,
+    "text": "When you travel abroad, what do you usually do during the trip? Please explain the places you visit, the food you try, the activities you enjoy, and how you usually move around.",
+    "hint": "travel abroad(해외여행을 하다), during the trip(여행 중에), places I visit(방문하는 장소), food I try(먹어보는 음식), activities I enjoy(즐기는 활동), move around(이동하다), public transportation(대중교통), landmarks(명소들), local restaurants(현지 식당), walking tour(도보 여행)",
+    "translation": "해외여행을 할 때 여행 중 보통 무엇을 하나요? 방문하는 장소, 먹어보는 음식, 즐기는 활동, 그리고 보통 어떻게 이동하는지 설명해주세요."
+  },
+  {
+    "id": 24,
+    "text": "How have people’s overseas travel styles changed over the years? Please compare how people traveled abroad in the past with how they travel now, including planning, technology, transportation, and travel activities.",
+    "hint": "overseas travel styles(해외여행 방식), changed over the years(수년 동안 변했다), traveled abroad in the past(과거에 해외여행을 했다), travel now(지금 여행하다), planning(계획), technology(기술), transportation(교통), travel activities(여행 활동), compare(비교하다), travel apps(여행 앱)",
+    "translation": "수년 동안 사람들의 해외여행 방식은 어떻게 변했나요? 계획, 기술, 교통, 여행 활동을 포함해 과거에 사람들이 해외여행하던 방식과 지금 여행하는 방식을 비교해주세요."
+  },
+  {
+    "id": 25,
+    "text": "Tell me about an unforgettable experience you had while traveling abroad. What happened, where were you, who were you with, and why did that moment stay in your memory?",
+    "hint": "unforgettable experience(잊을 수 없는 경험), traveling abroad(해외여행 중), what happened(무슨 일이 있었는지), where were you(어디에 있었는지), who were you with(누구와 함께 있었는지), stay in my memory(기억에 남다), special moment(특별한 순간), unexpected event(예상치 못한 일), cultural experience(문화적 경험), vivid memory(생생한 기억)",
+    "translation": "해외여행 중 겪은 잊을 수 없는 경험에 대해 말해주세요. 무슨 일이 있었고, 어디에 있었으며, 누구와 함께 있었고, 왜 그 순간이 기억에 남았나요?"
+  },
+  {
+    "id": 26,
+    "text": "Have you ever experienced something unexpected or difficult during an overseas trip, such as getting lost, having a language problem, missing transportation, or changing your plans? What happened, and how did you deal with it?",
+    "hint": "unexpected or difficult(예상치 못하거나 어려운), overseas trip(해외여행), getting lost(길을 잃다), language problem(언어 문제), missing transportation(교통편을 놓치다), changing plans(계획을 바꾸다), what happened(무슨 일이 있었는지), deal with it(대처하다), ask for help(도움을 요청하다), solve the problem(문제를 해결하다)",
+    "translation": "길을 잃거나, 언어 문제가 생기거나, 교통편을 놓치거나, 계획을 바꾸는 것처럼 해외여행 중 예상치 못하거나 어려운 일을 겪은 적이 있나요? 무슨 일이 있었고, 어떻게 대처했나요?"
+  },
+  {
+    "id": 27,
+    "text": "Tell me about an overseas trip you took when you were younger. Where did you go, who did you travel with, what did you see there, and how was that trip different from the trips you take now?",
+    "hint": "overseas trip(해외여행), when I was younger(어렸을 때), where did you go(어디에 갔나요), travel with(함께 여행하다), what did you see(무엇을 보았나요), different from now(지금과 다른), childhood travel(어린 시절 여행), family trip(가족 여행), memories(추억), compare(비교하다)",
+    "translation": "어렸을 때 갔던 해외여행에 대해 말해주세요. 어디에 갔고, 누구와 함께 여행했으며, 그곳에서 무엇을 보았고, 그 여행은 지금 하는 여행들과 어떻게 달랐나요?"
+  },
+  {
+    "id": 28,
+    "text": "You mentioned that you enjoy traveling internationally. Describe a country or a specific city that left a lasting impact on you. Beyond its geographical location, tell me about its architectural style, the local atmosphere, and the cultural shock or unique impression you experienced while staying there.",
+    "hint": "traveling internationally(국제 여행), specific city(특정 도시), lasting impact(오래 남는 영향), geographical location(지리적 위치), architectural style(건축 양식), local atmosphere(현지 분위기), cultural shock(문화 충격), unique impression(독특한 인상), while staying there(그곳에 머무는 동안), memorable destination(기억에 남는 여행지)",
+    "translation": "당신은 해외여행을 즐긴다고 말했습니다. 당신에게 오래 남는 영향을 준 나라나 특정 도시를 묘사해주세요. 지리적 위치 외에도 건축 양식, 현지 분위기, 그리고 그곳에 머무는 동안 경험한 문화 충격이나 독특한 인상에 대해 말해주세요."
+  },
+  {
+    "id": 29,
+    "text": "Where are people in your country heading for their international vacations these days? Explain the underlying reasons behind the popularity of these specific destinations. Is it due to the influence of social media, travel-friendly policies, or a particular interest in the local culture or cuisine?",
+    "hint": "international vacations(해외 휴가), these days(요즘), underlying reasons(근본적인 이유), popularity(인기), specific destinations(특정 여행지), influence of social media(소셜 미디어의 영향), travel-friendly policies(여행 친화적인 정책), local culture(현지 문화), cuisine(음식), travel trends(여행 트렌드)",
+    "translation": "요즘 당신의 나라 사람들은 해외 휴가를 위해 어디로 향하나요? 이런 특정 여행지들이 인기 있는 근본적인 이유를 설명해주세요. 소셜 미디어의 영향, 여행 친화적인 정책, 또는 현지 문화나 음식에 대한 특별한 관심 때문인가요?"
+  },
+  {
+    "id": 30,
+    "text": "International travel requires much more meticulous planning than domestic trips. Walk me through your pre-departure checklist. From renewing your passport and securing visas to managing currency exchange and finalizing your itinerary, how do you ensure everything is ready for a smooth journey abroad?",
+    "hint": "international travel(국제 여행), meticulous planning(꼼꼼한 계획), domestic trips(국내 여행), pre-departure checklist(출발 전 체크리스트), renewing passport(여권 갱신), securing visas(비자 확보), currency exchange(환전), finalizing itinerary(일정 확정), smooth journey(순조로운 여행), ensure everything is ready(모든 것이 준비되었는지 확인하다)",
+    "translation": "해외여행은 국내 여행보다 훨씬 더 꼼꼼한 계획이 필요합니다. 출발 전 체크리스트를 차근차근 설명해주세요. 여권 갱신과 비자 확보부터 환전 관리와 일정 확정까지, 순조로운 해외여행을 위해 모든 것이 준비되었는지 어떻게 확인하나요?"
+  },
+  {
+    "id": 31,
+    "text": "When you are in a foreign country, what does your daily routine look like? Instead of just listing places you visit, explain how you immerse yourself in the local culture. Do you prioritize trying authentic street food, using public transportation to see the city like a local, or engaging in specific cultural activities?",
+    "hint": "foreign country(외국), daily routine(일상 루틴), listing places(장소를 나열하다), immerse myself in local culture(현지 문화에 몰입하다), authentic street food(진짜 길거리 음식), public transportation(대중교통), like a local(현지인처럼), cultural activities(문화 활동), prioritize(우선시하다), travel experience(여행 경험)",
+    "translation": "외국에 있을 때 당신의 하루 루틴은 어떤 모습인가요? 방문하는 장소를 단순히 나열하는 대신, 현지 문화에 어떻게 몰입하는지 설명해주세요. 진짜 길거리 음식을 먹어보는 것, 현지인처럼 도시를 보기 위해 대중교통을 이용하는 것, 또는 특정 문화 활동에 참여하는 것을 우선시하나요?"
+  },
+  {
+    "id": 32,
+    "text": "Travel styles have been revolutionized over the last decade. Compare how people traveled abroad in the past to how they do so now. Focus on the role of smartphones and travel apps, the shift from group tours to independent travel, and how these changes have made international trips more accessible and personalized.",
+    "hint": "travel styles(여행 방식), revolutionized(혁신적으로 변화했다), last decade(지난 10년), traveled abroad in the past(과거에 해외여행했다), role of smartphones(스마트폰의 역할), travel apps(여행 앱), shift from group tours(단체 여행에서의 변화), independent travel(자유 여행), accessible(접근하기 쉬운), personalized(개인화된)",
+    "translation": "여행 방식은 지난 10년 동안 혁신적으로 변화했습니다. 과거에 사람들이 해외여행하던 방식과 지금 하는 방식을 비교해주세요. 스마트폰과 여행 앱의 역할, 단체 여행에서 자유 여행으로의 변화, 그리고 이러한 변화가 국제 여행을 어떻게 더 접근하기 쉽고 개인화되게 만들었는지에 초점을 맞춰 설명해주세요."
+  },
+  {
+    "id": 33,
+    "text": "Tell me about an experience during an overseas trip that you will never forget. What was the specific event or encounter that made this moment so special? Describe the setting, the people involved, and how that experience influenced your perspective on traveling or the world in general.",
+    "hint": "overseas trip(해외여행), never forget(절대 잊지 못하다), specific event(특정 사건), encounter(만남), special moment(특별한 순간), setting(배경), people involved(관련된 사람들), influenced my perspective(내 관점에 영향을 주다), traveling(여행), world in general(세상 전반)",
+    "translation": "절대 잊지 못할 해외여행 중 경험에 대해 말해주세요. 그 순간을 특별하게 만든 특정 사건이나 만남은 무엇이었나요? 배경, 관련된 사람들, 그리고 그 경험이 여행이나 세상 전반에 대한 당신의 관점에 어떤 영향을 주었는지 묘사해주세요."
+  },
+  {
+    "id": 34,
+    "text": "Facing an unexpected problem in a foreign country can be quite daunting due to language barriers or unfamiliar systems. Describe a difficult or surprising situation you encountered abroad—such as a missed flight or a lost item. How did you manage to resolve the issue, and what did that experience teach you about handling emergencies?",
+    "hint": "unexpected problem(예상치 못한 문제), foreign country(외국), daunting(두려운), language barriers(언어 장벽), unfamiliar systems(낯선 시스템), difficult situation(어려운 상황), missed flight(놓친 비행기), lost item(분실물), resolve the issue(문제를 해결하다), handling emergencies(비상 상황 대처)",
+    "translation": "외국에서 예상치 못한 문제를 마주하는 것은 언어 장벽이나 낯선 시스템 때문에 꽤 두려울 수 있습니다. 놓친 비행기나 분실물처럼 해외에서 겪었던 어렵거나 놀라운 상황을 묘사해주세요. 그 문제를 어떻게 해결했고, 그 경험은 비상 상황을 대처하는 것에 대해 무엇을 가르쳐 주었나요?"
+  },
+  {
+    "id": 35,
+    "text": "Think back to an overseas trip you took when you were a child. How did that experience compare to the way you travel now as an adult? Discuss the differences in your interests, your level of responsibility, and your overall understanding of the foreign cultures you encountered then versus now.",
+    "hint": "overseas trip(해외여행), when I was a child(어렸을 때), compare to now(지금과 비교하다), as an adult(어른으로서), differences in interests(관심사의 차이), level of responsibility(책임 수준), understanding of foreign cultures(외국 문화 이해), encountered(마주친), then versus now(그때와 지금), childhood memory(어린 시절 기억)",
+    "translation": "어렸을 때 갔던 해외여행을 떠올려 보세요. 그 경험은 어른이 된 지금 여행하는 방식과 어떻게 비교되나요? 관심사, 책임감의 수준, 그리고 그때와 지금 마주친 외국 문화에 대한 전반적인 이해의 차이를 이야기해주세요."
+  }
+]

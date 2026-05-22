@@ -1,0 +1,98 @@
+[
+  {
+  "id": 1,
+  "text": "Let's talk about where you live. What does your neighborhood look like? Where is it located? What kinds of amenities are there in your neighborhood? Tell me about a place around your house.",
+  "hint": "residential area(주거 지역), located in(~에 위치한), convenient location(편리한 위치), well-developed(잘 발달된), local amenities(생활 편의 시설), nearby facilities(근처 시설), grocery store(식료품점), public transportation(대중교통), quiet and peaceful(조용하고 평화로운), easy access(접근성이 좋은)",
+  "translation": "당신이 사는 곳에 대해 이야기해봅시다. 당신의 동네는 어떤가요? 어디에 위치해 있나요? 당신의 동네에는 어떤 시설들이 있나요? 당신의 집 주변 장소에 대해 말해주세요."
+  },
+  {
+  "id": 2,
+  "text": "Can you tell me about your neighbors? Who are they, and what are they like? Are you close to your neighbors? What do you typically do when you meet them?",
+  "hint": "neighbors(이웃들), get along with(잘 지내다), friendly(친절한), polite(예의 바른), close relationship(가까운 관계), greet each other(서로 인사하다), have a conversation(대화를 나누다), help each other(서로 돕다), casual interaction(가벼운 교류), run into(우연히 마주치다)",
+  "translation": "당신의 이웃들에 대해 말해 주실래요? 그들은 누구이고 어떤가요? 당신은 이웃들과 친한가요? 일반적으로 그들을 만나면 무엇을 하시나요?"
+  },
+  {
+  "id": 3,
+  "text": "How has the neighborhood or place where you live changed or developed over the past ten years? What was the city like, and what about now? Please tell me in as much detail as possible.",
+  "hint": "over the past ten years(지난 10년 동안), has changed a lot(많이 변했다), used to be(예전에는 ~였다), residential area(주거 지역), much more developed(훨씬 더 발전한), modern buildings(현대식 건물), improved infrastructure(개선된 기반 시설), public transportation(대중교통), more convenient than before(예전보다 더 편리한), quality of life(삶의 질)",
+  "translation": "최근 10년 간 당신이 사는 이웃 동네나 지역은 어떻게 변했거나 발전했나요? 그 도시는 어땠고 지금은 어떤가요? 가능한 자세히 말해주세요."
+  },
+  {
+  "id": 4,
+  "text": "Talk about an interesting or memorable experience in your neighborhood. When and where did it occur? Why was it interesting or memorable?",
+  "hint": "memorable experience(기억에 남는 경험), unexpected event(예상치 못한 일), take place(발생하다), run into neighbors(이웃을 우연히 만나다), community event(지역 행사), special occasion(특별한 순간), exciting moment(흥미로운 순간), share the experience(경험을 공유하다), feel surprised(놀라움을 느끼다), leave a lasting impression(오랫동안 기억에 남다)",
+  "translation": "동네에서 겪은 흥미롭거나 기억에 남는 경험에 대해 말해주세요. 언제 어디서 그것이 발생했나요? 왜 그 경험이 흥미롭거나 기억에 남나요?"
+  },
+  {
+  "id": 5,
+  "text": "Let’s talk about your living area. Can you describe the neighborhood you live in? Where is it located? What kinds of facilities or places are nearby? Tell me about a place you often visit around your home.",
+  "hint": "living area(사는 지역), neighborhood(동네), located in(~에 위치한), nearby facilities(근처 시설), places nearby(근처 장소), convenience store(편의점), park(공원), cafe(카페), often visit(자주 방문하다), around my home(집 주변에)",
+  "translation": "당신이 사는 지역에 대해 이야기해봅시다. 당신이 사는 동네를 묘사해 줄 수 있나요? 어디에 위치해 있나요? 근처에는 어떤 시설이나 장소들이 있나요? 집 주변에서 자주 방문하는 장소에 대해 말해주세요."
+  },
+  {
+  "id": 6,
+  "text": "I’d like to know more about the people around you. Who are your neighbors, and what are they like? Do you interact with them often? What do you usually do when you run into them?",
+  "hint": "people around me(주변 사람들), neighbors(이웃들), interact with(교류하다), often(자주), run into(우연히 마주치다), greet each other(서로 인사하다), small talk(가벼운 대화), friendly relationship(친근한 관계), helpful(도움이 되는), polite(예의 바른)",
+  "translation": "당신 주변 사람들에 대해 더 알고 싶습니다. 당신의 이웃들은 누구이고 어떤 사람들인가요? 그들과 자주 교류하나요? 그들을 우연히 마주치면 보통 무엇을 하나요?"
+  },
+  {
+  "id": 7,
+  "text": "Think about how your neighborhood has changed over time. What was it like in the past, and how is it different now? Can you describe the development or changes in detail?",
+  "hint": "changed over time(시간이 지나며 변하다), in the past(과거에는), different now(지금은 다른), development(발전), changes(변화), new buildings(새 건물들), improved transportation(개선된 교통), more convenient(더 편리한), local facilities(지역 시설), describe in detail(자세히 묘사하다)",
+  "translation": "당신의 동네가 시간이 지나며 어떻게 변했는지 생각해 보세요. 과거에는 어땠고 지금은 어떻게 다른가요? 발전이나 변화를 자세히 묘사해 줄 수 있나요?"
+  },
+  {
+  "id": 8,
+  "text": "Tell me about a memorable or unusual experience you’ve had in your neighborhood. When did it happen, and where exactly? What made that experience stand out to you? Please explain in detail.",
+  "hint": "memorable experience(기억에 남는 경험), unusual experience(특이한 경험), in my neighborhood(동네에서), where exactly(정확히 어디에서), stand out(두드러지다), community event(지역 행사), unexpected situation(예상치 못한 상황), special memory(특별한 기억), explain in detail(자세히 설명하다), unforgettable(잊을 수 없는)",
+  "translation": "당신이 동네에서 겪은 기억에 남거나 특이한 경험에 대해 말해주세요. 언제 일어났고 정확히 어디였나요? 무엇이 그 경험을 당신에게 특별하게 만들었나요? 자세히 설명해주세요."
+  },
+  {
+  "id": 9,
+  "text": "Let’s talk about the neighborhood where you live. What is the area like, what kinds of facilities are nearby, and which place around your home do you visit most often?",
+  "hint": "neighborhood where I live(내가 사는 동네), area(지역), facilities nearby(근처 시설), around my home(집 주변), visit most often(가장 자주 방문하다), convenience store(편의점), cafe(카페), park(공원), public transportation(대중교통), daily life(일상생활)",
+  "translation": "당신이 사는 동네에 대해 이야기해봅시다. 그 지역은 어떤 곳이고, 근처에는 어떤 시설들이 있으며, 집 주변에서 가장 자주 방문하는 장소는 어디인가요?"
+  },
+  {
+  "id": 10,
+  "text": "Can you describe the people who live near you? How often do you interact with your neighbors, and what do you usually do or say when you meet them?",
+  "hint": "people who live near me(근처에 사는 사람들), neighbors(이웃들), interact with(교류하다), how often(얼마나 자주), meet them(그들을 만나다), greet each other(서로 인사하다), small talk(가벼운 대화), polite relationship(예의 바른 관계), friendly(친절한), run into(우연히 마주치다)",
+  "translation": "당신 근처에 사는 사람들을 묘사해 줄 수 있나요? 이웃들과 얼마나 자주 교류하고, 그들을 만나면 보통 무엇을 하거나 말하나요?"
+  },
+  {
+  "id": 11,
+  "text": "How has your neighborhood changed over the past several years? Please compare what it was like before with what it is like now, including buildings, transportation, stores, or the overall atmosphere.",
+  "hint": "over the past several years(지난 몇 년 동안), changed(변했다), compare(비교하다), before(이전), now(지금), buildings(건물들), transportation(교통), stores(상점들), overall atmosphere(전반적인 분위기), more convenient(더 편리한)",
+  "translation": "지난 몇 년 동안 당신의 동네는 어떻게 변했나요? 건물, 교통, 상점 또는 전반적인 분위기를 포함해 예전의 모습과 지금의 모습을 비교해주세요."
+  },
+  {
+  "id": 12,
+  "text": "Tell me about a memorable experience you had in your neighborhood. When and where did it happen, who was involved, and why do you still remember that moment?",
+  "hint": "memorable experience(기억에 남는 경험), in my neighborhood(동네에서), when and where(언제 어디서), involved(관련된), still remember(아직도 기억하다), special moment(특별한 순간), local event(지역 행사), neighbor(이웃), unexpected situation(예상치 못한 상황), lasting impression(오래 남는 인상)",
+  "translation": "동네에서 겪었던 기억에 남는 경험에 대해 말해주세요. 언제 어디에서 일어났고, 누가 관련되어 있었으며, 왜 아직도 그 순간을 기억하나요?"
+  },
+  {
+  "id": 13,
+  "text": "I’d like to talk about the area where you live. Every neighborhood has its own unique character. How would you describe the overall vibe of your neighborhood to someone who has never been there? Mention the facilities you use most often and explain why those specific places are so important to your daily life.",
+  "hint": "area where I live(내가 사는 지역), unique character(독특한 특징), overall vibe(전반적인 분위기), someone who has never been there(가본 적 없는 사람), facilities(시설들), use most often(가장 자주 이용하다), specific places(특정 장소들), important to daily life(일상생활에 중요한), convenient(편리한), local atmosphere(지역 분위기)",
+  "translation": "당신이 사는 지역에 대해 이야기하고 싶습니다. 모든 동네에는 저마다의 독특한 특징이 있습니다. 그곳에 가본 적 없는 사람에게 당신 동네의 전반적인 분위기를 어떻게 묘사하겠나요? 가장 자주 이용하는 시설들을 언급하고, 왜 그 특정 장소들이 당신의 일상생활에 그렇게 중요한지 설명해주세요."
+  },
+  {
+  "id": 14,
+  "text": "Describe the people who live in your community. Instead of just saying who they are, tell me about the nature of your interactions with them. Do you have a close relationship with any of your neighbors, or is it more of a polite \"hello\" in the elevator? Share a brief example of a typical conversation or encounter you’ve had recently.",
+  "hint": "community(지역사회), nature of interactions(교류의 성격), close relationship(가까운 관계), polite hello(예의 바른 인사), elevator(엘리베이터), typical conversation(전형적인 대화), recent encounter(최근 만남), brief example(짧은 예시), neighbor relationship(이웃 관계), casual greeting(가벼운 인사)",
+  "translation": "당신의 지역사회에 사는 사람들을 묘사해주세요. 단순히 그들이 누구인지 말하는 대신, 그들과의 교류가 어떤 성격인지 말해주세요. 어떤 이웃과 가까운 관계인가요, 아니면 엘리베이터에서 예의 바르게 인사하는 정도인가요? 최근에 있었던 전형적인 대화나 만남의 짧은 예를 공유해주세요."
+  },
+  {
+  "id": 15,
+  "text": "Our surroundings often change faster than we notice. Think back to your neighborhood a few years ago and compare it with how it looks today. What is the most significant change you've observed? Whether it’s a new landmark, a change in transportation, or a different atmosphere, explain how this transformation has affected your life or the way you feel about your home.",
+  "hint": "surroundings(주변 환경), change faster than we notice(우리가 알아차리는 것보다 빨리 변하다), a few years ago(몇 년 전), compare with today(오늘날과 비교하다), significant change(중요한 변화), new landmark(새로운 랜드마크), change in transportation(교통의 변화), different atmosphere(달라진 분위기), transformation(변화), affected my life(내 삶에 영향을 주다)",
+  "translation": "우리 주변 환경은 종종 우리가 알아차리는 것보다 더 빨리 변합니다. 몇 년 전 당신의 동네를 떠올리고 오늘날의 모습과 비교해 보세요. 당신이 관찰한 가장 중요한 변화는 무엇인가요? 새로운 랜드마크, 교통의 변화, 또는 달라진 분위기 등 어떤 것이든, 그 변화가 당신의 삶이나 집에 대해 느끼는 방식에 어떤 영향을 주었는지 설명해주세요."
+  },
+  {
+  "id": 16,
+  "text": "Tell me about a particularly memorable or unexpected event that happened right in your neighborhood. It could be a local festival, a small accident, or even a heartwarming moment with a neighbor. Walk me through the entire story—what happened, who was there, and why that specific moment still stands out in your mind.",
+  "hint": "particularly memorable(특히 기억에 남는), unexpected event(예상치 못한 사건), right in my neighborhood(바로 우리 동네에서), local festival(지역 축제), small accident(작은 사고), heartwarming moment(마음이 따뜻해지는 순간), walk me through(차근차근 설명하다), entire story(전체 이야기), stand out in my mind(마음속에 두드러지게 남다), specific moment(특정 순간)",
+  "translation": "바로 당신의 동네에서 일어난 특히 기억에 남거나 예상치 못한 사건에 대해 말해주세요. 지역 축제, 작은 사고, 또는 이웃과의 마음이 따뜻해지는 순간일 수도 있습니다. 무슨 일이 있었고, 누가 있었으며, 왜 그 특정 순간이 아직도 마음속에 두드러지게 남아 있는지 전체 이야기를 차근차근 설명해주세요."
+  }
+]

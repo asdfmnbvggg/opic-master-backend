@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "text": "You said you enjoy hiking. Can you walk me through your usual hiking routine from the moment you leave home until you finish the hike? Please describe what you normally do in detail.",
+    "hint": "enjoy hiking(등산을 즐기다), walk me through(순서대로 설명하다), usual hiking routine(평소 등산 루틴), leave home(집을 나서다), finish the hike(등산을 마치다), normally do(보통 하다), trailhead(등산로 입구), take a break(휴식을 취하다), return home(집으로 돌아오다), in detail(자세히)",
+    "translation": "당신은 등산을 즐긴다고 말했습니다. 집을 나서는 순간부터 등산을 마칠 때까지 평소 등산 루틴을 순서대로 설명해 줄 수 있나요? 보통 무엇을 하는지 자세히 묘사해주세요."
+  },
+  {
+    "id": 2,
+    "text": "Can you describe your favorite mountain or hiking trail? Where is it located, what does the trail look like, and why do you like that place so much?",
+    "hint": "favorite mountain(가장 좋아하는 산), hiking trail(등산로), located in(~에 위치한), trail look like(등산로가 어떻게 생겼는지), scenic view(멋진 경치), steep path(가파른 길), peaceful atmosphere(평화로운 분위기), easy to access(접근하기 쉬운), like that place(그 장소를 좋아하다), describe(묘사하다)",
+    "translation": "당신이 가장 좋아하는 산이나 등산로를 묘사해 줄 수 있나요? 어디에 위치해 있고, 등산로는 어떻게 생겼으며, 왜 그 장소를 그렇게 좋아하나요?"
+  },
+  {
+    "id": 3,
+    "text": "How often do you usually go hiking, and how do you feel before, during, and after the hike? Please explain how hiking affects your mood or energy.",
+    "hint": "how often(얼마나 자주), go hiking(등산하다), before the hike(등산 전), during the hike(등산 중), after the hike(등산 후), mood(기분), energy(에너지), feel refreshed(상쾌함을 느끼다), relieve stress(스트레스를 풀다), affect(영향을 미치다)",
+    "translation": "보통 얼마나 자주 등산을 가고, 등산 전과 중간, 후에는 기분이 어떤가요? 등산이 당신의 기분이나 에너지에 어떤 영향을 주는지 설명해주세요."
+  },
+  {
+    "id": 4,
+    "text": "Where do you usually go hiking? Please describe the area around the trail, such as the scenery, facilities, transportation, or atmosphere.",
+    "hint": "usually go hiking(보통 등산하러 가다), area around the trail(등산로 주변 지역), scenery(경치), facilities(시설), transportation(교통), atmosphere(분위기), rest area(휴식 공간), signs(표지판), mountain entrance(산 입구), describe(묘사하다)",
+    "translation": "보통 어디로 등산을 가나요? 경치, 시설, 교통, 분위기 등 등산로 주변 지역을 묘사해주세요."
+  },
+  {
+    "id": 5,
+    "text": "Tell me about a memorable hiking experience you had. What happened during the hike, who were you with, and why does that experience still stand out to you?",
+    "hint": "memorable hiking experience(기억에 남는 등산 경험), during the hike(등산 중), who I was with(함께 있었던 사람), stand out(두드러지다), unexpected event(예상치 못한 일), beautiful view(아름다운 경치), difficult moment(힘든 순간), special memory(특별한 기억), teamwork(팀워크), still remember(아직도 기억하다)",
+    "translation": "기억에 남는 등산 경험에 대해 말해주세요. 등산 중에 무슨 일이 있었고, 누구와 함께 있었으며, 왜 그 경험이 아직도 특별하게 기억되나요?"
+  },
+  {
+    "id": 6,
+    "text": "What are the main benefits of hiking for you? Please explain how hiking helps your physical health, mental health, or daily stress.",
+    "hint": "main benefits(주요 장점), hiking(등산), physical health(신체 건강), mental health(정신 건강), daily stress(일상 스트레스), stamina(체력), clear my mind(생각을 정리하다), stay healthy(건강을 유지하다), feel relaxed(편안함을 느끼다), explain(설명하다)",
+    "translation": "당신에게 등산의 주요 장점은 무엇인가요? 등산이 신체 건강, 정신 건강, 또는 일상 스트레스에 어떻게 도움이 되는지 설명해주세요."
+  },
+  {
+    "id": 7,
+    "text": "What do you usually prepare before going hiking? How do you check the weather, choose your route, pack your items, and stay safe during the hike?",
+    "hint": "prepare before hiking(등산 전에 준비하다), check the weather(날씨를 확인하다), choose a route(코스를 선택하다), pack items(물건을 챙기다), stay safe(안전을 지키다), hiking shoes(등산화), water bottle(물병), snacks(간식), first-aid kit(구급상자), safety routine(안전 루틴)",
+    "translation": "등산을 가기 전에 보통 무엇을 준비하나요? 날씨를 확인하고, 코스를 고르고, 물건을 챙기고, 등산 중 안전을 지키기 위해 어떻게 하나요?"
+  },
+  {
+    "id": 8,
+    "text": "Why do you enjoy hiking compared to other outdoor activities? When did you first become interested in hiking, and how has your attitude toward it changed over time?",
+    "hint": "compared to other outdoor activities(다른 야외 활동과 비교해서), enjoy hiking(등산을 즐기다), first became interested(처음 관심을 갖게 되다), attitude(태도), changed over time(시간이 지나며 변하다), nature(자연), challenge(도전), peaceful(평화로운), hobby(취미), personal growth(개인적 성장)",
+    "translation": "다른 야외 활동과 비교해서 왜 등산을 즐기나요? 언제 처음 등산에 관심을 갖게 되었고, 시간이 지나면서 등산에 대한 태도는 어떻게 변했나요?"
+  },
+  {
+    "id": 9,
+    "text": "Tell me about one of the most interesting hiking trails you have ever visited. What made the trail different from other places, and what did you enjoy the most there?",
+    "hint": "interesting hiking trail(흥미로운 등산로), ever visited(방문해 본), different from other places(다른 장소와 다른), unique scenery(독특한 경치), trail condition(등산로 상태), viewpoint(전망대), enjoy the most(가장 즐기다), memorable route(기억에 남는 코스), natural beauty(자연의 아름다움), describe(묘사하다)",
+    "translation": "지금까지 방문한 가장 흥미로운 등산로 중 하나에 대해 말해주세요. 그 등산로가 다른 장소와 무엇이 달랐고, 그곳에서 무엇을 가장 즐겼나요?"
+  },
+  {
+    "id": 10,
+    "text": "How did you first start hiking? Was there a specific person, event, or reason that made you try it, and what made you continue hiking afterward?",
+    "hint": "first start hiking(처음 등산을 시작하다), specific person(특정한 사람), event(사건), reason(이유), try it(시도하다), continue hiking(등산을 계속하다), friend recommendation(친구 추천), health reason(건강상의 이유), first experience(첫 경험), motivation(동기)",
+    "translation": "어떻게 처음 등산을 시작하게 되었나요? 등산을 시도하게 만든 특정한 사람, 사건, 또는 이유가 있었나요? 그리고 그 후 무엇이 등산을 계속하게 만들었나요?"
+  },
+  {
+    "id": 11,
+    "text": "How long does your usual hiking trip take? Please describe your typical schedule, including when you start, how long you walk, where you rest, and when you come back.",
+    "hint": "usual hiking trip(평소 등산), how long(얼마나 오래), typical schedule(전형적인 일정), when I start(시작하는 시간), how long I walk(걷는 시간), where I rest(쉬는 곳), come back(돌아오다), morning hike(아침 등산), lunch break(점심 휴식), schedule(일정)",
+    "translation": "평소 등산은 얼마나 걸리나요? 언제 시작하고, 얼마나 걷고, 어디에서 쉬고, 언제 돌아오는지를 포함해 전형적인 일정을 묘사해주세요."
+  },
+  {
+    "id": 12,
+    "text": "What do you usually wear when you go hiking? Please describe your clothes, shoes, and other items, and explain why they are comfortable or useful for hiking.",
+    "hint": "usually wear(보통 입다), go hiking(등산하다), clothes(옷), shoes(신발), hiking boots(등산화), backpack(배낭), hat(모자), comfortable(편안한), useful(유용한), hiking gear(등산 장비)",
+    "translation": "등산을 갈 때 보통 무엇을 입나요? 옷, 신발, 기타 물건들을 묘사하고, 그것들이 왜 등산에 편안하거나 유용한지 설명해주세요."
+  },
+  {
+    "id": 13,
+    "text": "You said you enjoy hiking. Can you describe your usual hiking routine from the moment you prepare at home until you return after the hike? Please include how you choose the trail, what you do during the hike, and how you usually finish the day.",
+    "hint": "usual hiking routine(평소 등산 루틴), prepare at home(집에서 준비하다), return after the hike(등산 후 돌아오다), choose the trail(등산로를 고르다), during the hike(등산 중), finish the day(하루를 마무리하다), pack items(물건을 챙기다), take breaks(휴식을 취하다), descend(하산하다), in detail(자세히)",
+    "translation": "당신은 등산을 즐긴다고 했습니다. 집에서 준비하는 순간부터 등산 후 돌아올 때까지 평소 등산 루틴을 묘사해 줄 수 있나요? 등산로를 고르는 방법, 등산 중 하는 일, 그리고 보통 하루를 어떻게 마무리하는지 포함해주세요."
+  },
+  {
+    "id": 14,
+    "text": "Can you describe your favorite mountain or hiking trail? Where is it located, what is the trail like, and what makes it different from other mountains or trails you have visited?",
+    "hint": "favorite mountain(가장 좋아하는 산), hiking trail(등산로), located in(~에 위치한), trail condition(등산로 상태), different from others(다른 곳과 다른), scenic view(멋진 경치), difficulty level(난이도), forest path(숲길), viewpoint(전망대), unique feature(독특한 특징)",
+    "translation": "당신이 가장 좋아하는 산이나 등산로를 묘사해 줄 수 있나요? 어디에 위치해 있고, 등산로는 어떤 모습이며, 당신이 방문했던 다른 산이나 등산로와 무엇이 다른가요?"
+  },
+  {
+    "id": 15,
+    "text": "How often do you usually go hiking, and how do your feelings change before, during, and after the hike? Please explain how hiking affects your mood, energy, and stress level.",
+    "hint": "how often(얼마나 자주), feelings change(감정이 변하다), before the hike(등산 전), during the hike(등산 중), after the hike(등산 후), mood(기분), energy(에너지), stress level(스트레스 수준), feel refreshed(상쾌함을 느끼다), relieve stress(스트레스를 풀다)",
+    "translation": "보통 얼마나 자주 등산을 가고, 등산 전, 중, 후에 감정이 어떻게 변하나요? 등산이 기분, 에너지, 스트레스 수준에 어떤 영향을 주는지 설명해주세요."
+  },
+  {
+    "id": 16,
+    "text": "Where do you usually go hiking? Please describe the scenery, nearby facilities, transportation, and overall atmosphere around the trail in as much detail as possible.",
+    "hint": "usually go hiking(보통 등산하러 가다), scenery(경치), nearby facilities(근처 시설), transportation(교통), overall atmosphere(전반적인 분위기), around the trail(등산로 주변), mountain entrance(산 입구), restrooms(화장실), convenience store(편의점), as much detail as possible(가능한 한 자세히)",
+    "translation": "보통 어디로 등산을 가나요? 등산로 주변의 경치, 근처 시설, 교통, 전반적인 분위기를 가능한 한 자세히 묘사해주세요."
+  },
+  {
+    "id": 17,
+    "text": "Tell me about a memorable hiking experience you had. Where did you go, who were you with, what happened during the hike, and why does that experience still stand out to you?",
+    "hint": "memorable hiking experience(기억에 남는 등산 경험), where did you go(어디에 갔나요), who were you with(누구와 함께 있었나요), during the hike(등산 중), what happened(무슨 일이 있었는지), stand out(두드러지다), unexpected challenge(예상치 못한 어려움), beautiful view(아름다운 경치), teamwork(팀워크), special memory(특별한 기억)",
+    "translation": "기억에 남는 등산 경험에 대해 말해주세요. 어디에 갔고, 누구와 함께 있었으며, 등산 중 무슨 일이 있었고, 왜 그 경험이 아직도 두드러지게 남아 있나요?"
+  },
+  {
+    "id": 18,
+    "text": "What are the biggest benefits of hiking for you? Please explain how hiking helps your physical health, mental health, daily routine, or even the way you manage stress.",
+    "hint": "biggest benefits(가장 큰 장점), hiking(등산), physical health(신체 건강), mental health(정신 건강), daily routine(일상 루틴), manage stress(스트레스를 관리하다), stamina(체력), clear my mind(생각을 정리하다), balanced life(균형 잡힌 삶), healthy habit(건강한 습관)",
+    "translation": "당신에게 등산의 가장 큰 장점은 무엇인가요? 등산이 신체 건강, 정신 건강, 일상 루틴, 또는 스트레스를 관리하는 방식에 어떻게 도움이 되는지 설명해주세요."
+  },
+  {
+    "id": 19,
+    "text": "Before going hiking, how do you usually prepare to make the trip safe and comfortable? Please describe how you check the weather, choose the route, pack your items, dress properly, and prevent injuries.",
+    "hint": "before going hiking(등산 가기 전에), prepare(준비하다), safe and comfortable(안전하고 편안한), check the weather(날씨를 확인하다), choose the route(코스를 고르다), pack items(물건을 챙기다), dress properly(알맞게 입다), prevent injuries(부상을 예방하다), hiking shoes(등산화), first-aid kit(구급상자)",
+    "translation": "등산을 가기 전에 안전하고 편안한 여행을 위해 보통 어떻게 준비하나요? 날씨를 확인하고, 코스를 고르고, 물건을 챙기고, 알맞게 옷을 입고, 부상을 예방하는 방법을 묘사해주세요."
+  },
+  {
+    "id": 20,
+    "text": "Why do you enjoy hiking more than other outdoor activities? Please explain when you first became interested in hiking and how your attitude toward hiking has changed over time.",
+    "hint": "enjoy hiking more(등산을 더 즐기다), other outdoor activities(다른 야외 활동), first became interested(처음 관심을 갖게 되다), attitude toward hiking(등산에 대한 태도), changed over time(시간이 지나며 변했다), nature(자연), challenge(도전), peacefulness(평온함), personal growth(개인적 성장), hobby(취미)",
+    "translation": "다른 야외 활동보다 등산을 더 즐기는 이유는 무엇인가요? 언제 처음 등산에 관심을 갖게 되었고, 시간이 지나면서 등산에 대한 태도가 어떻게 변했는지 설명해주세요."
+  },
+  {
+    "id": 21,
+    "text": "Tell me about one of the most interesting hiking trails you have ever visited. What made the trail unique, what did you see there, and how was it different from the trails you usually visit?",
+    "hint": "most interesting hiking trail(가장 흥미로운 등산로), ever visited(방문해 본), unique(독특한), what I saw(본 것), different from usual trails(보통 가는 등산로와 다른), rocky path(바위길), forest scenery(숲 풍경), waterfall(폭포), special route(특별한 코스), memorable trail(기억에 남는 등산로)",
+    "translation": "지금까지 방문한 가장 흥미로운 등산로 중 하나에 대해 말해주세요. 그 등산로를 독특하게 만든 것은 무엇이고, 그곳에서 무엇을 보았으며, 보통 방문하는 등산로와 어떻게 달랐나요?"
+  },
+  {
+    "id": 22,
+    "text": "How did you first start hiking? Was there a specific person, situation, or experience that made you try it, and what made you continue hiking as a hobby?",
+    "hint": "first start hiking(처음 등산을 시작하다), specific person(특정 사람), situation(상황), experience(경험), made me try it(시도하게 만들었다), continue as a hobby(취미로 계속하다), friend invitation(친구의 초대), health reason(건강상의 이유), first hike(첫 등산), motivation(동기)",
+    "translation": "어떻게 처음 등산을 시작했나요? 등산을 시도하게 만든 특정한 사람, 상황, 또는 경험이 있었나요? 그리고 무엇이 등산을 취미로 계속하게 만들었나요?"
+  },
+  {
+    "id": 23,
+    "text": "How long does your usual hiking trip take from start to finish? Please describe your typical schedule, including when you leave, how long you hike, where you take breaks, and what you do after coming down.",
+    "hint": "usual hiking trip(평소 등산), from start to finish(처음부터 끝까지), typical schedule(전형적인 일정), when I leave(떠나는 시간), how long I hike(등산하는 시간), take breaks(휴식을 취하다), after coming down(하산 후), lunch break(점심 휴식), return home(집에 돌아오다), recovery(회복)",
+    "translation": "평소 등산은 처음부터 끝까지 얼마나 걸리나요? 언제 출발하고, 얼마나 등산하고, 어디에서 쉬며, 하산 후 무엇을 하는지 포함해 전형적인 일정을 묘사해주세요."
+  },
+  {
+    "id": 24,
+    "text": "What do you usually wear or bring when you go hiking? Please describe your clothes, shoes, bag, and other useful items, and explain how they help you stay comfortable and safe during the hike.",
+    "hint": "wear or bring(입거나 가져가다), clothes(옷), shoes(신발), bag(가방), useful items(유용한 물건들), stay comfortable(편안하게 지내다), stay safe(안전을 지키다), hiking boots(등산화), backpack(배낭), water bottle(물병), during the hike(등산 중)",
+    "translation": "등산을 갈 때 보통 무엇을 입거나 가져가나요? 옷, 신발, 가방, 기타 유용한 물건들을 묘사하고, 그것들이 등산 중 편안하고 안전하게 지내는 데 어떻게 도움이 되는지 설명해주세요."
+  },
+  {
+    "id": 25,
+    "text": "You mentioned that you enjoy hiking. Walk me through your comprehensive routine, starting from the moment you begin preparations at home until you return after the hike. How do you strategically select your trail, what is your mindset during the ascent, and how do you typically celebrate or wind down after a successful day on the mountain?",
+    "hint": "comprehensive routine(종합적인 루틴), begin preparations(준비를 시작하다), return after the hike(등산 후 돌아오다), strategically select a trail(전략적으로 등산로를 고르다), mindset(마음가짐), ascent(오르막), celebrate(기념하다), wind down(긴장을 풀다), successful day(성공적인 하루), mountain(산)",
+    "translation": "당신은 등산을 즐긴다고 말했습니다. 집에서 준비를 시작하는 순간부터 등산 후 돌아올 때까지 종합적인 루틴을 차근차근 설명해주세요. 등산로를 어떻게 전략적으로 선택하고, 오르는 동안 어떤 마음가짐을 가지며, 산에서 성공적인 하루를 보낸 후 보통 어떻게 기념하거나 긴장을 푸나요?"
+  },
+  {
+    "id": 26,
+    "text": "Describe your favorite mountain or hiking trail in detail. Where is it located, and what is the specific topography or difficulty level of the trail? What unique characteristics distinguish this mountain from others you have conquered in the past?",
+    "hint": "favorite mountain(가장 좋아하는 산), hiking trail(등산로), in detail(자세히), located(위치한), topography(지형), difficulty level(난이도), unique characteristics(독특한 특징), distinguish from others(다른 것들과 구별하다), conquered in the past(과거에 오른), trail analysis(등산로 분석)",
+    "translation": "가장 좋아하는 산이나 등산로를 자세히 묘사해주세요. 어디에 위치해 있고, 그 등산로의 구체적인 지형이나 난이도는 어떤가요? 과거에 오른 다른 산들과 이 산을 구별해 주는 독특한 특징은 무엇인가요?"
+  },
+  {
+    "id": 27,
+    "text": "I’d like to know about the emotional journey of your hikes. How often do you go, and how does your psychological state evolve before, during, and after the experience? Explain the impact hiking has on your stress management and your overall \"inner battery\" recharge.",
+    "hint": "emotional journey(감정의 여정), hikes(등산), how often(얼마나 자주), psychological state(심리 상태), evolve(변화하다), before during and after(전, 중, 후), stress management(스트레스 관리), inner battery recharge(내면의 에너지 충전), mood change(기분 변화), mental refreshment(정신적 재충전)",
+    "translation": "등산의 감정적인 여정에 대해 알고 싶습니다. 얼마나 자주 가고, 경험 전, 중, 후에 심리 상태가 어떻게 변화하나요? 등산이 스트레스 관리와 전반적인 '내면의 배터리' 충전에 어떤 영향을 주는지 설명해주세요."
+  },
+  {
+    "id": 28,
+    "text": "Where do you usually go for your hikes? Beyond the trail itself, please describe the surrounding environment. Include details about the local scenery, the accessibility via public transportation, and any facilities near the trailhead that enhance the overall atmosphere of the trip.",
+    "hint": "usually go for hikes(보통 등산하러 가다), beyond the trail(등산로 자체를 넘어서), surrounding environment(주변 환경), local scenery(지역 경치), accessibility(접근성), public transportation(대중교통), facilities near the trailhead(등산로 입구 근처 시설), enhance the atmosphere(분위기를 높이다), trip atmosphere(여행 분위기), convenience(편리함)",
+    "translation": "보통 어디로 등산을 가나요? 등산로 자체를 넘어서 주변 환경을 묘사해주세요. 지역 경치, 대중교통 접근성, 그리고 여행의 전반적인 분위기를 높여주는 등산로 입구 근처 시설에 대한 세부사항을 포함해주세요."
+  },
+  {
+    "id": 29,
+    "text": "Tell me about a hiking experience that remains profoundly memorable to you. Describe the specific circumstances—the people you were with, the unforeseen challenges or rewards you encountered, and why that specific trek still resonates with you today.",
+    "hint": "profoundly memorable(깊이 기억에 남는), specific circumstances(구체적인 상황), people I was with(함께 있던 사람들), unforeseen challenges(예상치 못한 어려움), rewards(보상), encountered(마주친), specific trek(특정 산행), resonates with me(나에게 울림을 주다), today(오늘날), hiking memory(등산 추억)",
+    "translation": "깊이 기억에 남는 등산 경험에 대해 말해주세요. 함께 있었던 사람들, 마주친 예상치 못한 어려움이나 보상, 그리고 왜 그 특정 산행이 오늘날까지 당신에게 울림을 주는지 구체적인 상황을 묘사해주세요."
+  },
+  {
+    "id": 30,
+    "text": "What do you consider the most significant benefits of hiking? Please provide a detailed analysis of how this hobby contributes to your physical longevity, mental resilience, and your ability to maintain a balanced daily routine.",
+    "hint": "most significant benefits(가장 중요한 장점), detailed analysis(자세한 분석), hobby(취미), physical longevity(신체적 장수), mental resilience(정신적 회복력), balanced daily routine(균형 잡힌 일상 루틴), contributes to(기여하다), health benefits(건강상의 이점), stress relief(스트레스 해소), discipline(규칙성)",
+    "translation": "등산의 가장 중요한 장점은 무엇이라고 생각하나요? 이 취미가 신체적 장수, 정신적 회복력, 그리고 균형 잡힌 일상 루틴을 유지하는 능력에 어떻게 기여하는지 자세히 분석해주세요."
+  },
+  {
+    "id": 31,
+    "text": "Safety is paramount in the mountains. Before heading out, what is your protocol for ensuring a safe and comfortable trip? Describe how you analyze weather patterns, pack your technical gear, and the specific measures you take to prevent physical injuries during a demanding hike.",
+    "hint": "safety is paramount(안전이 가장 중요하다), protocol(절차), safe and comfortable trip(안전하고 편안한 여행), analyze weather patterns(날씨 패턴을 분석하다), technical gear(전문 장비), specific measures(구체적인 조치), prevent injuries(부상을 예방하다), demanding hike(힘든 등산), risk management(위험 관리), mountain safety(산 안전)",
+    "translation": "산에서는 안전이 가장 중요합니다. 출발하기 전에 안전하고 편안한 산행을 보장하기 위한 절차는 무엇인가요? 날씨 패턴을 분석하고, 전문 장비를 챙기고, 힘든 산행 중 신체 부상을 예방하기 위해 취하는 구체적인 조치를 묘사해주세요."
+  },
+  {
+    "id": 32,
+    "text": "Why does hiking hold a more significant appeal to you than other outdoor activities? Reflect on when you first developed this interest and explain how your perception of the mountains has matured over time.",
+    "hint": "significant appeal(큰 매력), other outdoor activities(다른 야외 활동), reflect on(돌이켜 생각하다), first developed this interest(처음 이 관심이 생기다), perception of mountains(산에 대한 인식), matured over time(시간이 지나며 성숙해졌다), nature appreciation(자연에 대한 감상), challenge(도전), peace(평화), personal meaning(개인적 의미)",
+    "translation": "등산이 다른 야외 활동보다 당신에게 더 큰 매력을 가지는 이유는 무엇인가요? 언제 처음 이 관심이 생겼는지 돌아보고, 시간이 지나면서 산에 대한 인식이 어떻게 성숙해졌는지 설명해주세요."
+  },
+  {
+    "id": 33,
+    "text": "Describe one of the most interesting or unique hiking trails you have ever navigated. What made the landscape or the path unconventional, and how did it differ from the standardized trails you typically visit?",
+    "hint": "interesting or unique hiking trail(흥미롭거나 독특한 등산로), navigated(지나간), landscape(풍경), path(길), unconventional(색다른), differ from(와 다르다), standardized trails(표준적인 등산로), typically visit(보통 방문하다), unusual route(특이한 코스), exploration(탐험)",
+    "translation": "지금까지 다녀온 가장 흥미롭거나 독특한 등산로 중 하나를 묘사해주세요. 풍경이나 길이 무엇 때문에 색달랐고, 보통 방문하는 표준적인 등산로와 어떻게 달랐나요?"
+  },
+  {
+    "id": 34,
+    "text": "Can you trace back to the very beginning of your hiking journey? Was there a specific catalyst—a person, a life situation, or a single experience—that prompted you to start? What was the defining factor that turned a one-time hike into a long-term passion?",
+    "hint": "trace back(거슬러 올라가다), beginning of hiking journey(등산 여정의 시작), specific catalyst(특정 계기), person(사람), life situation(삶의 상황), single experience(하나의 경험), prompted me to start(시작하게 만들었다), defining factor(결정적인 요인), one-time hike(한 번의 등산), long-term passion(장기적인 열정)",
+    "translation": "등산 여정의 아주 처음으로 거슬러 올라갈 수 있나요? 시작하게 만든 특정한 계기, 즉 사람, 삶의 상황, 또는 하나의 경험이 있었나요? 한 번의 등산을 장기적인 열정으로 바꾼 결정적인 요인은 무엇이었나요?"
+  },
+  {
+    "id": 35,
+    "text": "How long does your typical hiking excursion last? Provide a detailed chronological schedule of your day, including your departure time, the duration of the climb, where you choose to take breaks, and your ritual for recovering once you’ve descended.",
+    "hint": "typical hiking excursion(전형적인 등산), last(지속되다), chronological schedule(시간 순서의 일정), departure time(출발 시간), duration of the climb(등반 시간), take breaks(휴식을 취하다), descended(하산했다), recovery ritual(회복 루틴), detailed schedule(자세한 일정), hiking day(등산하는 날)",
+    "translation": "전형적인 등산은 얼마나 오래 걸리나요? 출발 시간, 등반 시간, 쉬는 장소, 하산 후 회복을 위한 루틴을 포함해 하루의 시간 순서에 따른 자세한 일정을 말해주세요."
+  },
+  {
+    "id": 36,
+    "text": "What is your \"go-to\" ensemble and gear list for a hike? Describe your clothing, footwear, and the contents of your backpack. Explain the functional importance of each item and how they collectively ensure your comfort and safety across different terrains.",
+    "hint": "go-to ensemble(자주 입는 복장), gear list(장비 목록), clothing(옷), footwear(신발), contents of backpack(배낭 속 물건들), functional importance(기능적 중요성), each item(각 물건), comfort and safety(편안함과 안전), different terrains(다양한 지형), hiking gear(등산 장비)",
+    "translation": "등산할 때 자주 입는 복장과 장비 목록은 무엇인가요? 옷, 신발, 배낭 속 물건들을 묘사해주세요. 각 물건의 기능적 중요성과 그것들이 다양한 지형에서 어떻게 함께 편안함과 안전을 보장하는지 설명해주세요."
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+  "id": 1,
+  "text": "What food can you cook the best? What is it? Tell me about the recipe that you can cook the best.",
+  "hint": "signature dish(대표 요리), ingredients(재료), preparation(준비 과정), cooking process(조리 과정), seasoning(양념), step-by-step(단계별로), boil(끓이다), stir-fry(볶다), adjust the taste(간을 맞추다), serve the dish(요리를 제공하다)",
+  "translation": "어떤 음식을 가장 잘 만드시나요? 그게 무엇인가요? 가장 잘 하는 요리의 레시피를 말해주세요."
+  },
+  {
+  "id": 2,
+  "text": "You indicated that you like to cook. What kind of food do you like to cook? Do you have any special recipes? When and where do you usually cook? Why do you like to cook? Please describe your whole process of cooking from beginning to end.",
+  "hint": "home-cooked meals(집밥), recipe(레시피), ingredients(재료), preparation(준비 과정), cooking routine(요리 루틴), kitchen(주방), follow a recipe(레시피를 따르다), experiment with flavors(맛을 실험하다), cooking process(조리 과정), sense of accomplishment(성취감)",
+  "translation": "당신은 요리를 좋아한다고 답했습니다. 어떤 음식을 요리하시나요? 특별한 레시피를 가지고 계신가요? 언제 어디서 주로 요리를 하시나요? 왜 요리를 좋아하시나요? 처음부터 끝까지 요리 과정에 대해 설명해주세요."
+  },
+  {
+  "id": 3,
+  "text": "Compare the food in your country with the food in another country. What are the differences? Is it the recipes or the ingredients that mainly differ? Tell me in detail.",
+  "hint": "cuisine(요리), culinary tradition(요리 전통), ingredients(재료), seasoning(양념), cooking methods(조리 방식), flavor profile(맛의 특징), spicy(매운), mild(담백한), texture(식감), cultural influence(문화적 영향)",
+  "translation": "다른 나라와 당신의 나라의 음식을 비교해주세요. 무엇이 다른가요? 레시피가 다른가요? 아니면 주로 음식 재료가 다른가요? 자세히 말씀 해주세요."
+  },
+  {
+  "id": 4,
+  "text": "Unexpected difficulties can occur while you are cooking. What was the problem you recently experienced while you were cooking? How did you solve the problem? Tell me in detail.",
+  "hint": "unexpected difficulty(예상치 못한 어려움), cooking mistake(요리 실수), burn the food(음식을 태우다), overseasoned(간이 너무 센), missing ingredient(재료가 부족한), adjust the recipe(레시피를 조절하다), solve the problem(문제를 해결하다), stay calm(침착함을 유지하다), improvise(즉흥적으로 대처하다), learn from the experience(경험을 통해 배우다)",
+  "translation": "요리를 할 때는 기대치 못한 어려움이 발생할 수 있습니다. 최근에 요리를 하면서 겪은 문제가 무엇인가요? 그 문제를 어떻게 해결하셨나요? 자세히 말해주세요."
+  },
+  {
+  "id": 5,
+  "text": "How did you first become interested in cooking? How did you learn to cook? Did someone teach you cooking? Who did you cook with? Please tell me everything about it in detail.",
+  "hint": "first became interested(처음 관심을 갖게 되다), learn by watching(보면서 배우다), recipe(레시피), family member(가족 구성원), teach me how to cook(요리를 가르쳐 주다), cook together(함께 요리하다), kitchen experience(주방 경험), practice regularly(꾸준히 연습하다), gain confidence(자신감을 얻다), enjoyable activity(즐거운 활동)",
+  "translation": "어떻게 처음 요리에 관심을 가지게 되었나요? 요리를 어떻게 배우셨나요? 누군가 요리를 가르쳐 줬었나요? 누구와 함께 요리를 했었나요? 모든 것을 자세히 말해주세요."
+  },
+  {
+  "id": 6,
+  "text": "Compare the food in your country with the food in another country. What are the differences? Is it the recipes or the ingredients that mainly differ? Tell me in detail.",
+  "hint": "compare(비교하다), food in my country(우리나라 음식), another country(다른 나라), differences(차이점), recipes(레시피), ingredients(재료), cooking style(요리 방식), seasoning(양념), taste(맛), tell in detail(자세히 말하다)",
+  "translation": "다른 나라와 당신의 나라의 음식을 비교해주세요. 무엇이 다른가요? 레시피가 다른가요? 아니면 주로 음식 재료가 다른가요? 자세히 말씀해주세요."
+  },
+  {
+  "id": 7,
+  "text": "What dish are you best at making? What kind of food is it? Can you explain the recipe and how you usually make it?",
+  "hint": "dish(요리), be best at(~을 가장 잘하다), make food(음식을 만들다), explain the recipe(레시피를 설명하다), ingredients(재료), preparation(준비), cooking steps(조리 단계), usually make(보통 만들다), season the food(간을 하다), serve(내놓다)",
+  "translation": "당신이 가장 잘 만드는 요리는 무엇인가요? 어떤 종류의 음식인가요? 그 레시피와 보통 어떻게 만드는지 설명해 줄 수 있나요?"
+  },
+  {
+  "id": 8,
+  "text": "You mentioned that you enjoy cooking. What types of food do you usually cook? Do you have a recipe you often use? When and where do you normally cook? Why do you enjoy cooking? Please describe the entire cooking process from start to finish.",
+  "hint": "enjoy cooking(요리를 즐기다), types of food(음식 종류), usually cook(보통 요리하다), recipe I often use(자주 사용하는 레시피), normally cook(보통 요리하다), kitchen(주방), enjoy cooking(요리를 즐기다), entire process(전체 과정), from start to finish(처음부터 끝까지), describe(묘사하다)",
+  "translation": "당신은 요리를 즐긴다고 말했습니다. 보통 어떤 종류의 음식을 요리하나요? 자주 사용하는 레시피가 있나요? 언제 어디서 보통 요리하나요? 왜 요리를 즐기나요? 처음부터 끝까지 전체 요리 과정을 묘사해주세요."
+  },
+  {
+  "id": 9,
+  "text": "Compare the food in your country with food from another country. What are the main differences? Are the ingredients, cooking methods, or flavors different? Please explain in detail.",
+  "hint": "food from another country(다른 나라 음식), main differences(주요 차이점), ingredients(재료), cooking methods(조리법), flavors(맛), spicy(매운), mild(순한), traditional food(전통 음식), cultural difference(문화적 차이), explain in detail(자세히 설명하다)",
+  "translation": "당신의 나라 음식과 다른 나라 음식을 비교해주세요. 주요 차이점은 무엇인가요? 재료, 조리법, 또는 맛이 다른가요? 자세히 설명해주세요."
+  },
+  {
+  "id": 10,
+  "text": "Think about a foreign dish and a dish from your country. How are they different? Do they use different ingredients or recipes? Please compare them with as many details as possible.",
+  "hint": "foreign dish(외국 요리), dish from my country(우리나라 요리), different ingredients(다른 재료), different recipes(다른 레시피), compare(비교하다), flavor(맛), texture(식감), cooking process(조리 과정), traditional style(전통 방식), as many details as possible(가능한 많은 세부사항)",
+  "translation": "외국 요리와 당신의 나라 요리를 떠올려 보세요. 그것들은 어떻게 다른가요? 서로 다른 재료나 레시피를 사용하나요? 가능한 많은 세부사항으로 비교해주세요."
+  },
+  {
+  "id": 11,
+  "text": "Tell me about a problem you had while cooking recently. What went wrong? How did you handle the situation? Please describe what happened in detail.",
+  "hint": "problem while cooking(요리 중 문제), recently(최근에), what went wrong(무엇이 잘못되었는지), handle the situation(상황을 처리하다), burn the food(음식을 태우다), too salty(너무 짠), missing ingredient(빠진 재료), fix the mistake(실수를 고치다), describe in detail(자세히 묘사하다), learn a lesson(교훈을 얻다)",
+  "translation": "최근에 요리하면서 겪은 문제에 대해 말해주세요. 무엇이 잘못되었나요? 그 상황을 어떻게 처리했나요? 무슨 일이 있었는지 자세히 묘사해주세요."
+  },
+  {
+  "id": 12,
+  "text": "Can you tell me how you first became interested in cooking? How did you learn it? Did someone teach you, or did you learn by yourself? Who did you cook with at first? Please explain everything in detail.",
+  "hint": "first became interested(처음 관심을 갖게 되다), learn cooking(요리를 배우다), teach me(나에게 가르쳐 주다), learn by myself(혼자 배우다), cook with someone(~와 요리하다), at first(처음에는), watch videos(영상을 보다), practice(연습하다), explain everything(모든 것을 설명하다), in detail(자세히)",
+  "translation": "어떻게 처음 요리에 관심을 갖게 되었는지 말해 줄 수 있나요? 어떻게 배웠나요? 누군가 가르쳐 주었나요, 아니면 혼자 배웠나요? 처음에는 누구와 함께 요리했나요? 모든 것을 자세히 설명해주세요."
+  },
+  {
+  "id": 13,
+  "text": "What dish are you most confident in making? Please explain what kind of dish it is, what ingredients you use, and how you usually cook it from start to finish.",
+  "hint": "most confident in making(만드는 데 가장 자신 있는), dish(요리), ingredients(재료), usually cook(보통 요리하다), from start to finish(처음부터 끝까지), prepare ingredients(재료를 준비하다), season(간을 하다), boil(끓이다), stir-fry(볶다), serve(내놓다)",
+  "translation": "당신이 만드는 데 가장 자신 있는 요리는 무엇인가요? 어떤 종류의 요리인지, 어떤 재료를 사용하는지, 그리고 보통 처음부터 끝까지 어떻게 요리하는지 설명해주세요."
+  },
+  {
+  "id": 14,
+  "text": "You said you enjoy cooking. What kinds of food do you usually make, and when do you normally cook? Please describe your cooking process in detail, including how you choose a recipe, prepare ingredients, and finish the dish.",
+  "hint": "enjoy cooking(요리를 즐기다), kinds of food(음식 종류), usually make(보통 만들다), normally cook(보통 요리하다), cooking process(요리 과정), choose a recipe(레시피를 고르다), prepare ingredients(재료를 준비하다), finish the dish(요리를 완성하다), in detail(자세히), kitchen routine(주방 루틴)",
+  "translation": "당신은 요리를 즐긴다고 했습니다. 보통 어떤 음식을 만들고, 언제 주로 요리하나요? 레시피를 고르고, 재료를 준비하고, 요리를 완성하는 방법을 포함해 요리 과정을 자세히 묘사해주세요."
+  },
+  {
+  "id": 15,
+  "text": "How is food in your country different from food in another country? Please compare the ingredients, cooking methods, flavors, and eating culture in as much detail as possible.",
+  "hint": "food in my country(우리나라 음식), another country(다른 나라), compare(비교하다), ingredients(재료), cooking methods(조리 방법), flavors(맛), eating culture(식문화), spicy flavor(매운맛), common dishes(일반적인 요리), in detail(자세히)",
+  "translation": "당신의 나라 음식은 다른 나라 음식과 어떻게 다른가요? 재료, 조리 방법, 맛, 식문화를 가능한 한 자세히 비교해주세요."
+  },
+  {
+  "id": 16,
+  "text": "Think about one traditional dish from your country and one foreign dish you know well. How are they different in terms of ingredients, recipe, taste, and the way people usually eat them?",
+  "hint": "traditional dish(전통 요리), foreign dish(외국 요리), know well(잘 알다), different in terms of(~의 면에서 다른), ingredients(재료), recipe(레시피), taste(맛), way people eat(사람들이 먹는 방식), serving style(제공 방식), compare dishes(요리를 비교하다)",
+  "translation": "당신의 나라 전통 요리 하나와 잘 아는 외국 요리 하나를 떠올려 보세요. 재료, 레시피, 맛, 그리고 사람들이 보통 먹는 방식 면에서 그것들은 어떻게 다른가요?"
+  },
+  {
+  "id": 17,
+  "text": "Tell me about a time when something went wrong while you were cooking. What was the problem, how did you react, and what did you do to fix it?",
+  "hint": "something went wrong(무언가 잘못되다), while cooking(요리하는 동안), problem(문제), react(반응하다), fix it(고치다), burn the food(음식을 태우다), too salty(너무 짠), missing ingredient(빠진 재료), stay calm(침착하게 있다), learn from it(그것에서 배우다)",
+  "translation": "요리하는 동안 무언가 잘못되었던 때에 대해 말해주세요. 문제가 무엇이었고, 어떻게 반응했으며, 그것을 고치기 위해 무엇을 했나요?"
+  },
+  {
+  "id": 18,
+  "text": "Can you tell me how you first became interested in cooking? Who influenced you, what did you try to cook at first, and how has your cooking style changed since then?",
+  "hint": "first became interested(처음 관심을 갖게 되다), influenced me(나에게 영향을 주다), try to cook(요리해 보려고 하다), at first(처음에는), cooking style(요리 스타일), changed since then(그 이후로 변했다), family member(가족 구성원), cooking videos(요리 영상), simple dish(간단한 요리), improve skills(실력을 향상시키다)",
+  "translation": "어떻게 처음 요리에 관심을 갖게 되었는지 말해 줄 수 있나요? 누가 당신에게 영향을 주었고, 처음에는 무엇을 요리해 보려고 했으며, 그 이후로 요리 스타일은 어떻게 변했나요?"
+  },
+  {
+  "id": 19,
+  "text": "You mentioned that you are confident in your cooking. Tell me about your \"signature dish.\" What are the key ingredients required, and could you walk me through the entire cooking process? Please include any special tips or secret steps you have to make the dish taste even better.",
+  "hint": "confident in cooking(요리에 자신 있는), signature dish(대표 요리), key ingredients(핵심 재료), required(필요한), walk me through(차근차근 설명하다), entire cooking process(전체 요리 과정), special tips(특별한 팁), secret steps(비밀 단계), taste even better(더 맛있게 만들다), recipe details(레시피 세부사항)",
+  "translation": "당신은 요리에 자신이 있다고 말했습니다. 당신의 대표 요리에 대해 말해주세요. 필요한 핵심 재료는 무엇이고, 전체 요리 과정을 차근차근 설명해 줄 수 있나요? 그 요리를 더 맛있게 만들기 위한 특별한 팁이나 비밀 단계가 있다면 포함해주세요."
+  },
+  {
+  "id": 20,
+  "text": "Describe your overall cooking style. What kind of cuisine do you usually prepare, and when do you find time to cook? Walk me through your typical culinary routine, from how you source your fresh ingredients and select a recipe to the final presentation of the dish.",
+  "hint": "overall cooking style(전반적인 요리 스타일), cuisine(요리 종류), usually prepare(보통 준비하다), find time to cook(요리할 시간을 내다), culinary routine(요리 루틴), source fresh ingredients(신선한 재료를 구하다), select a recipe(레시피를 선택하다), final presentation(최종 플레이팅), dish(요리), step-by-step(단계별로)",
+  "translation": "당신의 전반적인 요리 스타일을 묘사해주세요. 보통 어떤 종류의 요리를 준비하고, 언제 요리할 시간을 내나요? 신선한 재료를 구하고 레시피를 선택하는 것부터 요리의 최종 플레이팅까지 전형적인 요리 루틴을 차근차근 설명해주세요."
+  },
+  {
+  "id": 21,
+  "text": "Every country has its own unique food culture. Compare the food of your home country with that of another country you are familiar with. Focus on the fundamental differences in primary ingredients, common cooking techniques, such as steaming vs. frying, and the overall dining etiquette.",
+  "hint": "unique food culture(독특한 음식 문화), home country(고국), another country(다른 나라), familiar with(익숙한), fundamental differences(근본적인 차이), primary ingredients(주요 재료), cooking techniques(조리 기술), steaming(찌기), frying(튀기기), dining etiquette(식사 예절)",
+  "translation": "모든 나라는 저마다의 독특한 음식 문화를 가지고 있습니다. 당신의 나라 음식과 당신이 잘 아는 다른 나라의 음식을 비교해주세요. 주요 재료, 찌기와 튀기기 같은 일반적인 조리 기술, 그리고 전반적인 식사 예절의 근본적인 차이에 초점을 맞춰 설명해주세요."
+  },
+  {
+  "id": 22,
+  "text": "Select one traditional dish from your country and compare it with a popular foreign dish. How do they differ in terms of flavor profiles, textures, and the way they are served? Explain why you think people from different cultures enjoy these specific tastes.",
+  "hint": "select one dish(요리 하나를 선택하다), traditional dish(전통 요리), popular foreign dish(인기 있는 외국 요리), differ(다르다), flavor profiles(맛의 특징), textures(식감), way they are served(제공되는 방식), different cultures(다른 문화), specific tastes(특정한 맛), enjoy(즐기다)",
+  "translation": "당신의 나라 전통 요리 하나를 선택하고 인기 있는 외국 요리와 비교해주세요. 맛의 특징, 식감, 제공되는 방식 면에서 어떻게 다른가요? 서로 다른 문화의 사람들이 왜 이런 특정한 맛을 즐긴다고 생각하는지 설명해주세요."
+  },
+  {
+  "id": 23,
+  "text": "Even for experienced cooks, things don't always go as planned in the kitchen. Tell me about a time you faced a significant problem or a \"cooking disaster.\" What exactly went wrong—did you burn the food or miss a crucial ingredient? How did you handle the situation, and what did you learn from that experience?",
+  "hint": "experienced cooks(경험 많은 요리사들), go as planned(계획대로 되다), kitchen(주방), significant problem(큰 문제), cooking disaster(요리 대참사), exactly went wrong(정확히 잘못되다), burn the food(음식을 태우다), crucial ingredient(중요한 재료), handle the situation(상황을 처리하다), learn from the experience(경험에서 배우다)",
+  "translation": "경험 많은 사람들에게도 주방에서는 일이 항상 계획대로 되지 않습니다. 큰 문제나 요리 대참사를 겪었던 때에 대해 말해주세요. 정확히 무엇이 잘못되었나요? 음식을 태웠나요, 아니면 중요한 재료를 빠뜨렸나요? 그 상황을 어떻게 처리했고, 그 경험에서 무엇을 배웠나요?"
+  },
+  {
+  "id": 24,
+  "text": "I’d like to know how your journey with cooking first began. Who or what inspired you to pick up a spatula, and what was the very first dish you attempted to make? Since then, how has your approach to cooking or your taste in food evolved over the years?",
+  "hint": "journey with cooking(요리 여정), first began(처음 시작되다), inspired me(나에게 영감을 주다), pick up a spatula(요리를 시작하다), very first dish(가장 처음 만든 요리), attempted to make(만들어 보려고 시도하다), approach to cooking(요리에 대한 접근 방식), taste in food(음식 취향), evolved over the years(수년간 변화했다), cooking skills(요리 실력)",
+  "translation": "당신의 요리 여정이 어떻게 처음 시작되었는지 알고 싶습니다. 누가 또는 무엇이 당신에게 요리를 시작하도록 영감을 주었고, 가장 처음 만들어 보려고 했던 요리는 무엇인가요? 그 이후로 요리에 대한 접근 방식이나 음식 취향은 수년 동안 어떻게 변화했나요?"
+  }
+]

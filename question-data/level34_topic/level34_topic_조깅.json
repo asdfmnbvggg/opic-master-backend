@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "text": "Where do you usually go jogging? Where is it? Please describe your favorite jogging place.",
+        "hint": "nearby park(근처 공원), walking path(산책로), riverside(강변), quiet street(조용한 거리), fresh air(상쾌한 공기), beautiful view(아름다운 경치), many trees(많은 나무들), safe area(안전한 지역), not crowded(붐비지 않는), relaxing place(편안한 장소)",
+        "translation": "보통 어디에서 조깅하나요? 그곳은 어디에 있나요? 가장 좋아하는 조깅 장소를 설명해 주세요."
+    },
+    {
+        "id": 2,
+        "text": "You said you like jogging. What are the good points of jogging for your body and mind?",
+        "hint": "feel refreshed(상쾌하다), reduce stress(스트레스를 줄이다), better stamina(더 좋은 체력), healthy body(건강한 몸), clear mind(맑은 정신), better mood(더 좋은 기분), sleep better(잠을 더 잘 자다), lose weight(살을 빼다), more energy(더 많은 에너지), regular exercise(규칙적인 운동)",
+        "translation": "조깅을 좋아한다고 하셨는데요. 조깅의 몸과 마음에 좋은 점은 무엇인가요?"
+    },
+    {
+        "id": 3,
+        "text": "When you go jogging, what do you prepare? What do you do to avoid getting hurt?",
+        "hint": "running shoes(운동화), comfortable clothes(편한 옷), water bottle(물병), smartphone(스마트폰), earbuds(이어폰), stretching(스트레칭), warm-up(준비운동), safe route(안전한 길), watch traffic(차를 조심하다), avoid injury(부상을 피하다)",
+        "translation": "조깅하러 갈 때 무엇을 준비하나요? 다치지 않으려면 어떻게 하나요?"
+    },
+    {
+        "id": 4,
+        "text": "Tell me about the most interesting place where you went jogging. Where was it, and why was it interesting?",
+        "hint": "nearby park(근처 공원), walking path(산책로), riverside(강변), quiet street(조용한 거리), fresh air(상쾌한 공기), beautiful view(아름다운 경치), many trees(많은 나무들), safe area(안전한 지역), not crowded(붐비지 않는), relaxing place(편안한 장소)",
+        "translation": "조깅했던 곳 중 가장 흥미로웠던 장소를 말해 주세요. 어디였고, 왜 흥미로웠나요?"
+    },
+    {
+        "id": 5,
+        "text": "How did you start jogging for the first time? What made you keep doing it?",
+        "hint": "first started(처음 시작했다), health reason(건강상의 이유), doctor advice(의사의 조언), new habit(새 습관), morning walk(아침 산책), felt better(기분이 좋아졌다), kept going(계속했다), easy exercise(쉬운 운동), motivation(동기부여), regular routine(규칙적인 루틴)",
+        "translation": "처음 조깅을 시작한 계기는 무엇인가요? 계속하게 된 이유는 무엇인가요?"
+    }
+]

@@ -1,0 +1,1010 @@
+﻿[
+    {
+        "id":  1,
+        "text":  "I'd like to give you a situation and ask you to act it out. Your friend is planning to have a birthday party and asked you to help prepare the party. Call your friend and ask three or four questions about the party.",
+        "hint":  "birthday party(생일 파티), party date(파티 날짜), party time(파티 시간), party place(파티 장소), guest list(손님 명단), party food(파티 음식), decorations(장식), bring a gift(선물을 가져가다), cannot attend(참석할 수 없다), meet later(나중에 만나다), send a gift(선물을 보내다), apologize politely(정중히 사과하다)",
+        "topicId":  1,
+        "topicTitle":  "birthday party",
+        "translation":  "상황을 알려드리고 행동해 주시기를 부탁드립니다. 당신의 친구가 생일 파티를 계획하고 있는데, 파티 준비를 도와달라고 부탁했어요. 친구에게 전화해서 파티에 대해 서너 가지 질문을 하세요."
+    },
+    {
+        "id":  2,
+        "text":  "I'm sorry, but there is a problem I need you to resolve. You were planning to go to your friend's birthday party, but something came up. Call your friend, explain that you cannot go to the party, and suggest two or three alternatives.",
+        "hint":  "birthday party(생일 파티), party date(파티 날짜), party time(파티 시간), party place(파티 장소), guest list(손님 명단), party food(파티 음식), decorations(장식), bring a gift(선물을 가져가다), cannot attend(참석할 수 없다), meet later(나중에 만나다), send a gift(선물을 보내다), apologize politely(정중히 사과하다)",
+        "topicId":  1,
+        "topicTitle":  "birthday party",
+        "translation":  "죄송하지만 문제를 해결해 주셔야 할 것이 있습니다. 친구의 생일 파티에 가려고 했는데, 갑자기 일이 생겼어요. 친구에게 전화해서 파티에 갈 수 없다고 설명하고 두세 가지 대안을 제안하세요."
+    },
+    {
+        "id":  3,
+        "text":  "That's the end of the situation. Have you ever been in a situation where you had to cancel something? Explain what happened.",
+        "hint":  "birthday party(생일 파티), party date(파티 날짜), party time(파티 시간), party place(파티 장소), guest list(손님 명단), party food(파티 음식), decorations(장식), bring a gift(선물을 가져가다), cannot attend(참석할 수 없다), meet later(나중에 만나다), send a gift(선물을 보내다), apologize politely(정중히 사과하다)",
+        "topicId":  1,
+        "topicTitle":  "birthday party",
+        "translation":  "그게 상황의 끝이야. 무언가를 취소해야 하는 상황에 처한 적이 있나요? 무슨 일이 있었는지 설명해 주세요."
+    },
+    {
+        "id":  4,
+        "text":  "I'd like to give you a situation and ask you to act it out. You want to make a doctor's appointment. Call the doctor's office and ask three or four questions to help you make an appointment.",
+        "hint":  "doctor appointment(병원 예약), doctor office(진료실), available time(가능한 시간), symptoms(증상), insurance(보험), required documents(필요 서류), appointment change(예약 변경), reschedule request(일정 변경 요청), cancellation reason(취소 이유), new date(새 날짜), medical visit(진료 방문), polite apology(정중한 사과)",
+        "topicId":  2,
+        "topicTitle":  "doctor's appointment",
+        "translation":  "제가 상황 하나를 제시할 테니, 그 상황을 연기해 주시길 부탁드립니다. 당신은 의사 진료 예약을 하고 싶어합니다. 병원에 전화해서 예약을 도와줄 서너 가지 질문을 하세요."
+    },
+    {
+        "id":  5,
+        "text":  "I'm sorry, but there is a problem I need you to resolve. You made an appointment with your doctor, but something came up, so you can't make it. Call the doctor's office. Explain the situation, and reschedule the appointment.",
+        "hint":  "doctor appointment(병원 예약), doctor office(진료실), available time(가능한 시간), symptoms(증상), insurance(보험), required documents(필요 서류), appointment change(예약 변경), reschedule request(일정 변경 요청), cancellation reason(취소 이유), new date(새 날짜), medical visit(진료 방문), polite apology(정중한 사과)",
+        "topicId":  2,
+        "topicTitle":  "doctor's appointment",
+        "translation":  "죄송하지만 해결해 주셔야 할 문제가 있습니다. 의사와 약속을 잡았지만 일이 생겨서 참석할 수 없습니다. 의사 사무실에 전화하세요. 상황을 설명하고 약속을 다시 잡으세요."
+    },
+    {
+        "id":  6,
+        "text":  "That's the end of the situation. Tell me about an experience when you had to cancel an appointment you made. What happened? Why did you have to cancel the appointment?",
+        "hint":  "doctor appointment(병원 예약), doctor office(진료실), available time(가능한 시간), symptoms(증상), insurance(보험), required documents(필요 서류), appointment change(예약 변경), reschedule request(일정 변경 요청), cancellation reason(취소 이유), new date(새 날짜), medical visit(진료 방문), polite apology(정중한 사과)",
+        "topicId":  2,
+        "topicTitle":  "doctor's appointment",
+        "translation":  "그렇게 상황은 마무리됐습니다. 약속을 취소해야 했던 경험에 대해 이야기해 주세요. 무슨 일이 있었나요? 왜 약속을 취소해야 했나요?"
+    },
+    {
+        "id":  7,
+        "text":  "I'd like to give you a situation and ask you to act it out. You want to rent a car for a week. Call the car rental company and ask three or four questions about renting a car.",
+        "hint":  "rental car(렌터카), weekly rate(주간 요금), car type(차종), insurance coverage(보험 보장), pickup time(픽업 시간), return process(반납 절차), car problem(차량 문제), replacement car(대체 차량), repair service(수리 서비스), refund option(환불 방법), rental experience(렌트 경험), travel purpose(여행 목적)",
+        "topicId":  3,
+        "topicTitle":  "car rental",
+        "translation":  "제가 상황 하나를 제시하고 여러분께 연기를 부탁드리겠습니다. 일주일 동안 차를 렌트하려고 합니다. 렌터카 회사에 전화해서 렌트에 대해 3~4가지 질문을 해보세요."
+    },
+    {
+        "id":  8,
+        "text":  "I'm sorry but there's a problem I need you to resolve. You rented a car but there are some problems. Call the car rental company, explain the situation, and suggest two or three alternatives.",
+        "hint":  "rental car(렌터카), weekly rate(주간 요금), car type(차종), insurance coverage(보험 보장), pickup time(픽업 시간), return process(반납 절차), car problem(차량 문제), replacement car(대체 차량), repair service(수리 서비스), refund option(환불 방법), rental experience(렌트 경험), travel purpose(여행 목적)",
+        "topicId":  3,
+        "topicTitle":  "car rental",
+        "translation":  "죄송하지만 해결해 주셔야 할 문제가 있습니다. 차량을 렌트하셨는데 문제가 생겼습니다. 렌터카 회사에 전화해서 상황을 설명하고 2~3가지 대안을 제시해 주세요."
+    },
+    {
+        "id":  9,
+        "text":  "That's the end of the situation. Have you ever rented a car from a car rental company? What was the reason you rented a car? Tell me in detail everything about your experience renting the car.",
+        "hint":  "rental car(렌터카), weekly rate(주간 요금), car type(차종), insurance coverage(보험 보장), pickup time(픽업 시간), return process(반납 절차), car problem(차량 문제), replacement car(대체 차량), repair service(수리 서비스), refund option(환불 방법), rental experience(렌트 경험), travel purpose(여행 목적)",
+        "topicId":  3,
+        "topicTitle":  "car rental",
+        "translation":  "상황은 여기까지입니다. 혹시 렌터카 회사에서 차를 빌려본 적 있으세요? 차를 빌린 이유는 무엇이었나요? 렌터카를 이용하면서 겪었던 모든 경험을 자세히 이야기해 주세요."
+    },
+    {
+        "id":  10,
+        "text":  "I'd like to give you a situation and ask you to act it out. You are at a bank now because you want to open a bank account and get a credit card. Ask the bank teller three or four questions about opening a new account and getting a credit card.",
+        "hint":  "bank account(은행 계좌), new account(새 계좌), credit card(신용카드), required documents(필요 서류), monthly fee(월 수수료), bank teller(은행 창구 직원), lost card(잃어버린 카드), restaurant table(식당 테이블), identity check(신원 확인), card pickup(카드 회수), bank problem(은행 문제), handled issue(처리된 문제)",
+        "topicId":  4,
+        "topicTitle":  "bank and credit card",
+        "translation":  "제가 상황을 하나 제시하고 여러분께 연기를 부탁드리겠습니다. 여러분은 지금 은행에 가서 계좌를 개설하고 신용카드를 발급받으려고 합니다. 은행 직원에게 새 계좌 개설과 신용카드 발급에 대해 세네 가지 질문을 하세요."
+    },
+    {
+        "id":  11,
+        "text":  "I'm sorry, but there is a problem I need you to resolve. You just found out that you left your credit card at a restaurant. Call the restaurant and explain the situation. Describe the table you sat at and the card you left. Then talk about how to get the card back.",
+        "hint":  "bank account(은행 계좌), new account(새 계좌), credit card(신용카드), required documents(필요 서류), monthly fee(월 수수료), bank teller(은행 창구 직원), lost card(잃어버린 카드), restaurant table(식당 테이블), identity check(신원 확인), card pickup(카드 회수), bank problem(은행 문제), handled issue(처리된 문제)",
+        "topicId":  4,
+        "topicTitle":  "bank and credit card",
+        "translation":  "죄송하지만 문제가 생겼습니다. 방금 레스토랑에 신용카드를 두고 온 것을 알게 되셨습니다. 레스토랑에 전화해서 상황을 설명하세요. 앉았던 테이블과 두고 온 카드 종류를 자세히 알려주세요. 그리고 카드를 되찾는 방법에 대해 이야기해 보세요."
+    },
+    {
+        "id":  12,
+        "text":  "That's the end of the situation. Have you ever had any problems at a bank? What happened? And how did you solve the problem?",
+        "hint":  "bank account(은행 계좌), new account(새 계좌), credit card(신용카드), required documents(필요 서류), monthly fee(월 수수료), bank teller(은행 창구 직원), lost card(잃어버린 카드), restaurant table(식당 테이블), identity check(신원 확인), card pickup(카드 회수), bank problem(은행 문제), handled issue(처리된 문제)",
+        "topicId":  4,
+        "topicTitle":  "bank and credit card",
+        "translation":  "상황은 이렇게 마무리됐습니다. 은행에서 문제가 생긴 적이 있으신가요? 무슨 일이 있었나요? 그리고 어떻게 해결하셨나요?"
+    },
+    {
+        "id":  13,
+        "text":  "You want to find a new house to move into. Call a real estate agent and ask three or four questions about buying a house.",
+        "hint":  "new house(새 집), real estate agency(부동산 중개업소), home list(집 목록), house price(집 가격), neighborhood(동네), broken window(깨진 창문), repair shop(수리점), repair person(수리 기사), same-day repair(당일 수리), damaged item(손상된 물건), home problem(집 문제), final repair(최종 수리)",
+        "topicId":  5,
+        "topicTitle":  "moving and housing",
+        "translation":  "새 집으로 이사하고 싶으시군요. 부동산 중개인에게 전화해서 집 구매에 대해 3~4가지 질문을 해보세요."
+    },
+    {
+        "id":  14,
+        "text":  "You just moved in but you found out that the window is broken. Call the management office and explain the situation. Give two or three solutions to the problem.",
+        "hint":  "new house(새 집), real estate agency(부동산 중개업소), home list(집 목록), house price(집 가격), neighborhood(동네), broken window(깨진 창문), repair shop(수리점), repair person(수리 기사), same-day repair(당일 수리), damaged item(손상된 물건), home problem(집 문제), final repair(최종 수리)",
+        "topicId":  5,
+        "topicTitle":  "moving and housing",
+        "translation":  "이사 온 지 얼마 안 됐는데 창문이 깨져 있는 걸 발견했어요. 관리사무소에 전화해서 상황을 설명하세요. 문제 해결을 위한 2~3가지 방법을 제시하세요."
+    },
+    {
+        "id":  15,
+        "text":  "Have you broken something in the house? What was the situation, and how did you solve the situation?",
+        "hint":  "new house(새 집), real estate agency(부동산 중개업소), home list(집 목록), house price(집 가격), neighborhood(동네), broken window(깨진 창문), repair shop(수리점), repair person(수리 기사), same-day repair(당일 수리), damaged item(손상된 물건), home problem(집 문제), final repair(최종 수리)",
+        "topicId":  5,
+        "topicTitle":  "moving and housing",
+        "translation":  "집에서 뭔가를 부수셨나요? 어떤 상황이었고, 어떻게 해결하셨나요?"
+    },
+    {
+        "id":  16,
+        "text":  "You are going to visit your friend who lives abroad. Call and ask three or four questions about the country, including the geography, to help you plan your trip.",
+        "hint":  "foreign country(외국), friend abroad(해외의 친구), geographical features(지리적 특징), travel plan(여행 계획), weather information(날씨 정보), places to visit(방문할 곳), travel abroad(해외여행), postponed visit(연기된 방문), online talk(온라인 대화), different geography(다른 지형), impressive scenery(인상적인 경치), memorable view(기억에 남는 풍경)",
+        "topicId":  6,
+        "topicTitle":  "visiting a friend abroad",
+        "translation":  "해외에 사는 친구를 방문할 예정이시군요. 전화를 걸어 그 나라의 지리를 포함해 여행 계획에 도움이 될 만한 3~4가지 질문을 해보세요."
+    },
+    {
+        "id":  17,
+        "text":  "You are supposed to travel abroad and visit your friend. Something happened and you can't go. Call your friend, explain the situation, and suggest two or three alternatives.",
+        "hint":  "foreign country(외국), friend abroad(해외의 친구), geographical features(지리적 특징), travel plan(여행 계획), weather information(날씨 정보), places to visit(방문할 곳), travel abroad(해외여행), postponed visit(연기된 방문), online talk(온라인 대화), different geography(다른 지형), impressive scenery(인상적인 경치), memorable view(기억에 남는 풍경)",
+        "topicId":  6,
+        "topicTitle":  "visiting a friend abroad",
+        "translation":  "해외에 있는 친구를 만나러 갈 예정이었는데, 갑자기 일이 생겨서 갈 수 없게 되었습니다. 친구에게 전화해서 상황을 설명하고 2~3가지 대안을 제시해 보세요."
+    },
+    {
+        "id":  18,
+        "text":  "That's the end of the situation. Have you ever traveled overseas? How is their geography different from the geography of your country?",
+        "hint":  "foreign country(외국), friend abroad(해외의 친구), geographical features(지리적 특징), travel plan(여행 계획), weather information(날씨 정보), places to visit(방문할 곳), travel abroad(해외여행), postponed visit(연기된 방문), online talk(온라인 대화), different geography(다른 지형), impressive scenery(인상적인 경치), memorable view(기억에 남는 풍경)",
+        "topicId":  6,
+        "topicTitle":  "visiting a friend abroad",
+        "translation":  "상황은 이렇게 끝났습니다. 해외여행 가보신 적 있으세요? 그곳의 지리는 당신 나라의 지리와 어떻게 다른가요?"
+    },
+    {
+        "id":  19,
+        "text":  "You are going on a trip and you need to stay at a hotel. Call the hotel and ask three or four questions about the hotel to help you decide whether you will stay at the hotel or not.",
+        "hint":  "hotel reservation(호텔 예약), room rate(객실 요금), hotel location(호텔 위치), room amenities(객실 편의시설), breakfast option(조식 옵션), check-in time(체크인 시간), front desk(프런트 데스크), dirty room(더러운 방), housekeeping(객실 청소), room change(객실 변경), refund request(환불 요청), memorable stay(기억에 남는 숙박)",
+        "topicId":  7,
+        "topicTitle":  "hotel",
+        "translation":  "여행을 가는데 호텔에 묵어야 합니다. 호텔에 전화해서 호텔에 대해 세네 가지 질문을 하고, 그 호텔에 묵을지 말지 결정하는 데 도움을 받으세요."
+    },
+    {
+        "id":  20,
+        "text":  "I'm sorry, but there is a problem I need you to resolve. You have just walked into your room after checking into the hotel, but your room has not been cleaned properly. Call the front desk and explain the situation. Give two or three alternatives to this problem.",
+        "hint":  "hotel reservation(호텔 예약), room rate(객실 요금), hotel location(호텔 위치), room amenities(객실 편의시설), breakfast option(조식 옵션), check-in time(체크인 시간), front desk(프런트 데스크), dirty room(더러운 방), housekeeping(객실 청소), room change(객실 변경), refund request(환불 요청), memorable stay(기억에 남는 숙박)",
+        "topicId":  7,
+        "topicTitle":  "hotel",
+        "translation":  "죄송하지만, 해결해 주셔야 할 문제가 있습니다. 방금 호텔 체크인 후 객실에 들어가셨는데, 객실 청소가 제대로 되어 있지 않습니다. 프런트 데스크에 전화하셔서 상황을 설명하시고, 이 문제를 해결할 수 있는 두세 가지 방안을 제시해 주세요."
+    },
+    {
+        "id":  21,
+        "text":  "It is the end of the situation. Tell me about a memorable experience you've had at a hotel. What happened, and why is it memorable?",
+        "hint":  "hotel reservation(호텔 예약), room rate(객실 요금), hotel location(호텔 위치), room amenities(객실 편의시설), breakfast option(조식 옵션), check-in time(체크인 시간), front desk(프런트 데스크), dirty room(더러운 방), housekeeping(객실 청소), room change(객실 변경), refund request(환불 요청), memorable stay(기억에 남는 숙박)",
+        "topicId":  7,
+        "topicTitle":  "hotel",
+        "translation":  "이제 상황은 끝났으니, 호텔에서 겪었던 기억에 남는 경험에 대해 이야기해 주세요. 무슨 일이었고, 왜 기억에 남는가요?"
+    },
+    {
+        "id":  22,
+        "text":  "I'd like to give you a situation and ask you to act it out. You want to get together with your friend on the weekend. Call your friend and ask when he or she can meet and what he or she wants to do.",
+        "hint":  "weekend plan(주말 계획), get together(만나다), meeting time(만날 시간), meeting place(만날 장소), fun activity(재미있는 활동), change location(장소를 바꾸다), meet later(나중에 만나다), plan change(계획 변경), free time(여가 시간), unexpected issue(예상치 못한 일), alternative plan(대체 계획), good time(좋은 시간)",
+        "topicId":  8,
+        "topicTitle":  "weekend plans with a friend",
+        "translation":  "상황 하나를 제시하고 여러분이 직접 연기해 보시도록 하겠습니다. 주말에 친구와 만나고 싶습니다. 친구에게 전화해서 언제 만날 수 있는지, 무엇을 하고 싶은지 물어보세요."
+    },
+    {
+        "id":  23,
+        "text":  "I'm sorry, but there is a problem I need you to resolve. You cannot meet your friend at the place you planned on meeting. Call your friend, explain the situation, and give some suggestions.",
+        "hint":  "weekend plan(주말 계획), get together(만나다), meeting time(만날 시간), meeting place(만날 장소), fun activity(재미있는 활동), change location(장소를 바꾸다), meet later(나중에 만나다), plan change(계획 변경), free time(여가 시간), unexpected issue(예상치 못한 일), alternative plan(대체 계획), good time(좋은 시간)",
+        "topicId":  8,
+        "topicTitle":  "weekend plans with a friend",
+        "translation":  "죄송하지만, 해결해 주셔야 할 문제가 있어요. 약속 장소에서 친구를 만날 수 없을 것 같아요. 친구에게 전화해서 상황을 설명하고 다른 방법을 제안해 보세요."
+    },
+    {
+        "id":  24,
+        "text":  "That's the end of the situation. Have you ever had an experience when you had to change your plans in your free time? What happened, and why did you have to change those plans?",
+        "hint":  "weekend plan(주말 계획), get together(만나다), meeting time(만날 시간), meeting place(만날 장소), fun activity(재미있는 활동), change location(장소를 바꾸다), meet later(나중에 만나다), plan change(계획 변경), free time(여가 시간), unexpected issue(예상치 못한 일), alternative plan(대체 계획), good time(좋은 시간)",
+        "topicId":  8,
+        "topicTitle":  "weekend plans with a friend",
+        "translation":  "이것으로 상황은 마무리됩니다. 여가 시간에 계획을 바꿔야 했던 경험이 있으신가요? 무슨 일이 있었고, 왜 계획을 바꿔야 했나요?"
+    },
+    {
+        "id":  25,
+        "text":  "You want to buy an MP3 player, and your friend bought one recently. Call your friend, explain why you are interested in buying one, and ask three or four questions about the price, sound quality, battery life, and useful features.",
+        "hint":  "MP3 player(MP3 플레이어), price(가격), sound quality(음질), battery life(배터리 수명), useful features(유용한 기능), borrowed item(빌린 물건), broken device(고장 난 기기), current condition(현재 상태), repair cost(수리비), replacement option(교체 방법), refund request(환불 요청), quick solution(빠른 해결책)",
+        "topicId":  9,
+        "topicTitle":  "MP3",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 mp3 플레이어를 사고 싶어 합니다. 당신의 친구는 최근에 MP3 플레이어를 샀습니다. 구입하기 전에 친구에게 전화해서 MP3 플레이어에 대한 정보를 얻기 위해 친구의 MP3 플레이어에 대해 3-4가지 질문을 해보세요."
+    },
+    {
+        "id":  26,
+        "text":  "You borrowed your friend’s MP3 player, but you accidentally broke it. Call your friend, explain how it happened, describe the current condition, and suggest two or three ways to solve the problem quickly.",
+        "hint":  "MP3 player(MP3 플레이어), price(가격), sound quality(음질), battery life(배터리 수명), useful features(유용한 기능), borrowed item(빌린 물건), broken device(고장 난 기기), current condition(현재 상태), repair cost(수리비), replacement option(교체 방법), refund request(환불 요청), quick solution(빠른 해결책)",
+        "topicId":  9,
+        "topicTitle":  "MP3",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 친구에게 MP3 플레이어를 빌렸는데 불행히도 그것을 망가뜨렸습니다. 친구에게 전화를 걸어 상황을 설명하고 친구에게 가능한 한 빨리 정상적인 MP3 플레이어를 사주기 위해 두세 가지 제안을 하세요."
+    },
+    {
+        "id":  27,
+        "text":  "Tell me about a time when a device or piece of equipment you used broke or stopped working properly. What was the problem, how did you feel, and what did you do to solve it?",
+        "hint":  "MP3 player(MP3 플레이어), price(가격), sound quality(음질), battery life(배터리 수명), useful features(유용한 기능), borrowed item(빌린 물건), broken device(고장 난 기기), current condition(현재 상태), repair cost(수리비), replacement option(교체 방법), refund request(환불 요청), quick solution(빠른 해결책)",
+        "topicId":  9,
+        "topicTitle":  "MP3",
+        "translation":  "그것으로 상황은 끝입니다. 장비가 고장 나거나 제대로 작동하지 않는 상황에 처한 적이 있습니까? 무엇이 문제였고, 어떻게 해결했나요? 가능한 한 많은 세부 정보를 제공해주세요."
+    },
+    {
+        "id":  28,
+        "text":  "You want to borrow your friend’s MP3 player for a short time. Call your friend, explain why you need it, and ask three or four questions about when you can borrow it, how to use it, and when you should return it.",
+        "hint":  "MP3 player(MP3 플레이어), price(가격), sound quality(음질), battery life(배터리 수명), useful features(유용한 기능), borrowed item(빌린 물건), broken device(고장 난 기기), current condition(현재 상태), repair cost(수리비), replacement option(교체 방법), refund request(환불 요청), quick solution(빠른 해결책)",
+        "topicId":  9,
+        "topicTitle":  "MP3",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 친구의 MP3 플레이어를 빌리고 싶습니다. 친구에게 전화해서 상황을 설명하고, MP3 플레이어를 빌리기 위해 서너 가지 질문을 해보세요."
+    },
+    {
+        "id":  29,
+        "text":  "You borrowed your friend’s MP3 player, but it got damaged by accident. Contact your friend, explain what happened, describe the damage, and suggest two or three options such as repairing it, replacing it, or paying for it.",
+        "hint":  "MP3 player(MP3 플레이어), price(가격), sound quality(음질), battery life(배터리 수명), useful features(유용한 기능), borrowed item(빌린 물건), broken device(고장 난 기기), current condition(현재 상태), repair cost(수리비), replacement option(교체 방법), refund request(환불 요청), quick solution(빠른 해결책)",
+        "topicId":  9,
+        "topicTitle":  "MP3",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 친구에게 MP3 플레이어를 빌렸는데, 불행히도 실수로 그것을 망가뜨렸어요. 친구에게 연락해서 그것이 어떻게 부서졌는지 그리고 현재 상태에 대해 설명하세요. 그런 다음 이 문제를 해결하기 위해 두세 가지 대안을 제시하세요."
+    },
+    {
+        "id":  30,
+        "text":  "Tell me about a time when you had a problem with an electronic device. What device was it, what went wrong, and how did you handle the situation?",
+        "hint":  "MP3 player(MP3 플레이어), price(가격), sound quality(음질), battery life(배터리 수명), useful features(유용한 기능), borrowed item(빌린 물건), broken device(고장 난 기기), current condition(현재 상태), repair cost(수리비), replacement option(교체 방법), refund request(환불 요청), quick solution(빠른 해결책)",
+        "topicId":  9,
+        "topicTitle":  "MP3",
+        "translation":  "그것으로 상황은 끝입니다. 어떤 전자 기기에 문제가 있었던 적이 있습니까? 무엇이 문제였고, 어떻게 해결했나요? 가능한 한 많은 세부 정보를 제공해주세요."
+    },
+    {
+        "id":  31,
+        "text":  "You heard that a new restaurant opened in your neighborhood. Call the restaurant, explain that you are interested in visiting, and ask three or four questions about the menu, prices, opening hours, and reservation options.",
+        "hint":  "new restaurant(새 식당), menu options(메뉴 선택지), food prices(음식 가격), opening hours(영업시간), reservation option(예약 방법), late order(늦은 주문), waiter(웨이터), polite complaint(정중한 불만 제기), order check(주문 확인), discount option(할인 방법), restaurant problem(식당 문제), dining experience(식사 경험)",
+        "topicId":  10,
+        "topicTitle":  "Restaurants",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 동네의 새로운 레스토랑에 대해 듣고 어떤 메뉴가 있는지 알고 싶어합니다. 레스토랑에 전화해서 레스토랑과 메뉴에 대한 정보를 얻기 위해 서너 가지 질문을 해보세요."
+    },
+    {
+        "id":  32,
+        "text":  "You are at a restaurant, but the food you ordered has not come out for a long time. Talk to the waiter, explain the situation politely, and suggest two or three options to solve the problem.",
+        "hint":  "new restaurant(새 식당), menu options(메뉴 선택지), food prices(음식 가격), opening hours(영업시간), reservation option(예약 방법), late order(늦은 주문), waiter(웨이터), polite complaint(정중한 불만 제기), order check(주문 확인), discount option(할인 방법), restaurant problem(식당 문제), dining experience(식사 경험)",
+        "topicId":  10,
+        "topicTitle":  "Restaurants",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 주문한 음식을 기다리고 있습니다, 그러나 오랫동안 주문한 요리가 나오지 않습니다. 웨이터에게 상황을 설명하고 문제를 해결하기 위해 2, 3가지 대안을 제시해 보세요."
+    },
+    {
+        "id":  33,
+        "text":  "Tell me about a time when you had a problem at a restaurant. What was the problem, who were you with, and how did you solve it?",
+        "hint":  "new restaurant(새 식당), menu options(메뉴 선택지), food prices(음식 가격), opening hours(영업시간), reservation option(예약 방법), late order(늦은 주문), waiter(웨이터), polite complaint(정중한 불만 제기), order check(주문 확인), discount option(할인 방법), restaurant problem(식당 문제), dining experience(식사 경험)",
+        "topicId":  10,
+        "topicTitle":  "Restaurants",
+        "translation":  "그것으로 상황은 끝입니다. 식당에서 어떤 문제에 처한 상황이 있었나요? 무엇이 문제였고, 어떻게 해결했나요? 가능한 한 많은 세부 정보를 제공해주세요."
+    },
+    {
+        "id":  34,
+        "text":  "You want to buy new furniture for your home. Call a furniture store, explain what kind of furniture you are looking for, and ask three or four questions about the size, price, delivery, and return policy.",
+        "hint":  "new furniture(새 가구), furniture store(가구점), room size(방 크기), item price(상품 가격), delivery service(배송 서비스), return policy(반품 정책), wrong item(잘못된 물건), delivery mistake(배송 실수), exchange request(교환 요청), refund request(환불 요청), home item(집 물건), repair option(수리 방법)",
+        "topicId":  11,
+        "topicTitle":  "Furniture",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 새 가구를 사고 싶어 합니다. 가구점에 전화해서, 당신이 찾고 있는 것을 판매원에게 설명하고 당신이 사고 싶은 가구에 대해 서너 가지 질문을 하세요."
+    },
+    {
+        "id":  35,
+        "text":  "The furniture you ordered has just been delivered, but it is not the item you bought. Call the store, explain the mistake, and suggest two or three ways to fix the problem.",
+        "hint":  "new furniture(새 가구), furniture store(가구점), room size(방 크기), item price(상품 가격), delivery service(배송 서비스), return policy(반품 정책), wrong item(잘못된 물건), delivery mistake(배송 실수), exchange request(교환 요청), refund request(환불 요청), home item(집 물건), repair option(수리 방법)",
+        "topicId":  11,
+        "topicTitle":  "Furniture",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 당신이 산 가구에서 문제를 발견합니다. 방금 배달된 건데 도착한 가구는 주문하신 물건이 아닙니다. 가게에 전화해서 이 문제를 설명하고 문제를 해결하기 위해 두세 가지 옵션을 제공하세요."
+    },
+    {
+        "id":  36,
+        "text":  "Tell me about a time when something you bought for your home had a problem. What did you buy, what was wrong with it, and what steps did you take to solve the problem?",
+        "hint":  "new furniture(새 가구), furniture store(가구점), room size(방 크기), item price(상품 가격), delivery service(배송 서비스), return policy(반품 정책), wrong item(잘못된 물건), delivery mistake(배송 실수), exchange request(교환 요청), refund request(환불 요청), home item(집 물건), repair option(수리 방법)",
+        "topicId":  11,
+        "topicTitle":  "Furniture",
+        "translation":  "집에 사뒀던 물건이 문제가 생긴 적이 있나요? 문제가 무엇이었나요? 그리고 그 문제를 어떻게 해결하셨나요? 가능한 한 많은 세부 내용들을 알려주세요."
+    },
+    {
+        "id":  37,
+        "text":  "Your friend wants to see a performance with you. Call your friend and ask three or four questions about the type of performance, the date, the ticket price, and the plan for that day.",
+        "hint":  "performance plan(공연 계획), show type(공연 종류), show date(공연 날짜), ticket price(표 가격), daily plan(하루 계획), sick condition(아픈 상태), too sick(너무 아픈), plan cancellation(계획 취소), reschedule option(일정 변경), ticket transfer(티켓 양도), urgent problem(급한 문제), apology(사과)",
+        "topicId":  12,
+        "topicTitle":  "Performances",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신의 친구가 당신과 함께 공연을 보고 싶어 합니다. 친구에게 전화해서 공연과 계획에 대해 3-4가지 질문을 하세요."
+    },
+    {
+        "id":  38,
+        "text":  "You were supposed to go to a performance with your friend today, but you are too sick to go. Call your friend, explain your condition, and suggest two or three alternatives to solve the situation.",
+        "hint":  "performance plan(공연 계획), show type(공연 종류), show date(공연 날짜), ticket price(표 가격), daily plan(하루 계획), sick condition(아픈 상태), too sick(너무 아픈), plan cancellation(계획 취소), reschedule option(일정 변경), ticket transfer(티켓 양도), urgent problem(급한 문제), apology(사과)",
+        "topicId":  12,
+        "topicTitle":  "Performances",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 오늘 친구와 함께 공연을 보러 가기로 되어 있었습니다. 하지만 안타깝게도, 여러분은 침대에서 일어날 수 없을 정도로 매우 아프답니다. 친구에게 전화를 걸어 상황을 설명하고 그 상황을 해결하기 위해 두세 가지 옵션을 제공하세요."
+    },
+    {
+        "id":  39,
+        "text":  "Tell me about a time when you had to cancel or change a plan because you were sick or had an urgent problem. What happened, how did you tell the other person, and what did you do afterward?",
+        "hint":  "performance plan(공연 계획), show type(공연 종류), show date(공연 날짜), ticket price(표 가격), daily plan(하루 계획), sick condition(아픈 상태), too sick(너무 아픈), plan cancellation(계획 취소), reschedule option(일정 변경), ticket transfer(티켓 양도), urgent problem(급한 문제), apology(사과)",
+        "topicId":  12,
+        "topicTitle":  "Performances",
+        "translation":  "그것으로 상황은 끝입니다. 당신이 아프거나 긴급한 문제가 있어서 다른 사람들과의 약속을 취소하거나 파기해야 했던 경험이 있나요? 언제 발생했으며, 문제를 해결하기 위해 어떤 단계를 밟았나요?"
+    },
+    {
+        "id":  40,
+        "text":  "Your friend invited you to go to a park this weekend. Call your friend and ask three or four questions about the meeting time, location, things to bring, and activities you will do there.",
+        "hint":  "park plan(공원 계획), meeting time(만날 시간), meeting place(만날 장소), things to bring(가져갈 것), park activities(공원 활동), park closure(공원 폐쇄), other plans(다른 계획), alternative place(대체 장소), weekend plan(주말 계획), memorable experience(기억에 남는 경험), unexpected event(예상치 못한 일), calm response(침착한 대응)",
+        "topicId":  13,
+        "topicTitle":  "Park",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신의 친구가 이번 주말에 공원에 가고 싶어해서 같이 가자고 초대 했습니다. 친구에게 전화를 걸어 이 만남의 세부 사항을 알아보기 위해 친구의 계획에 대해 3~4가지 질문을 해보세요."
+    },
+    {
+        "id":  41,
+        "text":  "You found out that the park you and your friend planned to visit this weekend will be closed. Contact your friend, explain the situation, and suggest two or three other plans.",
+        "hint":  "park plan(공원 계획), meeting time(만날 시간), meeting place(만날 장소), things to bring(가져갈 것), park activities(공원 활동), park closure(공원 폐쇄), other plans(다른 계획), alternative place(대체 장소), weekend plan(주말 계획), memorable experience(기억에 남는 경험), unexpected event(예상치 못한 일), calm response(침착한 대응)",
+        "topicId":  13,
+        "topicTitle":  "Park",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 이번 주말에 당신과 당신의 친구가 방문할 공원은 문을 닫을 것이라는 것을 방금 알게 되었습니다. 친구에게 연락하여 상황을 설명하고 문제에 대한 2-3가지 대안을 제시해보세요."
+    },
+    {
+        "id":  42,
+        "text":  "Tell me about a memorable experience you had while visiting a park. What happened, who were you with, and why do you remember that experience?",
+        "hint":  "park plan(공원 계획), meeting time(만날 시간), meeting place(만날 장소), things to bring(가져갈 것), park activities(공원 활동), park closure(공원 폐쇄), other plans(다른 계획), alternative place(대체 장소), weekend plan(주말 계획), memorable experience(기억에 남는 경험), unexpected event(예상치 못한 일), calm response(침착한 대응)",
+        "topicId":  13,
+        "topicTitle":  "Park",
+        "translation":  "그것으로 상황은 끝입니다. 공원을 방문하면서 기억에 남는 경험을 한 적이 있나요? 아마 뭔가 흥미롭고, 재미있거나, 예상치 못한 일이 일어났을 겁니다. 무엇이 그 경험을 특별하게 만들었나요? 무슨 일이 일어났고, 그 상황에 어떻게 대처했나요?"
+    },
+    {
+        "id":  43,
+        "text":  "You want to rent a car for a week. Call a rental agency and ask three or four questions about the car type, price, insurance, and return process.",
+        "hint":  "rental car(렌터카), car type(차종), rental price(렌트 가격), insurance coverage(보험 보장), return process(반납 절차), rental agency(렌터카 업체), driver license(운전면허증), rental fee(렌트 요금), driving rules(운전 규칙), car problem(차량 문제), replacement car(대체 차량), refund option(환불 방법)",
+        "topicId":  14,
+        "topicTitle":  "Rent",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 일주일 동안 차를 빌리고 싶습니다. 렌터카 대리점에 전화해서 렌터카 대여에 대해 서너 가지 질문을 해보세요."
+    },
+    {
+        "id":  44,
+        "text":  "You rented a car, but there is a serious problem and you cannot drive it. Call the rental agency, explain what is wrong with the car, and suggest two or three solutions.",
+        "hint":  "rental car(렌터카), car type(차종), rental price(렌트 가격), insurance coverage(보험 보장), return process(반납 절차), rental agency(렌터카 업체), driver license(운전면허증), rental fee(렌트 요금), driving rules(운전 규칙), car problem(차량 문제), replacement car(대체 차량), refund option(환불 방법)",
+        "topicId":  14,
+        "topicTitle":  "Rent",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 차를 빌렸습니다. 하지만 차에 몇 가지 문제가 있습니다. 당신은 그 차를 운전할 수 없습니다. 렌탈 회사에 전화해서 상황을 설명하고 문제에 대한 2-3가지 해결책을 제안하세요."
+    },
+    {
+        "id":  45,
+        "text":  "Tell me about a time when you rented a car or used a rental service while traveling. Why did you rent it, what happened, and how did you handle the situation?",
+        "hint":  "rental car(렌터카), car type(차종), rental price(렌트 가격), insurance coverage(보험 보장), return process(반납 절차), rental agency(렌터카 업체), driver license(운전면허증), rental fee(렌트 요금), driving rules(운전 규칙), car problem(차량 문제), replacement car(대체 차량), refund option(환불 방법)",
+        "topicId":  14,
+        "topicTitle":  "Rent",
+        "translation":  "그것으로 상황은 끝입니다. 당신은 여행을 위해 차를 렌트해 본 적이 있나요? 당신이 차를 빌린 이유가 무엇인가요? 어떤 화가 나는 일이나 끔찍한 일이 있었나요? 무슨 일이 일어났고, 어떻게 해결했나요? 왜 그 경험이 그렇게 기억에 남았나요?"
+    },
+    {
+        "id":  46,
+        "text":  "You are on vacation in New York City and need to rent a car. Talk to the rental company staff and ask three or four questions about available cars, rental fees, insurance, and driving rules.",
+        "hint":  "rental car(렌터카), car type(차종), rental price(렌트 가격), insurance coverage(보험 보장), return process(반납 절차), rental agency(렌터카 업체), driver license(운전면허증), rental fee(렌트 요금), driving rules(운전 규칙), car problem(차량 문제), replacement car(대체 차량), refund option(환불 방법)",
+        "topicId":  14,
+        "topicTitle":  "Rent",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 뉴욕에서 휴가 중입니다. 지금 당신은 렌터카 회사에 있습니다. 차를 빌려야 하고, 렌터카 회사에서 일하는 사람과 이야기를 하고 있습니다. 그에게 차를 빌리는 것에 대해 서너 가지 질문을 하세요."
+    },
+    {
+        "id":  47,
+        "text":  "You are not sure if you can rent a car because you do not have an international driver’s license or an American driver’s license. Explain what license you have and suggest two or three alternatives to solve the problem.",
+        "hint":  "rental car(렌터카), car type(차종), rental price(렌트 가격), insurance coverage(보험 보장), return process(반납 절차), rental agency(렌터카 업체), driver license(운전면허증), rental fee(렌트 요금), driving rules(운전 규칙), car problem(차량 문제), replacement car(대체 차량), refund option(환불 방법)",
+        "topicId":  14,
+        "topicTitle":  "Rent",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 국제운전면허증이나 미국운전면허증이 없어서 렌터카를 빌릴 수 있을지 모르겠네요. 면허증에 뭐라고 쓰여 있는지 설명하고 렌터카를 빌릴 수 있도록 두세 가지 대안을 제시해 주세요."
+    },
+    {
+        "id":  48,
+        "text":  "Tell me about a time when you rented a car for traveling. What was the purpose of the rental, did anything unexpected happen, and how did you solve the problem?",
+        "hint":  "rental car(렌터카), car type(차종), rental price(렌트 가격), insurance coverage(보험 보장), return process(반납 절차), rental agency(렌터카 업체), driver license(운전면허증), rental fee(렌트 요금), driving rules(운전 규칙), car problem(차량 문제), replacement car(대체 차량), refund option(환불 방법)",
+        "topicId":  14,
+        "topicTitle":  "Rent",
+        "translation":  "그것으로 상황은 끝입니다. 당신은 여행을 위해 차를 렌트해 본 적이 있나요? 당신이 차를 빌린 이유가 무엇이었나요? 무슨 화나는 일이나 끔찍한 일이 있었나요? 무슨 일이 일어났고, 어떻게 해결했나요? 왜 그 경험이 그렇게 기억에 남나요?"
+    },
+    {
+        "id":  49,
+        "text":  "You heard that your favorite store is having a big sale. Call the store, leave a message, and ask three or four questions about the sale period, discount rate, items on sale, and store hours.",
+        "hint":  "big sale(큰 세일), sale period(세일 기간), discount rate(할인율), store hours(영업시간), sale price(세일 가격), receipt check(영수증 확인), missing item(빠진 물건), store clerk(매장 직원), exchange option(교환 방법), return request(반품 요청), purchase problem(구매 문제), careful check(꼼꼼한 확인)",
+        "topicId":  15,
+        "topicTitle":  "Shopping",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 당신이 가장 좋아하는 가게가 큰 세일을 하고 있다는 것을 들었습니다. 그리고 당신은 세일에 대해 더 알고 싶어합니다. 이 가게에 전화해서 메시지를 남기세요. 판매에 대한 자세한 정보를 얻기 위해 3-4개의 질문을 해보세요."
+    },
+    {
+        "id":  50,
+        "text":  "You bought clothes during a sale, but later realized that you did not get the sale price. Contact the store, explain what happened, and suggest two or three ways to solve the problem.",
+        "hint":  "big sale(큰 세일), sale period(세일 기간), discount rate(할인율), store hours(영업시간), sale price(세일 가격), receipt check(영수증 확인), missing item(빠진 물건), store clerk(매장 직원), exchange option(교환 방법), return request(반품 요청), purchase problem(구매 문제), careful check(꼼꼼한 확인)",
+        "topicId":  15,
+        "topicTitle":  "Shopping",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 구입한 옷을 가지고 집에 도착하고, 세일 가격으로 구매하지 못했다는 것을 깨닫습니다. 가게에 연락하여 상황을 설명하고 문제를 해결하기 위한 2-3가지 옵션을 제공해보세요."
+    },
+    {
+        "id":  51,
+        "text":  "Tell me about a time when you had a problem after buying something. What did you buy, what was the problem, and what steps did you take to handle it?",
+        "hint":  "big sale(큰 세일), sale period(세일 기간), discount rate(할인율), store hours(영업시간), sale price(세일 가격), receipt check(영수증 확인), missing item(빠진 물건), store clerk(매장 직원), exchange option(교환 방법), return request(반품 요청), purchase problem(구매 문제), careful check(꼼꼼한 확인)",
+        "topicId":  15,
+        "topicTitle":  "Shopping",
+        "translation":  "그것으로 상황은 끝입니다. 당신이 무언가를 샀던 때를 회상해 보세요. 당신은 어떤 물건을 샀고 그 물건들과 무슨 일이 있었나요? 당신은 그 상황을 어떻게 처리했나요? 그 문제를 해결하기 위해 어떤 조치를 취했는지 말해 주세요."
+    },
+    {
+        "id":  52,
+        "text":  "You heard from your friend that your favorite store is having a great sale. Call your friend and ask three or four questions about the sale, such as when it starts, what items are included, and whether it is worth going.",
+        "hint":  "big sale(큰 세일), sale period(세일 기간), discount rate(할인율), store hours(영업시간), sale price(세일 가격), receipt check(영수증 확인), missing item(빠진 물건), store clerk(매장 직원), exchange option(교환 방법), return request(반품 요청), purchase problem(구매 문제), careful check(꼼꼼한 확인)",
+        "topicId":  15,
+        "topicTitle":  "Shopping",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 당신의 친구로부터 당신이 가장 좋아하는 가게가 큰 세일을 한다는 것을 들었습니다. 친구에게 전화해서 그 세일에 대해 3, 4가지 질문을 해보세요."
+    },
+    {
+        "id":  53,
+        "text":  "You went shopping during a sale and bought several things, but one item was missing when you got home. Contact the store clerk, explain what you bought and what is missing, and suggest two or three ways to solve the problem.",
+        "hint":  "big sale(큰 세일), sale period(세일 기간), discount rate(할인율), store hours(영업시간), sale price(세일 가격), receipt check(영수증 확인), missing item(빠진 물건), store clerk(매장 직원), exchange option(교환 방법), return request(반품 요청), purchase problem(구매 문제), careful check(꼼꼼한 확인)",
+        "topicId":  15,
+        "topicTitle":  "Shopping",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 오늘 세일에 가서 여러 가지를 구매했습니다. 하지만 당신이 집에 도착했을 때, 당신은 그 물건들 중 하나가 없어진 것을 발견하고 놀랐습니다. 매장에 연락해서, 점원에게 상황을 설명하고, 이 문제를 해결하기 위해 두세 가지 제안을 해보세요."
+    },
+    {
+        "id":  54,
+        "text":  "Tell me about a time when you had a problem while shopping. What were you trying to buy, what went wrong, and how did you solve the situation?",
+        "hint":  "big sale(큰 세일), sale period(세일 기간), discount rate(할인율), store hours(영업시간), sale price(세일 가격), receipt check(영수증 확인), missing item(빠진 물건), store clerk(매장 직원), exchange option(교환 방법), return request(반품 요청), purchase problem(구매 문제), careful check(꼼꼼한 확인)",
+        "topicId":  15,
+        "topicTitle":  "Shopping",
+        "translation":  "그것으로 상황은 끝입니다. 쇼핑할 때 문제가 생긴 적이 있나요? 아마도 당신은 사고 싶은 물건을 찾지 못했을 수 있어요. 왜냐하면 그 가게에 당신이 원하는 물건이 없어서요. 또는 어떤 잘못된 일이 발생했을 수 있어요. 무엇이 문제였고, 어떻게 해결했나요? 그 상황에 대해 자세히 말해 주세요."
+    },
+    {
+        "id":  55,
+        "text":  "You want to make a doctor’s appointment. Call the doctor’s office, explain your symptoms briefly, and ask three or four questions about available times, the doctor, fees, and what you should bring.",
+        "hint":  "doctor appointment(병원 예약), doctor office(진료실), symptoms(증상), available time(가능한 시간), doctor fee(진료비), required documents(필요 서류), appointment change(예약 변경), reschedule request(일정 변경 요청), cancellation reason(취소 이유), new time(새 시간), situation explanation(상황 설명), polite apology(정중한 사과)",
+        "topicId":  16,
+        "topicTitle":  "Appointment",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 병원 예약을 하고 싶습니다. 진료실에 전화해서 예약을 위해 3, 4가지 질문을 해보세요."
+    },
+    {
+        "id":  56,
+        "text":  "You made an appointment with your doctor, but something came up and you cannot go. Call the doctor’s office, explain the situation, and ask two or three questions to reschedule the appointment.",
+        "hint":  "doctor appointment(병원 예약), doctor office(진료실), symptoms(증상), available time(가능한 시간), doctor fee(진료비), required documents(필요 서류), appointment change(예약 변경), reschedule request(일정 변경 요청), cancellation reason(취소 이유), new time(새 시간), situation explanation(상황 설명), polite apology(정중한 사과)",
+        "topicId":  16,
+        "topicTitle":  "Appointment",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 주치의와 예약을 했는데 어떤 일이 생겨서 당신은 갈 수 없습니다. 병원에 전화해서 상황을 설명하고 두세 가지 질문으로 진료 예약을 다시 잡으세요."
+    },
+    {
+        "id":  57,
+        "text":  "Tell me about a time when you had to cancel an appointment. What happened, why did you cancel it, and how did you deal with the situation?",
+        "hint":  "doctor appointment(병원 예약), doctor office(진료실), symptoms(증상), available time(가능한 시간), doctor fee(진료비), required documents(필요 서류), appointment change(예약 변경), reschedule request(일정 변경 요청), cancellation reason(취소 이유), new time(새 시간), situation explanation(상황 설명), polite apology(정중한 사과)",
+        "topicId":  16,
+        "topicTitle":  "Appointment",
+        "translation":  "그것으로 상황은 끝입니다. 어떤 이유로 약속을 취소해야 했던 경험에 대해 말씀해 주세요. 무슨 일이 있었고, 왜 약속을 취소해야 했나요? 그 상황에 어떻게 대처했나요?"
+    },
+    {
+        "id":  58,
+        "text":  "You are planning to go on a trip with your friend. Call a travel agency and ask three or four questions about the destination, schedule, cost, and travel package.",
+        "hint":  "travel agency(여행사), travel plan(여행 계획), destination(목적지), travel schedule(여행 일정), total cost(총 비용), travel package(여행 패키지), flight schedule(비행 일정), canceled flight(취소된 항공편), hotel booking(호텔 예약), possible solution(가능한 해결책), travel problem(여행 문제), flexible plan(유연한 계획)",
+        "topicId":  17,
+        "topicTitle":  "Traveling",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 친구와 함께 여행을 갈 계획입니다. 여행사에 전화해서 당신이 가고 싶은 여행에 대해 3, 4가지 질문을 해보세요."
+    },
+    {
+        "id":  59,
+        "text":  "The travel agency tells you that the trip you wanted is not available. Call your friend, leave a message explaining the situation, and suggest two or three other travel options.",
+        "hint":  "travel agency(여행사), travel plan(여행 계획), destination(목적지), travel schedule(여행 일정), total cost(총 비용), travel package(여행 패키지), flight schedule(비행 일정), canceled flight(취소된 항공편), hotel booking(호텔 예약), possible solution(가능한 해결책), travel problem(여행 문제), flexible plan(유연한 계획)",
+        "topicId":  17,
+        "topicTitle":  "Traveling",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 어떤 이유로 인해 여행사는 당신이 가고 싶었던 여행이 불가능하다고 연락을 줍니다. 친구에게 전화를 걸어 상황을 설명하는 메시지를 남기고 이 문제를 해결하기 위해 두세 가지 옵션을 제공하세요."
+    },
+    {
+        "id":  60,
+        "text":  "Tell me about a time when you had a problem while planning a trip. What was the problem, how did it happen, and what did you do to fix it?",
+        "hint":  "travel agency(여행사), travel plan(여행 계획), destination(목적지), travel schedule(여행 일정), total cost(총 비용), travel package(여행 패키지), flight schedule(비행 일정), canceled flight(취소된 항공편), hotel booking(호텔 예약), possible solution(가능한 해결책), travel problem(여행 문제), flexible plan(유연한 계획)",
+        "topicId":  17,
+        "topicTitle":  "Traveling",
+        "translation":  "그것으로 상황은 끝입니다. 여행을 계획하면서 문제가 생겼던 때를 떠올려보세요. 무엇이 문제였고, 어떻게 대처하셨나요? 무슨 일이 있었는지 처음부터 끝까지 말해 주세요."
+    },
+    {
+        "id":  61,
+        "text":  "You want to go on a trip next month. Call a travel agency and ask three or four questions about the destination, transportation, accommodation, and total cost.",
+        "hint":  "travel agency(여행사), travel plan(여행 계획), destination(목적지), travel schedule(여행 일정), total cost(총 비용), travel package(여행 패키지), flight schedule(비행 일정), canceled flight(취소된 항공편), hotel booking(호텔 예약), possible solution(가능한 해결책), travel problem(여행 문제), flexible plan(유연한 계획)",
+        "topicId":  17,
+        "topicTitle":  "Traveling",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 다음 달에 여행을 가고 싶어 합니다. 여행사에 전화해서 당신이 알아야 할 여행 정보를 얻기 위해 3, 4가지 질문을 하세요."
+    },
+    {
+        "id":  62,
+        "text":  "You cannot go on your trip because something unexpected came up. Call the travel agency, explain the situation, and suggest two or three ways to change your flight schedule.",
+        "hint":  "travel agency(여행사), travel plan(여행 계획), destination(목적지), travel schedule(여행 일정), total cost(총 비용), travel package(여행 패키지), flight schedule(비행 일정), canceled flight(취소된 항공편), hotel booking(호텔 예약), possible solution(가능한 해결책), travel problem(여행 문제), flexible plan(유연한 계획)",
+        "topicId":  17,
+        "topicTitle":  "Traveling",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 일이 생겨서 여행을 갈 수 없습니다. 당신은 당신의 비행 일정을 변경해야 합니다. 여행사에 전화해서 상황을 설명하고 일정을 변경할 수 있는 두세 가지 대안을 제시하세요."
+    },
+    {
+        "id":  63,
+        "text":  "You arrived at the airport, but your flight was canceled and other flights are fully booked. Contact the travel agency, explain the situation, and suggest two or three possible solutions.",
+        "hint":  "travel agency(여행사), travel plan(여행 계획), destination(목적지), travel schedule(여행 일정), total cost(총 비용), travel package(여행 패키지), flight schedule(비행 일정), canceled flight(취소된 항공편), hotel booking(호텔 예약), possible solution(가능한 해결책), travel problem(여행 문제), flexible plan(유연한 계획)",
+        "topicId":  17,
+        "topicTitle":  "Traveling",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 방금 공항에 도착하셨는데, 항공편이 취소되었고, 예매 가능한 다른 항공편은 없습니다. 여행사에 연락해서 상황을 설명하고 이 문제를 해결하기 위한 2-3가지 해결책을 제안하세요."
+    },
+    {
+        "id":  64,
+        "text":  "You arrived at the hotel you booked, but there are no rooms available. Call your travel agency, leave a message explaining the situation, and suggest two or three options to solve the problem.",
+        "hint":  "travel agency(여행사), travel plan(여행 계획), destination(목적지), travel schedule(여행 일정), total cost(총 비용), travel package(여행 패키지), flight schedule(비행 일정), canceled flight(취소된 항공편), hotel booking(호텔 예약), possible solution(가능한 해결책), travel problem(여행 문제), flexible plan(유연한 계획)",
+        "topicId":  17,
+        "topicTitle":  "Traveling",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 당신이 예약한 호텔에 방금 도착했습니다. 하지만 호텔에 이용 가능한 방이 없습니다. 여행사에 전화해서 메시지를 남기고 상황을 설명하고 문제를 해결하기 위한 2~3가지 대안을 제시해 보세요."
+    },
+    {
+        "id":  65,
+        "text":  "Tell me about a time when you had a difficulty while traveling. What happened, how did it affect your trip, and how did you solve the problem?",
+        "hint":  "travel agency(여행사), travel plan(여행 계획), destination(목적지), travel schedule(여행 일정), total cost(총 비용), travel package(여행 패키지), flight schedule(비행 일정), canceled flight(취소된 항공편), hotel booking(호텔 예약), possible solution(가능한 해결책), travel problem(여행 문제), flexible plan(유연한 계획)",
+        "topicId":  17,
+        "topicTitle":  "Traveling",
+        "translation":  "그것으로 상황은 끝입니다. 당신은 여행 중에 어떤 어려움을 겪은 적이 있었나요? 아마도, 당신의 비행기가 취소되거나 지연되었을 것입니다. 무슨 일이 일어났는지, 어떻게 그 문제를 해결했는지 말해 주세요."
+    },
+    {
+        "id":  66,
+        "text":  "You are planning to travel within your own country. Call a travel agency and ask three or four questions about the destination, transportation, accommodation, and activities.",
+        "hint":  "domestic trip(국내 여행), travel agency(여행사), destination choice(목적지 선택), transportation option(교통수단 선택), accommodation(숙소), trip activities(여행 활동), non-refundable ticket(환불 불가 항공권), date change(날짜 변경), travel credit(여행 크레딧), planning problem(계획 문제), agency call(여행사 전화), step-by-step solution(단계적 해결)",
+        "topicId":  18,
+        "topicTitle":  "Domestic Travel",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 당신의 나라 안에서 여행할 계획입니다. 여행사에 전화해서 당신이 원하는 여행에 대한 정보를 수집하기 위해 서너 가지 질문을 해보세요."
+    },
+    {
+        "id":  67,
+        "text":  "You booked a non-refundable flight ticket, but something came up and you cannot travel on time. Contact the travel agency, explain the situation, and suggest two or three options to solve the problem.",
+        "hint":  "domestic trip(국내 여행), travel agency(여행사), destination choice(목적지 선택), transportation option(교통수단 선택), accommodation(숙소), trip activities(여행 활동), non-refundable ticket(환불 불가 항공권), date change(날짜 변경), travel credit(여행 크레딧), planning problem(계획 문제), agency call(여행사 전화), step-by-step solution(단계적 해결)",
+        "topicId":  18,
+        "topicTitle":  "Domestic Travel",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 환불되지 않는 항공권을 예약했습니다. 그리고 일이 생겨서 제시간에 여행을 갈 수 없을 것입니다. 여행사에 연락해서 상황을 설명하고 문제를 해결하기 위해 2~3가지 방법을 제안하세요."
+    },
+    {
+        "id":  68,
+        "text":  "Tell me about a time when you had a problem while planning a trip. What happened, what made it difficult, and how did you deal with it?",
+        "hint":  "domestic trip(국내 여행), travel agency(여행사), destination choice(목적지 선택), transportation option(교통수단 선택), accommodation(숙소), trip activities(여행 활동), non-refundable ticket(환불 불가 항공권), date change(날짜 변경), travel credit(여행 크레딧), planning problem(계획 문제), agency call(여행사 전화), step-by-step solution(단계적 해결)",
+        "topicId":  18,
+        "topicTitle":  "Domestic Travel",
+        "translation":  "그것으로 상황은 끝입니다. 당신이 여행을 계획하는 동안 어려움이나 문제가 생겼을 때를 말해주세요. 무슨 일이 일어났고, 그 문제를 해결하기 위해 무엇을 했나요? 그 상황을 설명해 주세요."
+    },
+    {
+        "id":  69,
+        "text":  "You are planning to travel abroad and need to rent a car. Call a rental company and ask three or four questions about the price, license requirements, insurance, and pick-up location.",
+        "hint":  "overseas trip(해외여행), travel abroad(해외여행 가기), rental car(렌터카), license requirement(면허 요건), insurance option(보험 옵션), pick-up location(픽업 장소), canceled trip(취소된 여행), travel agency(여행사), destination change(목적지 변경), postponed trip(연기된 여행), friend call(친구에게 전화), new plan(새 계획)",
+        "topicId":  19,
+        "topicTitle":  "Overseas Trip",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 해외여행을 계획하고 있고 차를 렌트 해야 합니다. 렌터카 회사에 전화해서 렌터카에 대해 3~4가지를 물어보세요."
+    },
+    {
+        "id":  70,
+        "text":  "You were supposed to travel abroad, but the travel agency told you that your trip was canceled. Call your friend, explain the situation, and suggest two or three other options for the trip.",
+        "hint":  "overseas trip(해외여행), travel abroad(해외여행 가기), rental car(렌터카), license requirement(면허 요건), insurance option(보험 옵션), pick-up location(픽업 장소), canceled trip(취소된 여행), travel agency(여행사), destination change(목적지 변경), postponed trip(연기된 여행), friend call(친구에게 전화), new plan(새 계획)",
+        "topicId":  19,
+        "topicTitle":  "Overseas Trip",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 해외여행을 가기로 되어 있었는데, 여행사에서 당신의 여행이 취소되었다고 말했습니다. 친구에게 전화해서 상황을 설명하세요. 그리고 여행을 위한 두세 가지 옵션을 제공해보세요."
+    },
+    {
+        "id":  71,
+        "text":  "Tell me about a time when you had a problem while preparing for a trip. What was the problem, how did you feel, and how did you handle it?",
+        "hint":  "overseas trip(해외여행), travel abroad(해외여행 가기), rental car(렌터카), license requirement(면허 요건), insurance option(보험 옵션), pick-up location(픽업 장소), canceled trip(취소된 여행), travel agency(여행사), destination change(목적지 변경), postponed trip(연기된 여행), friend call(친구에게 전화), new plan(새 계획)",
+        "topicId":  19,
+        "topicTitle":  "Overseas Trip",
+        "translation":  "그것으로 상황은 끝입니다. 여행을 계획하면서 문제가 생겼던 때를 떠올려 보세요. 무엇이 문제였고, 어떻게 대처하셨나요? 무슨 일이 있었는지 처음부터 끝까지 말해 주세요."
+    },
+    {
+        "id":  72,
+        "text":  "You want to watch a movie with your friend. Call a movie theater and ask three or four questions about movie times, ticket prices, seat availability, and discounts.",
+        "hint":  "movie theater(영화관), movie time(영화 시간), ticket price(표 가격), seat availability(좌석 여부), discount option(할인 방법), wrong tickets(잘못된 표), ticket seller(표 판매원), reservation problem(예약 문제), seat change(좌석 변경), new tickets(새 표), staff help(직원 도움), solved problem(해결된 문제)",
+        "topicId":  20,
+        "topicTitle":  "Movie",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 친구와 함께 영화를 보고 싶습니다. 극장에 전화해서 티켓 구매에 필요한 정보를 얻기 위해 서너 가지 질문을 해보세요."
+    },
+    {
+        "id":  73,
+        "text":  "You arrived at the theater and found out that you were given the wrong tickets. Talk to the ticket seller, explain the situation, and suggest two or three ways to solve the problem.",
+        "hint":  "movie theater(영화관), movie time(영화 시간), ticket price(표 가격), seat availability(좌석 여부), discount option(할인 방법), wrong tickets(잘못된 표), ticket seller(표 판매원), reservation problem(예약 문제), seat change(좌석 변경), new tickets(새 표), staff help(직원 도움), solved problem(해결된 문제)",
+        "topicId":  20,
+        "topicTitle":  "Movie",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 방금 극장에 도착했고, 그들이 당신에게 잘못된 표를 팔았음을 알게 되었습니다. 티켓 부스에 있는 티켓 판매자에게 가세요. 그리고 이 상황을 설명하세요. 그리고 문제를 해결하기 위해 두세 가지 대안을 제시해보세요."
+    },
+    {
+        "id":  74,
+        "text":  "Tell me about a time when you had a problem with a reservation or ticket. What was the problem, when did it happen, and how did you solve it?",
+        "hint":  "movie theater(영화관), movie time(영화 시간), ticket price(표 가격), seat availability(좌석 여부), discount option(할인 방법), wrong tickets(잘못된 표), ticket seller(표 판매원), reservation problem(예약 문제), seat change(좌석 변경), new tickets(새 표), staff help(직원 도움), solved problem(해결된 문제)",
+        "topicId":  20,
+        "topicTitle":  "Movie",
+        "translation":  "그것으로 상황은 끝입니다. 당신은 예약에 문제가 있거나, 티켓을 구매했다가 문제가 생긴 적이 있나요? 무엇이 문제였고, 언제 발생했나요? 당신은 이 문제를 어떻게 해결했나요?"
+    },
+    {
+        "id":  75,
+        "text":  "You are at a bank and want to open a new account. Ask the bank teller three or four questions about the required documents, fees, card options, and how long it takes.",
+        "hint":  "bank account(은행 계좌), bank teller(은행 창구 직원), required documents(필요 서류), service fee(수수료), card option(카드 옵션), credit card(신용카드), restaurant seat(식당 자리), card description(카드 설명), safe return(안전한 반환), bank problem(은행 문제), staff help(직원 도움), handled situation(처리한 상황)",
+        "topicId":  21,
+        "topicTitle":  "Banks",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 지금 은행에 있고, 새로운 은행 계좌를 개설하기를 원합니다. 은행 창구 직원에게 새 은행 계좌를 개설하는 것에 대해 3-4가지 질문을 해보세요."
+    },
+    {
+        "id":  76,
+        "text":  "You realized that you left your credit card at a restaurant. Contact the restaurant, explain where you sat and what your card looks like, and discuss how you can get it back safely.",
+        "hint":  "bank account(은행 계좌), bank teller(은행 창구 직원), required documents(필요 서류), service fee(수수료), card option(카드 옵션), credit card(신용카드), restaurant seat(식당 자리), card description(카드 설명), safe return(안전한 반환), bank problem(은행 문제), staff help(직원 도움), handled situation(처리한 상황)",
+        "topicId":  21,
+        "topicTitle":  "Banks",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 신용카드가 필요한데, 식당에 두고 온 것을 방금 발견했습니다. 식당에 연락해서 상황을 설명하고 앉았던 테이블과 놓고 간 카드가 어떻게 생겼는지 설명하세요. 카드를 돌려받는 방법에 대해 논의해보세요."
+    },
+    {
+        "id":  77,
+        "text":  "Tell me about a time when you had a problem at a bank. What was the problem, who helped you, and how did you deal with it?",
+        "hint":  "bank account(은행 계좌), bank teller(은행 창구 직원), required documents(필요 서류), service fee(수수료), card option(카드 옵션), credit card(신용카드), restaurant seat(식당 자리), card description(카드 설명), safe return(안전한 반환), bank problem(은행 문제), staff help(직원 도움), handled situation(처리한 상황)",
+        "topicId":  21,
+        "topicTitle":  "Banks",
+        "translation":  "그것으로 상황은 끝입니다. 은행에서 문제가 있었던 때에 대하여 말해 주세요. 무엇이 문제였나요? 그리고 당신은 그 상황을 어떻게 처리했나요? 모든 세부 사항을 설명해 주세요."
+    },
+    {
+        "id":  78,
+        "text":  "You moved into a new apartment and need recycling information. Call the apartment manager and ask three or four questions about recycling days, sorting rules, collection places, and special items.",
+        "hint":  "new apartment(새 아파트), recycling day(재활용일), sorting rules(분리수거 규칙), collection place(수거 장소), special items(특수 품목), recyclable items(재활용품), neighbor complaint(이웃 불만), maintenance manager(관리 담당자), cleanup plan(청소 계획), recycling problem(재활용 문제), difficult situation(어려운 상황), careful recycling(신중한 재활용)",
+        "topicId":  22,
+        "topicTitle":  "Recycling",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 새 아파트로 이사를 했습니다. 아파트 관리인에게 전화해서 아파트 단지 내 재활용 정보에 대해 3, 4가지 질문을 해보세요."
+    },
+    {
+        "id":  79,
+        "text":  "After a party, you took out recyclable items, but some neighbors complained. Contact the maintenance manager, explain the situation, and suggest two or three ways to solve the problem.",
+        "hint":  "new apartment(새 아파트), recycling day(재활용일), sorting rules(분리수거 규칙), collection place(수거 장소), special items(특수 품목), recyclable items(재활용품), neighbor complaint(이웃 불만), maintenance manager(관리 담당자), cleanup plan(청소 계획), recycling problem(재활용 문제), difficult situation(어려운 상황), careful recycling(신중한 재활용)",
+        "topicId":  22,
+        "topicTitle":  "Recycling",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 파티를 한 후에 재활용품을 버립니다. 하지만 같은 건물에 사는 사람들은 당신에게 불평을 합니다. 시설 관리자에게 연락하여 상황을 설명하고 문제를 해결하기 위해 2-3가지 옵션을 제공해보세요."
+    },
+    {
+        "id":  80,
+        "text":  "Tell me about a time when you had a problem while recycling. What happened, why was it difficult, and how did you handle it?",
+        "hint":  "new apartment(새 아파트), recycling day(재활용일), sorting rules(분리수거 규칙), collection place(수거 장소), special items(특수 품목), recyclable items(재활용품), neighbor complaint(이웃 불만), maintenance manager(관리 담당자), cleanup plan(청소 계획), recycling problem(재활용 문제), difficult situation(어려운 상황), careful recycling(신중한 재활용)",
+        "topicId":  22,
+        "topicTitle":  "Recycling",
+        "translation":  "그것으로 상황은 끝입니다. 재활용할 때 어떤 어려움이나 문제가 있었던 적이 있나요? 아마도 픽업 서비스가 예정대로 오지 않았거나 재활용품이 컨테이너에 비해 너무 커서 재활용품을 흘린 것일 수 있습니다. 무슨 일이 있었는지, 어떻게 대처했는지 자세히 말해 주세요."
+    },
+    {
+        "id":  81,
+        "text":  "You want to go jogging with your friend. Call your friend and ask three or four questions about the time, place, route, and what to bring.",
+        "hint":  "jogging plan(조깅 계획), meeting time(만날 시간), meeting place(만날 장소), running route(달리기 경로), things to bring(가져갈 것), jogging partner(조깅 파트너), unexpected problem(예상치 못한 문제), late arrival(늦은 도착), alternative time(대체 시간), memorable run(기억에 남는 달리기), special memory(특별한 기억), refreshing feeling(상쾌한 기분)",
+        "topicId":  23,
+        "topicTitle":  "Jogging",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 친구와 함께 조깅을 하고 싶은 척을 해보세요. 친구에게 전화해서 조깅 약속을 잡기 위해 3, 4가지 질문을 하세요."
+    },
+    {
+        "id":  82,
+        "text":  "You were supposed to meet your friend for jogging tomorrow, but something unexpected happened and you cannot arrive on time. Call your friend, explain the situation, and suggest two or three alternatives.",
+        "hint":  "jogging plan(조깅 계획), meeting time(만날 시간), meeting place(만날 장소), running route(달리기 경로), things to bring(가져갈 것), jogging partner(조깅 파트너), unexpected problem(예상치 못한 문제), late arrival(늦은 도착), alternative time(대체 시간), memorable run(기억에 남는 달리기), special memory(특별한 기억), refreshing feeling(상쾌한 기분)",
+        "topicId":  23,
+        "topicTitle":  "Jogging",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 내일 당신의 친구를 만나기로 했습니다. 그런데 뜻밖의 일이 일어났습니다. 그래서 당신은 제시간에 도착할 수 없을 것입니다. 친구에게 전화해서 상황을 설명하고 이 문제에 대해 2-3가지 대안을 제시해보세요."
+    },
+    {
+        "id":  83,
+        "text":  "Tell me about a memorable or interesting experience you had while jogging. Where were you, who were you with, and what made it special?",
+        "hint":  "jogging plan(조깅 계획), meeting time(만날 시간), meeting place(만날 장소), running route(달리기 경로), things to bring(가져갈 것), jogging partner(조깅 파트너), unexpected problem(예상치 못한 문제), late arrival(늦은 도착), alternative time(대체 시간), memorable run(기억에 남는 달리기), special memory(특별한 기억), refreshing feeling(상쾌한 기분)",
+        "topicId":  23,
+        "topicTitle":  "Jogging",
+        "translation":  "그것으로 상황은 끝입니다. 조깅을 하면서 기억에 남거나 흥미로운 경험을 한 것에 대해 말해보세요. 무슨 일이 있었나요? 누구와 함께 있었나요? 무엇이 그것을 그렇게 특별하게 만들었나요? 가능한 많은 세부 정보를 제공해주세요."
+    },
+    {
+        "id":  84,
+        "text":  "You are going to visit your friend who lives abroad. Call your friend and ask three or four questions about the country’s mountains, weather, cities, and natural places.",
+        "hint":  "foreign country(외국), country mountains(나라의 산), local weather(현지 날씨), major cities(주요 도시), natural places(자연 명소), travel abroad(해외여행), friend abroad(해외 친구), geography difference(지형 차이), memorable experience(기억에 남는 경험), impressive scenery(인상적인 경치), place description(장소 묘사), travel problem(여행 문제)",
+        "topicId":  24,
+        "topicTitle":  "Geography",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 해외에 사는 친구를 방문할 것입니다. 친구에게 전화해서, 그나 그녀의 나라 지리적 특징에 대해 3, 4가지 질문을 해보세요."
+    },
+    {
+        "id":  85,
+        "text":  "You were supposed to travel abroad to visit your friend, but something came up and you cannot go. Call your friend, explain what happened, and suggest two or three options to solve the problem.",
+        "hint":  "foreign country(외국), country mountains(나라의 산), local weather(현지 날씨), major cities(주요 도시), natural places(자연 명소), travel abroad(해외여행), friend abroad(해외 친구), geography difference(지형 차이), memorable experience(기억에 남는 경험), impressive scenery(인상적인 경치), place description(장소 묘사), travel problem(여행 문제)",
+        "topicId":  24,
+        "topicTitle":  "Geography",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 친구를 방문하기 위해 해외여행을 하기로 되어 있었습니다. 하지만 일이 생겨서 당신은 거기에 갈 수 없을 것입니다. 친구에게 전화해서 무슨 일이 일어나는지 설명하고 문제를 해결하기 위해 두세 가지 옵션을 제공해보세요."
+    },
+    {
+        "id":  86,
+        "text":  "Tell me about a memorable experience you had when you visited another country. Where did you go, what was the place like, and how was its geography different from your country?",
+        "hint":  "foreign country(외국), country mountains(나라의 산), local weather(현지 날씨), major cities(주요 도시), natural places(자연 명소), travel abroad(해외여행), friend abroad(해외 친구), geography difference(지형 차이), memorable experience(기억에 남는 경험), impressive scenery(인상적인 경치), place description(장소 묘사), travel problem(여행 문제)",
+        "topicId":  24,
+        "topicTitle":  "Geography",
+        "translation":  "그것으로 상황은 끝입니다. 당신이 다른 나라를 방문했던 기억에 남는 경험을 말해주세요. 언제 어디로 가셨나요? 그곳은 어땠나요? 그 나라의 지형과 당신의 나라 지형은 어떻게 달랐나요?"
+    },
+    {
+        "id":  87,
+        "text":  "You are looking for a new house. Call a real estate agency and ask three or four questions about available homes, prices, locations, and visiting times.",
+        "hint":  "new house(새 집), real estate agency(부동산 중개업소), available homes(매물), house price(집 가격), house location(집 위치), visiting time(방문 시간), broken window(깨진 창문), repair shop(수리점), same-day repair(당일 수리), damaged item(손상된 물건), repair steps(수리 절차), fixed problem(해결된 문제)",
+        "topicId":  25,
+        "topicTitle":  "House",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 새 집을 찾고 있습니다. 부동산 중개업소에 전화해서 집을 구하는 것과 그들이 가지고 있는 집들의 목록에 대해 3, 4가지 질문을 해보세요."
+    },
+    {
+        "id":  88,
+        "text":  "You just arrived at your new house and found that a window is broken. Contact a window repair shop, explain how you found the problem, and explain why it needs to be fixed today.",
+        "hint":  "new house(새 집), real estate agency(부동산 중개업소), available homes(매물), house price(집 가격), house location(집 위치), visiting time(방문 시간), broken window(깨진 창문), repair shop(수리점), same-day repair(당일 수리), damaged item(손상된 물건), repair steps(수리 절차), fixed problem(해결된 문제)",
+        "topicId":  25,
+        "topicTitle":  "House",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 방금 새 집에 도착했습니다. 하지만 창문이 깨진 것을 발견했습니다. 유리창 수리점에 연락해서 유리창이 어떻게 깨졌는지 메시지를 남기세요. 또한, 오늘 그것을 고쳐야 하는 이유를 그 사람에게 말하세요."
+    },
+    {
+        "id":  89,
+        "text":  "Tell me about a time when you found something broken or damaged in your house. What was broken, how did it happen, and what steps did you take to fix it?",
+        "hint":  "new house(새 집), real estate agency(부동산 중개업소), available homes(매물), house price(집 가격), house location(집 위치), visiting time(방문 시간), broken window(깨진 창문), repair shop(수리점), same-day repair(당일 수리), damaged item(손상된 물건), repair steps(수리 절차), fixed problem(해결된 문제)",
+        "topicId":  25,
+        "topicTitle":  "House",
+        "translation":  "그것으로 상황은 끝입니다. 당신의 집에서 무언가 부서지거나 손상된 것을 발견한 적이 있나요? 무엇이었나요? 어떻게 고장이 났고, 어떻게 문제를 해결했나요? 당신이 취한 조치를 말해 주세요."
+    },
+    {
+        "id":  90,
+        "text":  "You want to go to your friend’s birthday party, but you have not received enough information. Call your friend and ask three or four questions about the time, place, guests, and what to bring.",
+        "hint":  "birthday party(생일 파티), party time(파티 시간), party place(파티 장소), guest list(손님 명단), things to bring(가져갈 것), important test(중요한 시험), broken pipe(고장 난 수도관), relative call(친척 전화), party preparation(파티 준비), locked door(잠긴 문), promise cancellation(약속 취소), make-up plan(보상 계획)",
+        "topicId":  26,
+        "topicTitle":  "Family, Friends",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 친구의 생일 파티에 가고 싶어 합니다. 하지만 당신은 초대받지 않았습니다. 친구에게 전화해서 파티에 대한 정보를 얻고 참석하기 위해 3, 4가지 질문을 해보세요."
+    },
+    {
+        "id":  91,
+        "text":  "You have a test at school tomorrow, so you cannot go to your friend’s birthday party. Contact your friend, explain the situation, and suggest two or three other ways to celebrate the birthday.",
+        "hint":  "birthday party(생일 파티), party time(파티 시간), party place(파티 장소), guest list(손님 명단), things to bring(가져갈 것), important test(중요한 시험), broken pipe(고장 난 수도관), relative call(친척 전화), party preparation(파티 준비), locked door(잠긴 문), promise cancellation(약속 취소), make-up plan(보상 계획)",
+        "topicId":  26,
+        "topicTitle":  "Family, Friends",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 내일 학교에서 시험이 있습니다. 그래서 당신은 생일 파티에 갈 수 없습니다. 친구에게 연락해서 상황을 설명하고, 친구의 생일을 축하하기 위해 두세 가지 대안을 제시해보세요."
+    },
+    {
+        "id":  92,
+        "text":  "You were supposed to go to your friend’s birthday party today, but a water pipe at your home broke. Call your friend, explain the situation, and suggest two or three ways to reschedule or celebrate later.",
+        "hint":  "birthday party(생일 파티), party time(파티 시간), party place(파티 장소), guest list(손님 명단), things to bring(가져갈 것), important test(중요한 시험), broken pipe(고장 난 수도관), relative call(친척 전화), party preparation(파티 준비), locked door(잠긴 문), promise cancellation(약속 취소), make-up plan(보상 계획)",
+        "topicId":  26,
+        "topicTitle":  "Family, Friends",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 오늘 친구 생일 파티에 가기로 되어 있었습니다. 하지만 불행하게도, 당신에게 문제가 생겼습니다. 당신의 집 수도관이 고장 나서 생일 파티에 갈 수 없게 되었습니다. 친구에게 전화해서 상황을 설명하고 친구의 생일을 축하하기 위해 일정을 조정하고 두세 가지 옵션을 제안해 보세요."
+    },
+    {
+        "id":  93,
+        "text":  "Tell me about a time when you had to cancel or change a plan because something came up. What was the problem, how did you explain it, and what happened afterward?",
+        "hint":  "birthday party(생일 파티), party time(파티 시간), party place(파티 장소), guest list(손님 명단), things to bring(가져갈 것), important test(중요한 시험), broken pipe(고장 난 수도관), relative call(친척 전화), party preparation(파티 준비), locked door(잠긴 문), promise cancellation(약속 취소), make-up plan(보상 계획)",
+        "topicId":  26,
+        "topicTitle":  "Family, Friends",
+        "translation":  "그것으로 상황은 끝입니다. 취소해야 했거나 사정이 생겨 계획을 변경해야 했던 경험에 대해 말씀해 주세요. 무엇이 문제였고, 당신은 그 상황을 어떻게 처리했나요? 할 수 있는 한 많은 세부 사항을 말해 주세요."
+    },
+    {
+        "id":  94,
+        "text":  "A relative asked you to help prepare a large party. Call your relative and ask three or four questions about your role, the number of guests, food, decorations, and schedule.",
+        "hint":  "birthday party(생일 파티), party time(파티 시간), party place(파티 장소), guest list(손님 명단), things to bring(가져갈 것), important test(중요한 시험), broken pipe(고장 난 수도관), relative call(친척 전화), party preparation(파티 준비), locked door(잠긴 문), promise cancellation(약속 취소), make-up plan(보상 계획)",
+        "topicId":  26,
+        "topicTitle":  "Family, Friends",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 친척으로부터 큰 파티를 준비하는 것을 도와달라는 전화를 받았습니다. 이 친척에게 전화를 걸어 파티를 위해 무엇을 해야 할지 정하기 위해 3, 4개의 질문을 해보세요."
+    },
+    {
+        "id":  95,
+        "text":  "You found out that you have to work on the day of the party, so you cannot attend. Contact your relative, explain the situation, and suggest two or three ways you can still help with the party.",
+        "hint":  "birthday party(생일 파티), party time(파티 시간), party place(파티 장소), guest list(손님 명단), things to bring(가져갈 것), important test(중요한 시험), broken pipe(고장 난 수도관), relative call(친척 전화), party preparation(파티 준비), locked door(잠긴 문), promise cancellation(약속 취소), make-up plan(보상 계획)",
+        "topicId":  26,
+        "topicTitle":  "Family, Friends",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 파티 당일에 일을 해야 한다는 것을 알게 되었습니다. 그래서 당신은 파티에 참석할 수 없습니다. 친척에게 연락해서 메시지를 남기세요. 참석하지 못하더라도 파티 준비에 도움이 될 수 있도록 상황을 설명하고 2~3가지 대안을 제시하세요."
+    },
+    {
+        "id":  96,
+        "text":  "Tell me about a time when you helped a family member or friend. What problem did they have, what did you do to help, and what was the result?",
+        "hint":  "birthday party(생일 파티), party time(파티 시간), party place(파티 장소), guest list(손님 명단), things to bring(가져갈 것), important test(중요한 시험), broken pipe(고장 난 수도관), relative call(친척 전화), party preparation(파티 준비), locked door(잠긴 문), promise cancellation(약속 취소), make-up plan(보상 계획)",
+        "topicId":  26,
+        "topicTitle":  "Family, Friends",
+        "translation":  "그것으로 상황은 끝입니다. 가족이나 친구들을 도울 기회가 있었던 시간을 말해주세요. 당신이 그들을 도울 수 있었던 그 때를 회상해 보세요. 무엇이 문제였고, 무엇으로 도움을 주었나요? 그 상황의 결과는 어땠나요? 할 수 있는 한 많은 세부 사항을 말해주세요."
+    },
+    {
+        "id":  97,
+        "text":  "One of your relatives is going on vacation, and you agreed to take care of the house. Call your relative and ask three or four questions about what you should do, where things are, and who to contact in an emergency.",
+        "hint":  "birthday party(생일 파티), party time(파티 시간), party place(파티 장소), guest list(손님 명단), things to bring(가져갈 것), important test(중요한 시험), broken pipe(고장 난 수도관), relative call(친척 전화), party preparation(파티 준비), locked door(잠긴 문), promise cancellation(약속 취소), make-up plan(보상 계획)",
+        "topicId":  26,
+        "topicTitle":  "Family, Friends",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신의 친척 중 한 명이 휴가를 갈 것이고, 그들의 집은 비어 있을 것입니다. 당신은 그들이 여행을 떠나는 동안 집에서 그 혹은 그녀의 일을 봐주기로 동의했습니다. 친척들에게 전화를 걸어 그들을 위해 무엇을 해야 하는지에 대해 서너 가지 질문을 해보세요."
+    },
+    {
+        "id":  98,
+        "text":  "You arrived at your relative’s home, but the door is locked and you cannot find the key. Contact your relative, leave a message explaining the situation, and suggest two or three ways to get into the house safely.",
+        "hint":  "birthday party(생일 파티), party time(파티 시간), party place(파티 장소), guest list(손님 명단), things to bring(가져갈 것), important test(중요한 시험), broken pipe(고장 난 수도관), relative call(친척 전화), party preparation(파티 준비), locked door(잠긴 문), promise cancellation(약속 취소), make-up plan(보상 계획)",
+        "topicId":  26,
+        "topicTitle":  "Family, Friends",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 방금 친척 집에 도착했습니다. 하지만 당신은 문이 잠겨서 집에 들어갈 수 없고, 열쇠를 찾을 수 없습니다. 친척에게 연락해서 상황을 설명하는 메시지를 남기세요. 그리고 문제를 해결할 수 있는 두세 가지 방법을 제시하세요."
+    },
+    {
+        "id":  99,
+        "text":  "Tell me about a memorable time when you could not keep a promise to a family member or friend. What happened, why couldn’t you keep the promise, and how did you deal with it?",
+        "hint":  "birthday party(생일 파티), party time(파티 시간), party place(파티 장소), guest list(손님 명단), things to bring(가져갈 것), important test(중요한 시험), broken pipe(고장 난 수도관), relative call(친척 전화), party preparation(파티 준비), locked door(잠긴 문), promise cancellation(약속 취소), make-up plan(보상 계획)",
+        "topicId":  26,
+        "topicTitle":  "Family, Friends",
+        "translation":  "그것으로 상황은 끝입니다. 가족이나 친구와의 약속을 지키지 못했거나 취소해야 했던 기억에 남는 경험을 말해주세요. 무슨 일이었나요? 약속을 지키지 못한 이유가 무엇인가요? 어떻게 대처했나요?"
+    },
+    {
+        "id":  100,
+        "text":  "You want to buy two tickets to a concert. Call the theater and ask three or four questions about ticket prices, seat options, payment methods, and the concert schedule.",
+        "hint":  "concert tickets(콘서트 표), ticket price(표 가격), seat option(좌석 선택), payment method(결제 방법), concert schedule(콘서트 일정), last-minute illness(갑작스러운 병), ticket transfer(티켓 양도), alternative plan(대체 계획), canceled plan(취소된 계획), similar experience(비슷한 경험), disappointed feeling(실망감), quick solution(빠른 해결책)",
+        "topicId":  27,
+        "topicTitle":  "Concerts",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 지금 당신은 콘서트 티켓 두 장을 사고 싶어 합니다. 극장에 전화해서 티켓 구매 방법에 대해 서너 가지 질문을 해보세요."
+    },
+    {
+        "id":  101,
+        "text":  "You bought concert tickets and planned to go with your friend, but you became very sick at the last minute. Call your friend, explain the situation, and suggest two or three alternatives.",
+        "hint":  "concert tickets(콘서트 표), ticket price(표 가격), seat option(좌석 선택), payment method(결제 방법), concert schedule(콘서트 일정), last-minute illness(갑작스러운 병), ticket transfer(티켓 양도), alternative plan(대체 계획), canceled plan(취소된 계획), similar experience(비슷한 경험), disappointed feeling(실망감), quick solution(빠른 해결책)",
+        "topicId":  27,
+        "topicTitle":  "Concerts",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 콘서트 티켓을 샀고 친구와 함께 그 콘서트에 가기로 되어 있었습니다. 하지만 당신은 마지막 순간에 매우 아픕니다. 친구에게 전화해서 상황을 설명하고 2~3가지 대안을 제시하세요."
+    },
+    {
+        "id":  102,
+        "text":  "Tell me about a time when you had to cancel a plan at the last minute. What was the plan, what happened, and how did you solve the problem?",
+        "hint":  "concert tickets(콘서트 표), ticket price(표 가격), seat option(좌석 선택), payment method(결제 방법), concert schedule(콘서트 일정), last-minute illness(갑작스러운 병), ticket transfer(티켓 양도), alternative plan(대체 계획), canceled plan(취소된 계획), similar experience(비슷한 경험), disappointed feeling(실망감), quick solution(빠른 해결책)",
+        "topicId":  27,
+        "topicTitle":  "Concerts",
+        "translation":  "그것으로 상황은 끝입니다. 콘서트 티켓을 샀거나 다른 계획을 세웠는데 갑자기 일이 생겨서 취소해야 했던 것과 비슷한 경험을 한 적이 있나요? 무엇이 문제였고, 어떻게 그 문제를 해결했나요? 무슨 일이 있었는지 자세히 말해 주세요."
+    },
+    {
+        "id":  103,
+        "text":  "You want to go to the beach with your friend. Call your friend and ask three or four questions about the date, transportation, activities, and things to bring.",
+        "hint":  "beach plan(해변 계획), beach date(해변 가는 날), transportation(교통수단), beach activities(해변 활동), things to bring(가져갈 것), bad weather(나쁜 날씨), other plans(다른 계획), indoor place(실내 장소), unexpected difficulty(예상치 못한 어려움), sudden weather(갑작스러운 날씨), calm response(침착한 대응), other activity(다른 활동)",
+        "topicId":  28,
+        "topicTitle":  "Beach",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 지금 당신은 친구와 함께 해변에 가고 싶습니다. 친구에게 전화해서 함께 해변에 가는 것에 대해 3, 4가지 질문을 해보세요."
+    },
+    {
+        "id":  104,
+        "text":  "You were supposed to go to the beach with your friend, but the weather will be terrible that day. Call your friend, explain the weather problem, and suggest two or three other plans.",
+        "hint":  "beach plan(해변 계획), beach date(해변 가는 날), transportation(교통수단), beach activities(해변 활동), things to bring(가져갈 것), bad weather(나쁜 날씨), other plans(다른 계획), indoor place(실내 장소), unexpected difficulty(예상치 못한 어려움), sudden weather(갑작스러운 날씨), calm response(침착한 대응), other activity(다른 활동)",
+        "topicId":  28,
+        "topicTitle":  "Beach",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 친구와 함께 해변에 가기로 되어 있었습니다. 하지만 방금 뉴스에서 그날 날씨가 끔찍할 것이라고 들었습니다. 친구에게 전화해서 상황을 설명하고, 약속을 위한 2~3가지 대안을 제시하세요."
+    },
+    {
+        "id":  105,
+        "text":  "Tell me about a time when you had a problem or unexpected difficulty at the beach. What happened, who were you with, and how did you handle it?",
+        "hint":  "beach plan(해변 계획), beach date(해변 가는 날), transportation(교통수단), beach activities(해변 활동), things to bring(가져갈 것), bad weather(나쁜 날씨), other plans(다른 계획), indoor place(실내 장소), unexpected difficulty(예상치 못한 어려움), sudden weather(갑작스러운 날씨), calm response(침착한 대응), other activity(다른 활동)",
+        "topicId":  28,
+        "topicTitle":  "Beach",
+        "translation":  "그것으로 상황은 끝입니다. 해변에서 어떤 문제나 예상치 못한 어려움을 겪은 적이 있나요? 무엇이 문제였고, 어떻게 대처하셨나요? 무슨 일이 있었는지 자세히 말해 주세요."
+    },
+    {
+        "id":  106,
+        "text":  "You want to buy a new cell phone. Call a store and ask three or four questions about the model, price, storage, camera, and payment plan.",
+        "hint":  "cell phone(휴대폰), phone model(휴대폰 모델), phone price(휴대폰 가격), storage space(저장 공간), camera quality(카메라 품질), payment plan(결제 방식), broken product(고장 난 제품), store contact(매장 연락), return request(반품 요청), replacement phone(교체 휴대폰), phone issue(휴대폰 문제), fixed issue(해결된 문제)",
+        "topicId":  29,
+        "topicTitle":  "Cell Phone",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 새 핸드폰을 사고 싶어 합니다. 스토어에 전화해서 새로 사고 싶은 휴대폰에 대해 서너 가지 질문을 해보세요."
+    },
+    {
+        "id":  107,
+        "text":  "You bought a new cell phone and just received it, but it does not work properly. Contact the store, explain the problem, and suggest two or three ways to solve it.",
+        "hint":  "cell phone(휴대폰), phone model(휴대폰 모델), phone price(휴대폰 가격), storage space(저장 공간), camera quality(카메라 품질), payment plan(결제 방식), broken product(고장 난 제품), store contact(매장 연락), return request(반품 요청), replacement phone(교체 휴대폰), phone issue(휴대폰 문제), fixed issue(해결된 문제)",
+        "topicId":  29,
+        "topicTitle":  "Cell Phone",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 새 핸드폰을 샀고 방금 새 핸드폰을 받았습니다. 하지만 불행하게도, 그것은 작동하지 않습니다. 당신은 새 전화기를 얻기 위해 그것을 반환하거나 이 문제를 어떻게든 해결하기를 원합니다. 매장에 연락해서 상황을 설명하고 문제를 해결하기 위해 2~3가지 제안을 해보세요."
+    },
+    {
+        "id":  108,
+        "text":  "Tell me about a time when you bought the wrong product or a broken product. What did you buy, what was the problem, and how did you handle it?",
+        "hint":  "cell phone(휴대폰), phone model(휴대폰 모델), phone price(휴대폰 가격), storage space(저장 공간), camera quality(카메라 품질), payment plan(결제 방식), broken product(고장 난 제품), store contact(매장 연락), return request(반품 요청), replacement phone(교체 휴대폰), phone issue(휴대폰 문제), fixed issue(해결된 문제)",
+        "topicId":  29,
+        "topicTitle":  "Cell Phone",
+        "translation":  "그것으로 상황은 끝입니다. 물건을 잘못 사셨거나 고장 난 경험이 있으신가요? 당신은 무엇을 샀고 무엇이 문제였나요? 어떻게 처리하셨는지 말씀해 주세요."
+    },
+    {
+        "id":  109,
+        "text":  "You have a special event coming up and want to get your hair done. Call a hair salon, explain the event, and ask three or four questions about appointment times, hairstyles, prices, and how long it will take.",
+        "hint":  "hair salon(미용실), hair appointment(미용실 예약), hair style(헤어스타일), appointment time(예약 시간), hair price(시술 가격), service time(서비스 시간), bad result(나쁜 결과), style fix(스타일 수정), refund request(환불 요청), salon experience(미용실 경험), disappointed feeling(실망감), problem solved(문제 해결)",
+        "topicId":  30,
+        "topicTitle":  "Hair Salon",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 곧 특별한 행사가 있을 예정이고, 그 행사를 위해 머리를 하려고 합니다. 미용실에 전화하여 상황을 설명하고, 예약과 헤어 스타일에 대한 3, 4가지 질문을 해보세요."
+    },
+    {
+        "id":  110,
+        "text":  "You got your hair done at a salon, but you are not satisfied with the result. Call the salon, explain what you do not like, and suggest two or three options such as fixing the style, getting another appointment, or receiving a refund.",
+        "hint":  "hair salon(미용실), hair appointment(미용실 예약), hair style(헤어스타일), appointment time(예약 시간), hair price(시술 가격), service time(서비스 시간), bad result(나쁜 결과), style fix(스타일 수정), refund request(환불 요청), salon experience(미용실 경험), disappointed feeling(실망감), problem solved(문제 해결)",
+        "topicId":  30,
+        "topicTitle":  "Hair Salon",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 미용실에서 머리를 했습니다. 그러나 결과가 마음에 들지 않습니다. 미용실에 전화하여 무엇이 마음에 들지 않는지 설명하고, 머리를 다시 손보거나 환불 받는 것과 같이 문제를 해결하기 위한 대안을 2, 3가지 제안해 보세요."
+    },
+    {
+        "id":  111,
+        "text":  "Tell me about a bad or disappointing experience you had at a hair salon. What happened, how did you react, and how was the problem solved?",
+        "hint":  "hair salon(미용실), hair appointment(미용실 예약), hair style(헤어스타일), appointment time(예약 시간), hair price(시술 가격), service time(서비스 시간), bad result(나쁜 결과), style fix(스타일 수정), refund request(환불 요청), salon experience(미용실 경험), disappointed feeling(실망감), problem solved(문제 해결)",
+        "topicId":  30,
+        "topicTitle":  "Hair Salon",
+        "translation":  "그것으로 상황은 끝입니다. 미용실에서 겪은 좋지 않은 경험이 있나요? 무슨 일이 있었고 그것을 어떻게 해결했나요? 가능한 많은 세부 사항들과 함께 전체 경험의 처음부터 끝까지 묘사해 주세요."
+    },
+    {
+        "id":  112,
+        "text":  "You want to make a doctor’s appointment. Call the doctor’s office, explain your situation, and ask three or four questions about available times, symptoms, documents, and fees.",
+        "hint":  "doctor appointment(병원 예약), doctor office(진료실), symptoms(증상), available time(가능한 시간), required documents(필요 서류), medical fee(진료비), reschedule request(일정 변경 요청), cancellation reason(취소 이유), new appointment(새 예약), situation explanation(상황 설명), handled situation(처리한 상황), polite apology(정중한 사과)",
+        "topicId":  31,
+        "topicTitle":  "Doctor’s Appointment",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 병원 예약을 하고 싶습니다. 진료실에 전화해서 상황을 설명하고, 예약을 위해 3, 4가지 질문을 해보세요."
+    },
+    {
+        "id":  113,
+        "text":  "You made an appointment with your doctor, but something came up and you cannot go. Call the doctor’s office, explain the situation, and ask a few questions to reschedule your appointment.",
+        "hint":  "doctor appointment(병원 예약), doctor office(진료실), symptoms(증상), available time(가능한 시간), required documents(필요 서류), medical fee(진료비), reschedule request(일정 변경 요청), cancellation reason(취소 이유), new appointment(새 예약), situation explanation(상황 설명), handled situation(처리한 상황), polite apology(정중한 사과)",
+        "topicId":  31,
+        "topicTitle":  "Doctor’s Appointment",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 주치의와 예약을 했는데 어떤 일이 생겨서 당신은 갈 수 없습니다. 병원에 전화해서 상황을 설명하고 예약 일정을 변경하기 위해 몇 가지 질문을 해보세요."
+    },
+    {
+        "id":  114,
+        "text":  "Tell me about a time when you had to cancel an appointment for some reason. What happened, why did you cancel it, and how did you deal with the situation?",
+        "hint":  "doctor appointment(병원 예약), doctor office(진료실), symptoms(증상), available time(가능한 시간), required documents(필요 서류), medical fee(진료비), reschedule request(일정 변경 요청), cancellation reason(취소 이유), new appointment(새 예약), situation explanation(상황 설명), handled situation(처리한 상황), polite apology(정중한 사과)",
+        "topicId":  31,
+        "topicTitle":  "Doctor’s Appointment",
+        "translation":  "그것으로 상황은 끝입니다. 어떤 이유로 약속을 취소해야 했던 경험에 대해 말씀해 주세요. 무슨 일이 있었고, 왜 약속을 취소해야 했나요? 그 상황에 어떻게 대처했나요?"
+    },
+    {
+        "id":  115,
+        "text":  "You need to get a new company ID card. Call the person in charge, explain your situation, and ask three or four questions about the application process, required documents, fees, and how long it will take.",
+        "hint":  "ID card(ID 카드), company ID(회사 ID), application process(신청 절차), required documents(필요 서류), card fee(카드 수수료), processing time(처리 시간), card error(카드 오류), replacement card(교체 카드), person in charge(담당자), quick solution(빠른 해결책), application trouble(신청 문제), final result(최종 결과)",
+        "topicId":  32,
+        "topicTitle":  "ID Card",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 회사에서 발급하는 ID카드를 새로 발급받아야 합니다. 담당자에게 전화하여 상황을 설명하고, 신규 ID카드 발급 절차에 대해 3, 4가지 질문을 해보세요."
+    },
+    {
+        "id":  116,
+        "text":  "You noticed an error on your ID card. Contact the person in charge, explain what is wrong, request a replacement card, and suggest two or three ways to solve the problem quickly.",
+        "hint":  "ID card(ID 카드), company ID(회사 ID), application process(신청 절차), required documents(필요 서류), card fee(카드 수수료), processing time(처리 시간), card error(카드 오류), replacement card(교체 카드), person in charge(담당자), quick solution(빠른 해결책), application trouble(신청 문제), final result(최종 결과)",
+        "topicId":  32,
+        "topicTitle":  "ID Card",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 ID카드에 문제가 있다는 것을 발견했습니다. 담당자에게 연락하여 문제가 무엇인지 설명하고 새 카드로 교체해 달라고 요청하세요. 그리고 문제를 빠르게 해결하기 위해 2, 3가지 대안을 제시해 보세요."
+    },
+    {
+        "id":  117,
+        "text":  "Tell me about a time when you had difficulty applying for or receiving an ID card. What went wrong, how did you handle it, and what was the result?",
+        "hint":  "ID card(ID 카드), company ID(회사 ID), application process(신청 절차), required documents(필요 서류), card fee(카드 수수료), processing time(처리 시간), card error(카드 오류), replacement card(교체 카드), person in charge(담당자), quick solution(빠른 해결책), application trouble(신청 문제), final result(최종 결과)",
+        "topicId":  32,
+        "topicTitle":  "ID Card",
+        "translation":  "그것으로 상황은 끝입니다. ID 카드를 발급받으려다 어려움을 겪을 적이 있나요? 무엇이 문제였고 그것을 어떻게 해결하셨나요? 가능한 많은 세부 내용들과 함께 전체 경험을 처음부터 끝까지 묘사해 주세요."
+    },
+    {
+        "id":  118,
+        "text":  "Your friend recently bought a new cell phone, and you are thinking about buying one too. Call your friend and ask three or four questions about the phone’s price, camera, battery, and overall satisfaction.",
+        "hint":  "new cell phone(새 휴대폰), phone price(휴대폰 가격), camera quality(카메라 품질), battery life(배터리 수명), overall satisfaction(전반적 만족도), document file(문서 파일), file problem(파일 문제), other ways(다른 방법), phone issue(휴대폰 문제), repair option(수리 방법), store contact(매장 연락), fixed problem(해결된 문제)",
+        "topicId":  33,
+        "topicTitle":  "New Cell Phone",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신의 친구가 최근에 새 휴대폰을 구매했습니다. 친구에게 전화하여 당신이 새 휴대폰을 구매하려고 고민중이라는 것을 설명하고, 친구의 새 휴대폰에 대한 정보를 알아보기 위해 3, 4가지 질문을 해보세요."
+    },
+    {
+        "id":  119,
+        "text":  "Your friend sent you a document, but you cannot open it on your cell phone. Call your friend, explain the issue, and suggest two or three other ways to receive or open the document.",
+        "hint":  "new cell phone(새 휴대폰), phone price(휴대폰 가격), camera quality(카메라 품질), battery life(배터리 수명), overall satisfaction(전반적 만족도), document file(문서 파일), file problem(파일 문제), other ways(다른 방법), phone issue(휴대폰 문제), repair option(수리 방법), store contact(매장 연락), fixed problem(해결된 문제)",
+        "topicId":  33,
+        "topicTitle":  "New Cell Phone",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신의 친구가 당신에게 문서 하나를 보냈습니다. 그러나 불행하게도 당신의 휴대폰에서 그 파일을 열어볼 수가 없습니다. 친구에게 전화하여 문제를 설명하고 그 문서를 받거나 열어보기 위한 2, 3가지 다른 대안을 제시해 보세요."
+    },
+    {
+        "id":  120,
+        "text":  "Tell me about a time when you had a problem with your cell phone. What was the issue, when did it happen, and how did you fix it?",
+        "hint":  "new cell phone(새 휴대폰), phone price(휴대폰 가격), camera quality(카메라 품질), battery life(배터리 수명), overall satisfaction(전반적 만족도), document file(문서 파일), file problem(파일 문제), other ways(다른 방법), phone issue(휴대폰 문제), repair option(수리 방법), store contact(매장 연락), fixed problem(해결된 문제)",
+        "topicId":  33,
+        "topicTitle":  "New Cell Phone",
+        "translation":  "그것으로 상황은 끝입니다. 휴대폰을 사용하면서 문제를 겪은 적이 있나요? 문제가 무엇이었고 어떻게 고치셨나요? 가능한 많은 세부 내용들과 함께 그 경험의 모든 것을 처음부터 끝까지 묘사해 주세요."
+    },
+    {
+        "id":  121,
+        "text":  "You are thinking about joining a gym. Call the gym, explain your situation, and ask three or four questions about membership plans, facilities, classes, and cancellation rules.",
+        "hint":  "gym membership(헬스장 회원권), membership plan(회원권 플랜), gym facilities(헬스장 시설), group classes(단체 수업), cancellation rules(취소 규정), high expectations(높은 기대), refund request(환불 요청), plan change(플랜 변경), gym problem(헬스장 문제), staff response(직원 대응), solved issue(해결된 문제), careful signup(신중한 등록)",
+        "topicId":  34,
+        "topicTitle":  "Gym",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 당신은 헬스장에 등록하는 것을 고민중입니다. 헬스장에 전화하여 상황을 설명하고 등록을 결정하기 전에 회원권 옵션, 시설, 또는 수업에 대해 3, 4가지 질문을 해보세요."
+    },
+    {
+        "id":  122,
+        "text":  "You signed up for a gym membership, but after visiting, you found that the gym did not meet your expectations. Call the gym, explain your dissatisfaction, and suggest two or three options such as cancellation, refund, or changing your plan.",
+        "hint":  "gym membership(헬스장 회원권), membership plan(회원권 플랜), gym facilities(헬스장 시설), group classes(단체 수업), cancellation rules(취소 규정), high expectations(높은 기대), refund request(환불 요청), plan change(플랜 변경), gym problem(헬스장 문제), staff response(직원 대응), solved issue(해결된 문제), careful signup(신중한 등록)",
+        "topicId":  34,
+        "topicTitle":  "Gym",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 당신은 헬스장 회원으로 등록했습니다. 그러나 방문해 보니 헬스장이 기대했던 것과 다르다는 것을 알았습니다. 헬스장에 전화하고 당신이 불만족한 점에 대해 설명하세요. 그리고 회원권 취소나 환불을 위한 2, 3가지 대안을 제시해 보세요."
+    },
+    {
+        "id":  123,
+        "text":  "Tell me about a time when you had a problem after signing up for a gym or a class. What issue did you face, how did you respond, and how was it solved?",
+        "hint":  "gym membership(헬스장 회원권), membership plan(회원권 플랜), gym facilities(헬스장 시설), group classes(단체 수업), cancellation rules(취소 규정), high expectations(높은 기대), refund request(환불 요청), plan change(플랜 변경), gym problem(헬스장 문제), staff response(직원 대응), solved issue(해결된 문제), careful signup(신중한 등록)",
+        "topicId":  34,
+        "topicTitle":  "Gym",
+        "translation":  "그것으로 상황은 끝입니다. 헬스장 회원으로 등록한 후에 문제를 겪은 경험이 있나요? 어떤 문제를 마주했었고 어떻게 해결하였나요? 처음부터 끝까지 전체 경험을 가능한 한 자세하게 설명해 주세요."
+    },
+    {
+        "id":  124,
+        "text":  "You have been asked to write a magazine interview with a celebrity. Call the celebrity’s agent, explain your interview idea, and ask three or four questions about the celebrity’s recent projects, personality, values, and schedule.",
+        "hint":  "magazine interview(잡지 인터뷰), celebrity agent(연예인 에이전트), interview idea(인터뷰 아이디어), recent projects(최근 활동), personality values(성격과 가치관), celebrity schedule(연예인 일정), article mistakes(기사 오류), editor call(편집자 전화), correction notice(정정 공지), online article(온라인 기사), celebrity encounter(연예인 만남), strong impression(강한 인상)",
+        "topicId":  35,
+        "topicTitle":  "Celebrity Interview",
+        "translation":  "상황을 드릴 테니 대처를 보여주세요. 유명 연예인과의 심층 인터뷰를 잡지에 싣기로 했습니다. 연예인의 에이전트에게 전화를 걸어 취재 의도를 설명하고, 연예인의 성격이나 가치관, 최근 활동을 잘 보여줄 수 있는 질문을 3~4개 해보세요."
+    },
+    {
+        "id":  125,
+        "text":  "After the interview article is published, you notice several important mistakes. Call the editor, explain the errors, and suggest two or three professional ways to handle the situation, such as correcting the online article or posting a correction notice.",
+        "hint":  "magazine interview(잡지 인터뷰), celebrity agent(연예인 에이전트), interview idea(인터뷰 아이디어), recent projects(최근 활동), personality values(성격과 가치관), celebrity schedule(연예인 일정), article mistakes(기사 오류), editor call(편집자 전화), correction notice(정정 공지), online article(온라인 기사), celebrity encounter(연예인 만남), strong impression(강한 인상)",
+        "topicId":  35,
+        "topicTitle":  "Celebrity Interview",
+        "translation":  "죄송하지만, 당신이 해결해야 할 문제가 있습니다. 인터뷰 기사가 출간된 후, 중요한 내용 몇 가지가 잘못 실린 것을 발견했습니다. 편집자에게 전화해서 문제를 설명하고, 정정 공지나 온라인 버전 수정 등 전문적인 방식으로 해결할 수 있는 2~3가지 방법을 제안해 보세요."
+    },
+    {
+        "id":  126,
+        "text":  "Describe a time when you met a celebrity in person. Where did it happen, how did you interact with the person, and how did the experience affect you afterward?",
+        "hint":  "magazine interview(잡지 인터뷰), celebrity agent(연예인 에이전트), interview idea(인터뷰 아이디어), recent projects(최근 활동), personality values(성격과 가치관), celebrity schedule(연예인 일정), article mistakes(기사 오류), editor call(편집자 전화), correction notice(정정 공지), online article(온라인 기사), celebrity encounter(연예인 만남), strong impression(강한 인상)",
+        "topicId":  35,
+        "topicTitle":  "Celebrity Interview",
+        "translation":  "그것으로 상황은 끝입니다. 연예인을 직접 만났던 경험에 대해 이야기해 주세요. 어떤 상황이었고, 어떻게 교류했으며, 그 경험이 이후에 당신에게 어떤 영향을 주었는지 구체적으로 설명해 주세요."
+    }
+]

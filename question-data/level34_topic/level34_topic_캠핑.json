@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "text": "Tell me about a camping trip you went on. What did you do?",
+        "hint": "set up a tent(텐트를 치다), make a campfire(캠프파이어를 하다), cook outdoors(야외에서 요리하다), eat barbecue(바비큐를 먹다), take pictures(사진을 찍다), walk around(주변을 걷다), watch stars(별을 보다), talk with friends(친구들과 이야기하다), relax outside(밖에서 쉬다), sleep in a tent(텐트에서 자다)",
+        "translation": "캠핑 여행 경험에 대해 말해 주세요. 무엇을 했나요?"
+    },
+    {
+        "id": 2,
+        "text": "What do you like most about camping and what preparations do you make?",
+        "hint": "tent(텐트), sleeping bag(침낭), flashlight(손전등), camping stove(캠핑용 버너), food supplies(식량), water bottle(물병), warm clothes(따뜻한 옷), first-aid kit(구급상자), packing list(짐 목록), portable chair(휴대용 의자)",
+        "translation": "캠핑에서 가장 좋아하는 점은 무엇인가요? 그리고 어떤 준비를 하나요?"
+    },
+    {
+        "id": 3,
+        "text": "Describe the campsite and the surroundings during your camping experience.",
+        "hint": "campsite(캠핑장), mountain area(산 지역), riverside(강가), forest(숲), quiet place(조용한 장소), beautiful view(아름다운 경치), fresh air(상쾌한 공기), clean facilities(깨끗한 시설), wide space(넓은 공간), peaceful atmosphere(평화로운 분위기)",
+        "translation": "캠핑 경험 중 캠핑장과 주변 환경을 설명해 주세요."
+    },
+    {
+        "id": 4,
+        "text": "Where do you enjoy going camping? Describe the campground you go to in as much detail as you can.",
+        "hint": "campsite(캠핑장), mountain area(산 지역), riverside(강가), forest(숲), quiet place(조용한 장소), beautiful view(아름다운 경치), fresh air(상쾌한 공기), clean facilities(깨끗한 시설), wide space(넓은 공간), peaceful atmosphere(평화로운 분위기)",
+        "translation": "어디로 캠핑 가는 것을 좋아하나요? 당신이 가는 캠핑장을 가능한 한 자세히 설명해 주세요."
+    },
+    {
+        "id": 5,
+        "text": "When do you usually go camping? Who do you go camping with? What do you like to do on a camping trip?",
+        "hint": "with family(가족과 함께), with friends(친구들과 함께), camping group(캠핑 모임), alone(혼자), share food(음식을 나누다), help each other(서로 돕다), fun conversation(재미있는 대화), teamwork(팀워크), personal time(개인 시간), different experience(다른 경험)",
+        "translation": "보통 언제 캠핑을 가나요? 누구와 함께 가나요? 캠핑 여행에서 무엇을 하는 것을 좋아하나요?"
+    },
+    {
+        "id": 6,
+        "text": "When did you first start camping? How did you first become interested in camping?",
+        "hint": "first camping trip(첫 캠핑 여행), childhood memory(어린 시절 추억), with parents(부모님과 함께), new experience(새로운 경험), slept in a tent(텐트에서 잤다), made a campfire(캠프파이어를 했다), felt excited(신났다), became interested(관심을 갖게 되었다), liked nature(자연을 좋아했다), changed opinion(생각이 바뀌었다)",
+        "translation": "언제 처음 캠핑을 시작했나요? 캠핑에 처음 관심을 갖게 된 계기는 무엇인가요?"
+    },
+    {
+        "id": 7,
+        "text": "I'd like to give you a situation and ask you to act it out. You are camping and you see a child crying. Ask the child three or four questions to know the situation.",
+        "hint": "sudden rain(갑작스러운 비), strong wind(강한 바람), forgot supplies(준비물을 잊었다), helped a child(아이를 도왔다), called security(보안실에 전화했다), fixed the tent(텐트를 고쳤다), worked together(함께 해결했다), felt worried(걱정했다), felt relieved(안도했다), unforgettable memory(잊을 수 없는 기억)",
+        "translation": "상황을 하나 제시하고 여러분이 직접 연기해 보시도록 하겠습니다. 캠핑을 갔는데 아이가 울고 있는 것을 보았습니다. 아이에게 세네 가지 질문을 해서 상황을 파악해 보세요."
+    },
+    {
+        "id": 8,
+        "text": "I'm sorry, but there is a problem I need you to resolve. You just learned that the child is lost and cannot find his parents. Call the campground security office, discuss the situation, and suggest two or three solutions.",
+        "hint": "campsite(캠핑장), mountain area(산 지역), riverside(강가), forest(숲), quiet place(조용한 장소), beautiful view(아름다운 경치), fresh air(상쾌한 공기), clean facilities(깨끗한 시설), wide space(넓은 공간), peaceful atmosphere(평화로운 분위기)",
+        "translation": "죄송하지만, 해결해 주셔야 할 문제가 있습니다. 아이가 길을 잃어 부모를 찾지 못하고 있다는 소식을 방금 들었습니다. 캠핑장 보안실에 전화해서 상황을 설명하고 두세 가지 해결책을 제시해 주세요."
+    },
+    {
+        "id": 9,
+        "text": "You said you enjoy camping. Where do you usually go camping, and why do you choose that place?",
+        "hint": "campsite(캠핑장), mountain area(산 지역), riverside(강가), forest(숲), quiet place(조용한 장소), beautiful view(아름다운 경치), fresh air(상쾌한 공기), clean facilities(깨끗한 시설), wide space(넓은 공간), peaceful atmosphere(평화로운 분위기)",
+        "translation": "당신은 캠핑을 즐긴다고 했습니다. 보통 어디로 캠핑을 가고, 왜 그 장소를 선택하나요?"
+    },
+    {
+        "id": 10,
+        "text": "How often do you go camping? Do you prefer going in a specific season? Why?",
+        "hint": "once a year(일년에 한 번), twice a year(일년에 두 번), spring camping(봄 캠핑), fall camping(가을 캠핑), cool weather(시원한 날씨), weekend trip(주말 여행), holiday season(휴가철), not too hot(너무 덥지 않은), good timing(좋은 시기), favorite season(좋아하는 계절)",
+        "translation": "얼마나 자주 캠핑을 가나요? 특정 계절에 가는 것을 선호하나요? 왜 그런가요?"
+    },
+    {
+        "id": 11,
+        "text": "Can you describe your camping experience? What is it like from the moment you arrive until you go to sleep?",
+        "hint": "arrive at campsite(캠핑장에 도착하다), set up a tent(텐트를 치다), unpack bags(짐을 풀다), cook dinner(저녁을 요리하다), eat barbecue(바비큐를 먹다), make a campfire(캠프파이어를 하다), talk with friends(친구들과 이야기하다), watch stars(별을 보다), clean up(정리하다), sleep in a tent(텐트에서 자다)",
+        "translation": "당신의 캠핑 경험을 묘사해 줄 수 있나요? 도착한 순간부터 잠들 때까지 어떤가요?"
+    },
+    {
+        "id": 12,
+        "text": "What do you usually do when you go camping? Which activities do you enjoy the most, and why?",
+        "hint": "cook outdoors(야외에서 요리하다), eat barbecue(바비큐를 먹다), make a campfire(캠프파이어를 하다), take pictures(사진을 찍다), walk in nature(자연 속을 걷다), play games(게임을 하다), listen to music(음악을 듣다), watch stars(별을 보다), relax outside(밖에서 쉬다), favorite activity(좋아하는 활동)",
+        "translation": "캠핑을 가면 보통 무엇을 하나요? 어떤 활동을 가장 즐기고, 왜 그런가요?"
+    },
+    {
+        "id": 13,
+        "text": "Who do you usually go camping with? How is the experience different when you go with others compared to going alone?",
+        "hint": "with family(가족과 함께), with friends(친구들과 함께), camping group(캠핑 모임), alone(혼자), share food(음식을 나누다), help each other(서로 돕다), fun conversation(재미있는 대화), teamwork(팀워크), personal time(개인 시간), different experience(다른 경험)",
+        "translation": "보통 누구와 캠핑을 가나요? 다른 사람들과 갈 때와 혼자 갈 때 경험이 어떻게 다른가요?"
+    },
+    {
+        "id": 14,
+        "text": "What do you usually prepare before going camping? Why are those things important?",
+        "hint": "tent(텐트), sleeping bag(침낭), flashlight(손전등), camping stove(캠핑용 버너), food supplies(식량), water bottle(물병), warm clothes(따뜻한 옷), first-aid kit(구급상자), packing list(짐 목록), portable chair(휴대용 의자)",
+        "translation": "캠핑을 가기 전에 보통 무엇을 준비하나요? 왜 그런 것들이 중요한가요?"
+    },
+    {
+        "id": 15,
+        "text": "Tell me about a memorable camping experience you had. Where did you go, and what made it special?",
+        "hint": "memorable camping(기억에 남는 캠핑), mountain campsite(산속 캠핑장), beach camping(해변 캠핑), beautiful sunset(아름다운 노을), campfire night(캠프파이어 밤), family trip(가족 여행), special meal(특별한 식사), quiet nature(조용한 자연), took pictures(사진을 찍었다), good memory(좋은 기억)",
+        "translation": "기억에 남는 캠핑 경험에 대해 말해 주세요. 어디에 갔고, 무엇이 특별했나요?"
+    },
+    {
+        "id": 16,
+        "text": "Did anything unexpected happen during that camping trip? How did you deal with the situation?",
+        "hint": "sudden rain(갑작스러운 비), strong wind(강한 바람), forgot supplies(준비물을 잊었다), tent problem(텐트 문제), asked for help(도움을 요청했다), fixed the tent(텐트를 고쳤다), moved location(장소를 옮겼다), stayed calm(침착했다), solved together(함께 해결했다), felt relieved(안도했다)",
+        "translation": "그 캠핑 여행 중 예상치 못한 일이 있었나요? 그 상황을 어떻게 처리했나요?"
+    },
+    {
+        "id": 17,
+        "text": "What made that camping experience unforgettable for you? How did you feel at that time?",
+        "hint": "unforgettable memory(잊을 수 없는 기억), beautiful nature(아름다운 자연), good friends(좋은 친구들), special moment(특별한 순간), peaceful night(평화로운 밤), felt excited(신났다), felt thankful(감사했다), felt relaxed(편안했다), learned something(무언가를 배웠다), strong memory(강한 기억)",
+        "translation": "그 캠핑 경험이 당신에게 잊을 수 없었던 이유는 무엇인가요? 그때 기분이 어땠나요?"
+    },
+    {
+        "id": 18,
+        "text": "Tell me about your first camping trip. How did you become interested in camping?",
+        "hint": "first camping trip(첫 캠핑 여행), childhood memory(어린 시절 추억), with parents(부모님과 함께), new experience(새로운 경험), slept in a tent(텐트에서 잤다), made a campfire(캠프파이어를 했다), felt excited(신났다), became interested(관심을 갖게 되었다), liked nature(자연을 좋아했다), good start(좋은 시작)",
+        "translation": "첫 캠핑 여행에 대해 말해 주세요. 어떻게 캠핑에 관심을 갖게 되었나요?"
+    },
+    {
+        "id": 19,
+        "text": "Where did you go for your first camping trip, and who were you with? What did you do there?",
+        "hint": "first campsite(첫 캠핑장), mountain area(산 지역), riverside(강가), with family(가족과 함께), with friends(친구들과 함께), set up a tent(텐트를 쳤다), cooked food(음식을 요리했다), walked around(주변을 걸었다), watched stars(별을 봤다), took photos(사진을 찍었다)",
+        "translation": "첫 캠핑 여행은 어디로 갔고, 누구와 함께였나요? 그곳에서 무엇을 했나요?"
+    },
+    {
+        "id": 20,
+        "text": "How was your first camping experience? Did it change your opinion about camping? Why?",
+        "hint": "first experience(첫 경험), nervous at first(처음에는 긴장한), exciting(신나는), uncomfortable(불편한), fun activity(재미있는 활동), loved nature(자연을 좋아하게 됐다), changed opinion(생각이 바뀌었다), wanted to go again(다시 가고 싶었다), learned camping(캠핑을 배웠다), positive memory(긍정적인 기억)",
+        "translation": "첫 캠핑 경험은 어땠나요? 캠핑에 대한 생각이 바뀌었나요? 왜 그런가요?"
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "id":  1,
+        "text":  "You indicated in the survey that you like listening to music. What kind of device do you use when you listen to music? Which gadget do you usually use? Please explain the devices in detail.",
+        "hint":  "listening to music(음악 감상), device(기기), gadget(전자 기기), smartphone(스마트폰), wireless earbuds(무선 이어폰), headphones(헤드폰), speaker(스피커), sound quality(음질), convenient(편리한), explain in detail(자세히 설명하다)",
+        "translation":  "당신은 설문조사에서 음악 감상을 좋아한다고 답했습니다. 음악을 들을 때 어떤 기계를 사용하시나요? 어떤 기기를 주로 이용하시나요? 그 기계에 대해서 자세히 설명해주세요."
+    },
+    {
+        "id":  2,
+        "text":  "You indicated in the survey that you like listening to music. What types of music do you like? Who is your favorite singer or composer? Why do you like him or her?",
+        "hint":  "types of music(음악 종류), favorite singer(가장 좋아하는 가수), composer(작곡가), artist(아티스트), lyrics(가사), melody(멜로디), voice(목소리), emotional(감성적인), inspiring(영감을 주는), musical style(음악 스타일)",
+        "translation":  "당신은 설문조사에서 음악 감상을 좋아한다고 답했습니다. 어떤 음악을 좋아하시나요? 당신이 가장 좋아하는 가수 또는 작곡가는 누구인가요? 왜 그 또는 그녀를 좋아하시나요?"
+    },
+    {
+        "id":  3,
+        "text":  "When and where do you usually listen to music? Do you listen to the radio or go to concerts? Please tell me how do you listen to music.",
+        "hint":  "usually listen to music(주로 음악을 듣다), on the way to work(출근길에), at home(집에서), streaming service(스트리밍 서비스), radio(라디오), concert(콘서트), playlist(재생 목록), relax(휴식하다), background music(배경 음악), enjoy music(음악을 즐기다)",
+        "translation":  "언제 어디서 주로 음악을 듣습니까? 라디오를 듣거나 콘서트에 가시나요? 어떻게 노래를 듣는지 말해주세요."
+    },
+    {
+        "id":  4,
+        "text":  "Tell me about how has your taste in music changed over the years? What kind of music did you like to listen to when you were young? And what about now? Provide as many details as possible.",
+        "hint":  "taste in music(음악 취향), changed over the years(몇 년간 변했다), when I was young(어릴 때), used to listen to(예전에 듣곤 했다), nowadays(요즘에는), prefer(선호하다), pop music(팝 음악), ballads(발라드), broadened taste(넓어진 취향), as many details as possible(가능한 많은 세부사항)",
+        "translation":  "몇 년간 당신의 음악 취향이 어떻게 변했는지 말해주세요. 어릴 때 어떤 노래를 들으셨나요? 지금은 어떤가요? 가능한 많은 세부 사항을 알려주세요."
+    },
+    {
+        "id":  5,
+        "text":  "Tell me about a particular time when you went to listen to some live music. Did you go to concerts or a live café? What did you do there, and what happened? what made this experience memorable?",
+        "hint":  "live music(라이브 음악), particular time(특정한 때), concert(콘서트), live café(라이브 카페), performance(공연), audience(관객), atmosphere(분위기), sing along(따라 부르다), memorable experience(기억에 남는 경험), unforgettable(잊을 수 없는)",
+        "translation":  "라이브 뮤직을 들으러 갔던 특정한 시간(경험, 때)에 대해 말해주세요. 콘서트에 갔었나요? 아니면 라이브 카페에 갔었나요? 그곳에서 무엇을 했고 무슨 일이 있었나요? 왜 그 경험이 기억에 남나요?"
+    },
+    {
+        "id":  6,
+        "text":  "How did you first become interested in listening to music? What kind of music did you listen to when you were young? What was your favorite song? And How has your taste in music changed over time?",
+        "hint":  "first became interested(처음 관심을 갖게 되다), listening to music(음악 감상), when I was young(어릴 적에), favorite song(가장 좋아하는 노래), childhood memory(어린 시절 기억), over time(시간이 흐르면서), taste changed(취향이 변하다), music habit(음악 습관), discover new artists(새로운 아티스트를 발견하다), meaningful song(의미 있는 노래)",
+        "translation":  "어떻게 처음으로 음악 감상에 흥미를 가지게 되었나요? 어릴 적에 어떤 음악을 들으셨나요? 가장 좋아하는 음악은 무엇이었나요? 그리고 시간이 흐르면서 음악 취향이 어떻게 변화했나요?"
+    },
+    {
+        "id":  7,
+        "text":  "You mentioned that you enjoy listening to music. What devices do you usually use to listen to music? Can you describe the device you use most often and explain why you prefer it?",
+        "hint":  "enjoy listening to music(음악 듣기를 즐기다), devices(기기들), use most often(가장 자주 사용하다), prefer(선호하다), smartphone(스마트폰), earbuds(이어버드), headphones(헤드폰), portable speaker(휴대용 스피커), easy to carry(휴대하기 쉬운), good sound quality(좋은 음질)",
+        "translation":  "당신은 음악 듣기를 즐긴다고 말했습니다. 음악을 들을 때 보통 어떤 기기들을 사용하나요? 가장 자주 사용하는 기기를 묘사하고 왜 그것을 선호하는지 설명해 줄 수 있나요?"
+    },
+    {
+        "id":  8,
+        "text":  "What kind of music do you usually listen to? Do you have a favorite singer, band, or composer? Why do you like that artist? Please explain in detail.",
+        "hint":  "usually listen to(보통 듣다), favorite singer(좋아하는 가수), band(밴드), composer(작곡가), artist(아티스트), lyrics(가사), melody(멜로디), performance style(공연 스타일), unique voice(독특한 목소리), explain in detail(자세히 설명하다)",
+        "translation":  "보통 어떤 종류의 음악을 듣나요? 좋아하는 가수, 밴드, 또는 작곡가가 있나요? 왜 그 아티스트를 좋아하나요? 자세히 설명해주세요."
+    },
+    {
+        "id":  9,
+        "text":  "When do you usually listen to music, and where do you listen to it? Do you prefer streaming services, radio, or live performances? Please describe how you typically enjoy music.",
+        "hint":  "when and where(언제 어디서), streaming services(스트리밍 서비스), radio(라디오), live performances(라이브 공연), typically enjoy(보통 즐기다), commute(통근하다), before sleeping(자기 전에), playlist(재생 목록), mood(기분), daily routine(일상 루틴)",
+        "translation":  "보통 언제 음악을 듣고 어디에서 듣나요? 스트리밍 서비스, 라디오, 또는 라이브 공연 중 무엇을 선호하나요? 보통 음악을 어떻게 즐기는지 묘사해주세요."
+    },
+    {
+        "id":  10,
+        "text":  "How has your taste in music changed over time? What kind of music did you enjoy when you were younger, and what do you prefer now? Please describe the differences in detail.",
+        "hint":  "taste in music(음악 취향), changed over time(시간이 지나며 변하다), when I was younger(어렸을 때), prefer now(지금 선호하다), differences(차이점), pop songs(팝송), dance music(댄스 음악), calm music(잔잔한 음악), deeper lyrics(깊이 있는 가사), describe in detail(자세히 묘사하다)",
+        "translation":  "시간이 지나면서 음악 취향이 어떻게 변했나요? 어렸을 때 어떤 음악을 즐겼고, 지금은 무엇을 선호하나요? 차이점을 자세히 묘사해주세요."
+    },
+    {
+        "id":  11,
+        "text":  "Tell me about a time when you experienced live music. Did you attend a concert or visit a live music venue? What did you do there, and what made that experience memorable?",
+        "hint":  "experienced live music(라이브 음악을 경험하다), attend a concert(콘서트에 참석하다), live music venue(라이브 음악 장소), visit(방문하다), performance(공연), atmosphere(분위기), audience reaction(관객 반응), favorite artist(좋아하는 아티스트), memorable(기억에 남는), sing along(따라 부르다)",
+        "translation":  "라이브 음악을 경험했던 때에 대해 말해주세요. 콘서트에 참석했나요, 아니면 라이브 음악 장소를 방문했나요? 그곳에서 무엇을 했고, 무엇이 그 경험을 기억에 남게 만들었나요?"
+    },
+    {
+        "id":  12,
+        "text":  "Can you tell me how you first became interested in music? What kind of music did you listen to when you were young? What was your favorite song at that time? How has your taste in music changed since then?",
+        "hint":  "became interested in music(음악에 관심을 갖게 되다), when I was young(어렸을 때), favorite song(좋아하는 노래), at that time(그 당시에), changed since then(그 이후로 변하다), music taste(음악 취향), childhood favorite(어릴 적 좋아하던 것), discover music(음악을 발견하다), listen regularly(정기적으로 듣다), personal preference(개인 취향)",
+        "translation":  "어떻게 처음 음악에 관심을 갖게 되었는지 말해 줄 수 있나요? 어렸을 때 어떤 음악을 들었나요? 그 당시 가장 좋아했던 노래는 무엇이었나요? 그 이후로 음악 취향은 어떻게 변했나요?"
+    },
+    {
+        "id":  13,
+        "text":  "You said you enjoy listening to music. What device do you usually use to listen to music, and how does that device affect the way you enjoy music in your daily life?",
+        "hint":  "listening to music(음악 감상), device(기기), usually use(보통 사용하다), daily life(일상생활), smartphone(스마트폰), wireless earbuds(무선 이어폰), headphones(헤드폰), speaker(스피커), sound quality(음질), convenient(편리한)",
+        "translation":  "당신은 음악 듣기를 즐긴다고 했습니다. 음악을 들을 때 보통 어떤 기기를 사용하고, 그 기기가 일상생활에서 음악을 즐기는 방식에 어떤 영향을 주나요?"
+    },
+    {
+        "id":  14,
+        "text":  "What kind of music do you usually listen to these days? Please tell me about your favorite singer, band, or composer, and explain what makes their music special to you.",
+        "hint":  "these days(요즘), usually listen to(보통 듣다), favorite singer(좋아하는 가수), band(밴드), composer(작곡가), special to me(나에게 특별한), lyrics(가사), melody(멜로디), vocal style(보컬 스타일), emotional connection(감정적 연결)",
+        "translation":  "요즘 보통 어떤 음악을 듣나요? 좋아하는 가수, 밴드 또는 작곡가에 대해 말하고, 무엇이 그들의 음악을 당신에게 특별하게 만드는지 설명해주세요."
+    },
+    {
+        "id":  15,
+        "text":  "When and where do you usually listen to music? Please describe how you listen to music during your daily routine, such as while commuting, studying, working, or relaxing.",
+        "hint":  "when and where(언제 어디서), daily routine(일상 루틴), commuting(통근), studying(공부), working(일하기), relaxing(휴식), playlist(재생 목록), background music(배경 음악), focus(집중하다), unwind(긴장을 풀다)",
+        "translation":  "보통 언제 어디에서 음악을 듣나요? 통근, 공부, 일 또는 휴식 중처럼 일상 루틴에서 어떻게 음악을 듣는지 묘사해주세요."
+    },
+    {
+        "id":  16,
+        "text":  "How has your taste in music changed over the years? Please compare the music you liked when you were younger with the music you enjoy now, and explain why your preferences changed.",
+        "hint":  "taste in music(음악 취향), changed over the years(수년 동안 변했다), when I was younger(어렸을 때), enjoy now(지금 즐기다), preferences changed(취향이 변했다), compare(비교하다), pop music(팝 음악), calm music(잔잔한 음악), mature taste(성숙한 취향), personal experience(개인적인 경험)",
+        "translation":  "수년 동안 음악 취향이 어떻게 변했나요? 어렸을 때 좋아했던 음악과 지금 즐기는 음악을 비교하고, 왜 취향이 변했는지 설명해주세요."
+    },
+    {
+        "id":  17,
+        "text":  "Tell me about a memorable time when you listened to live music. Where did you go, who were you with, what happened there, and why was that experience special to you?",
+        "hint":  "memorable time(기억에 남는 때), live music(라이브 음악), where did you go(어디에 갔나요), who were you with(누구와 함께 있었나요), what happened(무슨 일이 있었는지), special experience(특별한 경험), concert(콘서트), live venue(라이브 공연장), audience(관객), unforgettable(잊을 수 없는)",
+        "translation":  "라이브 음악을 들었던 기억에 남는 때에 대해 말해주세요. 어디에 갔고, 누구와 함께 있었으며, 그곳에서 무슨 일이 있었고, 왜 그 경험이 당신에게 특별했나요?"
+    },
+    {
+        "id":  18,
+        "text":  "Can you tell me how you first became interested in music? What kind of songs did you listen to at first, who influenced your taste, and how has music become part of your life over time?",
+        "hint":  "first became interested(처음 관심을 갖게 되다), songs at first(처음 들었던 노래들), influenced my taste(내 취향에 영향을 주다), part of my life(내 삶의 일부), over time(시간이 지나면서), family influence(가족의 영향), favorite song(좋아하는 노래), music habit(음악 습관), emotional support(정서적 위로), personal story(개인적인 이야기)",
+        "translation":  "어떻게 처음 음악에 관심을 갖게 되었는지 말해 줄 수 있나요? 처음에는 어떤 노래를 들었고, 누가 당신의 취향에 영향을 주었으며, 시간이 지나면서 음악은 어떻게 삶의 일부가 되었나요?"
+    },
+    {
+        "id":  19,
+        "text":  "You mentioned that you enjoy listening to music. What specific device or platform do you primarily use to enjoy your favorite tracks? Does this technology—whether it\u0027s high-end headphones or a smart speaker—enhance your listening experience in any particular way? Please explain how your choice of device fits into your modern lifestyle.",
+        "hint":  "specific device(특정 기기), platform(플랫폼), primarily use(주로 사용하다), favorite tracks(좋아하는 곡들), technology(기술), high-end headphones(고급 헤드폰), smart speaker(스마트 스피커), enhance the experience(경험을 향상시키다), modern lifestyle(현대적인 생활 방식), fits into(~에 맞다)",
+        "translation":  "당신은 음악 듣기를 즐긴다고 말했습니다. 좋아하는 곡을 즐기기 위해 주로 어떤 특정 기기나 플랫폼을 사용하나요? 고급 헤드폰이든 스마트 스피커든, 이 기술이 어떤 특별한 방식으로 음악 감상 경험을 향상시키나요? 당신의 기기 선택이 현대적인 생활 방식에 어떻게 맞는지 설명해주세요."
+    },
+    {
+        "id":  20,
+        "text":  "What genre of music is dominating your playlist these days? I’d like to know about a specific artist, band, or composer you admire. What is it about their vocal style, lyrics, or musical philosophy that resonates with you so deeply?",
+        "hint":  "genre of music(음악 장르), dominating my playlist(재생 목록을 차지하다), these days(요즘), specific artist(특정 아티스트), admire(존경하다), vocal style(보컬 스타일), lyrics(가사), musical philosophy(음악 철학), resonate with me(나에게 깊이 와닿다), deeply(깊이)",
+        "translation":  "요즘 당신의 재생 목록을 가장 많이 차지하는 음악 장르는 무엇인가요? 당신이 존경하는 특정 아티스트, 밴드 또는 작곡가에 대해 알고 싶습니다. 그들의 보컬 스타일, 가사 또는 음악 철학 중 무엇이 당신에게 그렇게 깊이 와닿나요?"
+    },
+    {
+        "id":  21,
+        "text":  "Music often acts as a background for our daily activities. Tell me about the different times and places you listen to music throughout the day. How do you curate your music for different situations, such as when you need to focus on work or when you are trying to unwind after a long day?",
+        "hint":  "background for daily activities(일상 활동의 배경), throughout the day(하루 종일), curate music(음악을 선별하다), different situations(다양한 상황), focus on work(일에 집중하다), unwind after a long day(긴 하루 후 긴장을 풀다), playlist(재생 목록), mood-based music(기분에 맞는 음악), productivity(생산성), relaxation(휴식)",
+        "translation":  "음악은 종종 일상 활동의 배경이 됩니다. 하루 동안 음악을 듣는 다양한 시간과 장소에 대해 말해주세요. 일에 집중해야 할 때나 긴 하루 후 긴장을 풀려고 할 때처럼 상황에 따라 음악을 어떻게 선별하나요?"
+    },
+    {
+        "id":  22,
+        "text":  "Our musical tastes often evolve as we go through different stages of life. Compare the music you were obsessed with during your younger years to what you enjoy now. What triggered this shift in your preferences, and what does your current taste say about the person you are today?",
+        "hint":  "musical tastes(음악 취향), evolve(변화하다), stages of life(삶의 단계), obsessed with(푹 빠졌던), younger years(어린 시절), enjoy now(지금 즐기다), triggered this shift(이 변화를 일으켰다), preferences(취향), current taste(현재 취향), person I am today(오늘날의 나)",
+        "translation":  "음악 취향은 삶의 여러 단계를 지나며 자주 변화합니다. 어린 시절 푹 빠졌던 음악과 지금 즐기는 음악을 비교해주세요. 무엇이 이러한 취향 변화를 일으켰고, 현재의 취향은 오늘날의 당신에 대해 무엇을 말해주나요?"
+    },
+    {
+        "id":  23,
+        "text":  "Listening to recorded music is great, but live music is a whole different experience. Tell me about the most memorable time you heard music played live. Describe the energy of the crowd, the quality of the performance, and the specific emotions you felt at that moment.",
+        "hint":  "recorded music(녹음된 음악), live music(라이브 음악), whole different experience(완전히 다른 경험), most memorable time(가장 기억에 남는 때), played live(라이브로 연주되다), energy of the crowd(관중의 에너지), quality of the performance(공연의 질), specific emotions(구체적인 감정), at that moment(그 순간), vivid memory(생생한 기억)",
+        "translation":  "녹음된 음악을 듣는 것도 좋지만, 라이브 음악은 완전히 다른 경험입니다. 라이브로 연주되는 음악을 들었던 가장 기억에 남는 때에 대해 말해주세요. 관중의 에너지, 공연의 질, 그리고 그 순간 느꼈던 구체적인 감정을 묘사해주세요."
+    },
+    {
+        "id":  24,
+        "text":  "Take me back to the moment music first became important to you. Who introduced you to your first favorite song, and what was your initial reaction? How has your relationship with music matured since then, and what role does it play in your life now?",
+        "hint":  "music became important(음악이 중요해지다), introduced me to(나에게 소개하다), first favorite song(처음 좋아한 노래), initial reaction(첫 반응), relationship with music(음악과의 관계), matured(성숙해졌다), since then(그 이후로), role in my life(내 삶에서의 역할), emotional comfort(정서적 위로), personal growth(개인적 성장)",
+        "translation":  "음악이 처음 당신에게 중요해진 순간으로 돌아가 보세요. 누가 당신에게 처음 좋아한 노래를 소개해 주었고, 첫 반응은 어땠나요? 그 이후 음악과의 관계는 어떻게 성숙해졌고, 지금 당신의 삶에서 음악은 어떤 역할을 하나요?"
+    }
+]

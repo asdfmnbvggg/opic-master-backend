@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "text": "How do you usually spend your holidays or weekends?",
+        "hint": "relax at home(집에서 쉬다), watch movies(영화를 보다), meet friends(친구를 만나다), travel nearby(근처로 여행하다), eat delicious food(맛있는 음식을 먹다), sleep late(늦잠 자다), go shopping(쇼핑하다), take a walk(산책하다), family time(가족 시간), enjoy hobbies(취미를 즐기다)",
+        "translation": "휴일이나 주말을 보통 어떻게 보내시나요?"
+    },
+    {
+        "id": 2,
+        "text": "Tell me about a memorable holiday you had recently.",
+        "hint": "memorable holiday(기억에 남는 휴일), childhood memory(어린 시절 추억), family trip(가족 여행), special meal(특별한 식사), holiday gift(명절 선물), played games(게임을 했다), took pictures(사진을 찍었다), felt happy(행복했다), warm memory(따뜻한 기억), special day(특별한 날)",
+        "translation": "최근에 있었던 기억에 남는 휴일에 대해 말해 주세요."
+    },
+    {
+        "id": 3,
+        "text": "What activities do you enjoy doing during your free time?",
+        "hint": "relax at home(집에서 쉬다), watch movies(영화를 보다), meet friends(친구를 만나다), travel nearby(근처로 여행하다), eat delicious food(맛있는 음식을 먹다), sleep late(늦잠 자다), go shopping(쇼핑하다), take a walk(산책하다), family time(가족 시간), enjoy hobbies(취미를 즐기다)",
+        "translation": "여가 시간에 즐겨 하는 활동은 무엇인가요?"
+    },
+    {
+        "id": 4,
+        "text": "Let's talk about the holidays in your country. What holidays are there? How are they celebrated?",
+        "hint": "holiday plans(휴일 계획), family(가족), celebrate(기념하다), special day(특별한 날), traditional food(전통 음식), visit relatives(친척을 방문하다), rest at home(집에서 쉬다), long weekend(긴 주말), travel plan(여행 계획), good memory(좋은 기억)",
+        "translation": "당신 나라의 공휴일에 대해 이야기해 볼까요? 어떤 공휴일이 있나요? 어떻게 기념하나요?"
+    },
+    {
+        "id": 5,
+        "text": "What is the biggest holiday in your country? What activities do you usually do during the holiday?",
+        "hint": "relax at home(집에서 쉬다), watch movies(영화를 보다), meet friends(친구를 만나다), travel nearby(근처로 여행하다), eat delicious food(맛있는 음식을 먹다), sleep late(늦잠 자다), go shopping(쇼핑하다), take a walk(산책하다), family time(가족 시간), enjoy hobbies(취미를 즐기다)",
+        "translation": "당신 나라에서 가장 큰 명절은 언제인가요? 그 명절에는 보통 어떤 활동을 하시나요?"
+    },
+    {
+        "id": 6,
+        "text": "Tell me about the most memorable holiday you had when you were a child. What happened? Why is it so memorable to you?",
+        "hint": "memorable holiday(기억에 남는 휴일), childhood memory(어린 시절 추억), family trip(가족 여행), special meal(특별한 식사), holiday gift(명절 선물), played games(게임을 했다), took pictures(사진을 찍었다), felt happy(행복했다), warm memory(따뜻한 기억), special day(특별한 날)",
+        "translation": "어렸을 때 가장 기억에 남는 휴가에 대해 이야기해 주세요. 무슨 일이 있었나요? 왜 그 휴가가 그렇게 기억에 남나요?"
+    },
+    {
+        "id": 7,
+        "text": "You said you enjoy taking vacations. How do you usually spend your vacation, and what do you like most about it?",
+        "hint": "relax at home(집에서 쉬다), travel nearby(근처로 여행하다), meet friends(친구를 만나다), family time(가족 시간), eat delicious food(맛있는 음식을 먹다), sleep late(늦잠 자다), take pictures(사진을 찍다), stress relief(스트레스 해소), free time(여가 시간), favorite part(가장 좋아하는 부분)",
+        "translation": "당신은 휴가를 즐긴다고 했습니다. 보통 휴가를 어떻게 보내고, 그중 무엇을 가장 좋아하나요?"
+    },
+    {
+        "id": 8,
+        "text": "What kinds of activities do you usually do during your vacation? Why do you enjoy those activities?",
+        "hint": "go sightseeing(관광하다), visit cafes(카페를 방문하다), go shopping(쇼핑하다), watch movies(영화를 보다), take a walk(산책하다), try local food(지역 음식을 먹다), enjoy hobbies(취미를 즐기다), rest well(잘 쉬다), make memories(추억을 만들다), feel refreshed(상쾌하다)",
+        "translation": "휴가 동안 보통 어떤 활동을 하나요? 왜 그런 활동들을 즐기나요?"
+    },
+    {
+        "id": 9,
+        "text": "Do you prefer spending your vacation alone or with others? How does that affect your overall experience?",
+        "hint": "alone(혼자), with family(가족과 함께), with friends(친구들과 함께), personal time(개인 시간), share memories(추억을 나누다), different mood(다른 분위기), more freedom(더 많은 자유), more fun(더 재미있는), comfortable company(편한 동행), overall experience(전체 경험)",
+        "translation": "혼자 휴가를 보내는 것을 선호하나요, 아니면 다른 사람들과 함께 보내는 것을 선호하나요? 그것이 전체 경험에 어떤 영향을 주나요?"
+    },
+    {
+        "id": 10,
+        "text": "Who do you usually spend your vacation with? What do you typically do together?",
+        "hint": "with family(가족과 함께), with friends(친구들과 함께), travel partner(여행 동반자), eat together(함께 먹다), watch movies(영화를 보다), go on a trip(여행을 가다), talk a lot(많이 이야기하다), take photos(사진을 찍다), relax together(함께 쉬다), good company(좋은 동행)",
+        "translation": "보통 누구와 휴가를 보내나요? 함께 보통 무엇을 하나요?"
+    },
+    {
+        "id": 11,
+        "text": "Many people have different vacation styles. What kind of vacation do you prefer, and why?",
+        "hint": "relaxing vacation(편안한 휴가), active vacation(활동적인 휴가), city trip(도시 여행), beach vacation(해변 휴가), quiet place(조용한 장소), adventure(모험), personal preference(개인 선호), stress relief(스트레스 해소), new experience(새로운 경험), perfect rest(완벽한 휴식)",
+        "translation": "많은 사람들은 서로 다른 휴가 스타일을 가지고 있습니다. 어떤 종류의 휴가를 선호하고, 왜 그런가요?"
+    },
+    {
+        "id": 12,
+        "text": "What makes a vacation relaxing or enjoyable for you? Can you compare different types of vacations you have experienced?",
+        "hint": "comfortable hotel(편안한 호텔), quiet place(조용한 장소), beautiful scenery(아름다운 풍경), no schedule(일정이 없는), fun activities(재미있는 활동들), active trip(활동적인 여행), relaxing trip(편안한 여행), compare experiences(경험을 비교하다), less stress(적은 스트레스), enjoyable time(즐거운 시간)",
+        "translation": "당신에게 휴가를 편안하거나 즐겁게 만드는 것은 무엇인가요? 경험했던 다른 종류의 휴가들을 비교해 줄 수 있나요?"
+    },
+    {
+        "id": 13,
+        "text": "Tell me about an unexpected or interesting experience you had during a vacation. What happened, and how did you deal with it?",
+        "hint": "unexpected event(예상치 못한 일), interesting experience(흥미로운 경험), bad weather(나쁜 날씨), changed plans(계획을 바꿨다), missed bus(버스를 놓쳤다), asked for help(도움을 요청했다), stayed calm(침착했다), solved the problem(문제를 해결했다), funny memory(재미있는 기억), felt relieved(안도했다)",
+        "translation": "휴가 중 있었던 예상치 못했거나 흥미로운 경험에 대해 말해 주세요. 무슨 일이 있었고, 어떻게 대처했나요?"
+    },
+    {
+        "id": 14,
+        "text": "Have you ever had a problem while you were on vacation? What was the situation, and how did you solve it?",
+        "hint": "vacation problem(휴가 문제), lost item(잃어버린 물건), hotel issue(호텔 문제), delayed train(지연된 기차), wrong reservation(잘못된 예약), asked staff(직원에게 물었다), called service center(고객센터에 전화했다), changed schedule(일정을 바꿨다), solved it(해결했다), stressful moment(스트레스 받는 순간)",
+        "translation": "휴가 중 문제가 생긴 적이 있나요? 어떤 상황이었고, 어떻게 해결했나요?"
+    },
+    {
+        "id": 15,
+        "text": "Tell me about a memorable vacation you had when you were young. Who were you with, and what made it special?",
+        "hint": "childhood vacation(어린 시절 휴가), with family(가족과 함께), summer trip(여름 여행), beach memory(해변 추억), special meal(특별한 식사), played outside(밖에서 놀았다), took pictures(사진을 찍었다), felt excited(신났다), warm memory(따뜻한 기억), unforgettable(잊을 수 없는)",
+        "translation": "어렸을 때 기억에 남는 휴가에 대해 말해 주세요. 누구와 함께였고, 무엇이 특별했나요?"
+    },
+    {
+        "id": 16,
+        "text": "How has your way of spending vacations changed over time? What is different between the past and now?",
+        "hint": "past vacation(과거 휴가), current vacation(현재 휴가), travel more(더 많이 여행하다), rest at home(집에서 쉬다), different schedule(다른 일정), online booking(온라인 예약), family tradition(가족 전통), new hobbies(새 취미들), changed lifestyle(변한 생활 방식), more flexible(더 유연한)",
+        "translation": "휴가를 보내는 방식이 시간이 지나며 어떻게 변했나요? 과거와 현재는 무엇이 다른가요?"
+    },
+    {
+        "id": 17,
+        "text": "Tell me about your most recent vacation. What did you do from the beginning to the end?",
+        "hint": "recent vacation(최근 휴가), planned schedule(계획한 일정), packed bags(짐을 쌌다), traveled by car(차로 이동했다), checked in(체크인했다), ate good food(맛있는 음식을 먹었다), visited places(장소들을 방문했다), took photos(사진을 찍었다), rested well(잘 쉬었다), came back home(집에 돌아왔다)",
+        "translation": "가장 최근 휴가에 대해 말해 주세요. 처음부터 끝까지 무엇을 했나요?"
+    },
+    {
+        "id": 18,
+        "text": "How did you feel during that vacation? What kind of vacation would you like to have in the future, and why?",
+        "hint": "felt relaxed(편안했다), felt happy(행복했다), felt refreshed(상쾌했다), future vacation(미래 휴가), beach vacation(해변 휴가), quiet resort(조용한 리조트), travel abroad(해외여행), more rest(더 많은 휴식), meaningful time(의미 있는 시간), want to try(시도하고 싶다)",
+        "translation": "그 휴가 동안 기분이 어땠나요? 앞으로 어떤 종류의 휴가를 보내고 싶고, 왜 그런가요?"
+    }
+]

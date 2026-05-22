@@ -1,0 +1,194 @@
+[
+  {
+  "id": 1,
+  "text": "You indicated in the survey that you like to take traveling domestically. Why do you like to take trips to your home country? Tell me about some places that you like to travel to. What is your favorite location? Why do you like going there?",
+  "hint": "domestic travel(국내 여행), convenient(편리한), easy access(접근성이 좋은), travel destination(여행지), scenic views(경치 좋은 풍경), cultural experience(문화적 경험), local food(지역 음식), popular spot(인기 있는 장소), favorite location(가장 좋아하는 장소), relaxing getaway(편안한 휴식 여행)",
+  "translation": "당신은 설문조사에서 국내 여행을 좋아한다고 했습니다. 왜 국내 여행을 좋아하시나요? 여행하기 좋아하는 장소 몇 군데를 알려주세요. 어디가 가장 좋아하는 지역인가요? 왜 그곳에 가기를 좋아하나요?"
+  },
+  {
+  "id": 2,
+  "text": "I'd like to know about places people like to travel to for their vacations. Please tell me where people in your country go for vacations these days.",
+  "hint": "vacation spots(휴가지), popular destinations(인기 있는 여행지), nowadays(요즘에는), travel trend(여행 트렌드), seaside(해변), mountains(산), city trips(도시 여행), overseas travel(해외 여행), short getaways(짧은 여행), relaxing places(휴식하기 좋은 장소)",
+  "translation": "사람들이 휴가를 위해 가는 장소들에 대해 알고 싶습니다. 당신의 나라 사람들이 요즘 휴가를 위해 어디로 가는지 말해주세요."
+  },
+  {
+  "id": 3,
+  "text": "What do you usually prepare before you take a trip? What things do you take in your luggage? What items do you bring with you? Describe each step you take to prepare for your trip in detail.",
+  "hint": "make a checklist(체크리스트를 만들다), pack my luggage(짐을 싸다), travel essentials(여행 필수품), toiletries(세면도구), extra clothes(여벌 옷), charger(충전기), important documents(중요한 서류), book accommodation(숙소를 예약하다), plan the itinerary(일정을 계획하다), double-check everything(모든 것을 다시 확인하다)",
+  "translation": "여행을 가기 전에 주로 무엇을 준비하나요? 여행 가방에 무엇을 넣어 가시나요? 어떤 것들을 챙겨 가시나요? 여행을 위해 준비하는 각 단계를 자세히 설명해주세요."
+  },
+  {
+  "id": 4,
+  "text": "What do people usually do when they travel domestically? What kinds of items do people bring on a trip? Please tell me all the details.",
+  "hint": "engage in sightseeing(관광 활동을 하다), explore local attractions(지역 명소를 탐방하다), indulge in local cuisine(지역 음식을 즐기다), cultural immersion(문화 체험), recreational activities(여가 활동), capture moments(추억을 기록하다), travel essentials(여행 필수품), portable devices(휴대용 기기), personal belongings(개인 소지품), practical necessities(실용적인 필수품)",
+  "translation": "사람들이 국내 여행을 할 때 주로 무엇을 하나요? 사람들은 여행에 어떤 것들을 가져가나요? 모든 세부사항들을 말해주세요."
+  },
+  {
+  "id": 5,
+  "text": "How has the domestic travel of people in your country changed over the years? Compare the difference in the ways of traveling in the past and now. What kinds of activities do people usually do while traveling today, and what things did people do in the past when they were on a trip?",
+  "hint": "over the years(수년간), travel patterns(여행 방식), in the past(과거에는), nowadays(요즘에는), significant changes(큰 변화), more convenient(더 편리한), transportation options(교통 수단), digital booking(온라인 예약), share on social media(소셜미디어에 공유하다), personalized experiences(개인화된 경험)",
+  "translation": "몇 년간 당신의 나라 사람들이 국내 여행하는 것은 어떻게 변화했나요? 과거와 현재의 여행 방법의 차이에 대해 비교해주세요. 사람들은 요즘 여행 중에 어떤 활동을 하고 과거에는 어떤 것들을 했었나요?"
+  },
+  {
+  "id": 6,
+  "text": "Tell me about the most memorable travel experience you had. When and where did you go? What did you see? What happened? Why was this experience unforgettable to you?",
+  "hint": "memorable trip(기억에 남는 여행), unforgettable experience(잊을 수 없는 경험), breathtaking scenery(숨이 멎을 듯한 풍경), explore a new place(새로운 장소를 탐험하다), encounter something unexpected(예상치 못한 일을 겪다), highlight of the trip(여행의 하이라이트), once-in-a-lifetime(평생 한 번뿐인), create lasting memories(오랫동안 기억에 남다), meaningful moment(의미 있는 순간), leave a strong impression(강한 인상을 남기다)",
+  "translation": "가장 기억에 남는 여행 경험에 대해 말해주세요. 언제 어디로 갔었나요? 무엇을 보았나요? 무슨 일이 있었나요? 왜 그 경험을 잊을 수 없나요?"
+  },
+  {
+  "id": 7,
+  "text": "Traveling can lead to some interesting or unexpected experiences. Maybe it's funny, interesting, or exciting. Describe a memorable trip you have taken. Where did you go, and what did you see? Tell me what happened in detail.",
+  "hint": "unexpected experience(예상치 못한 경험), memorable journey(기억에 남는 여행), amusing moment(재미있는 순간), exciting adventure(신나는 모험), scenic attraction(경치 좋은 명소), run into a problem(문제를 겪다), spontaneous event(즉흥적인 일), make the trip special(여행을 특별하게 만들다), vivid detail(생생한 세부 묘사), remain unforgettable(잊히지 않다)",
+  "translation": "여행은 흥미롭거나 기대치 못한 경험을 겪게 할 수 있습니다. 아마 재미있거나 흥미롭거나 신나는 것일 수 있습니다. 당신이 겪은 기억에 남는 여행을 묘사해주세요. 어디에 갔고 무엇을 보았나요? 무슨 일이 있었는지 자세히 말해주세요."
+  },
+  {
+  "id": 8,
+  "text": "Tell me about a trip you took in your childhood. Where and when did you go? Did you go with your parents? What do you remember the most about the trip? Explain the things that you saw on that trip in detail.",
+  "hint": "childhood trip(어릴 적 여행), family vacation(가족 여행), back when I was young(어렸을 때), go with my parents(부모님과 가다), vivid memory(생생한 기억), tourist attraction(관광 명소), scenic landscape(아름다운 풍경), local specialty(지역 특산물), what I remember the most(가장 기억에 남는 것), unforgettable moment(잊을 수 없는 순간)",
+  "translation": "어릴 적 갔던 여행에 대해 말해주세요. 언제 어디로 갔나요? 부모님과 갔었나요? 그 여행에서 가장 기억에 남는 것은 무엇인가요? 여행에서 봤던 것에 대해 자세히 설명해주세요."
+  },
+  {
+  "id": 9,
+  "text": "You mentioned that you enjoy traveling within your own country. What makes domestic travel enjoyable for you? What are some places you like to visit? Which place is your favorite, and why do you like it so much?",
+  "hint": "travel within my own country(국내를 여행하다), enjoyable(즐거운), domestic travel(국내 여행), places to visit(방문할 장소), favorite place(가장 좋아하는 장소), convenient transportation(편리한 교통), local attractions(지역 명소), delicious local food(맛있는 지역 음식), relaxing atmosphere(편안한 분위기), meaningful getaway(의미 있는 휴식 여행)",
+  "translation": "당신은 국내 여행을 즐긴다고 말했습니다. 국내 여행이 당신에게 즐거운 이유는 무엇인가요? 방문하기 좋아하는 장소들은 어디인가요? 어떤 장소가 가장 좋고, 왜 그곳을 그렇게 좋아하나요?"
+  },
+  {
+  "id": 10,
+  "text": "I’d like to hear about popular vacation spots in your country. Where do people in your country usually travel these days when they have time off? Why are those places popular?",
+  "hint": "popular vacation spots(인기 있는 휴가지), have time off(휴가가 있다), usually travel(보통 여행하다), these days(요즘), popular places(인기 있는 장소), beaches(해변), mountains(산), famous cities(유명한 도시), easy to access(접근하기 쉬운), good for relaxation(휴식하기 좋은)",
+  "translation": "당신의 나라에서 인기 있는 휴가지에 대해 듣고 싶습니다. 요즘 당신의 나라 사람들은 시간이 날 때 보통 어디로 여행을 가나요? 왜 그런 장소들이 인기가 있나요?"
+  },
+  {
+  "id": 11,
+  "text": "Before you go on a domestic trip, how do you usually prepare? What do you pack in your bag, and what items are essential for you? Please describe your preparation process in detail.",
+  "hint": "go on a domestic trip(국내 여행을 가다), prepare(준비하다), pack in my bag(가방에 챙기다), essential items(필수품), preparation process(준비 과정), make a checklist(체크리스트를 만들다), book transportation(교통편을 예약하다), reserve accommodation(숙소를 예약하다), pack clothes(옷을 챙기다), check the weather(날씨를 확인하다)",
+  "translation": "국내 여행을 가기 전에 보통 어떻게 준비하나요? 가방에 무엇을 챙기고, 당신에게 꼭 필요한 물건은 무엇인가요? 준비 과정을 자세히 묘사해주세요."
+  },
+  {
+  "id": 12,
+  "text": "When people travel within your country, what do they usually do during the trip? What kinds of things do they normally bring with them? Please explain with many details.",
+  "hint": "travel within the country(국내를 여행하다), during the trip(여행 중에), normally bring(보통 가져가다), sightseeing(관광), try local food(지역 음식을 먹어보다), take photos(사진을 찍다), visit landmarks(명소를 방문하다), comfortable shoes(편한 신발), portable charger(보조 배터리), many details(많은 세부사항)",
+  "translation": "사람들이 국내 여행을 할 때 여행 중에 보통 무엇을 하나요? 보통 어떤 것들을 가지고 가나요? 많은 세부사항과 함께 설명해주세요."
+  },
+  {
+  "id": 13,
+  "text": "How has domestic travel changed in your country compared to the past? What did people usually do on trips before, and what do they tend to do now? Please compare the differences in detail.",
+  "hint": "compared to the past(과거와 비교해서), domestic travel(국내 여행), changed(변했다), used to(예전에는 ~하곤 했다), tend to(하는 경향이 있다), online booking(온라인 예약), social media(소셜 미디어), personalized travel(개인 맞춤 여행), travel style(여행 방식), compare in detail(자세히 비교하다)",
+  "translation": "과거와 비교했을 때 당신의 나라에서 국내 여행은 어떻게 변했나요? 예전에는 사람들이 여행에서 보통 무엇을 했고, 지금은 무엇을 하는 경향이 있나요? 차이점을 자세히 비교해주세요."
+  },
+  {
+  "id": 14,
+  "text": "Tell me about your most unforgettable domestic trip. When and where did you go? What did you see or do there? What made that trip so memorable for you?",
+  "hint": "unforgettable domestic trip(잊을 수 없는 국내 여행), memorable(기억에 남는), when and where(언제 어디서), see and do(보고 하다), beautiful scenery(아름다운 풍경), special moment(특별한 순간), travel companion(여행 동반자), local experience(지역 경험), emotional memory(감정적인 기억), made it memorable(기억에 남게 만들다)",
+  "translation": "당신의 가장 잊을 수 없는 국내 여행에 대해 말해주세요. 언제 어디로 갔나요? 그곳에서 무엇을 보거나 했나요? 무엇이 그 여행을 그렇게 기억에 남게 만들었나요?"
+  },
+  {
+  "id": 15,
+  "text": "Sometimes trips become memorable because something funny, exciting, or unexpected happens. Can you describe one domestic trip that stands out to you? Where did you go, what did you see, and what happened?",
+  "hint": "funny(재미있는), exciting(신나는), unexpected(예상치 못한), stands out(눈에 띄다), domestic trip(국내 여행), memorable event(기억에 남는 일), unexpected situation(예상치 못한 상황), interesting experience(흥미로운 경험), describe what happened(무슨 일이 있었는지 묘사하다), vivid memory(생생한 기억)",
+  "translation": "가끔 여행은 재미있거나 신나거나 예상치 못한 일이 생겨서 기억에 남습니다. 당신에게 특히 기억에 남는 국내 여행 하나를 묘사해 줄 수 있나요? 어디에 갔고, 무엇을 보았고, 무슨 일이 있었나요?"
+  },
+  {
+  "id": 16,
+  "text": "Tell me about a trip you took when you were young. Where did you go, and who did you go with? What do you remember most clearly from that trip? Please describe what you saw and experienced in detail.",
+  "hint": "when I was young(어렸을 때), childhood trip(어릴 적 여행), go with family(가족과 가다), remember clearly(분명히 기억하다), saw and experienced(보고 경험했다), family memory(가족과의 추억), tourist spot(관광지), exciting moment(신나는 순간), describe in detail(자세히 묘사하다), lasting memory(오래 남는 기억)",
+  "translation": "어렸을 때 갔던 여행에 대해 말해주세요. 어디에 갔고 누구와 함께 갔나요? 그 여행에서 가장 분명히 기억나는 것은 무엇인가요? 보고 경험한 것을 자세히 묘사해주세요."
+  },
+  {
+  "id": 17,
+  "text": "You said you enjoy traveling within your own country. What makes domestic travel attractive to you, and what places do you usually like to visit? Please describe your favorite domestic travel destination and explain why you enjoy going there.",
+  "hint": "travel within my own country(국내를 여행하다), domestic travel(국내 여행), attractive(매력적인), places to visit(방문할 장소), favorite destination(가장 좋아하는 여행지), enjoy going there(그곳에 가는 것을 즐기다), convenient(편리한), local culture(지역 문화), beautiful scenery(아름다운 풍경), relaxing trip(편안한 여행)",
+  "translation": "당신은 국내 여행을 즐긴다고 했습니다. 국내 여행이 당신에게 매력적인 이유는 무엇이고, 보통 어떤 장소를 방문하기 좋아하나요? 가장 좋아하는 국내 여행지를 묘사하고 왜 그곳에 가는 것을 즐기는지 설명해주세요."
+  },
+  {
+  "id": 18,
+  "text": "These days, where do people in your country usually go for domestic vacations? Please describe some popular places and explain why those destinations have become popular among travelers.",
+  "hint": "these days(요즘), domestic vacations(국내 휴가), popular places(인기 있는 장소), destinations(여행지), travelers(여행객들), become popular(인기를 얻게 되다), beach areas(해변 지역), mountain towns(산악 지역), famous cities(유명한 도시), easy transportation(편리한 교통)",
+  "translation": "요즘 당신의 나라 사람들은 국내 휴가를 위해 보통 어디로 가나요? 인기 있는 장소 몇 곳을 묘사하고, 왜 그런 여행지들이 여행객들 사이에서 인기를 얻게 되었는지 설명해주세요."
+  },
+  {
+  "id": 19,
+  "text": "Before taking a domestic trip, how do you usually prepare? Please describe how you choose the destination, check transportation, pack your luggage, and decide what items to bring.",
+  "hint": "before taking a trip(여행을 떠나기 전에), prepare(준비하다), choose the destination(목적지를 고르다), check transportation(교통편을 확인하다), pack my luggage(짐을 싸다), decide what to bring(무엇을 가져갈지 결정하다), travel plan(여행 계획), weather check(날씨 확인), reservation(예약), essential items(필수품)",
+  "translation": "국내 여행을 떠나기 전에 보통 어떻게 준비하나요? 목적지를 고르고, 교통편을 확인하고, 짐을 싸고, 어떤 물건을 가져갈지 결정하는 과정을 묘사해주세요."
+  },
+  {
+  "id": 20,
+  "text": "When people travel domestically, what kinds of activities do they usually do during the trip? Please explain what people normally eat, visit, buy, or experience while traveling in your country.",
+  "hint": "travel domestically(국내 여행을 하다), activities(활동), during the trip(여행 중에), normally eat(보통 먹다), visit(방문하다), buy(사다), experience(경험하다), local food(지역 음식), souvenirs(기념품), tourist attractions(관광 명소)",
+  "translation": "사람들이 국내 여행을 할 때 여행 중에 보통 어떤 활동을 하나요? 당신의 나라를 여행하면서 사람들이 보통 무엇을 먹고, 방문하고, 사고, 경험하는지 설명해주세요."
+  },
+  {
+  "id": 21,
+  "text": "How has domestic travel changed in your country over the years? Please compare how people traveled in the past with how they travel these days, including transportation, activities, travel style, and technology.",
+  "hint": "changed over the years(수년 동안 변하다), compare(비교하다), in the past(과거에는), these days(요즘에는), transportation(교통), activities(활동), travel style(여행 방식), technology(기술), travel apps(여행 앱), high-speed trains(고속열차)",
+  "translation": "수년 동안 당신의 나라에서 국내 여행은 어떻게 변했나요? 교통, 활동, 여행 방식, 기술을 포함해 과거에 사람들이 여행하던 방식과 요즘 여행하는 방식을 비교해주세요."
+  },
+  {
+  "id": 22,
+  "text": "Tell me about the most memorable domestic trip you have ever taken. When and where did you go, who did you go with, and what made that trip unforgettable?",
+  "hint": "most memorable domestic trip(가장 기억에 남는 국내 여행), ever taken(가본 적 있는), when and where(언제 어디서), who did you go with(누구와 함께 갔나요), unforgettable(잊을 수 없는), special moment(특별한 순간), travel companion(여행 동반자), impressive scenery(인상적인 풍경), local experience(지역 경험), lasting memory(오래 남는 기억)",
+  "translation": "지금까지 다녀온 국내 여행 중 가장 기억에 남는 여행에 대해 말해주세요. 언제 어디로 갔고, 누구와 함께 갔으며, 무엇이 그 여행을 잊을 수 없게 만들었나요?"
+  },
+  {
+  "id": 23,
+  "text": "Sometimes unexpected things happen during domestic trips. Tell me about a funny, surprising, or difficult experience you had while traveling in your country. What happened, and how did you deal with it?",
+  "hint": "unexpected things(예상치 못한 일들), during domestic trips(국내 여행 중에), funny experience(재미있는 경험), surprising(놀라운), difficult experience(어려운 경험), while traveling(여행하는 동안), what happened(무슨 일이 있었는지), deal with it(대처하다), solve a problem(문제를 해결하다), travel memory(여행 추억)",
+  "translation": "국내 여행 중에는 가끔 예상치 못한 일이 일어납니다. 당신의 나라를 여행하면서 겪었던 재미있거나 놀랍거나 어려웠던 경험에 대해 말해주세요. 무슨 일이 있었고, 어떻게 대처했나요?"
+  },
+  {
+  "id": 24,
+  "text": "Think about a domestic trip you took when you were young. Where did you go, who were you with, and what do you remember most clearly about the place, the people, or the experience?",
+  "hint": "when I was young(어렸을 때), domestic trip(국내 여행), who were you with(누구와 함께 있었나요), remember most clearly(가장 분명히 기억하다), place(장소), people(사람들), experience(경험), childhood memory(어린 시절 기억), family vacation(가족 여행), vivid memory(생생한 기억)",
+  "translation": "어렸을 때 갔던 국내 여행을 떠올려 보세요. 어디에 갔고, 누구와 함께 있었으며, 그 장소나 사람들 또는 경험에 대해 무엇을 가장 분명히 기억하나요?"
+  },
+  {
+  "id": 25,
+  "text": "You mentioned that you enjoy domestic travel. Among the many places you have visited in your own country, which one is your absolute favorite? Please describe that place in detail and explain the unique charm that keeps you coming back to that specific destination.",
+  "hint": "among many places(많은 장소 중에서), absolute favorite(가장 좋아하는 곳), describe in detail(자세히 묘사하다), unique charm(독특한 매력), keep coming back(계속 다시 오게 하다), specific destination(특정 여행지), local atmosphere(지역 분위기), scenic view(경치), comfortable feeling(편안한 느낌), memorable place(기억에 남는 장소)",
+  "translation": "당신은 국내 여행을 즐긴다고 말했습니다. 당신의 나라에서 방문했던 많은 장소 중 어느 곳이 가장 좋아하는 곳인가요? 그 장소를 자세히 묘사하고, 그 특정 여행지에 계속 다시 가게 만드는 독특한 매력을 설명해주세요."
+  },
+  {
+  "id": 26,
+  "text": "I'm curious about the latest travel trends in your country. Where are people traveling to these days, and why have those places become so popular? Is it because of social media, new transportation, or a certain type of food? Please explain the reasons behind these trends.",
+  "hint": "latest travel trends(최신 여행 트렌드), these days(요즘), become popular(인기를 얻다), social media(소셜 미디어), new transportation(새로운 교통수단), certain type of food(특정 음식), reasons behind trends(트렌드의 이유), popular destination(인기 여행지), viral place(화제가 된 장소), travel influence(여행 영향)",
+  "translation": "당신의 나라의 최신 여행 트렌드가 궁금합니다. 요즘 사람들은 어디로 여행을 가고, 왜 그 장소들이 그렇게 인기를 얻게 되었나요? 소셜 미디어, 새로운 교통수단, 또는 특정 음식 때문인가요? 이러한 트렌드 뒤에 있는 이유를 설명해주세요."
+  },
+  {
+  "id": 27,
+  "text": "Tell me about your typical process for planning a domestic trip. From choosing a destination to packing your bags, what are the essential steps you take? Are there any specific items you always make sure to bring, and why are they so important for your trip?",
+  "hint": "typical process(전형적인 과정), planning a domestic trip(국내 여행을 계획하다), choosing a destination(목적지 고르기), packing my bags(가방 싸기), essential steps(필수 단계), specific items(특정 물건들), make sure to bring(꼭 챙기다), important for the trip(여행에 중요한), travel checklist(여행 체크리스트), prepare carefully(꼼꼼히 준비하다)",
+  "translation": "국내 여행을 계획하는 당신의 전형적인 과정에 대해 말해주세요. 목적지를 고르는 것부터 가방을 싸는 것까지, 어떤 필수 단계를 거치나요? 항상 꼭 챙기는 특정 물건이 있나요? 그것들이 왜 여행에 그렇게 중요한가요?"
+  },
+  {
+  "id": 28,
+  "text": "When people in your country go on a domestic vacation, what does a typical day look like for them? Talk about the common activities, such as the kinds of food they eat, the places they visit, and the overall atmosphere of a standard domestic trip in your country.",
+  "hint": "go on a domestic vacation(국내 휴가를 가다), typical day(전형적인 하루), common activities(일반적인 활동), kinds of food(음식 종류), places they visit(방문하는 장소), overall atmosphere(전반적인 분위기), standard trip(일반적인 여행), sightseeing(관광), local restaurants(지역 식당), relaxed mood(편안한 분위기)",
+  "translation": "당신의 나라 사람들이 국내 휴가를 갈 때 전형적인 하루는 어떤 모습인가요? 먹는 음식의 종류, 방문하는 장소, 그리고 당신의 나라에서 일반적인 국내 여행의 전반적인 분위기와 같은 일반적인 활동에 대해 이야기해주세요."
+  },
+  {
+  "id": 29,
+  "text": "The way people travel has changed significantly over the years. Compare how people traveled in the past to how they travel now. Focus on the role of technology, like apps or high-speed trains, and how these changes have made domestic trips different from what they used to be.",
+  "hint": "changed significantly(크게 변했다), over the years(수년 동안), compare(비교하다), traveled in the past(과거에 여행했다), travel now(지금 여행하다), role of technology(기술의 역할), apps(앱), high-speed trains(고속열차), different from before(이전과 다른), used to be(예전의 모습)",
+  "translation": "사람들이 여행하는 방식은 수년 동안 크게 변했습니다. 과거에 사람들이 여행하던 방식과 지금 여행하는 방식을 비교해주세요. 앱이나 고속열차 같은 기술의 역할과, 이러한 변화가 국내 여행을 예전과 어떻게 다르게 만들었는지에 초점을 맞춰 설명해주세요."
+  },
+  {
+  "id": 30,
+  "text": "Could you share a detailed story about the most memorable domestic trip you've ever taken? Tell me where you went, who you were with, and what specific event or moment made that trip stay in your mind for so long.",
+  "hint": "detailed story(자세한 이야기), most memorable domestic trip(가장 기억에 남는 국내 여행), ever taken(가본 적 있는), where you went(어디에 갔는지), who you were with(누구와 함께 있었는지), specific event(특정 사건), special moment(특별한 순간), stay in my mind(마음에 남다), for so long(오랫동안), unforgettable memory(잊을 수 없는 기억)",
+  "translation": "지금까지 다녀온 가장 기억에 남는 국내 여행에 대한 자세한 이야기를 들려줄 수 있나요? 어디에 갔고, 누구와 함께 있었으며, 어떤 특정 사건이나 순간이 그 여행을 오랫동안 마음에 남게 만들었는지 말해주세요."
+  },
+  {
+  "id": 31,
+  "text": "No matter how well we plan, unexpected things can happen during a trip. Tell me about a time you faced a surprising or difficult situation while traveling domestically. What exactly happened, how did you react, and what was the final outcome of that incident?",
+  "hint": "no matter how well we plan(아무리 잘 계획해도), unexpected things(예상치 못한 일들), during a trip(여행 중에), surprising situation(놀라운 상황), difficult situation(어려운 상황), traveling domestically(국내 여행 중), exactly happened(정확히 일어났다), react(반응하다), final outcome(최종 결과), incident(사건)",
+  "translation": "아무리 잘 계획해도 여행 중에는 예상치 못한 일이 생길 수 있습니다. 국내 여행 중 놀랍거나 어려운 상황을 마주했던 때에 대해 말해주세요. 정확히 무슨 일이 있었고, 어떻게 반응했으며, 그 사건의 최종 결과는 무엇이었나요?"
+  },
+  {
+  "id": 32,
+  "text": "Think back to a domestic trip you took when you were a young child. Where did you go, and what do you remember most clearly about that experience? How does that childhood memory compare to the trips you take now as an adult?",
+  "hint": "think back(돌이켜 생각하다), young child(어린아이), domestic trip(국내 여행), remember most clearly(가장 분명히 기억하다), childhood memory(어린 시절 기억), compare to(~와 비교하다), as an adult(어른으로서), trips now(지금의 여행), different perspective(다른 관점), meaningful memory(의미 있는 기억)",
+  "translation": "어린아이였을 때 갔던 국내 여행을 떠올려 보세요. 어디에 갔고, 그 경험에서 무엇을 가장 분명히 기억하나요? 그 어린 시절의 기억은 어른이 된 지금 가는 여행들과 어떻게 비교되나요?"
+  }
+]

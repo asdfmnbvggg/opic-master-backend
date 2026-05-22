@@ -1,0 +1,128 @@
+﻿[
+    {
+        "id":  1,
+        "text":  "Tell me about popular or traditional food in your country. Why is it popular or special?",
+        "hint":  "kimchi stew(김치찌개), bibimbap(비빔밥), traditional food(전통 음식), spicy flavor(매운 맛), fresh ingredients(신선한 재료), family meal(가족 식사), local recipe(지역 레시피), healthy food(건강한 음식), special dish(특별한 요리), popular menu(인기 메뉴)",
+        "translation":  "당신 나라의 인기 음식이나 전통 음식에 대해 말해 주세요. 왜 그 음식이 인기 있거나 특별한가요?"
+    },
+    {
+        "id":  2,
+        "text":  "What do you usually eat in daily life? Please tell me about your usual meals.",
+        "hint":  "rice(밥), soup(국), side dishes(반찬), simple meal(간단한 식사), home-cooked meal(집밥), vegetables(채소), meat(고기), noodles(면), breakfast(아침 식사), dinner(저녁 식사)",
+        "translation":  "평소에 주로 무엇을 드시나요? 일상 식사에 대해 말해 주세요."
+    },
+    {
+        "id":  3,
+        "text":  "Have you had a memorable food experience while eating? What happened, and why do you remember it?",
+        "hint":  "memorable meal(기억에 남는 식사), delicious food(맛있는 음식), family dinner(가족 저녁), special restaurant(특별한 식당), birthday meal(생일 식사), surprising taste(놀라운 맛), favorite dish(좋아하는 요리), shared food(음식을 나눴다), warm memory(따뜻한 기억), felt happy(행복했다)",
+        "translation":  "음식을 먹다가 기억에 남는 음식 경험이 있었나요? 어떤 일이었고, 왜 기억에 남나요?"
+    },
+    {
+        "id":  4,
+        "text":  "Tell me about typical restaurants in your country. What are they like, and what food do they serve?",
+        "hint":  "Korean restaurant(한식당), small restaurant(작은 식당), table setting(상차림), side dishes(반찬), soup menu(국 메뉴), grilled meat(구운 고기), friendly staff(친절한 직원), busy lunchtime(붐비는 점심시간), affordable price(적당한 가격), local food(지역 음식)",
+        "translation":  "당신 나라의 일반적인 식당에 대해 말해 주세요. 어떤 분위기이고, 어떤 음식을 파나요?"
+    },
+    {
+        "id":  5,
+        "text":  "When was the last time you ate food out? Where did you go, who did you go with, and what did you eat?",
+        "hint":  "last weekend(지난 주말), ate out(외식했다), with friends(친구들과 함께), family restaurant(가족 식당), ordered noodles(면을 주문했다), delicious meal(맛있는 식사), paid the bill(계산했다), shared dishes(음식을 나눠 먹었다), good service(좋은 서비스), felt satisfied(만족했다)",
+        "translation":  "마지막으로 밖에서 음식을 먹은 때는 언제인가요? 어디에 갔고, 누구와 갔고, 무엇을 먹었나요?"
+    },
+    {
+        "id":  6,
+        "text":  "Tell me about a special dish you had at a restaurant. How was it? Was it memorable?",
+        "hint":  "special dish(특별한 요리), chef's menu(셰프 메뉴), rich flavor(풍부한 맛), fresh seafood(신선한 해산물), tender meat(부드러운 고기), beautiful plating(아름다운 플레이팅), spicy sauce(매운 소스), crispy texture(바삭한 식감), memorable taste(기억에 남는 맛), worth trying(먹어볼 만한)",
+        "translation":  "식당에서 먹은 특별한 요리에 대해 말해 주세요. 맛은 어땠나요? 기억에 남았나요?"
+    },
+    {
+        "id":  7,
+        "text":  "Please explain simply how you prepare a meal, from start to finish.",
+        "hint":  "prepare ingredients(재료를 준비하다), wash vegetables(채소를 씻다), cut onions(양파를 자르다), boil water(물을 끓이다), add sauce(소스를 넣다), stir well(잘 젓다), cook slowly(천천히 익히다), taste it(맛보다), serve on a plate(접시에 담다), clean up(정리하다)",
+        "translation":  "식사를 준비하는 과정을 처음부터 끝까지 쉽게 설명해 주세요."
+    },
+    {
+        "id":  8,
+        "text":  "How is food in your country similar to or different from food in other countries? Give simple examples.",
+        "hint":  "Korean food(한국 음식), foreign food(외국 음식), spicy flavor(매운 맛), mild flavor(순한 맛), rice-based meal(밥 중심 식사), bread-based meal(빵 중심 식사), different ingredients(다른 재료), cooking style(요리 방식), sauce(소스), food culture(음식 문화)",
+        "translation":  "당신 나라 음식은 다른 나라 음식과 어떤 점이 비슷하고 다른가요? 쉬운 예시를 들어 말해 주세요."
+    },
+    {
+        "id":  9,
+        "text":  "What food can you cook well? What kind of food is it?",
+        "hint":  "fried rice(볶음밥), kimchi stew(김치찌개), pasta(파스타), simple dish(간단한 요리), home-cooked meal(집밥), spicy food(매운 음식), healthy food(건강한 음식), favorite recipe(좋아하는 레시피), easy to make(만들기 쉬운), delicious(맛있는)",
+        "translation":  "어떤 음식을 잘 만들 수 있나요? 어떤 종류의 음식인가요?"
+    },
+    {
+        "id":  10,
+        "text":  "How do you make that food? Please explain the recipe simply.",
+        "hint":  "prepare ingredients(재료를 준비하다), cut vegetables(채소를 자르다), heat the pan(팬을 달구다), add oil(기름을 넣다), stir-fry(볶다), boil(끓이다), add seasoning(양념을 넣다), mix well(잘 섞다), cook for ten minutes(10분 동안 요리하다), serve hot(뜨겁게 내다)",
+        "translation":  "그 음식을 어떻게 만드나요? 레시피를 간단히 설명해 주세요."
+    },
+    {
+        "id":  11,
+        "text":  "What kind of food do you usually cook? Why do you like cooking it?",
+        "hint":  "simple meal(간단한 식사), quick recipe(빠른 레시피), noodles(면), fried rice(볶음밥), soup(국), healthy ingredients(건강한 재료), saves money(돈을 아낀다), tastes good(맛이 좋다), easy process(쉬운 과정), comfort food(위로가 되는 음식)",
+        "translation":  "보통 어떤 종류의 음식을 요리하나요? 왜 그것을 요리하는 것을 좋아하나요?"
+    },
+    {
+        "id":  12,
+        "text":  "When do you usually cook? Do you cook at home?",
+        "hint":  "at home(집에서), after work(퇴근 후), on weekends(주말에), dinner time(저녁 시간), free time(여가 시간), kitchen(부엌), home meal(집밥), cook alone(혼자 요리하다), cook for family(가족을 위해 요리하다), regular habit(규칙적인 습관)",
+        "translation":  "보통 언제 요리하나요? 집에서 요리하나요?"
+    },
+    {
+        "id":  13,
+        "text":  "Tell me about your cooking process. What do you do first? What do you do last?",
+        "hint":  "check recipe(레시피를 확인하다), wash hands(손을 씻다), prepare ingredients(재료를 준비하다), cut vegetables(채소를 자르다), season the food(음식에 간을 하다), cook slowly(천천히 익히다), taste the dish(요리를 맛보다), put on a plate(접시에 담다), set the table(식탁을 차리다), wash dishes(설거지하다)",
+        "translation":  "당신의 요리 과정에 대해 말해 주세요. 먼저 무엇을 하나요? 마지막에는 무엇을 하나요?"
+    },
+    {
+        "id":  14,
+        "text":  "Do you have a special recipe? Where did you learn it?",
+        "hint":  "special recipe(특별한 레시피), family recipe(가족 레시피), learned from mother(엄마에게 배웠다), cooking video(요리 영상), online recipe(온라인 레시피), secret sauce(비밀 소스), favorite dish(좋아하는 요리), practiced many times(여러 번 연습했다), personal style(나만의 방식), tasty result(맛있는 결과)",
+        "translation":  "특별한 레시피가 있나요? 어디에서 배웠나요?"
+    },
+    {
+        "id":  15,
+        "text":  "Compare Korean food with food from another country. What is different?",
+        "hint":  "Korean food(한국 음식), Italian food(이탈리아 음식), Japanese food(일본 음식), spicy taste(매운 맛), salty flavor(짠 맛), rice(밥), noodles(면), side dishes(반찬), cooking method(요리 방법), different culture(다른 문화)",
+        "translation":  "한국 음식과 다른 나라 음식을 비교해 주세요. 무엇이 다른가요?"
+    },
+    {
+        "id":  16,
+        "text":  "Are the food ingredients different? Are the flavors different?",
+        "hint":  "fresh ingredients(신선한 재료), vegetables(채소), meat(고기), seafood(해산물), spices(향신료), sauce(소스), spicy flavor(매운 맛), sweet flavor(단맛), mild taste(순한 맛), rich flavor(풍부한 맛)",
+        "translation":  "음식 재료가 다른가요? 맛이 다른가요?"
+    },
+    {
+        "id":  17,
+        "text":  "Have you ever had a problem while cooking? What happened?",
+        "hint":  "burned food(음식을 태웠다), too salty(너무 짠), undercooked(덜 익은), forgot ingredient(재료를 잊었다), spilled sauce(소스를 쏟았다), broken pan(망가진 팬), smoke(연기), cooking mistake(요리 실수), stressful moment(스트레스 받는 순간), funny accident(재미있는 사고)",
+        "translation":  "요리하다가 문제가 생긴 적이 있나요? 무슨 일이 있었나요?"
+    },
+    {
+        "id":  18,
+        "text":  "How did you solve the cooking problem? What did you do?",
+        "hint":  "added water(물을 추가했다), changed the seasoning(간을 바꿨다), cooked longer(더 오래 익혔다), started again(다시 시작했다), asked for help(도움을 요청했다), checked the recipe(레시피를 확인했다), lowered the heat(불을 낮췄다), cleaned up(정리했다), learned a lesson(교훈을 얻었다), solved the problem(문제를 해결했다)",
+        "translation":  "요리 문제를 어떻게 해결했나요? 무엇을 했나요?"
+    },
+    {
+        "id":  19,
+        "text":  "How did you first become interested in cooking? When did it start?",
+        "hint":  "first became interested(처음 관심을 갖게 되었다), childhood(어린 시절), watched my mother(엄마를 보았다), cooking show(요리 프로그램), delicious food(맛있는 음식), wanted to try(시도하고 싶었다), started at home(집에서 시작했다), simple recipe(간단한 레시피), fun hobby(재미있는 취미), proud feeling(뿌듯한 기분)",
+        "translation":  "어떻게 처음 요리에 관심을 갖게 되었나요? 언제 시작되었나요?"
+    },
+    {
+        "id":  20,
+        "text":  "How did you learn to cook? Did someone teach you?",
+        "hint":  "learned from family(가족에게 배웠다), mother taught me(엄마가 가르쳐 주었다), watched videos(영상을 봤다), followed recipes(레시피를 따라 했다), practiced alone(혼자 연습했다), made mistakes(실수했다), improved slowly(천천히 나아졌다), cooking class(요리 수업), asked questions(질문했다), became confident(자신감이 생겼다)",
+        "translation":  "어떻게 요리를 배웠나요? 누군가가 가르쳐 주었나요?"
+    },
+    {
+        "id":  21,
+        "text":  "Who did you cook with at first? How did you feel?",
+        "hint":  "with my mother(엄마와 함께), with family(가족과 함께), with friends(친구들과 함께), first cooking(첫 요리), nervous(긴장한), excited(신난), made together(함께 만들었다), laughed a lot(많이 웃었다), felt proud(뿌듯했다), good memory(좋은 기억)",
+        "translation":  "처음에는 누구와 함께 요리했나요? 기분이 어땠나요?"
+    }
+]

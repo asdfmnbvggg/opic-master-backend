@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "text": "You said you exercise regularly. What kind of exercise do you usually do, and how does your routine fit into your daily schedule?",
+    "hint": "exercise regularly(규칙적으로 운동하다), usually do(보통 하다), routine(루틴), daily schedule(하루 일정), fit into(~에 맞추다), workout(운동), morning exercise(아침 운동), after work(퇴근 후), health habit(건강 습관), explain(설명하다)",
+    "translation": "당신은 규칙적으로 운동한다고 말했습니다. 보통 어떤 운동을 하고, 그 루틴은 당신의 하루 일정에 어떻게 들어맞나요?"
+  },
+  {
+    "id": 2,
+    "text": "What type of physical activity do you enjoy the most? Please explain why you like it and what makes it different from other kinds of exercise.",
+    "hint": "physical activity(신체 활동), enjoy the most(가장 즐기다), explain why(이유를 설명하다), different from(~와 다른), other kinds of exercise(다른 종류의 운동), fun(재미있는), challenging(도전적인), relaxing(편안한), personal preference(개인 취향), fitness(체력)",
+    "translation": "어떤 종류의 신체 활동을 가장 즐기나요? 왜 그것을 좋아하는지, 그리고 다른 운동과 무엇이 다른지 설명해주세요."
+  },
+  {
+    "id": 3,
+    "text": "How has your life changed since you started exercising? Please compare your health, mood, energy level, or daily habits before and after exercising.",
+    "hint": "life changed(삶이 변하다), started exercising(운동을 시작하다), compare(비교하다), health(건강), mood(기분), energy level(에너지 수준), daily habits(일상 습관), before and after(전후), feel healthier(더 건강하게 느끼다), positive change(긍정적인 변화)",
+    "translation": "운동을 시작한 이후 당신의 삶은 어떻게 변했나요? 운동 전후의 건강, 기분, 에너지 수준, 또는 일상 습관을 비교해주세요."
+  },
+  {
+    "id": 4,
+    "text": "You mentioned that you enjoy watching sports. Tell me about a team you like. What makes that team interesting to watch, and how did you become a fan?",
+    "hint": "watching sports(스포츠 관람), team I like(좋아하는 팀), interesting to watch(보기 흥미로운), become a fan(팬이 되다), teamwork(팀워크), famous players(유명 선수들), playing style(경기 스타일), exciting games(흥미진진한 경기), support a team(팀을 응원하다), sports fan(스포츠 팬)",
+    "translation": "당신은 스포츠 관람을 즐긴다고 말했습니다. 좋아하는 팀에 대해 말해주세요. 무엇이 그 팀을 보기에 흥미롭게 만들고, 어떻게 그 팀의 팬이 되었나요?"
+  },
+  {
+    "id": 5,
+    "text": "Who is your favorite athlete? What do you admire about that person, and how has that athlete influenced the way you think about sports or effort?",
+    "hint": "favorite athlete(가장 좋아하는 운동선수), admire(존경하다), influence(영향을 미치다), sports(스포츠), effort(노력), dedication(헌신), discipline(절제), performance(경기력), role model(롤모델), mindset(사고방식)",
+    "translation": "당신이 가장 좋아하는 운동선수는 누구인가요? 그 사람의 어떤 점을 존경하고, 그 선수가 스포츠나 노력에 대한 당신의 생각에 어떤 영향을 주었나요?"
+  },
+  {
+    "id": 6,
+    "text": "You said you enjoy playing sports. How often do you play, where do you usually play, and how is the experience different when you play alone or with other people?",
+    "hint": "playing sports(스포츠를 하다), how often(얼마나 자주), usually play(보통 하다), play alone(혼자 하다), with other people(다른 사람들과), experience(경험), team sports(팀 스포츠), practice(연습하다), social activity(사교 활동), different(다른)",
+    "translation": "당신은 스포츠를 하는 것을 즐긴다고 말했습니다. 얼마나 자주 하고, 보통 어디에서 하며, 혼자 할 때와 다른 사람들과 함께 할 때 경험이 어떻게 다른가요?"
+  },
+  {
+    "id": 7,
+    "text": "Tell me about a sports game you watched in person. What was the atmosphere like, who were you with, and what made the event memorable?",
+    "hint": "sports game(스포츠 경기), watched in person(직접 관람한), atmosphere(분위기), who I was with(함께 있었던 사람), event(행사), memorable(기억에 남는), crowd(관중), cheering(응원), stadium(경기장), exciting moment(흥미진진한 순간)",
+    "translation": "직접 관람했던 스포츠 경기에 대해 말해주세요. 분위기는 어땠고, 누구와 함께 있었으며, 무엇이 그 행사를 기억에 남게 만들었나요?"
+  },
+  {
+    "id": 8,
+    "text": "How did you first learn the sport you enjoy? Who taught you, what was difficult at first, and how did your skills change over time?",
+    "hint": "first learn(처음 배우다), sport I enjoy(즐기는 스포츠), who taught me(누가 가르쳐 주었는지), difficult at first(처음에 어려웠던), skills changed(실력이 변하다), over time(시간이 지나며), practice(연습), improve(향상되다), beginner(초보자), learning process(배우는 과정)",
+    "translation": "당신이 즐기는 스포츠를 처음 어떻게 배웠나요? 누가 가르쳐 주었고, 처음에는 무엇이 어려웠으며, 시간이 지나면서 실력은 어떻게 변했나요?"
+  },
+  {
+    "id": 9,
+    "text": "Can you describe your usual exercise routine from beginning to end? Please include when you start, where you go, what exercises you do, and how you finish your workout.",
+    "hint": "usual exercise routine(평소 운동 루틴), from beginning to end(처음부터 끝까지), when I start(시작하는 시간), where I go(가는 곳), exercises(운동들), finish my workout(운동을 마치다), warm up(준비 운동), main workout(본 운동), cool down(마무리 운동), describe(묘사하다)",
+    "translation": "평소 운동 루틴을 처음부터 끝까지 묘사해 줄 수 있나요? 언제 시작하고, 어디에 가고, 어떤 운동을 하고, 어떻게 운동을 마치는지 포함해주세요."
+  },
+  {
+    "id": 10,
+    "text": "What do you usually prepare before exercising? Please describe your clothes, equipment, location, and anything you do to get ready physically or mentally.",
+    "hint": "prepare before exercising(운동 전에 준비하다), clothes(옷), equipment(장비), location(장소), physically(신체적으로), mentally(정신적으로), get ready(준비하다), sportswear(운동복), water bottle(물병), stretching(스트레칭)",
+    "translation": "운동하기 전에 보통 무엇을 준비하나요? 옷, 장비, 장소, 그리고 신체적 또는 정신적으로 준비하기 위해 하는 것을 묘사해주세요."
+  },
+  {
+    "id": 11,
+    "text": "Tell me about the last time you exercised or played a sport. When did it happen, who were you with, and what made that workout or game different from usual?",
+    "hint": "last time(마지막으로), exercised(운동했다), played a sport(스포츠를 했다), when it happened(언제 일어났는지), who I was with(함께 있던 사람), workout(운동), game(경기), different from usual(평소와 다른), recent experience(최근 경험), memorable(기억에 남는)",
+    "translation": "마지막으로 운동하거나 스포츠를 했던 때에 대해 말해주세요. 언제였고, 누구와 함께 있었으며, 그 운동이나 경기가 평소와 무엇이 달랐나요?"
+  },
+  {
+    "id": 12,
+    "text": "How did you feel after your most recent workout or sports activity? Was it physically challenging, mentally refreshing, or different from what you expected?",
+    "hint": "most recent workout(가장 최근 운동), sports activity(스포츠 활동), physically challenging(신체적으로 힘든), mentally refreshing(정신적으로 상쾌한), different from expected(예상과 다른), after exercise(운동 후), feel tired(피곤함을 느끼다), feel proud(뿌듯함을 느끼다), mood(기분), reflection(느낌)",
+    "translation": "가장 최근 운동이나 스포츠 활동 후 기분이 어땠나요? 신체적으로 힘들었나요, 정신적으로 상쾌했나요, 아니면 예상과 달랐나요?"
+  },
+  {
+    "id": 13,
+    "text": "You said you exercise regularly. What kind of exercise do you usually do, and how do you fit your workout routine into your daily schedule when you are busy?",
+    "hint": "exercise regularly(규칙적으로 운동하다), usually do(보통 하다), workout routine(운동 루틴), daily schedule(하루 일정), busy(바쁜), fit into(~에 맞추다), time management(시간 관리), morning workout(아침 운동), after work(퇴근 후), consistency(꾸준함)",
+    "translation": "당신은 규칙적으로 운동한다고 했습니다. 보통 어떤 운동을 하고, 바쁠 때 운동 루틴을 하루 일정에 어떻게 맞추나요?"
+  },
+  {
+    "id": 14,
+    "text": "What type of physical activity do you enjoy the most? Please explain what makes it enjoyable, how it is different from other exercises, and why it suits your personality or lifestyle.",
+    "hint": "physical activity(신체 활동), enjoy the most(가장 즐기다), enjoyable(즐거운), different from other exercises(다른 운동과 다른), suits my personality(내 성격에 맞다), lifestyle(생활 방식), fitness preference(운동 취향), challenging(도전적인), relaxing(편안한), motivation(동기)",
+    "translation": "어떤 종류의 신체 활동을 가장 즐기나요? 무엇이 그것을 즐겁게 만드는지, 다른 운동과 어떻게 다른지, 그리고 왜 당신의 성격이나 생활 방식에 맞는지 설명해주세요."
+  },
+  {
+    "id": 15,
+    "text": "How has your life changed since you started exercising regularly? Please compare your health, mood, energy level, sleep, or daily habits before and after you began exercising.",
+    "hint": "life changed(삶이 변하다), started exercising regularly(규칙적으로 운동을 시작하다), compare(비교하다), health(건강), mood(기분), energy level(에너지 수준), sleep(수면), daily habits(일상 습관), before and after(전후), positive change(긍정적인 변화)",
+    "translation": "규칙적으로 운동을 시작한 이후 삶은 어떻게 변했나요? 운동을 시작하기 전과 후의 건강, 기분, 에너지 수준, 수면, 또는 일상 습관을 비교해주세요."
+  },
+  {
+    "id": 16,
+    "text": "You said you enjoy watching sports. Tell me about a team you like. How did you become interested in that team, and what makes their games exciting or meaningful for you to watch?",
+    "hint": "watching sports(스포츠 관람), team I like(좋아하는 팀), become interested in(관심을 갖게 되다), exciting games(흥미진진한 경기), meaningful to watch(보기에 의미 있는), teamwork(팀워크), team history(팀 역사), favorite players(좋아하는 선수들), support a team(팀을 응원하다), fan loyalty(팬심)",
+    "translation": "당신은 스포츠 관람을 즐긴다고 했습니다. 좋아하는 팀에 대해 말해주세요. 어떻게 그 팀에 관심을 갖게 되었고, 무엇이 그들의 경기를 보는 것을 흥미롭거나 의미 있게 만드나요?"
+  },
+  {
+    "id": 17,
+    "text": "Who is your favorite athlete? What qualities do you admire about that person, and how has that athlete influenced your thoughts about effort, discipline, or competition?",
+    "hint": "favorite athlete(가장 좋아하는 운동선수), qualities(자질), admire(존경하다), influenced my thoughts(내 생각에 영향을 주다), effort(노력), discipline(절제), competition(경쟁), role model(롤모델), dedication(헌신), mindset(사고방식)",
+    "translation": "가장 좋아하는 운동선수는 누구인가요? 그 사람의 어떤 자질을 존경하고, 그 선수가 노력, 절제, 경쟁에 대한 당신의 생각에 어떤 영향을 주었나요?"
+  },
+  {
+    "id": 18,
+    "text": "You said you enjoy playing sports. How often do you play, where do you usually play, and how does the experience change depending on whether you play alone, with friends, or with a team?",
+    "hint": "playing sports(스포츠를 하다), how often(얼마나 자주), usually play(보통 하다), play alone(혼자 하다), with friends(친구들과), with a team(팀과 함께), experience change(경험이 달라지다), social environment(사회적 환경), teamwork(팀워크), enjoyment(즐거움)",
+    "translation": "당신은 스포츠를 하는 것을 즐긴다고 했습니다. 얼마나 자주 하고, 보통 어디에서 하며, 혼자 할 때, 친구들과 할 때, 팀과 함께 할 때 경험이 어떻게 달라지나요?"
+  },
+  {
+    "id": 19,
+    "text": "Tell me about a sports game you watched in person. Where was it held, who did you go with, what was the atmosphere like, and why was that event memorable?",
+    "hint": "watched in person(직접 관람한), sports game(스포츠 경기), where it was held(어디에서 열렸는지), who I went with(함께 간 사람), atmosphere(분위기), memorable event(기억에 남는 행사), stadium(경기장), crowd(관중), cheering(응원), exciting moment(흥미진진한 순간)",
+    "translation": "직접 관람했던 스포츠 경기에 대해 말해주세요. 어디에서 열렸고, 누구와 함께 갔으며, 분위기는 어땠고, 왜 그 행사가 기억에 남았나요?"
+  },
+  {
+    "id": 20,
+    "text": "How did you first learn the sport you enjoy? Who taught you, what was difficult in the beginning, and how did your skills or attitude toward the sport change over time?",
+    "hint": "first learn(처음 배우다), sport I enjoy(즐기는 스포츠), who taught me(누가 가르쳐 주었는지), difficult in the beginning(처음에 어려웠던), skills(실력), attitude(태도), changed over time(시간이 지나며 변하다), practice(연습), improvement(향상), learning process(배우는 과정)",
+    "translation": "당신이 즐기는 스포츠를 처음 어떻게 배웠나요? 누가 가르쳐 주었고, 처음에는 무엇이 어려웠으며, 시간이 지나면서 실력이나 그 스포츠에 대한 태도는 어떻게 변했나요?"
+  },
+  {
+    "id": 21,
+    "text": "Can you describe your usual exercise routine from beginning to end? Please include when you start, where you exercise, how you warm up, what main exercises you do, and how you cool down afterward.",
+    "hint": "usual exercise routine(평소 운동 루틴), from beginning to end(처음부터 끝까지), when I start(시작 시간), where I exercise(운동 장소), warm up(준비 운동하다), main exercises(본 운동), cool down(정리 운동하다), afterward(그 후에), workout session(운동 세션), detailed routine(자세한 루틴)",
+    "translation": "평소 운동 루틴을 처음부터 끝까지 묘사해 줄 수 있나요? 언제 시작하고, 어디에서 운동하고, 어떻게 준비 운동을 하고, 어떤 본 운동을 하며, 그 후 어떻게 정리 운동을 하는지 포함해주세요."
+  },
+  {
+    "id": 22,
+    "text": "What do you usually prepare before exercising? Please describe your clothes, equipment, location, and any physical or mental preparation you do to make your workout more effective.",
+    "hint": "prepare before exercising(운동 전에 준비하다), clothes(옷), equipment(장비), location(장소), physical preparation(신체적 준비), mental preparation(정신적 준비), effective workout(효과적인 운동), sportswear(운동복), water bottle(물병), focus(집중하다)",
+    "translation": "운동하기 전에 보통 무엇을 준비하나요? 운동을 더 효과적으로 만들기 위해 준비하는 옷, 장비, 장소, 그리고 신체적 또는 정신적 준비를 묘사해주세요."
+  },
+  {
+    "id": 23,
+    "text": "Tell me about the last time you exercised or played a sport. When did it happen, who were you with, what did you do, and how was that experience different from your usual workout?",
+    "hint": "last time(마지막으로), exercised(운동했다), played a sport(스포츠를 했다), when did it happen(언제였는지), who were you with(누구와 함께 있었는지), what did you do(무엇을 했는지), different from usual workout(평소 운동과 다른), recent experience(최근 경험), special session(특별한 세션), memorable(기억에 남는)",
+    "translation": "마지막으로 운동하거나 스포츠를 했던 때에 대해 말해주세요. 언제였고, 누구와 함께 있었으며, 무엇을 했고, 그 경험은 평소 운동과 어떻게 달랐나요?"
+  },
+  {
+    "id": 24,
+    "text": "How did you feel after your most recent workout or sports activity? Please explain whether it was physically challenging, mentally refreshing, disappointing, or more satisfying than you expected.",
+    "hint": "most recent workout(가장 최근 운동), sports activity(스포츠 활동), physically challenging(신체적으로 힘든), mentally refreshing(정신적으로 상쾌한), disappointing(실망스러운), satisfying(만족스러운), expected(예상한), after exercise(운동 후), reflection(회고), mood(기분)",
+    "translation": "가장 최근 운동이나 스포츠 활동 후 기분이 어땠나요? 신체적으로 힘들었는지, 정신적으로 상쾌했는지, 실망스러웠는지, 또는 예상보다 더 만족스러웠는지 설명해주세요."
+  },
+  {
+    "id": 25,
+    "text": "You mentioned that you exercise regularly. What specific form of exercise do you prioritize, and how do you strategically integrate your workout routine into your daily life during exceptionally busy periods? Discuss your methods for maintaining consistency when time is limited.",
+    "hint": "exercise regularly(규칙적으로 운동하다), specific form of exercise(구체적인 운동 형태), prioritize(우선시하다), strategically integrate(전략적으로 통합하다), workout routine(운동 루틴), busy periods(바쁜 시기), maintaining consistency(꾸준함 유지), time is limited(시간이 제한된), time management(시간 관리), discipline(규칙성)",
+    "translation": "당신은 규칙적으로 운동한다고 말했습니다. 어떤 구체적인 운동을 우선시하고, 특히 바쁜 시기에 운동 루틴을 일상생활에 어떻게 전략적으로 통합하나요? 시간이 제한될 때 꾸준함을 유지하는 방법을 이야기해주세요."
+  },
+  {
+    "id": 26,
+    "text": "Among various physical activities, which one do you find most fulfilling? Explain the intrinsic qualities that make it enjoyable for you. How does this specific exercise differ from others, and why does it uniquely complement your personality or current lifestyle?",
+    "hint": "various physical activities(다양한 신체 활동), fulfilling(충족감을 주는), intrinsic qualities(본질적인 특징), enjoyable(즐거운), specific exercise(특정 운동), differ from others(다른 것들과 다르다), complement my personality(내 성격을 보완하다), current lifestyle(현재 생활 방식), personal fit(개인에게 맞음), motivation(동기)",
+    "translation": "다양한 신체 활동 중 어떤 것이 가장 충족감을 주나요? 그것을 즐겁게 만드는 본질적인 특징을 설명해주세요. 이 특정 운동은 다른 운동과 어떻게 다르고, 왜 당신의 성격이나 현재 생활 방식과 특별히 잘 맞나요?"
+  },
+  {
+    "id": 27,
+    "text": "How has your life fundamentally changed since you committed to a regular exercise regimen? Compare your physiological and psychological states, such as sleep quality, cognitive focus, and overall energy levels, from before you started exercising to the present day.",
+    "hint": "fundamentally changed(근본적으로 변했다), committed to(전념하다), regular exercise regimen(규칙적인 운동 습관), physiological state(생리적 상태), psychological state(심리적 상태), sleep quality(수면의 질), cognitive focus(인지적 집중력), energy levels(에너지 수준), before and present(이전과 현재), transformation(변화)",
+    "translation": "규칙적인 운동 습관에 전념한 이후 삶은 근본적으로 어떻게 변했나요? 운동을 시작하기 전부터 현재까지 수면의 질, 인지적 집중력, 전반적인 에너지 수준 같은 신체적·심리적 상태를 비교해주세요."
+  },
+  {
+    "id": 28,
+    "text": "You indicated an interest in watching sports. Tell me about a professional team you passionately support. How did your affinity for this team begin, and what specific elements of their gameplay or history make their matches deeply meaningful for you to witness?",
+    "hint": "watching sports(스포츠 관람), professional team(프로 팀), passionately support(열정적으로 응원하다), affinity(애정), begin(시작되다), gameplay(경기 방식), history(역사), matches(경기들), meaningful to witness(보기에 의미 있는), fan experience(팬 경험)",
+    "translation": "당신은 스포츠 관람에 관심이 있다고 답했습니다. 열정적으로 응원하는 프로 팀에 대해 말해주세요. 그 팀에 대한 애정은 어떻게 시작되었고, 그들의 경기 방식이나 역사 중 어떤 특정 요소가 경기를 지켜보는 것을 깊이 의미 있게 만드나요?"
+  },
+  {
+    "id": 29,
+    "text": "Who is your favorite athlete, and what specific character traits do you admire most in them? Beyond their physical talent, how has this athlete influenced your personal views on discipline, the value of effort, and the nature of healthy competition?",
+    "hint": "favorite athlete(가장 좋아하는 운동선수), character traits(성격적 특성), admire most(가장 존경하다), physical talent(신체적 재능), influenced my views(내 관점에 영향을 주다), discipline(절제), value of effort(노력의 가치), healthy competition(건강한 경쟁), role model(롤모델), personal philosophy(개인 철학)",
+    "translation": "가장 좋아하는 운동선수는 누구이고, 그 사람의 어떤 성격적 특성을 가장 존경하나요? 신체적 재능을 넘어서, 이 선수가 절제, 노력의 가치, 건강한 경쟁의 본질에 대한 당신의 개인적인 관점에 어떤 영향을 주었나요?"
+  },
+  {
+    "id": 30,
+    "text": "Regarding your participation in sports, how do you balance your sessions, and where do you typically play? Contrast the experience of playing individually versus competing with a team or friends. How does the social environment alter your performance or enjoyment?",
+    "hint": "participation in sports(스포츠 참여), balance sessions(운동 시간을 조절하다), typically play(보통 하다), playing individually(혼자 하기), competing with a team(팀과 경쟁하기), with friends(친구들과), social environment(사회적 환경), alter performance(경기력을 바꾸다), enjoyment(즐거움), contrast(대조하다)",
+    "translation": "스포츠 참여와 관련해 운동 시간을 어떻게 조절하고, 보통 어디에서 하나요? 혼자 하는 경험과 팀이나 친구들과 경쟁하는 경험을 대조해주세요. 사회적 환경이 경기력이나 즐거움에 어떻게 영향을 주나요?"
+  },
+  {
+    "id": 31,
+    "text": "Describe a time you watched a sporting event in person. Focus on the sensory details of the venue, the energy of the crowd, the atmosphere, and the unfolding drama of the game. Why does this specific live event remain a standout memory for you?",
+    "hint": "sporting event(스포츠 행사), watched in person(직접 관람했다), sensory details(감각적 세부사항), venue(장소), energy of the crowd(관중의 에너지), atmosphere(분위기), unfolding drama(펼쳐지는 극적인 전개), live event(실제 행사), standout memory(두드러진 기억), stadium experience(경기장 경험)",
+    "translation": "직접 관람했던 스포츠 행사에 대해 묘사해주세요. 장소의 감각적인 세부사항, 관중의 에너지, 분위기, 경기의 극적인 전개에 초점을 맞춰주세요. 왜 이 특정한 현장 행사가 당신에게 두드러진 기억으로 남아 있나요?"
+  },
+  {
+    "id": 32,
+    "text": "Reflect on the process of learning your favorite sport. Who guided you through the initial stages, and what were the most formidable technical challenges you faced? How has your attitude toward the sport matured as your proficiency has increased?",
+    "hint": "learning process(배우는 과정), favorite sport(좋아하는 스포츠), guided me(나를 이끌어 주었다), initial stages(초기 단계), formidable technical challenges(어려운 기술적 도전), faced(마주했다), attitude matured(태도가 성숙해졌다), proficiency increased(숙련도가 높아졌다), growth mindset(성장 마인드), skill improvement(기술 향상)",
+    "translation": "좋아하는 스포츠를 배우는 과정을 돌아보세요. 초기 단계에서 누가 이끌어 주었고, 가장 어려웠던 기술적 도전은 무엇이었나요? 숙련도가 높아지면서 그 스포츠에 대한 태도는 어떻게 성숙해졌나요?"
+  },
+  {
+    "id": 33,
+    "text": "Walk me through a complete exercise session from start to finish. Provide a detailed chronological account, including your specific warm-up movements, the core components of your workout, and the recovery or cool-down techniques you employ to ensure physical longevity.",
+    "hint": "complete exercise session(완전한 운동 세션), from start to finish(처음부터 끝까지), chronological account(시간 순서 설명), warm-up movements(준비 운동 동작), core components(핵심 구성 요소), recovery(회복), cool-down techniques(정리 운동 기법), employ(사용하다), physical longevity(신체적 지속성), detailed routine(자세한 루틴)",
+    "translation": "완전한 운동 세션을 처음부터 끝까지 차근차근 설명해주세요. 구체적인 준비 운동 동작, 운동의 핵심 구성 요소, 그리고 신체적 지속성을 위해 사용하는 회복 또는 정리 운동 기법을 포함해 시간 순서대로 자세히 말해주세요."
+  },
+  {
+    "id": 34,
+    "text": "What does your preparation ritual entail? Beyond choosing the right gear and location, describe any mental or physical \"priming\" you do to maximize the efficiency and safety of your workout.",
+    "hint": "preparation ritual(준비 의식), entail(포함하다), right gear(알맞은 장비), location(장소), mental priming(정신적 준비), physical priming(신체적 준비), maximize efficiency(효율을 극대화하다), safety(안전), workout(운동), focus mindset(집중하는 마음가짐)",
+    "translation": "운동 전 준비 루틴에는 무엇이 포함되나요? 알맞은 장비와 장소를 고르는 것 외에도, 운동의 효율과 안전을 극대화하기 위해 하는 정신적 또는 신체적 준비를 묘사해주세요."
+  },
+  {
+    "id": 35,
+    "text": "Tell me about your most recent exercise or sporting activity. What made this particular session distinct from your standard routine? Perhaps you pushed yourself harder, tried a new technique, or faced unusual environmental conditions.",
+    "hint": "most recent exercise(가장 최근 운동), sporting activity(스포츠 활동), particular session(특정 세션), distinct from routine(루틴과 다른), standard routine(표준 루틴), pushed myself harder(더 강하게 밀어붙였다), new technique(새로운 기술), environmental conditions(환경 조건), performance analysis(수행 분석), recent experience(최근 경험)",
+    "translation": "가장 최근 운동이나 스포츠 활동에 대해 말해주세요. 이 특정 세션이 평소 루틴과 달랐던 점은 무엇인가요? 더 강하게 자신을 밀어붙였거나, 새로운 기술을 시도했거나, 특이한 환경 조건을 마주했을 수도 있습니다."
+  },
+  {
+    "id": 36,
+    "text": "How did you feel immediately following your most recent workout? Analyze whether the experience was physically taxing or mentally rejuvenating. Was the outcome what you anticipated, or did the session provide an unexpected sense of satisfaction?",
+    "hint": "immediately following(직후에), most recent workout(가장 최근 운동), analyze(분석하다), physically taxing(신체적으로 부담되는), mentally rejuvenating(정신적으로 활력을 주는), outcome(결과), anticipated(예상한), unexpected satisfaction(예상치 못한 만족감), post-workout reflection(운동 후 회고), recovery(회복)",
+    "translation": "가장 최근 운동 직후 기분이 어땠나요? 그 경험이 신체적으로 부담스러웠는지, 정신적으로 활력을 주었는지 분석해주세요. 결과가 예상한 대로였나요, 아니면 그 세션이 예상치 못한 만족감을 주었나요?"
+  }
+]

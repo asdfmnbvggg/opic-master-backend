@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "text": "Tell me about the beach you like to go to. Where is it? What does it look like? How often do you go to that beach?",
+        "hint": "sandy beach(모래 해변), clear water(맑은 물), blue sea(푸른 바다), gentle waves(잔잔한 파도), beautiful sunset(아름다운 노을), wide shore(넓은 해변가), nearby cafes(근처 카페들), clean beach(깨끗한 해변), peaceful atmosphere(평화로운 분위기), nice view(좋은 전망)",
+        "translation": "가고 싶은 해변에 대해 말해 주세요. 그게 어디에 있지요? 무엇처럼 보이나요? 그 해변에 얼마나 자주 가세요?"
+    },
+    {
+        "id": 2,
+        "text": "When do you go to the beach? Who do you usually go to the beach with? What do you do when you are at the beach?",
+        "hint": "every summer(매년 여름), once a year(일년에 한 번), on weekends(주말에), summer vacation(여름 휴가), warm weather(따뜻한 날씨), sunny day(화창한 날), not too crowded(너무 붐비지 않는), cool breeze(시원한 바람), holiday season(휴가철), favorite time(좋아하는 시간)",
+        "translation": "해변에 언제 가세요? 보통 누구와 함께 해변에 가나요? 해변에 가면 무엇을 하나요?"
+    },
+    {
+        "id": 3,
+        "text": "Tell me about a memorable trip to the beach. Where did you go? What did you do there? What made it so memorable?",
+        "hint": "sandy beach(모래 해변), clear water(맑은 물), blue sea(푸른 바다), gentle waves(잔잔한 파도), beautiful sunset(아름다운 노을), wide shore(넓은 해변가), nearby cafes(근처 카페들), clean beach(깨끗한 해변), peaceful atmosphere(평화로운 분위기), nice view(좋은 전망)",
+        "translation": "기억에 남는 해변 여행에 대해 말해줘. 어디 갔다 왔어요? 거기서 뭐 했어요? 무엇이 그렇게 기억에 남을까요?"
+    },
+    {
+        "id": 4,
+        "text": "Tell me about a beach you like to go to. Where is it and what does it look like?",
+        "hint": "sandy beach(모래 해변), clear water(맑은 물), blue sea(푸른 바다), gentle waves(잔잔한 파도), beautiful sunset(아름다운 노을), wide shore(넓은 해변가), nearby cafes(근처 카페들), clean beach(깨끗한 해변), peaceful atmosphere(평화로운 분위기), nice view(좋은 전망)",
+        "translation": "좋아하는 해변에 대해 이야기해 주세요. 어디에 있고 어떻게 생겼나요?"
+    },
+    {
+        "id": 5,
+        "text": "I also enjoy going to the beach. Ask me three or four questions about the beach I go to and why I like the beach.",
+        "hint": "beach(해변), sand(모래), waves(파도), sunset(노을), swimming(수영), sea breeze(바닷바람), clear water(맑은 물), seafood(해산물), relaxing(편안한), good memory(좋은 기억)",
+        "translation": "저도 해변에 가는 걸 좋아해요. 제가 가는 해변에 대해, 그리고 제가 그 해변을 좋아하는 이유에 대해 3~4가지 질문을 해주세요."
+    },
+    {
+        "id": 6,
+        "text": "You said you like going to the beach. Can you describe a beach you often visit and explain why you like that beach?",
+        "hint": "favorite beach(좋아하는 해변), sandy beach(모래 해변), clear water(맑은 물), beautiful view(아름다운 경치), relaxing place(편안한 장소), fresh air(상쾌한 공기), peaceful atmosphere(평화로운 분위기), good memories(좋은 추억), not crowded(붐비지 않는), close to nature(자연과 가까운)",
+        "translation": "당신은 해변에 가는 것을 좋아한다고 했습니다. 자주 방문하는 해변을 묘사하고 왜 그 해변을 좋아하는지 설명해 줄 수 있나요?"
+    },
+    {
+        "id": 7,
+        "text": "Where is that beach located, and what does the beach look like? What makes that beach different from other beaches you have visited?",
+        "hint": "located near city(도시 근처에 위치한), blue sea(푸른 바다), white sand(하얀 모래), clean beach(깨끗한 해변), wide shore(넓은 해변가), gentle waves(잔잔한 파도), unique view(독특한 전망), quiet atmosphere(조용한 분위기), nearby restaurants(근처 식당들), special place(특별한 장소)",
+        "translation": "그 해변은 어디에 위치해 있고 어떤 모습인가요? 그 해변이 당신이 방문한 다른 해변들과 다른 점은 무엇인가요?"
+    },
+    {
+        "id": 8,
+        "text": "How often do you go to the beach? Do you usually visit the beach in a specific season? Why do you prefer that time?",
+        "hint": "every summer(매년 여름), once a year(일년에 한 번), summer vacation(여름 휴가), warm weather(따뜻한 날씨), sunny day(화창한 날), cool breeze(시원한 바람), holiday season(휴가철), less crowded(덜 붐비는), good timing(좋은 시기), favorite season(좋아하는 계절)",
+        "translation": "얼마나 자주 해변에 가나요? 보통 특정 계절에 해변을 방문하나요? 왜 그 시기를 선호하나요?"
+    },
+    {
+        "id": 9,
+        "text": "What do you usually do when you go to the beach? Which activity at the beach do you enjoy the most, and why?",
+        "hint": "swim in the sea(바다에서 수영하다), walk on the sand(모래 위를 걷다), take pictures(사진을 찍다), eat seafood(해산물을 먹다), watch the sunset(노을을 보다), play beach games(해변 놀이를 하다), listen to music(음악을 듣다), relax under umbrella(파라솔 아래서 쉬다), enjoy the view(경치를 즐기다), favorite activity(좋아하는 활동)",
+        "translation": "해변에 가면 보통 무엇을 하나요? 해변에서 어떤 활동을 가장 즐기고, 왜 그런가요?"
+    },
+    {
+        "id": 10,
+        "text": "Who do you usually go to the beach with? How is your experience at the beach different when you go with friends compared to going alone?",
+        "hint": "with friends(친구들과 함께), with family(가족과 함께), alone(혼자), travel partner(여행 동반자), talk together(함께 이야기하다), share snacks(간식을 나누다), take photos together(함께 사진을 찍다), more fun(더 재미있는), quiet time(조용한 시간), different mood(다른 분위기)",
+        "translation": "보통 누구와 해변에 가나요? 친구들과 갈 때와 혼자 갈 때 해변에서의 경험은 어떻게 다른가요?"
+    },
+    {
+        "id": 11,
+        "text": "What do you usually prepare before going to the beach? Why are those things important when you spend time at the beach?",
+        "hint": "sunscreen(선크림), swimsuit(수영복), towel(수건), water bottle(물병), sandals(샌들), hat(모자), sunglasses(선글라스), beach mat(돗자리), extra clothes(여벌 옷), snacks(간식)",
+        "translation": "해변에 가기 전에 보통 무엇을 준비하나요? 해변에서 시간을 보낼 때 왜 그런 것들이 중요한가요?"
+    },
+    {
+        "id": 12,
+        "text": "Tell me about a memorable trip you had to the beach. Which beach did you go to, and who were you with at that beach?",
+        "hint": "memorable beach trip(기억에 남는 해변 여행), family trip(가족 여행), with friends(친구들과 함께), famous beach(유명한 해변), summer vacation(여름 휴가), beautiful weather(아름다운 날씨), took pictures(사진을 찍었다), ate seafood(해산물을 먹었다), special moment(특별한 순간), good memory(좋은 기억)",
+        "translation": "기억에 남는 해변 여행에 대해 말해 주세요. 어느 해변에 갔고, 그 해변에서 누구와 함께였나요?"
+    },
+    {
+        "id": 13,
+        "text": "What did you do at the beach during that trip? What made your time at the beach special?",
+        "hint": "played in the water(물에서 놀았다), walked along shore(해변가를 걸었다), watched sunset(노을을 봤다), took many photos(사진을 많이 찍었다), had a picnic(피크닉을 했다), talked with friends(친구들과 이야기했다), enjoyed sea breeze(바닷바람을 즐겼다), relaxed deeply(깊이 쉬었다), special memory(특별한 기억), meaningful time(의미 있는 시간)",
+        "translation": "그 여행 동안 해변에서 무엇을 했나요? 해변에서 보낸 시간이 특별했던 이유는 무엇인가요?"
+    },
+    {
+        "id": 14,
+        "text": "Did anything unexpected happen at the beach during that trip? How did you deal with the situation at the beach?",
+        "hint": "sudden rain(갑작스러운 비), strong waves(강한 파도), lost item(잃어버린 물건), crowded beach(붐비는 해변), changed plans(계획을 바꿨다), asked for help(도움을 요청했다), stayed calm(침착했다), moved to cafe(카페로 이동했다), solved together(함께 해결했다), felt relieved(안도했다)",
+        "translation": "그 여행 중 해변에서 예상치 못한 일이 있었나요? 해변에서 그 상황을 어떻게 처리했나요?"
+    },
+    {
+        "id": 15,
+        "text": "How did you feel while you were at the beach and after you left the beach? Why do you still remember that beach experience?",
+        "hint": "felt relaxed(편안했다), felt excited(신났다), felt peaceful(평화로웠다), refreshed mind(상쾌한 마음), happy memory(행복한 기억), beautiful sunset(아름다운 노을), ocean sound(파도 소리), special people(특별한 사람들), unforgettable experience(잊을 수 없는 경험), want to go again(다시 가고 싶다)",
+        "translation": "해변에 있는 동안과 해변을 떠난 후 기분이 어땠나요? 왜 아직도 그 해변 경험을 기억하나요?"
+    }
+]

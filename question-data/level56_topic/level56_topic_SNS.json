@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "text": "You said you use social media. Which platforms do you use most often, and what makes each platform useful or entertaining for you?",
+    "hint": "social media(소셜 미디어), platforms(플랫폼), use most often(가장 자주 사용하다), useful(유용한), entertaining(재미있는), Instagram(인스타그램), YouTube(유튜브), TikTok(틱톡), communicate(소통하다), content(콘텐츠)",
+    "translation": "당신은 소셜 미디어를 사용한다고 말했습니다. 어떤 플랫폼을 가장 자주 사용하고, 각 플랫폼이 당신에게 유용하거나 재미있는 이유는 무엇인가요?"
+  },
+  {
+    "id": 2,
+    "text": "How has social media changed your daily routine or communication style? Please explain how it affects the way you spend your time, get information, or keep in touch with others.",
+    "hint": "changed daily routine(일상 루틴을 바꾸다), communication style(소통 방식), affect(영향을 미치다), spend time(시간을 보내다), get information(정보를 얻다), keep in touch(연락을 유지하다), online communication(온라인 소통), daily habit(일상 습관), news feed(뉴스 피드), explain(설명하다)",
+    "translation": "소셜 미디어가 당신의 일상 루틴이나 소통 방식을 어떻게 바꾸었나요? 시간을 보내는 방식, 정보를 얻는 방식, 또는 다른 사람들과 연락을 유지하는 방식에 어떤 영향을 주는지 설명해주세요."
+  },
+  {
+    "id": 3,
+    "text": "Tell me about a positive or meaningful experience you had on social media. What happened, who was involved, and why did that experience stay in your memory?",
+    "hint": "positive experience(긍정적인 경험), meaningful experience(의미 있는 경험), social media(소셜 미디어), what happened(무슨 일이 있었는지), involved(관련된), stay in memory(기억에 남다), reconnect with someone(누군가와 다시 연결되다), supportive comment(응원 댓글), online community(온라인 커뮤니티), memorable(기억에 남는)",
+    "translation": "소셜 미디어에서 있었던 긍정적이거나 의미 있는 경험에 대해 말해주세요. 무슨 일이 있었고, 누가 관련되어 있었으며, 왜 그 경험이 기억에 남았나요?"
+  },
+  {
+    "id": 4,
+    "text": "Which social media app do you use the most these days? How often do you check it, what do you usually do there, and why do you keep using it?",
+    "hint": "social media app(소셜 미디어 앱), use the most(가장 많이 사용하다), these days(요즘), how often(얼마나 자주), check it(확인하다), usually do(보통 하다), keep using(계속 사용하다), scroll(스크롤하다), post updates(게시물을 올리다), watch videos(영상을 보다)",
+    "translation": "요즘 어떤 소셜 미디어 앱을 가장 많이 사용하나요? 얼마나 자주 확인하고, 그곳에서 보통 무엇을 하며, 왜 계속 사용하나요?"
+  },
+  {
+    "id": 5,
+    "text": "What device do you usually use to access social media? Please explain why that device is convenient and how it affects the way you watch, post, or communicate online.",
+    "hint": "device(기기), access social media(소셜 미디어에 접속하다), convenient(편리한), affect(영향을 미치다), watch(보다), post(게시하다), communicate online(온라인으로 소통하다), smartphone(스마트폰), laptop(노트북), tablet(태블릿), easy to use(사용하기 쉬운)",
+    "translation": "소셜 미디어에 접속할 때 보통 어떤 기기를 사용하나요? 그 기기가 왜 편리한지, 그리고 온라인에서 보고, 게시하고, 소통하는 방식에 어떤 영향을 주는지 설명해주세요."
+  },
+  {
+    "id": 6,
+    "text": "Can you remember when you first started using social media? What platform did you use, what did you usually do on it, and how was that experience different from how you use social media now?",
+    "hint": "first started using social media(처음 소셜 미디어를 사용하기 시작하다), platform(플랫폼), usually do(보통 하다), different from now(지금과 다른), first experience(첫 경험), post photos(사진을 올리다), chat with friends(친구들과 대화하다), online habit(온라인 습관), compare(비교하다), over time(시간이 지나며)",
+    "translation": "처음 소셜 미디어를 사용하기 시작했을 때를 기억하나요? 어떤 플랫폼을 사용했고, 그곳에서 보통 무엇을 했으며, 그 경험은 지금 소셜 미디어를 사용하는 방식과 어떻게 달랐나요?"
+  },
+  {
+    "id": 7,
+    "text": "You said you use social media. Which platforms do you use most often these days, and how do you use each platform differently depending on your purpose, mood, or situation?",
+    "hint": "social media(소셜 미디어), platforms(플랫폼), these days(요즘), use differently(다르게 사용하다), purpose(목적), mood(기분), situation(상황), Instagram(인스타그램), YouTube(유튜브), private messages(개인 메시지)",
+    "translation": "당신은 소셜 미디어를 사용한다고 했습니다. 요즘 어떤 플랫폼을 가장 자주 사용하고, 목적, 기분, 상황에 따라 각 플랫폼을 어떻게 다르게 사용하나요?"
+  },
+  {
+    "id": 8,
+    "text": "How has social media changed your daily routine or communication style over time? Please explain how it affects the way you spend your free time, get information, keep in touch with people, or express your opinions.",
+    "hint": "changed over time(시간이 지나며 변했다), daily routine(일상 루틴), communication style(소통 방식), free time(여가 시간), get information(정보를 얻다), keep in touch(연락을 유지하다), express opinions(의견을 표현하다), online communication(온라인 소통), information source(정보원), social connection(사회적 연결)",
+    "translation": "시간이 지나면서 소셜 미디어는 당신의 일상 루틴이나 소통 방식을 어떻게 바꾸었나요? 여가 시간을 보내고, 정보를 얻고, 사람들과 연락을 유지하고, 의견을 표현하는 방식에 어떤 영향을 주는지 설명해주세요."
+  },
+  {
+    "id": 9,
+    "text": "Tell me about a positive or meaningful experience you had on social media. What happened, who was involved, how did you react, and why does that experience still stay in your memory?",
+    "hint": "positive experience(긍정적인 경험), meaningful experience(의미 있는 경험), social media(소셜 미디어), what happened(무슨 일이 있었는지), involved(관련된), react(반응하다), stay in memory(기억에 남다), supportive community(응원하는 커뮤니티), reconnect(다시 연결되다), memorable interaction(기억에 남는 소통)",
+    "translation": "소셜 미디어에서 있었던 긍정적이거나 의미 있는 경험에 대해 말해주세요. 무슨 일이 있었고, 누가 관련되어 있었으며, 어떻게 반응했고, 왜 그 경험이 아직도 기억에 남아 있나요?"
+  },
+  {
+    "id": 10,
+    "text": "Which social media app do you use the most these days? How often do you check it, what do you usually do there, and how has your usage pattern changed compared to the past?",
+    "hint": "social media app(소셜 미디어 앱), use the most(가장 많이 사용하다), how often(얼마나 자주), check it(확인하다), usually do(보통 하다), usage pattern(사용 패턴), changed compared to the past(과거와 비교해 변했다), scroll feed(피드를 스크롤하다), post updates(게시물을 올리다), watch short videos(짧은 영상을 보다)",
+    "translation": "요즘 어떤 소셜 미디어 앱을 가장 많이 사용하나요? 얼마나 자주 확인하고, 그곳에서 보통 무엇을 하며, 사용 패턴은 과거와 비교해 어떻게 변했나요?"
+  },
+  {
+    "id": 11,
+    "text": "What device do you usually use to access social media? Please explain why that device is convenient and how it affects the way you watch content, post updates, communicate with others, or manage your time online.",
+    "hint": "access social media(소셜 미디어에 접속하다), device(기기), convenient(편리한), watch content(콘텐츠를 보다), post updates(게시물을 올리다), communicate with others(다른 사람들과 소통하다), manage time online(온라인 시간을 관리하다), smartphone(스마트폰), notification(알림), screen size(화면 크기)",
+    "translation": "소셜 미디어에 접속할 때 보통 어떤 기기를 사용하나요? 그 기기가 왜 편리한지, 그리고 콘텐츠를 보고, 게시물을 올리고, 다른 사람들과 소통하고, 온라인 시간을 관리하는 방식에 어떤 영향을 주는지 설명해주세요."
+  },
+  {
+    "id": 12,
+    "text": "Can you remember when you first started using social media? What platform did you use at that time, what did you usually do there, and how is that experience different from the way you use social media now?",
+    "hint": "first started using social media(처음 소셜 미디어를 사용하기 시작하다), at that time(그 당시), platform(플랫폼), usually do(보통 하다), different from now(지금과 다른), early experience(초기 경험), chat with friends(친구들과 대화하다), post photos(사진을 올리다), current usage(현재 사용 방식), compare(비교하다)",
+    "translation": "처음 소셜 미디어를 사용하기 시작했을 때를 기억하나요? 그 당시 어떤 플랫폼을 사용했고, 그곳에서 보통 무엇을 했으며, 그 경험은 지금 소셜 미디어를 사용하는 방식과 어떻게 다른가요?"
+  },
+  {
+    "id": 13,
+    "text": "You mentioned that you use social media regularly. Among the various platforms available, which ones do you gravitate toward these days? Please provide a comparative analysis of how you utilize each platform differently—perhaps using one for professional networking, another for visual inspiration, and a third for private communication with close friends.",
+    "hint": "use social media regularly(소셜 미디어를 정기적으로 사용하다), various platforms(다양한 플랫폼), gravitate toward(~에 끌리다), comparative analysis(비교 분석), utilize differently(다르게 활용하다), professional networking(전문적 네트워킹), visual inspiration(시각적 영감), private communication(개인적인 소통), close friends(가까운 친구들), platform strategy(플랫폼 전략)",
+    "translation": "당신은 소셜 미디어를 정기적으로 사용한다고 말했습니다. 다양한 플랫폼 중 요즘 어떤 것들에 끌리나요? 하나는 전문적인 네트워킹에, 다른 하나는 시각적 영감에, 또 다른 하나는 가까운 친구들과의 개인적인 소통에 사용하는 것처럼 각 플랫폼을 어떻게 다르게 활용하는지 비교 분석해주세요."
+  },
+  {
+    "id": 14,
+    "text": "How has social media fundamentally altered your daily routine and communication style over time? Discuss the impact on how you consume real-time information, maintain long-distance relationships, and express your personal or professional opinions. Has it made your interactions more efficient or more complex?",
+    "hint": "fundamentally altered(근본적으로 바꾸었다), daily routine(일상 루틴), communication style(소통 방식), real-time information(실시간 정보), long-distance relationships(장거리 관계), express opinions(의견을 표현하다), personal opinions(개인 의견), professional opinions(전문적 의견), efficient interactions(효율적인 상호작용), complex interactions(복잡한 상호작용)",
+    "translation": "시간이 지나면서 소셜 미디어는 당신의 일상 루틴과 소통 방식을 어떻게 근본적으로 바꾸었나요? 실시간 정보를 소비하고, 장거리 관계를 유지하고, 개인적 또는 전문적 의견을 표현하는 방식에 미친 영향을 이야기해주세요. 상호작용을 더 효율적으로 만들었나요, 아니면 더 복잡하게 만들었나요?"
+  },
+  {
+    "id": 15,
+    "text": "Tell me about a particularly positive or impactful experience you’ve had through social media. This could be finding an old friend, joining a supportive community, or discovering a life-changing opportunity. Describe the narrative of what happened and why this digital interaction remains a significant memory for you.",
+    "hint": "positive experience(긍정적인 경험), impactful experience(영향력 있는 경험), through social media(소셜 미디어를 통해), finding an old friend(옛 친구를 찾다), supportive community(지지해 주는 커뮤니티), life-changing opportunity(삶을 바꾸는 기회), narrative(이야기), digital interaction(디지털 상호작용), significant memory(중요한 기억), meaningful connection(의미 있는 연결)",
+    "translation": "소셜 미디어를 통해 겪었던 특히 긍정적이거나 영향력 있는 경험에 대해 말해주세요. 옛 친구를 찾았거나, 지지해 주는 커뮤니티에 참여했거나, 삶을 바꾸는 기회를 발견한 일일 수도 있습니다. 무슨 일이 있었는지 이야기처럼 묘사하고, 왜 이 디지털 상호작용이 당신에게 중요한 기억으로 남아 있는지 설명해주세요."
+  },
+  {
+    "id": 16,
+    "text": "Which specific social media app dominates your screen time currently? Walk me through your daily engagement routine—how frequently you check it and what specific activities you prioritize. Compare this current behavior with your usage patterns from several years ago. What drove this evolution?",
+    "hint": "specific social media app(특정 소셜 미디어 앱), dominates screen time(화면 시간을 차지하다), currently(현재), daily engagement routine(일일 사용 루틴), how frequently(얼마나 자주), prioritize activities(활동을 우선시하다), current behavior(현재 행동), usage patterns(사용 패턴), several years ago(몇 년 전), drove this evolution(이 변화를 이끌었다)",
+    "translation": "현재 어떤 특정 소셜 미디어 앱이 화면 사용 시간을 가장 많이 차지하나요? 얼마나 자주 확인하고 어떤 특정 활동을 우선시하는지 일일 사용 루틴을 차근차근 설명해주세요. 현재 행동을 몇 년 전 사용 패턴과 비교하고, 무엇이 이런 변화를 이끌었는지 말해주세요."
+  },
+  {
+    "id": 17,
+    "text": "Which device is your primary gateway to social media? Explain how the technical features of this device, such as portability, screen size, or notification systems, influence the way you create content, consume media, and manage your time online. Do you find that the device itself affects your level of \"digital distraction\"?",
+    "hint": "primary gateway(주요 통로), social media(소셜 미디어), technical features(기술적 특징), portability(휴대성), screen size(화면 크기), notification systems(알림 시스템), create content(콘텐츠를 만들다), consume media(미디어를 소비하다), manage time online(온라인 시간을 관리하다), digital distraction(디지털 방해)",
+    "translation": "소셜 미디어에 접속하는 주요 기기는 무엇인가요? 휴대성, 화면 크기, 알림 시스템 같은 이 기기의 기술적 특징이 콘텐츠를 만들고, 미디어를 소비하고, 온라인 시간을 관리하는 방식에 어떤 영향을 주는지 설명해주세요. 기기 자체가 '디지털 방해' 수준에 영향을 준다고 느끼나요?"
+  },
+  {
+    "id": 18,
+    "text": "Can you recall your very first foray into the world of social media? What was the prevailing trend at that time, and what did your early digital activities look like? Contrast those initial, perhaps more naive, experiences with your current, more sophisticated way of navigating the social media landscape.",
+    "hint": "very first foray(아주 첫 진입), world of social media(소셜 미디어 세계), prevailing trend(당시 유행), early digital activities(초기 디지털 활동), initial experiences(초기 경험), naive(순진한), current way(현재 방식), sophisticated(더 세련된), navigating social media(소셜 미디어를 이용하다), contrast(대조하다)",
+    "translation": "소셜 미디어 세계에 처음 발을 들였던 때를 기억하나요? 그 당시 유행은 무엇이었고, 초기 디지털 활동은 어떤 모습이었나요? 어쩌면 더 순진했던 초기 경험과 현재의 더 세련된 소셜 미디어 이용 방식을 대조해주세요."
+  }
+]

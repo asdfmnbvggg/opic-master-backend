@@ -1,0 +1,110 @@
+[
+    {
+        "id":  1,
+        "text":  "You said you enjoy playing games. What kinds of games do you usually play these days, and what do you like about them? Please explain how your taste in games reflects your personality or lifestyle.",
+        "hint":  "enjoy playing games(게임하는 것을 즐기다), these days(요즘), game genre(게임 장르), strategy game(전략 게임), role-playing game(롤플레잉 게임), casual game(캐주얼 게임), personality(성격), lifestyle(생활 방식), reflect(반영하다), explain(설명하다)",
+        "translation":  "당신은 게임하는 것을 즐긴다고 말했습니다. 요즘 보통 어떤 종류의 게임을 하고, 그 게임들의 어떤 점을 좋아하나요? 게임 취향이 당신의 성격이나 생활 방식을 어떻게 반영하는지 설명해주세요."
+    },
+    {
+        "id":  2,
+        "text":  "How has playing games affected your daily life? For example, has it changed the way you spend your free time, manage stress, or interact with other people? Please explain in detail.",
+        "hint":  "affected daily life(일상생활에 영향을 미치다), free time(여가 시간), manage stress(스트레스를 관리하다), interact with people(사람들과 교류하다), relax(휴식하다), hobby(취미), online friends(온라인 친구), balance(균형), positive effect(긍정적인 영향), explain in detail(자세히 설명하다)",
+        "translation":  "게임하는 것이 당신의 일상생활에 어떤 영향을 미쳤나요? 예를 들어, 여가 시간을 보내는 방식, 스트레스를 관리하는 방식, 또는 다른 사람들과 교류하는 방식을 바꾸었나요? 자세히 설명해주세요."
+    },
+    {
+        "id":  3,
+        "text":  "Tell me about a time when you had a really memorable experience while playing a game. What happened, who were you with, and why do you still remember that moment?",
+        "hint":  "memorable experience(기억에 남는 경험), while playing a game(게임을 하는 동안), what happened(무슨 일이 있었는지), who I was with(함께 있었던 사람), still remember(아직도 기억하다), exciting moment(신나는 순간), win a match(경기에서 이기다), teamwork(팀워크), unexpected result(예상치 못한 결과), special memory(특별한 기억)",
+        "translation":  "게임을 하면서 정말 기억에 남는 경험을 했던 때에 대해 말해주세요. 무슨 일이 있었고, 누구와 함께 있었으며, 왜 아직도 그 순간을 기억하나요?"
+    },
+    {
+        "id":  4,
+        "text":  "What game have you been playing the most recently? How did you first discover it, and why do you keep playing it instead of trying other games?",
+        "hint":  "recently(최근에), play the most(가장 많이 하다), discover(발견하다), keep playing(계속 하다), instead of(~대신에), other games(다른 게임들), favorite feature(좋아하는 기능), interesting gameplay(흥미로운 게임플레이), challenging(도전적인), habit(습관)",
+        "translation":  "최근에 가장 많이 하고 있는 게임은 무엇인가요? 그 게임을 처음 어떻게 알게 되었고, 왜 다른 게임을 시도하는 대신 계속 그 게임을 하나요?"
+    },
+    {
+        "id":  5,
+        "text":  "What device do you usually use to play games, such as a smartphone, computer, tablet, or console? How does the device affect your gaming experience, and why do you prefer it?",
+        "hint":  "device(기기), play games(게임을 하다), smartphone(스마트폰), computer(컴퓨터), tablet(태블릿), console(콘솔), gaming experience(게임 경험), prefer(선호하다), screen size(화면 크기), controls(조작감)",
+        "translation":  "스마트폰, 컴퓨터, 태블릿, 콘솔 같은 기기 중 게임을 할 때 보통 어떤 기기를 사용하나요? 그 기기가 게임 경험에 어떤 영향을 주고, 왜 그것을 선호하나요?"
+    },
+    {
+        "id":  6,
+        "text":  "Gaming has changed a lot with mobile games, online multiplayer games, and even AI-based features. How do you think games today are different from games in the past? Please compare them based on your own experience.",
+        "hint":  "gaming has changed(게임이 변했다), mobile games(모바일 게임), online multiplayer games(온라인 멀티플레이어 게임), AI-based features(AI 기반 기능), games today(요즘 게임), games in the past(과거 게임), compare(비교하다), own experience(자신의 경험), graphics(그래픽), social features(소셜 기능)",
+        "translation":  "모바일 게임, 온라인 멀티플레이어 게임, 심지어 AI 기반 기능으로 게임은 많이 변했습니다. 오늘날의 게임은 과거의 게임과 어떻게 다르다고 생각하나요? 자신의 경험을 바탕으로 비교해주세요."
+    },
+    {
+        "id":  7,
+        "text":  "You said you enjoy playing games. What types of games do you play most often these days, and how do those games match your personality, lifestyle, or the way you like to spend your free time?",
+        "hint":  "enjoy playing games(게임하는 것을 즐기다), types of games(게임 종류), these days(요즘), match my personality(내 성격에 맞다), lifestyle(생활 방식), spend free time(여가 시간을 보내다), action games(액션 게임), strategy games(전략 게임), casual games(캐주얼 게임), gaming preference(게임 취향)",
+        "translation":  "당신은 게임하는 것을 즐긴다고 했습니다. 요즘 어떤 종류의 게임을 가장 자주 하고, 그 게임들은 당신의 성격, 생활 방식 또는 여가 시간을 보내는 방식과 어떻게 잘 맞나요?"
+    },
+    {
+        "id":  8,
+        "text":  "How has playing games influenced your daily life over time? Please explain how games have affected your routine, stress level, concentration, social life, or even your habits.",
+        "hint":  "influenced daily life(일상생활에 영향을 주다), over time(시간이 지나면서), routine(루틴), stress level(스트레스 수준), concentration(집중력), social life(사회생활), habits(습관), positive effect(긍정적인 영향), negative effect(부정적인 영향), time management(시간 관리)",
+        "translation":  "시간이 지나면서 게임하는 것이 당신의 일상생활에 어떤 영향을 주었나요? 게임이 루틴, 스트레스 수준, 집중력, 사회생활 또는 습관에 어떻게 영향을 미쳤는지 설명해주세요."
+    },
+    {
+        "id":  9,
+        "text":  "Tell me about a gaming experience that was especially memorable for you. What game were you playing, who were you with, what happened during the game, and why does that moment still stand out?",
+        "hint":  "gaming experience(게임 경험), especially memorable(특히 기억에 남는), what game(무슨 게임), who were you with(누구와 함께 있었는지), during the game(게임 중에), what happened(무슨 일이 있었는지), stand out(두드러지다), team play(팀플레이), victory(승리), unexpected moment(예상치 못한 순간)",
+        "translation":  "당신에게 특히 기억에 남는 게임 경험에 대해 말해주세요. 어떤 게임을 하고 있었고, 누구와 함께 있었으며, 게임 중 무슨 일이 있었고, 왜 그 순간이 아직도 두드러지게 남아 있나요?"
+    },
+    {
+        "id":  10,
+        "text":  "What game have you been playing the most recently? How did you first discover it, what made you start playing it, and why have you continued playing it instead of switching to another game?",
+        "hint":  "most recently(가장 최근에), playing the most(가장 많이 하고 있는), first discover(처음 발견하다), start playing(시작하다), continued playing(계속 플레이하다), switching to another game(다른 게임으로 바꾸다), gameplay(게임플레이), favorite feature(좋아하는 기능), online friends(온라인 친구), long-term interest(장기적인 관심)",
+        "translation":  "최근에 가장 많이 하고 있는 게임은 무엇인가요? 그 게임을 처음 어떻게 알게 되었고, 무엇이 시작하게 만들었으며, 왜 다른 게임으로 바꾸지 않고 계속 플레이하고 있나요?"
+    },
+    {
+        "id":  11,
+        "text":  "What device do you usually use when you play games? Please compare your experience on that device with another device, such as a phone, computer, tablet, or console, and explain why you prefer one over the other.",
+        "hint":  "device(기기), play games(게임을 하다), compare experience(경험을 비교하다), phone(휴대폰), computer(컴퓨터), tablet(태블릿), console(콘솔), prefer one over the other(하나를 다른 것보다 선호하다), graphics(그래픽), controls(조작감), portability(휴대성)",
+        "translation":  "게임을 할 때 보통 어떤 기기를 사용하나요? 휴대폰, 컴퓨터, 태블릿 또는 콘솔 같은 다른 기기와 그 기기에서의 경험을 비교하고, 왜 한쪽을 더 선호하는지 설명해주세요."
+    },
+    {
+        "id":  12,
+        "text":  "Games have changed a lot with mobile games, online multiplayer systems, streaming platforms, and AI-based features. How are games today different from games you played in the past, and how have those changes affected the way you enjoy games?",
+        "hint":  "games have changed(게임이 변했다), mobile games(모바일 게임), online multiplayer systems(온라인 멀티플레이어 시스템), streaming platforms(스트리밍 플랫폼), AI-based features(AI 기반 기능), games today(오늘날의 게임), games in the past(과거의 게임), affected the way I enjoy(즐기는 방식에 영향을 주다), technology(기술), compare(비교하다)",
+        "translation":  "모바일 게임, 온라인 멀티플레이어 시스템, 스트리밍 플랫폼, AI 기반 기능으로 게임은 많이 변했습니다. 오늘날의 게임은 과거에 했던 게임과 어떻게 다르고, 그런 변화가 게임을 즐기는 방식에 어떤 영향을 주었나요?"
+    },
+    {
+        "id":  13,
+        "text":  "You mentioned that you enjoy playing games. Among the various genres available, which one do you gravitate toward the most these days? Instead of just naming the genre, explain how these games align with your personality or your current lifestyle. For example, do you prefer fast-paced games to relieve stress, or strategic games that challenge your critical thinking during your downtime?",
+        "hint":  "various genres(다양한 장르), gravitate toward(~에 끌리다), these days(요즘), align with my personality(내 성격과 맞다), current lifestyle(현재 생활 방식), fast-paced games(빠른 전개의 게임), relieve stress(스트레스를 풀다), strategic games(전략 게임), critical thinking(비판적 사고), downtime(휴식 시간)",
+        "translation":  "당신은 게임하는 것을 즐긴다고 말했습니다. 다양한 장르 중 요즘 어떤 장르에 가장 끌리나요? 단순히 장르 이름을 말하는 대신, 그 게임들이 당신의 성격이나 현재 생활 방식과 어떻게 맞는지 설명해주세요. 예를 들어 스트레스를 풀기 위해 빠른 전개의 게임을 선호하나요, 아니면 휴식 시간에 비판적 사고를 자극하는 전략 게임을 선호하나요?"
+    },
+    {
+        "id":  14,
+        "text":  "How has your engagement with gaming shaped your daily life over time? Reflect on both the positive and negative aspects. Discuss how gaming has influenced your concentration levels, your social interactions, or even your time management habits. How do you balance your gaming passion with your other daily responsibilities?",
+        "hint":  "engagement with gaming(게임 참여), shaped my daily life(일상생활을 형성하다), over time(시간이 지나면서), positive and negative aspects(긍정적이고 부정적인 측면), concentration levels(집중력 수준), social interactions(사회적 교류), time management habits(시간 관리 습관), balance(균형을 맞추다), gaming passion(게임에 대한 열정), daily responsibilities(일상 책임)",
+        "translation":  "시간이 지나면서 게임에 몰입하는 것이 당신의 일상생활을 어떻게 형성했나요? 긍정적인 측면과 부정적인 측면을 모두 돌아보세요. 게임이 집중력 수준, 사회적 교류, 또는 시간 관리 습관에 어떻게 영향을 주었는지 이야기해주세요. 게임에 대한 열정과 다른 일상 책임 사이의 균형을 어떻게 맞추나요?"
+    },
+    {
+        "id":  15,
+        "text":  "Tell me about a gaming experience that remains unforgettable to you. It doesn\u0027t have to be a victory; it could be a challenging mission you barely completed, a meaningful interaction with other players, or a surprising plot twist. Describe the atmosphere of that moment and why it left such a deep impression on you.",
+        "hint":  "unforgettable gaming experience(잊을 수 없는 게임 경험), victory(승리), challenging mission(어려운 미션), barely completed(간신히 완료한), meaningful interaction(의미 있는 상호작용), other players(다른 플레이어들), surprising plot twist(놀라운 반전), atmosphere of the moment(그 순간의 분위기), deep impression(깊은 인상), memorable moment(기억에 남는 순간)",
+        "translation":  "잊을 수 없는 게임 경험에 대해 말해주세요. 꼭 승리일 필요는 없습니다. 간신히 완료한 어려운 미션, 다른 플레이어들과의 의미 있는 상호작용, 또는 놀라운 반전일 수도 있습니다. 그 순간의 분위기와 왜 그것이 당신에게 깊은 인상을 남겼는지 묘사해주세요."
+    },
+    {
+        "id":  16,
+        "text":  "What is the specific game that has been taking up most of your playtime recently? I’m interested in your initial encounter with this game. How did you first discover it, and what was the \"hook\" that convinced you to keep playing it while moving away from other titles you previously enjoyed?",
+        "hint":  "specific game(특정 게임), taking up my playtime(플레이 시간을 차지하다), recently(최근에), initial encounter(처음 접한 경험), first discover(처음 발견하다), hook(끌어당긴 요소), convinced me(나를 설득했다), keep playing(계속 플레이하다), moving away from other titles(다른 게임에서 멀어지다), previously enjoyed(이전에 즐겼던)",
+        "translation":  "최근 플레이 시간의 대부분을 차지하고 있는 특정 게임은 무엇인가요? 그 게임을 처음 접한 경험이 궁금합니다. 어떻게 처음 알게 되었고, 이전에 즐기던 다른 게임들에서 멀어지면서도 계속 하게 만든 \u0027끌어당긴 요소\u0027는 무엇이었나요?"
+    },
+    {
+        "id":  17,
+        "text":  "The device we use significantly dictates our gaming experience. Compare the hardware you currently use, be it a PC, a console, or a mobile phone, with another platform you\u0027ve experienced. Discuss the differences in terms of graphics, control precision, or portability, and explain why your chosen device is superior for your specific gaming style.",
+        "hint":  "device(기기), dictates gaming experience(게임 경험을 좌우하다), hardware(하드웨어), PC(컴퓨터), console(콘솔), mobile phone(휴대폰), platform(플랫폼), graphics(그래픽), control precision(조작 정확도), portability(휴대성), gaming style(게임 스타일)",
+        "translation":  "우리가 사용하는 기기는 게임 경험을 크게 좌우합니다. 현재 사용하는 하드웨어가 PC든 콘솔이든 휴대폰이든, 경험해 본 다른 플랫폼과 비교해주세요. 그래픽, 조작 정확도, 휴대성 면에서 차이를 이야기하고, 왜 선택한 기기가 당신의 특정 게임 스타일에 더 뛰어난지 설명해주세요."
+    },
+    {
+        "id":  18,
+        "text":  "Gaming technology has evolved rapidly with the rise of cloud gaming, high-speed online play, and sophisticated AI features. Compare the games from your childhood or early youth with the cutting-edge games of today. How have these technological advancements changed not just the visuals, but the fundamental way you interact with and enjoy digital entertainment?",
+        "hint":  "gaming technology(게임 기술), evolved rapidly(빠르게 발전했다), cloud gaming(클라우드 게임), high-speed online play(고속 온라인 플레이), sophisticated AI features(정교한 AI 기능), childhood games(어린 시절 게임), cutting-edge games(최첨단 게임), technological advancements(기술 발전), visuals(시각 요소), digital entertainment(디지털 엔터테인먼트)",
+        "translation":  "클라우드 게임, 고속 온라인 플레이, 정교한 AI 기능의 등장으로 게임 기술은 빠르게 발전했습니다. 어린 시절이나 젊은 시절의 게임과 오늘날의 최첨단 게임을 비교해주세요. 이러한 기술 발전이 단지 시각 요소뿐 아니라 디지털 엔터테인먼트와 상호작용하고 즐기는 근본적인 방식을 어떻게 바꾸었나요?"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "text": "You indicated in the survey that you like to go walking. How often do you go walking? When and where do you normally go walking? Please describe your routine when you are walking.",
+        "hint": "go walking(걷기를 하다), how often(얼마나 자주), normally(보통), walking route(산책 경로), neighborhood(동네), park(공원), morning walk(아침 산책), evening walk(저녁 산책), walking routine(걷기 루틴), describe(묘사하다)",
+        "translation": "당신은 설문조사에서 걷기를 좋아한다고 답했습니다. 얼마나 자주 걷기를 하시나요? 일반적으로 언제 어디서 걷기를 하시나요? 당신이 걷기를 할 때의 루틴을 묘사해주세요."
+    },
+    {
+        "id": 2,
+        "text": "Now, tell me why you started walking at first. When did you start walking regularly? Explain how did you first become interested in walking.",
+        "hint": "started walking(걷기 시작했다), at first(처음에), regularly(규칙적으로), first became interested(처음 관심을 갖게 되다), walking habit(걷기 습관), health reason(건강상의 이유), relieve stress(스트레스를 풀다), daily routine(일상 루틴), motivation(동기), explain(설명하다)",
+        "translation": "이제, 처음에 왜 걷기 시작했는지 말해주세요. 언제부터 규칙적으로 걷기 시작 했나요? 어떻게 처음 걷기에 관심을 갖게 되었는지 설명해주세요."
+    },
+    {
+        "id": 3,
+        "text": "You mentioned that you enjoy walking. How often do you go walking, and when do you usually do it? Where do you typically go? Please describe what you usually do while walking.",
+        "hint": "enjoy walking(걷기를 즐기다), how often(얼마나 자주), usually do it(보통 하다), typically go(주로 가다), while walking(걷는 동안), listen to music(음악을 듣다), enjoy the scenery(풍경을 즐기다), clear my mind(생각을 정리하다), walking path(산책로), describe(묘사하다)",
+        "translation": "당신은 걷기를 즐긴다고 말했습니다. 얼마나 자주 걷기를 하고, 보통 언제 하나요? 주로 어디에 가나요? 걷는 동안 보통 무엇을 하는지 묘사해주세요."
+    },
+    {
+        "id": 4,
+        "text": "Can you tell me how you first got interested in walking regularly? When did you start, and what made you begin this habit? Please explain in detail.",
+        "hint": "got interested in(관심을 갖게 되다), walking regularly(규칙적으로 걷기), when I started(시작한 때), begin this habit(이 습관을 시작하다), health goal(건강 목표), reduce stress(스트레스를 줄이다), daily exercise(매일 운동), motivation(동기), explain in detail(자세히 설명하다), keep doing it(계속하다)",
+        "translation": "어떻게 처음 규칙적으로 걷는 것에 관심을 갖게 되었는지 말해 줄 수 있나요? 언제 시작했고, 무엇이 이 습관을 시작하게 만들었나요? 자세히 설명해주세요."
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "id":  1,
+        "text":  "You indicated in the survey that you like camping. Where do you go camping? How often do you go camping? Describe your camping in detail.",
+        "hint":  "camping(캠핑), go camping(캠핑을 가다), campsite(캠핑장), how often(얼마나 자주), nature(자연), tent(텐트), campfire(캠프파이어), outdoor activity(야외 활동), relaxing(편안한), describe in detail(자세히 설명하다)",
+        "translation":  "당신은 설문조사에서 캠핑을 좋아한다고 답했습니다. 어디로 캠핑을 가시나요? 얼마나 자주 캠핑을 가시나요? 당신의 캠핑에 대해 자세히 설명해주세요."
+    },
+    {
+        "id":  2,
+        "text":  "What do you usually do when you go camping? When and where do you usually go? Who do you go with? Tell me what activities you do when you go camping.",
+        "hint":  "usually do(주로 하다), go camping(캠핑을 가다), when and where(언제 어디서), go with someone(~와 함께 가다), activities(활동), set up a tent(텐트를 치다), cook outdoors(야외에서 요리하다), barbecue(바비큐), enjoy nature(자연을 즐기다), camping trip(캠핑 여행)",
+        "translation":  "캠핑을 갈 때 주로 무엇을 하나요? 당신은 보통 언제 어디로 가시나요? 누구와 같이 가나요? 캠핑을 갈 때 어떤 활동을 하는지 말해 주세요."
+    },
+    {
+        "id":  3,
+        "text":  "Tell me about a memorable experience you had while camping. Where did you go, and what did you do there? What happened? How did you deal with it? What made this experience so memorable?",
+        "hint":  "memorable experience(기억에 남는 경험), while camping(캠핑하는 동안), where I went(갔던 곳), what I did(했던 것), what happened(무슨 일이 있었는지), deal with(대처하다), unexpected situation(예상치 못한 상황), special memory(특별한 기억), outdoor experience(야외 경험), memorable(기억에 남는)",
+        "translation":  "캠핑을 하면서 겪은 기억에 남는 경험에 대해 말해주세요. 당신은 어디에 갔었고, 거기서 무엇을 했었나요? 무슨 일이 있었나요? 어떻게 대처하셨나요? 무엇이 이 경험을 그렇게 기억에 남게 했나요?"
+    },
+    {
+        "id":  4,
+        "text":  "Tell me about your first camping. How did you become interested in camping? Where did you go, and who were you with? How was that camping? Were you happy or unhappy while camping? Tell me everything from beginning to end.",
+        "hint":  "first camping(첫 캠핑), become interested in(관심을 갖게 되다), where I went(갔던 곳), who I was with(함께 있었던 사람), how it was(어땠는지), happy(행복한), unhappy(불행한), from beginning to end(처음부터 끝까지), first experience(첫 경험), camping memory(캠핑 추억)",
+        "translation":  "당신의 첫 캠핑에 대해 말해주세요. 당신은 어떻게 캠핑에 관심을 가지게 되었나요? 당신은 어디에 갔었고, 누구와 함께 있었습니까? 캠핑은 어땠어요? 캠핑 하는 동안 행복했나요? 아니면 불행했나요? 처음부터 끝까지 모두 말해 주세요."
+    },
+    {
+        "id":  5,
+        "text":  "You mentioned that you enjoy camping. Where do you usually go for camping trips? How often do you go? Can you describe what your camping experience is like in detail?",
+        "hint":  "enjoy camping(캠핑을 즐기다), camping trips(캠핑 여행), usually go(보통 가다), how often(얼마나 자주), camping experience(캠핑 경험), campsite(캠핑장), mountains(산), beach(해변), peaceful(평화로운), in detail(자세히)",
+        "translation":  "당신은 캠핑을 즐긴다고 말했습니다. 보통 캠핑 여행은 어디로 가나요? 얼마나 자주 가나요? 당신의 캠핑 경험이 어떤지 자세히 묘사해 줄 수 있나요?"
+    },
+    {
+        "id":  6,
+        "text":  "What do you typically do when you go camping? When and where do you usually go, and who do you go with? Please explain the activities you enjoy during your camping trips.",
+        "hint":  "typically do(보통 하다), go camping(캠핑을 가다), when and where(언제 어디서), go with(함께 가다), activities(활동), enjoy during trips(여행 중 즐기다), set up camp(캠프를 설치하다), cook meals(식사를 요리하다), take a walk(산책하다), explain(설명하다)",
+        "translation":  "캠핑을 갈 때 보통 무엇을 하나요? 보통 언제 어디로 가고, 누구와 함께 가나요? 캠핑 여행 중 즐기는 활동을 설명해주세요."
+    },
+    {
+        "id":  7,
+        "text":  "Tell me about a camping experience that you still remember clearly. Where did you go, and what did you do there? Did anything unexpected happen? How did you handle it, and why was it so memorable?",
+        "hint":  "remember clearly(분명히 기억하다), camping experience(캠핑 경험), where I went(간 곳), did there(그곳에서 한 일), unexpected happen(예상치 못한 일이 일어나다), handle it(처리하다), memorable(기억에 남는), weather problem(날씨 문제), special event(특별한 일), outdoor memory(야외 추억)",
+        "translation":  "아직도 분명히 기억나는 캠핑 경험에 대해 말해주세요. 어디에 갔고 그곳에서 무엇을 했나요? 예상치 못한 일이 일어났나요? 어떻게 처리했고, 왜 그렇게 기억에 남나요?"
+    },
+    {
+        "id":  8,
+        "text":  "Can you tell me about your first camping trip? How did you become interested in camping? Where did you go, and who were you with? How did you feel during that trip? Please describe everything from beginning to end.",
+        "hint":  "first camping trip(첫 캠핑 여행), become interested in(관심을 갖게 되다), where I went(간 곳), who I was with(함께 있던 사람), how I felt(어떻게 느꼈는지), during that trip(그 여행 동안), excited(신난), nervous(긴장한), from beginning to end(처음부터 끝까지), describe everything(모든 것을 묘사하다)",
+        "translation":  "첫 캠핑 여행에 대해 말해 줄 수 있나요? 어떻게 캠핑에 관심을 갖게 되었나요? 어디에 갔고 누구와 함께 있었나요? 그 여행 동안 기분이 어땠나요? 처음부터 끝까지 모든 것을 묘사해주세요."
+    },
+    {
+        "id":  9,
+        "text":  "You said you enjoy camping. Where do you usually go camping, how often do you go, and what makes that camping spot comfortable or attractive to you?",
+        "hint":  "enjoy camping(캠핑을 즐기다), usually go camping(보통 캠핑을 가다), how often(얼마나 자주), camping spot(캠핑 장소), comfortable(편안한), attractive(매력적인), campsite(캠핑장), nature(자연), facilities(시설), relaxing atmosphere(편안한 분위기)",
+        "translation":  "당신은 캠핑을 즐긴다고 했습니다. 보통 어디로 캠핑을 가고, 얼마나 자주 가며, 무엇이 그 캠핑 장소를 당신에게 편안하거나 매력적으로 만드나요?"
+    },
+    {
+        "id":  10,
+        "text":  "When you go camping, what do you usually do from the moment you arrive until you leave? Please describe who you go with, what you prepare, what activities you do, and how you spend the night.",
+        "hint":  "from the moment I arrive(도착한 순간부터), until I leave(떠날 때까지), who I go with(누구와 함께 가는지), prepare(준비하다), activities(활동), spend the night(밤을 보내다), set up a tent(텐트를 치다), cook outdoors(야외에서 요리하다), campfire(캠프파이어), camping routine(캠핑 루틴)",
+        "translation":  "캠핑을 갈 때 도착한 순간부터 떠날 때까지 보통 무엇을 하나요? 누구와 함께 가는지, 무엇을 준비하는지, 어떤 활동을 하는지, 그리고 밤을 어떻게 보내는지 묘사해주세요."
+    },
+    {
+        "id":  11,
+        "text":  "Tell me about a memorable camping experience you had. Where did you go, who were you with, what happened during the trip, and how did you handle the situation?",
+        "hint":  "memorable camping experience(기억에 남는 캠핑 경험), where did you go(어디에 갔나요), who were you with(누구와 함께 있었나요), during the trip(여행 중에), what happened(무슨 일이 있었는지), handle the situation(상황을 처리하다), unexpected event(예상치 못한 일), weather change(날씨 변화), special memory(특별한 기억), outdoor experience(야외 경험)",
+        "translation":  "기억에 남는 캠핑 경험에 대해 말해주세요. 어디에 갔고, 누구와 함께 있었으며, 여행 중 무슨 일이 있었고, 그 상황을 어떻게 처리했나요?"
+    },
+    {
+        "id":  12,
+        "text":  "Can you tell me about your first camping trip? How did you first become interested in camping, where did you go, who did you go with, and how did you feel from beginning to end?",
+        "hint":  "first camping trip(첫 캠핑 여행), first became interested(처음 관심을 갖게 되다), where did you go(어디에 갔나요), who did you go with(누구와 함께 갔나요), from beginning to end(처음부터 끝까지), how I felt(어떻게 느꼈는지), excited(신난), nervous(긴장한), first impression(첫인상), camping memory(캠핑 추억)",
+        "translation":  "첫 캠핑 여행에 대해 말해 줄 수 있나요? 어떻게 처음 캠핑에 관심을 갖게 되었고, 어디에 갔으며, 누구와 함께 갔고, 처음부터 끝까지 기분이 어땠나요?"
+    },
+    {
+        "id":  13,
+        "text":  "You mentioned that you enjoy camping. Describe your favorite camping destination in detail. Do you prefer established campgrounds with modern facilities, or do you enjoy more secluded, \"off-the-grid\" spots? Please explain how often you go and what specific characteristics of that location make it the perfect place for you to unwind.",
+        "hint":  "favorite camping destination(가장 좋아하는 캠핑 목적지), in detail(자세히), established campgrounds(잘 갖춰진 캠핑장), modern facilities(현대적인 시설), secluded spot(한적한 장소), off-the-grid(외진), how often(얼마나 자주), specific characteristics(특정 특징들), unwind(긴장을 풀다), perfect place(완벽한 장소)",
+        "translation":  "당신은 캠핑을 즐긴다고 말했습니다. 가장 좋아하는 캠핑 목적지를 자세히 묘사해주세요. 현대적인 시설을 갖춘 잘 마련된 캠핑장을 선호하나요, 아니면 더 한적하고 외진 장소를 즐기나요? 얼마나 자주 가는지, 그리고 그 장소의 어떤 특정한 특징이 당신이 긴장을 풀기에 완벽한 곳으로 만드는지 설명해주세요."
+    },
+    {
+        "id":  14,
+        "text":  "Walk me through your typical camping trip from start to finish. I’d like to know about your preparation process, including the gear and supplies you bring. Once you arrive, how do you manage your time—from setting up the campsite and preparing outdoor meals to spending the night under the stars? Describe your routine in a way that shows how you enjoy the camping experience.",
+        "hint":  "walk me through(차근차근 설명하다), typical camping trip(전형적인 캠핑 여행), from start to finish(처음부터 끝까지), preparation process(준비 과정), gear and supplies(장비와 물품), set up the campsite(캠핑장을 설치하다), outdoor meals(야외 식사), under the stars(별 아래에서), manage time(시간을 관리하다), camping experience(캠핑 경험)",
+        "translation":  "전형적인 캠핑 여행을 처음부터 끝까지 차근차근 설명해주세요. 가져가는 장비와 물품을 포함해 준비 과정에 대해 알고 싶습니다. 도착한 후에는 캠핑장을 설치하고 야외 식사를 준비하는 것부터 별 아래에서 밤을 보내는 것까지 시간을 어떻게 관리하나요? 캠핑 경험을 어떻게 즐기는지 보여주는 방식으로 루틴을 묘사해주세요."
+    },
+    {
+        "id":  15,
+        "text":  "Tell me about a camping trip that stands out in your memory. It could be due to a breathtaking view, a special celebration, or an unexpected challenge like a sudden change in weather or equipment failure. What exactly happened, who were you with, and how did you manage the situation to ensure the trip remained a positive memory?",
+        "hint":  "stands out in my memory(기억에 두드러지게 남다), breathtaking view(숨 막히는 풍경), special celebration(특별한 축하), unexpected challenge(예상치 못한 어려움), sudden change in weather(갑작스러운 날씨 변화), equipment failure(장비 고장), exactly happened(정확히 일어났다), manage the situation(상황을 관리하다), positive memory(긍정적인 기억), camping trip(캠핑 여행)",
+        "translation":  "기억에 두드러지게 남는 캠핑 여행에 대해 말해주세요. 숨 막히는 풍경, 특별한 축하, 또는 갑작스러운 날씨 변화나 장비 고장 같은 예상치 못한 어려움 때문일 수도 있습니다. 정확히 무슨 일이 있었고, 누구와 함께 있었으며, 그 여행이 긍정적인 기억으로 남도록 상황을 어떻게 관리했나요?"
+    },
+    {
+        "id":  16,
+        "text":  "Reflect on your very first camping experience. What sparked your initial interest in sleeping outdoors? Tell me about where you went and who accompanied you on that first trip. Looking back, what were your initial impressions, and how has your passion for camping grown or changed since that first night in a tent?",
+        "hint":  "very first camping experience(가장 첫 캠핑 경험), sparked my interest(관심을 불러일으키다), sleeping outdoors(야외에서 자기), accompanied me(나와 동행했다), first trip(첫 여행), looking back(돌이켜 보면), initial impressions(첫인상), passion for camping(캠핑에 대한 열정), grown or changed(커지거나 변했다), night in a tent(텐트에서 보낸 밤)",
+        "translation":  "가장 첫 캠핑 경험을 돌이켜 보세요. 야외에서 자는 것에 대한 처음 관심을 무엇이 불러일으켰나요? 첫 여행에서 어디에 갔고 누가 동행했는지 말해주세요. 돌이켜 보면 첫인상은 어땠고, 텐트에서 보낸 그 첫밤 이후 캠핑에 대한 열정은 어떻게 커지거나 변했나요?"
+    }
+]

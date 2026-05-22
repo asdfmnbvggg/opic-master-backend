@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "text": "Describe your house to me. What does it look like? What types of rooms does it have? Also, tell me about your favorite room.",
+        "hint": "apartment(아파트), living room(거실), bedroom(침실), kitchen(부엌), bathroom(욕실), balcony(발코니), furniture(가구), closet(옷장), cozy(아늑한), organized(정리된)",
+        "translation": "당신의 집을 설명해 주세요. 어떻게 생겼나요? 어떤 종류의 방이 있나요? 또한 가장 좋아하는 방에 대해서도 알려주세요."
+    },
+    {
+        "id": 2,
+        "text": "Tell me about your house. What type of rooms are there? What is your favorite room?",
+        "hint": "apartment(아파트), living room(거실), bedroom(침실), kitchen(부엌), bathroom(욕실), balcony(발코니), furniture(가구), closet(옷장), cozy(아늑한), organized(정리된)",
+        "translation": "집에 대해 이야기해 주세요. 어떤 방들이 있나요? 가장 좋아하는 방은 어디인가요?"
+    },
+    {
+        "id": 3,
+        "text": "I live in an apartment in the US. Ask me three or four questions about my apartment.",
+        "hint": "apartment(아파트), living room(거실), bedroom(침실), kitchen(부엌), bathroom(욕실), balcony(발코니), furniture(가구), closet(옷장), cozy(아늑한), organized(정리된)",
+        "translation": "저는 미국에 있는 아파트에 살고 있습니다. 제 아파트에 대해 세네 가지 질문을 해주세요."
+    },
+    {
+        "id": 4,
+        "text": "What activities do you usually do when you are at home? What do you do on weekdays, and what do you do on weekends?",
+        "hint": "watch TV(TV를 보다), rest on the sofa(소파에서 쉬다), study in my room(방에서 공부하다), cook dinner(저녁을 요리하다), clean my room(방을 청소하다), listen to music(음악을 듣다), spend time with family(가족과 시간을 보내다), weekday routine(평일 루틴), weekend rest(주말 휴식), relax at home(집에서 쉬다)",
+        "translation": "집에 있을 때 주로 어떤 활동을 하시나요? 평일에는 무엇을 하고 주말에는 무엇을 하나요?"
+    },
+    {
+        "id": 5,
+        "text": "Tell me about the house you lived in when you were a child. How is it different from the house you live in now?",
+        "hint": "childhood home(어린 시절 집), old apartment(오래된 아파트), small room(작은 방), shared room(같이 쓰는 방), current home(현재 집), more convenient(더 편리한), bigger space(더 넓은 공간), good memories(좋은 추억), quiet place(조용한 곳), prefer now(지금을 선호하다)",
+        "translation": "어렸을 때 살았던 집에 대해 말해 주세요. 지금 살고 있는 집과 어떻게 다른가요?"
+    },
+    {
+        "id": 6,
+        "text": "I would like to know about your house. How many rooms are there, and tell me about your favorite room.",
+        "hint": "apartment(아파트), living room(거실), bedroom(침실), kitchen(부엌), bathroom(욕실), balcony(발코니), furniture(가구), closet(옷장), cozy(아늑한), organized(정리된)",
+        "translation": "저는 당신의 집에 대해 알고 싶어요. 방은 몇 개이고, 가장 좋아하는 방은 어디인지 말씀해 주세요."
+    },
+    {
+        "id": 7,
+        "text": "Tell me about some problems you have experienced in your house. Has something been broken? Or did someone you lived with not cooperate well with you?",
+        "hint": "broken light(고장난 전등), water leak(누수), noisy neighbor(시끄러운 이웃), dirty room(더러운 방), repair service(수리 서비스), called the manager(관리자에게 전화했다), fixed it(고쳤다), cleaned up(청소했다), felt stressed(스트레스 받았다), solved the problem(문제를 해결했다)",
+        "translation": "집에서 겪었던 문제점들에 대해 이야기해 주세요. 혹시 물건이 고장난 적이 있나요? 아니면 함께 살던 사람이 협조적이지 않았던 적이 있나요?"
+    },
+    {
+        "id": 8,
+        "text": "Tell me about one of the home problems you mentioned above. What was the problem, and how did you deal with it?",
+        "hint": "broken light(고장난 전등), water leak(누수), noisy neighbor(시끄러운 이웃), dirty room(더러운 방), repair service(수리 서비스), called the manager(관리자에게 전화했다), fixed it(고쳤다), cleaned up(청소했다), felt stressed(스트레스 받았다), solved the problem(문제를 해결했다)",
+        "translation": "위에서 언급하신 집 문제 중 하나에 대해 말씀해 주시겠어요? 어떤 문제였고, 어떻게 해결하셨나요?"
+    },
+    {
+        "id": 9,
+        "text": "You said you live in an apartment. Can you describe your home in detail? What does it look like, and how is it organized?",
+        "hint": "apartment(아파트), living room(거실), bedroom(침실), kitchen(부엌), bathroom(욕실), balcony(발코니), furniture(가구), closet(옷장), cozy(아늑한), organized(정리된)",
+        "translation": "당신은 아파트에 산다고 했습니다. 집을 자세히 묘사해 줄 수 있나요? 어떤 모습이고 어떻게 정리되어 있나요?"
+    },
+    {
+        "id": 10,
+        "text": "How many rooms are there in your home? What do you usually do in each room?",
+        "hint": "two bedrooms(침실 두 개), living room(거실), kitchen(부엌), bathroom(욕실), study room(공부방), sleep in bedroom(침실에서 자다), watch TV(TV를 보다), cook in kitchen(부엌에서 요리하다), take a shower(샤워하다), relax(쉬다)",
+        "translation": "집에는 방이 몇 개 있나요? 각 방에서 보통 무엇을 하나요?"
+    },
+    {
+        "id": 11,
+        "text": "What can you see from your home window? Do you like the view? Why or why not?",
+        "hint": "city view(도시 전망), mountain view(산 전망), apartment buildings(아파트 건물들), trees outside(밖의 나무들), sunlight(햇빛), quiet street(조용한 거리), nice view(좋은 전망), open window(창문을 열다), fresh air(상쾌한 공기), peaceful feeling(평화로운 느낌)",
+        "translation": "집 창문 밖으로 무엇을 볼 수 있나요? 그 전망을 좋아하나요? 왜 그런가요, 또는 왜 그렇지 않나요?"
+    },
+    {
+        "id": 12,
+        "text": "Tell me about your responsibilities at home. What do you usually do to keep your home clean and comfortable?",
+        "hint": "clean the room(방을 청소하다), wash dishes(설거지하다), take out trash(쓰레기를 버리다), do laundry(빨래하다), vacuum the floor(바닥을 청소기로 밀다), wipe the table(식탁을 닦다), organize things(물건을 정리하다), make the bed(침대를 정리하다), keep tidy(깔끔하게 유지하다), comfortable home(편안한 집)",
+        "translation": "집에서 맡은 책임에 대해 말해 주세요. 집을 깨끗하고 편안하게 유지하기 위해 보통 무엇을 하나요?"
+    },
+    {
+        "id": 13,
+        "text": "Do other family members have roles at home? How are the responsibilities shared?",
+        "hint": "family roles(가족 역할), share chores(집안일을 나누다), mother cooks(엄마가 요리하다), father fixes things(아빠가 물건을 고치다), sibling cleans(형제가 청소하다), help each other(서로 돕다), take turns(번갈아 하다), household chores(집안일), teamwork(팀워크), fair division(공평한 분담)",
+        "translation": "다른 가족 구성원들도 집에서 역할이 있나요? 책임은 어떻게 나누나요?"
+    },
+    {
+        "id": 14,
+        "text": "What do you usually do when you are at home? How are your weekday and weekend routines different?",
+        "hint": "watch TV(TV를 보다), rest on the sofa(소파에서 쉬다), study in my room(방에서 공부하다), cook dinner(저녁을 요리하다), clean my room(방을 청소하다), listen to music(음악을 듣다), spend time with family(가족과 시간을 보내다), weekday routine(평일 루틴), weekend rest(주말 휴식), relax at home(집에서 쉬다)",
+        "translation": "집에 있을 때 보통 무엇을 하나요? 평일과 주말 루틴은 어떻게 다른가요?"
+    },
+    {
+        "id": 15,
+        "text": "Tell me about the house you lived in when you were young. How was it different from the place you live in now?",
+        "hint": "childhood home(어린 시절 집), old apartment(오래된 아파트), small room(작은 방), shared room(같이 쓰는 방), current home(현재 집), more convenient(더 편리한), bigger space(더 넓은 공간), good memories(좋은 추억), quiet place(조용한 곳), different layout(다른 구조)",
+        "translation": "어렸을 때 살았던 집에 대해 말해 주세요. 지금 사는 곳과 어떻게 달랐나요?"
+    },
+    {
+        "id": 16,
+        "text": "Which place do you prefer, your past home or your current home? Why do you feel that way?",
+        "hint": "past home(예전 집), current home(현재 집), prefer now(지금을 선호하다), childhood memories(어린 시절 추억), more comfortable(더 편안한), better location(더 좋은 위치), larger room(더 큰 방), convenient facilities(편리한 시설), quiet environment(조용한 환경), personal space(개인 공간)",
+        "translation": "예전 집과 현재 집 중 어느 곳을 더 선호하나요? 왜 그렇게 느끼나요?"
+    },
+    {
+        "id": 17,
+        "text": "Have you ever had a problem at home? What was the problem, and how did you deal with it?",
+        "hint": "broken light(고장난 전등), water leak(누수), noisy neighbor(시끄러운 이웃), dirty room(더러운 방), repair service(수리 서비스), called the manager(관리자에게 전화했다), fixed it(고쳤다), cleaned up(청소했다), felt stressed(스트레스 받았다), solved the problem(문제를 해결했다)",
+        "translation": "집에서 문제가 생긴 적이 있나요? 어떤 문제였고 어떻게 해결했나요?"
+    },
+    {
+        "id": 18,
+        "text": "Can you describe a situation when something in your home was broken or uncomfortable? What did you do to fix it?",
+        "hint": "broken heater(고장난 난방기), leaking sink(물이 새는 싱크대), uncomfortable chair(불편한 의자), noisy door(시끄러운 문), repairman(수리기사), replaced it(교체했다), called service center(서비스센터에 전화했다), bought new one(새것을 샀다), temporary solution(임시 해결책), felt relieved(안도했다)",
+        "translation": "집에서 무언가가 고장났거나 불편했던 상황을 묘사해 줄 수 있나요? 그것을 고치기 위해 무엇을 했나요?"
+    },
+    {
+        "id": 19,
+        "text": "Tell me about a change you made to your home. What did you change, and why did you decide to do it?",
+        "hint": "new furniture(새 가구), changed layout(배치를 바꿨다), painted wall(벽을 칠했다), cleaned closet(옷장을 정리했다), bought plants(식물을 샀다), made more space(공간을 더 만들었다), better mood(더 좋은 기분), cozy atmosphere(아늑한 분위기), wanted change(변화를 원했다), home improvement(집 개선)",
+        "translation": "집에 했던 변화에 대해 말해 주세요. 무엇을 바꿨고 왜 그렇게 하기로 했나요?"
+    },
+    {
+        "id": 20,
+        "text": "How did your home look after the change? Were you satisfied with the result? Why?",
+        "hint": "cleaner room(더 깨끗한 방), fresh look(새로운 모습), more organized(더 정리된), bigger space(더 넓은 공간), brighter room(더 밝은 방), satisfied(만족한), comfortable feeling(편안한 느낌), better atmosphere(더 좋은 분위기), worth it(그럴 가치가 있는), proud of it(자랑스러운)",
+        "translation": "변화 후 집은 어떤 모습이었나요? 결과에 만족했나요? 왜 그런가요?"
+    }
+]

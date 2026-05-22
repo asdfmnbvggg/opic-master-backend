@@ -1,0 +1,1186 @@
+﻿[
+    {
+        "id":  1,
+        "text":  "Tell me about your favorite piece of furniture in your house. What furniture do you have? What does it look like, and what do you like about the furniture? Describe it in detail.",
+        "hint":  "cozy(아늑한), practical(실용적인), match the room(방과 어울리다), take up space(공간을 차지하다), easy to clean(청소하기 쉬운), comfortable to use(사용하기 편한), worth the price(가격만큼 가치 있는), get scratched(긁히다), assemble it(조립하다), fix it myself(직접 고치다), ask for a refund(환불을 요청하다), replace it(교체하다)",
+        "topicId":  1,
+        "topicTitle":  "Furniture",
+        "translation":  "당신의 집에서 당신이 가장 좋아하는 가구에 대해 말해주세요. 어떤 가구를 가지고 계신가요? 그 가구는 어떻게 생겼고, 어떤 점이 마음에 드시나요? 자세히 설명해 주세요."
+    },
+    {
+        "id":  2,
+        "text":  "Can you tell me about a piece of furniture you bought recently for some reasons? What was it? Why did you buy it? Where did you buy it?",
+        "hint":  "cozy(아늑한), practical(실용적인), match the room(방과 어울리다), take up space(공간을 차지하다), easy to clean(청소하기 쉬운), comfortable to use(사용하기 편한), worth the price(가격만큼 가치 있는), get scratched(긁히다), assemble it(조립하다), fix it myself(직접 고치다), ask for a refund(환불을 요청하다), replace it(교체하다)",
+        "topicId":  1,
+        "topicTitle":  "Furniture",
+        "translation":  "어떤 이유로 최근에 산 가구에 대해 말해 줄 수 있나요? 무엇인가요? 그걸 왜 사셨나요? 그것을 어디서 사셨나요?"
+    },
+    {
+        "id":  3,
+        "text":  "Have you ever had any problems with your furniture? Was it broken, or did it get stained or ripped? What happened? How did you solve this problem? Tell me everything from beginning to end.",
+        "hint":  "cozy(아늑한), practical(실용적인), match the room(방과 어울리다), take up space(공간을 차지하다), easy to clean(청소하기 쉬운), comfortable to use(사용하기 편한), worth the price(가격만큼 가치 있는), get scratched(긁히다), assemble it(조립하다), fix it myself(직접 고치다), ask for a refund(환불을 요청하다), replace it(교체하다)",
+        "topicId":  1,
+        "topicTitle":  "Furniture",
+        "translation":  "가구에 문제가 있었던 적이 있나요? 깨진 건가요, 아니면 얼룩이 지거나 찢어진 건가요? 무슨 일이 있었나요? 당신은 이 문제를 어떻게 해결했나요? 처음부터 끝까지 모두 말해 주세요."
+    },
+    {
+        "id":  4,
+        "text":  "Describe one of your family members or friends. What is he or she like? How often do you meet him or her?",
+        "hint":  "get along well(사이가 좋다), hang out together(함께 시간을 보내다), keep in touch(연락하고 지내다), share daily stories(일상 이야기를 나누다), rely on each other(서로 의지하다), have a lot in common(공통점이 많다), be completely different(완전히 다르다), visit someone\u0027s house(누군가의 집을 방문하다), childhood memory(어린 시절 기억), spend quality time(뜻깊은 시간을 보내다), have a casual conversation(가벼운 대화를 하다), feel close to(가깝게 느끼다)",
+        "topicId":  2,
+        "topicTitle":  "Family, Friends",
+        "translation":  "당신의 가족이나 친구 중 한 명을 묘사해주세요. 그 또는 그녀는 어떤 사람인가요? 당신은 얼마나 자주 그 또는 그녀를 만나나요?"
+    },
+    {
+        "id":  5,
+        "text":  "Talk about any special visit to someone\u0027s house when in your childhood. Who did you visit? Did you visit your family or friends? Who were you with? What thing do you remember about that day? What made it so special?",
+        "hint":  "get along well(사이가 좋다), hang out together(함께 시간을 보내다), keep in touch(연락하고 지내다), share daily stories(일상 이야기를 나누다), rely on each other(서로 의지하다), have a lot in common(공통점이 많다), be completely different(완전히 다르다), visit someone\u0027s house(누군가의 집을 방문하다), childhood memory(어린 시절 기억), spend quality time(뜻깊은 시간을 보내다), have a casual conversation(가벼운 대화를 하다), feel close to(가깝게 느끼다)",
+        "topicId":  2,
+        "topicTitle":  "Family, Friends",
+        "translation":  "어렸을 때 누군가의 집에 특별히 방문했던 것에 대해 이야기해주세요. 누구를 방문했나요? 당신은 당신의 가족이나 친구들을 방문했나요? 누구와 함께 있었나요? 당신은 그날에 대해 어떤 것을 기억하나요? 무엇이 그것을 그렇게 특별하게 만들었나요?"
+    },
+    {
+        "id":  6,
+        "text":  "Talk about the last time you did something with your family or friends. What kinds of activities did you do with them? Tell me what you did recently.",
+        "hint":  "get along well(사이가 좋다), hang out together(함께 시간을 보내다), keep in touch(연락하고 지내다), share daily stories(일상 이야기를 나누다), rely on each other(서로 의지하다), have a lot in common(공통점이 많다), be completely different(완전히 다르다), visit someone\u0027s house(누군가의 집을 방문하다), childhood memory(어린 시절 기억), spend quality time(뜻깊은 시간을 보내다), have a casual conversation(가벼운 대화를 하다), feel close to(가깝게 느끼다)",
+        "topicId":  2,
+        "topicTitle":  "Family, Friends",
+        "translation":  "가족이나 친구들과 마지막으로 한 일에 대해 이야기해주세요. 당신은 그들과 어떤 종류의 활동을 했나요? 최근에 무슨 일을 했는지 말해주세요."
+    },
+    {
+        "id":  7,
+        "text":  "Tell me about a healthy person you know. Who is it? What does he or she look like? What do they typically do to stay healthy? What makes that person healthy? Why do you think that person is healthy?",
+        "hint":  "stay in shape(몸매와 건강을 유지하다), eat balanced meals(균형 잡힌 식사를 하다), work out regularly(규칙적으로 운동하다), get enough sleep(충분히 자다), cut down on junk food(정크푸드를 줄이다), go for a walk(산책하러 가다), manage stress(스트레스를 관리하다), feel more energetic(더 활기차게 느끼다), recover from illness(병에서 회복하다), build healthy habits(건강한 습관을 만들다), join a fitness program(운동 프로그램에 참여하다), check my condition(몸 상태를 확인하다)",
+        "topicId":  3,
+        "topicTitle":  "Health, Healthy person",
+        "translation":  "당신이 아는 건강한 사람에 대해 말해주세요. 누구인가요? 그 또는 그녀는 어떻게 생겼나요? 그들은 건강을 유지하기 위해 보통 무엇을 하나요? 무엇이 그 사람을 건강하게 만드나요? 당신은 왜 그 사람이 건강하다고 생각하나요?"
+    },
+    {
+        "id":  8,
+        "text":  "What kinds of things do you usually do to stay healthy? What healthy food do you eat? Do you regularly work out? Please tell me what activities you do to stay healthy in detail.",
+        "hint":  "stay in shape(몸매와 건강을 유지하다), eat balanced meals(균형 잡힌 식사를 하다), work out regularly(규칙적으로 운동하다), get enough sleep(충분히 자다), cut down on junk food(정크푸드를 줄이다), go for a walk(산책하러 가다), manage stress(스트레스를 관리하다), feel more energetic(더 활기차게 느끼다), recover from illness(병에서 회복하다), build healthy habits(건강한 습관을 만들다), join a fitness program(운동 프로그램에 참여하다), check my condition(몸 상태를 확인하다)",
+        "topicId":  3,
+        "topicTitle":  "Health, Healthy person",
+        "translation":  "건강을 유지하기 위해 주로 어떤 것을 하나요? 건강식품을 드시나요? 규칙적으로 운동하시나요? 건강을 유지하기 위해 어떤 활동을 하는지 자세히 알려주세요."
+    },
+    {
+        "id":  9,
+        "text":  "What do people in your country usually do to stay healthy? What food do people eat to become healthy? What exercises do people do? Tell me about how people stay healthy.",
+        "hint":  "stay in shape(몸매와 건강을 유지하다), eat balanced meals(균형 잡힌 식사를 하다), work out regularly(규칙적으로 운동하다), get enough sleep(충분히 자다), cut down on junk food(정크푸드를 줄이다), go for a walk(산책하러 가다), manage stress(스트레스를 관리하다), feel more energetic(더 활기차게 느끼다), recover from illness(병에서 회복하다), build healthy habits(건강한 습관을 만들다), join a fitness program(운동 프로그램에 참여하다), check my condition(몸 상태를 확인하다)",
+        "topicId":  3,
+        "topicTitle":  "Health, Healthy person",
+        "translation":  "당신의 나라 사람들은 건강을 유지하기 위해 보통 무엇을 하나요? 사람들은 건강해지기 위해 어떤 음식을 먹나요? 사람들은 어떤 운동을 하나요? 사람들이 어떻게 건강을 유지하는지 말해주세요."
+    },
+    {
+        "id":  10,
+        "text":  "Tell me about one thing that you try to be healthy. Were your health improve? Did you join a new exercise program, play a sport, or eat new healthy food? Give as many details as you can.",
+        "hint":  "stay in shape(몸매와 건강을 유지하다), eat balanced meals(균형 잡힌 식사를 하다), work out regularly(규칙적으로 운동하다), get enough sleep(충분히 자다), cut down on junk food(정크푸드를 줄이다), go for a walk(산책하러 가다), manage stress(스트레스를 관리하다), feel more energetic(더 활기차게 느끼다), recover from illness(병에서 회복하다), build healthy habits(건강한 습관을 만들다), join a fitness program(운동 프로그램에 참여하다), check my condition(몸 상태를 확인하다)",
+        "topicId":  3,
+        "topicTitle":  "Health, Healthy person",
+        "translation":  "당신이 건강해지기 위해 노력하는 한 가지에 대해 말해주세요. 건강은 좀 나아졌나요? 당신은 새로운 운동 프로그램에 가입했거나, 스포츠를 하거나, 새로운 건강 음식을 먹었나요? 할 수 있는 한 많은 세부 사항을 말해주세요."
+    },
+    {
+        "id":  11,
+        "text":  "Have you had some health problems? Did you have to stop or give up something for health reasons? What was the problem? Did you return to good health? Tell me about it in detail.",
+        "hint":  "stay in shape(몸매와 건강을 유지하다), eat balanced meals(균형 잡힌 식사를 하다), work out regularly(규칙적으로 운동하다), get enough sleep(충분히 자다), cut down on junk food(정크푸드를 줄이다), go for a walk(산책하러 가다), manage stress(스트레스를 관리하다), feel more energetic(더 활기차게 느끼다), recover from illness(병에서 회복하다), build healthy habits(건강한 습관을 만들다), join a fitness program(운동 프로그램에 참여하다), check my condition(몸 상태를 확인하다)",
+        "topicId":  3,
+        "topicTitle":  "Health, Healthy person",
+        "translation":  "건강상의 문제가 있었나요? 건강상의 이유로 무언가를 중단하거나 포기해야 했나요? 무엇이 문제였나요? 건강은 회복되셨나요? 자세히 말해 주세요."
+    },
+    {
+        "id":  12,
+        "text":  "I would like to know about public transportations in your country. What kind of transportation do people use to get around? Do you use public transportation, or do you drive? Which one do you prefer to take and why?",
+        "hint":  "get around(이동하다), take public transportation(대중교통을 이용하다), transfer lines(환승하다), rush hour(출퇴근 시간), traffic jam(교통 체증), miss the bus(버스를 놓치다), be delayed(지연되다), save time(시간을 절약하다), convenient route(편리한 경로), crowded subway(붐비는 지하철), pay the fare(요금을 내다), use a transit card(교통카드를 쓰다)",
+        "topicId":  4,
+        "topicTitle":  "Transportation",
+        "translation":  "당신의 나라의 대중교통에 대해 알고 싶습니다. 사람들이 돌아다닐 때 어떤 교통수단을 이용하나요? 당신은 대중교통을 이용하나요, 아니면 운전을 하나요? 당신은 어떤 것을 더 선호하고 그 이유는 무엇인가요?"
+    },
+    {
+        "id":  13,
+        "text":  "Transportation systems have been improved. Have there been any changes to transportation in your country since you were young? What are the changes between the past and the present?",
+        "hint":  "get around(이동하다), take public transportation(대중교통을 이용하다), transfer lines(환승하다), rush hour(출퇴근 시간), traffic jam(교통 체증), miss the bus(버스를 놓치다), be delayed(지연되다), save time(시간을 절약하다), convenient route(편리한 경로), crowded subway(붐비는 지하철), pay the fare(요금을 내다), use a transit card(교통카드를 쓰다)",
+        "topicId":  4,
+        "topicTitle":  "Transportation",
+        "translation":  "교통 시스템은 발전해왔습니다. 어렸을 때부터 당신의 나라의 교통수단에 변화가 있었나요? 과거와 현재의 변화는 무엇인가요?"
+    },
+    {
+        "id":  14,
+        "text":  "Please describe a memorable experience you had while taking public transportation. When and where did it happen? How did you deal with it? Please tell me about your experience in detail.",
+        "hint":  "get around(이동하다), take public transportation(대중교통을 이용하다), transfer lines(환승하다), rush hour(출퇴근 시간), traffic jam(교통 체증), miss the bus(버스를 놓치다), be delayed(지연되다), save time(시간을 절약하다), convenient route(편리한 경로), crowded subway(붐비는 지하철), pay the fare(요금을 내다), use a transit card(교통카드를 쓰다)",
+        "topicId":  4,
+        "topicTitle":  "Transportation",
+        "translation":  "대중교통을 이용하면서 기억에 남는 경험을 묘사해 주세요. 언제 어디서 그런 일이 일어났나요? 어떻게 대처하셨나요? 당신의 경험에 대해 자세히 말해 주세요."
+    },
+    {
+        "id":  15,
+        "text":  "Sometimes riding the subway or bus can be uncomfortable. Have you ever had any problems related to transportation? Were there traffic jams, or did something uncomfortable happen? What was the problem, and How did you deal with the situation?",
+        "hint":  "get around(이동하다), take public transportation(대중교통을 이용하다), transfer lines(환승하다), rush hour(출퇴근 시간), traffic jam(교통 체증), miss the bus(버스를 놓치다), be delayed(지연되다), save time(시간을 절약하다), convenient route(편리한 경로), crowded subway(붐비는 지하철), pay the fare(요금을 내다), use a transit card(교통카드를 쓰다)",
+        "topicId":  4,
+        "topicTitle":  "Transportation",
+        "translation":  "때때로 지하철이나 버스를 타는 것은 불편할 수 있습니다. 당신은 교통수단과 관련된 문제를 겪은 적이 있나요? 교통 체증이 있었나요, 아니면 불편한 일이 있었나요? 무엇이 문제였고, 당신은 그 상황에 어떻게 대처했나요?"
+    },
+    {
+        "id":  16,
+        "text":  "When was the last time you took a different type of transportation than usual? What happened? Where were you going? Tell me about the memorable experience in detail.",
+        "hint":  "get around(이동하다), take public transportation(대중교통을 이용하다), transfer lines(환승하다), rush hour(출퇴근 시간), traffic jam(교통 체증), miss the bus(버스를 놓치다), be delayed(지연되다), save time(시간을 절약하다), convenient route(편리한 경로), crowded subway(붐비는 지하철), pay the fare(요금을 내다), use a transit card(교통카드를 쓰다)",
+        "topicId":  4,
+        "topicTitle":  "Transportation",
+        "translation":  "마지막으로 평소와 다른 종류의 교통수단을 이용하신 게 언제인가요? 무슨 일이 있었나요? 어디 가는 길이었나요? 기억에 남는 경험에 대해 자세히 말해주세요."
+    },
+    {
+        "id":  17,
+        "text":  "I\u0027d like to know about the popular technologies in your country these days. What kinds of technology do people use the most often? What are some commonly used technology there? Explain it in detail.",
+        "hint":  "use it every day(매일 사용하다), make life easier(생활을 더 편하게 만들다), save time(시간을 절약하다), stay connected(연결되어 지내다), download an app(앱을 다운로드하다), update the software(소프트웨어를 업데이트하다), run out of battery(배터리가 다 되다), stop working(작동이 멈추다), fix the problem(문제를 해결하다), protect personal information(개인정보를 보호하다), be easy to use(사용하기 쉽다), depend on technology(기술에 의존하다)",
+        "topicId":  5,
+        "topicTitle":  "Technology",
+        "translation":  "요즘 당신의 나라에서 유행하는 기술에 대해 알고 싶습니다. 사람들은 어떤 종류의 기술을 가장 자주 사용하나요? 그곳에서 일반적으로 사용되는 기술은 무엇인가요? 자세히 설명해 주세요."
+    },
+    {
+        "id":  18,
+        "text":  "Can you explain all the technologies such as a cell phone or computer that you enjoy using most these days? What is it? Why do you use this?",
+        "hint":  "use it every day(매일 사용하다), make life easier(생활을 더 편하게 만들다), save time(시간을 절약하다), stay connected(연결되어 지내다), download an app(앱을 다운로드하다), update the software(소프트웨어를 업데이트하다), run out of battery(배터리가 다 되다), stop working(작동이 멈추다), fix the problem(문제를 해결하다), protect personal information(개인정보를 보호하다), be easy to use(사용하기 쉽다), depend on technology(기술에 의존하다)",
+        "topicId":  5,
+        "topicTitle":  "Technology",
+        "translation":  "요즘 당신이 가장 즐겨 사용하는 휴대폰이나 컴퓨터 같은 모든 기술에 대해 설명해줄 수 있나요? 그것은 무엇인가요? 왜 그것을 사용하나요?"
+    },
+    {
+        "id":  19,
+        "text":  "Please compare the present technology with past technology. What are the differences between them, and how have they affected? How has technology changed over time?",
+        "hint":  "use it every day(매일 사용하다), make life easier(생활을 더 편하게 만들다), save time(시간을 절약하다), stay connected(연결되어 지내다), download an app(앱을 다운로드하다), update the software(소프트웨어를 업데이트하다), run out of battery(배터리가 다 되다), stop working(작동이 멈추다), fix the problem(문제를 해결하다), protect personal information(개인정보를 보호하다), be easy to use(사용하기 쉽다), depend on technology(기술에 의존하다)",
+        "topicId":  5,
+        "topicTitle":  "Technology",
+        "translation":  "현재의 기술과 과거의 기술을 비교해주세요. 그들 사이의 차이점은 무엇이며, 그들은 어떻게 영향을 미쳤나요? 시간이 지남에 따라 기술은 어떻게 변해왔나요?"
+    },
+    {
+        "id":  20,
+        "text":  "Problems often come up related to technologies. Tell me about an experience you had when you used technology. Was it not working properly, or was there anything trouble with them? What happened? And how did you solve the problem?",
+        "hint":  "use it every day(매일 사용하다), make life easier(생활을 더 편하게 만들다), save time(시간을 절약하다), stay connected(연결되어 지내다), download an app(앱을 다운로드하다), update the software(소프트웨어를 업데이트하다), run out of battery(배터리가 다 되다), stop working(작동이 멈추다), fix the problem(문제를 해결하다), protect personal information(개인정보를 보호하다), be easy to use(사용하기 쉽다), depend on technology(기술에 의존하다)",
+        "topicId":  5,
+        "topicTitle":  "Technology",
+        "translation":  "기술과 관련된 문제가 종종 발생합니다. 당신이 기술을 사용했을 때 겪은 경험에 대해 말해주세요. 제대로 작동하지 않았나요, 아니면 무슨 문제가 있었나요? 무슨 일이었나요? 그리고 그 문제를 어떻게 해결했나요?"
+    },
+    {
+        "id":  21,
+        "text":  "What kind of technology did you mostly use recently? It could be a mobile phone or a laptop computer. What did you do using it? Tell me about your experience in detail.",
+        "hint":  "use it every day(매일 사용하다), make life easier(생활을 더 편하게 만들다), save time(시간을 절약하다), stay connected(연결되어 지내다), download an app(앱을 다운로드하다), update the software(소프트웨어를 업데이트하다), run out of battery(배터리가 다 되다), stop working(작동이 멈추다), fix the problem(문제를 해결하다), protect personal information(개인정보를 보호하다), be easy to use(사용하기 쉽다), depend on technology(기술에 의존하다)",
+        "topicId":  5,
+        "topicTitle":  "Technology",
+        "translation":  "최근에 주로 어떤 기술을 사용하셨나요? 그것은 휴대폰일 수도 있고 노트북일 수도 있습니다. 어떻게 그것을 사용하셨나요? 당신의 경험에 대해 자세히 말해주세요."
+    },
+    {
+        "id":  22,
+        "text":  "Please tell me about the seasons in your country. How\u0027s the weather in each season? Are there any distinct changes? Which season do you like?",
+        "hint":  "clear sky(맑은 하늘), humid weather(습한 날씨), freezing cold(몹시 추운), hot and sticky(덥고 끈적한), check the forecast(일기예보를 확인하다), change my plans(계획을 바꾸다), feel refreshed(상쾌하게 느끼다), affect my mood(기분에 영향을 주다), heavy rain(폭우), strong wind(강한 바람), climate change(기후 변화), cause damage(피해를 일으키다)",
+        "topicId":  6,
+        "topicTitle":  "Weather, Season",
+        "translation":  "당신의 나라의 계절에 대해 말해주세요. 계절마다 날씨가 어떤가요? 뚜렷한 차이가 있나요? 당신은 무슨 계절을 좋아하시나요?"
+    },
+    {
+        "id":  23,
+        "text":  "How\u0027s the weather today where you are now? Is it cold or hot? Tell me about today\u0027s weather in detail.",
+        "hint":  "clear sky(맑은 하늘), humid weather(습한 날씨), freezing cold(몹시 추운), hot and sticky(덥고 끈적한), check the forecast(일기예보를 확인하다), change my plans(계획을 바꾸다), feel refreshed(상쾌하게 느끼다), affect my mood(기분에 영향을 주다), heavy rain(폭우), strong wind(강한 바람), climate change(기후 변화), cause damage(피해를 일으키다)",
+        "topicId":  6,
+        "topicTitle":  "Weather, Season",
+        "translation":  "당신이 지금 있는 곳은 오늘 날씨가 어떤가요? 춥거나 덥나요? 오늘 날씨에 대해 자세히 말해 주세요."
+    },
+    {
+        "id":  24,
+        "text":  "How has the weather in your country changed over time? What was the weather like when you were a child, and How was it different from now?",
+        "hint":  "clear sky(맑은 하늘), humid weather(습한 날씨), freezing cold(몹시 추운), hot and sticky(덥고 끈적한), check the forecast(일기예보를 확인하다), change my plans(계획을 바꾸다), feel refreshed(상쾌하게 느끼다), affect my mood(기분에 영향을 주다), heavy rain(폭우), strong wind(강한 바람), climate change(기후 변화), cause damage(피해를 일으키다)",
+        "topicId":  6,
+        "topicTitle":  "Weather, Season",
+        "translation":  "당신의 나라의 날씨는 시간이 지남에 따라 어떻게 변했나요? 당신이 어렸을 때 날씨는 어땠고, 지금과 어떻게 달랐나요?"
+    },
+    {
+        "id":  25,
+        "text":  "How has the weather in your country changed since you were young? What has changed the climate? How has it affected people\u0027s lives?",
+        "hint":  "clear sky(맑은 하늘), humid weather(습한 날씨), freezing cold(몹시 추운), hot and sticky(덥고 끈적한), check the forecast(일기예보를 확인하다), change my plans(계획을 바꾸다), feel refreshed(상쾌하게 느끼다), affect my mood(기분에 영향을 주다), heavy rain(폭우), strong wind(강한 바람), climate change(기후 변화), cause damage(피해를 일으키다)",
+        "topicId":  6,
+        "topicTitle":  "Weather, Season",
+        "translation":  "당신이 어렸을 때부터 당신의 나라의 날씨는 어떻게 변했나요? 무엇이 기후를 변화시켰나요? 그것이 사람들의 삶에 어떤 영향을 미쳤나요?"
+    },
+    {
+        "id":  26,
+        "text":  "Tell me about some issues you\u0027ve heard about or experienced related to unusual weather conditions. It may have been flooded which caused many to lose homes, or schools closed due to severe weather. What happened? When did it occur? Please describe the event in detail.",
+        "hint":  "clear sky(맑은 하늘), humid weather(습한 날씨), freezing cold(몹시 추운), hot and sticky(덥고 끈적한), check the forecast(일기예보를 확인하다), change my plans(계획을 바꾸다), feel refreshed(상쾌하게 느끼다), affect my mood(기분에 영향을 주다), heavy rain(폭우), strong wind(강한 바람), climate change(기후 변화), cause damage(피해를 일으키다)",
+        "topicId":  6,
+        "topicTitle":  "Weather, Season",
+        "translation":  "이상 기후 현상과 관련하여 듣거나 경험한 몇 가지 문제에 대해 말해주세요. 홍수로 인해 많은 사람들이 집을 잃거나, 혹독한 날씨로 인해 학교가 문을 닫았을 수도 있습니다. 무슨 일이 있었나요? 언제 일어난 일인가요? 그 사건에 대해 자세히 설명해 주세요."
+    },
+    {
+        "id":  27,
+        "text":  "Let\u0027s talk about holidays in your country. What kinds of holidays are there? What holidays are popular? How do people typically celebrate the holidays? Please tell me a detailed description of holidays in your country.",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  7,
+        "topicTitle":  "Holiday",
+        "translation":  "당신의 나라의 휴일에 대해 이야기해 봅시다. 어떤 종류의 휴일이 있나요? 어떤 공휴일이 인기가 있나요? 사람들은 보통 휴일을 어떻게 기념하나요? 당신 나라의 휴일에 대해 자세히 설명해 주세요."
+    },
+    {
+        "id":  28,
+        "text":  "What is the biggest holiday in your country? How do people celebrate it? What kinds of activities do people usually do during that holiday? Please tell me about all the details.",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  7,
+        "topicTitle":  "Holiday",
+        "translation":  "당신의 나라에서 가장 큰 휴일은 무엇인가요? 사람들은 그 휴일을 어떻게 기념하나요? 사람들은 보통 그 휴일 동안 어떤 종류의 활동을 하나요? 모든 세부 사항에 대해 말해주세요."
+    },
+    {
+        "id":  29,
+        "text":  "Tell me about a memorable or unforgettable holiday memory you had in your childhood. Where were you on that day? Who did you spend that holiday with? What did you do? Explain all the experiences in detail.",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  7,
+        "topicTitle":  "Holiday",
+        "translation":  "어렸을 때 기억하거나 잊을 수 없는 휴일의 경험에 대해 말해주세요. 그날 당신은 어디에 있었나요? 그 휴일을 누구랑 보냈나요? 무엇을 하셨나요? 모든 경험을 자세히 설명해주세요."
+    },
+    {
+        "id":  30,
+        "text":  "Talk about the last holiday you had. What holiday was it? How did you spend the holiday? Who were you with? Why was that holiday so memorable?",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  7,
+        "topicTitle":  "Holiday",
+        "translation":  "당신이 마지막으로 보낸 휴일에 대해 이야기 해주세요. 무슨 휴일이었나요? 당신은 그 휴일을 어떻게 보냈나요? 누구와 함께 있었나요? 왜 그 휴일이 그렇게 기억에 남나요?"
+    },
+    {
+        "id":  31,
+        "text":  "Tell me about gatherings or celebrations in your country. How do people have them? is it at someone\u0027s home or a park or somewhere else? What do they do when they get together?",
+        "hint":  "get together(모이다), host a party(파티를 열다), invite guests(손님을 초대하다), prepare food and drinks(음식과 음료를 준비하다), decorate the place(장소를 꾸미다), catch up with people(근황을 나누다), make a toast(건배하다), unexpected incident(예상치 못한 사건), too much noise(너무 큰 소음), traffic problem(교통 문제), share responsibilities(역할을 나누다), make good memories(좋은 추억을 만들다)",
+        "topicId":  8,
+        "topicTitle":  "Gathering",
+        "translation":  "당신의 나라에서 열리는 모임이나 기념일에 대해 말해주세요. 사람들은 어떻게 기념일이나 모임을 가지나요? 누군가의 집이나 공원이나 다른 곳에 모이나요? 그들은 모이면 무엇을 하나요?"
+    },
+    {
+        "id":  32,
+        "text":  "Tell me about a memorable experience during the gathering or the celebrations held in the area where you live. Where was it held, and what was the purpose of it? What happened that day? What made it unforgettable?",
+        "hint":  "get together(모이다), host a party(파티를 열다), invite guests(손님을 초대하다), prepare food and drinks(음식과 음료를 준비하다), decorate the place(장소를 꾸미다), catch up with people(근황을 나누다), make a toast(건배하다), unexpected incident(예상치 못한 사건), too much noise(너무 큰 소음), traffic problem(교통 문제), share responsibilities(역할을 나누다), make good memories(좋은 추억을 만들다)",
+        "topicId":  8,
+        "topicTitle":  "Gathering",
+        "translation":  "당신이 살고 있는 지역에서 열린 모임이나 기념행사에서 기억에 남는 경험을 말해주세요. 그것은 어디에서 열렸고, 그것의 목적은 무엇이었나요? 그날 무슨 일이 있었나요? 무엇이 그것을 잊을 수 없게 만들었나요?"
+    },
+    {
+        "id":  33,
+        "text":  "Have you helped prepare for a party or a celebration? Maybe you helped invite people, decorate a room, or get the food or drinks. Please tell me what you did for the party or the celebration in detail.",
+        "hint":  "get together(모이다), host a party(파티를 열다), invite guests(손님을 초대하다), prepare food and drinks(음식과 음료를 준비하다), decorate the place(장소를 꾸미다), catch up with people(근황을 나누다), make a toast(건배하다), unexpected incident(예상치 못한 사건), too much noise(너무 큰 소음), traffic problem(교통 문제), share responsibilities(역할을 나누다), make good memories(좋은 추억을 만들다)",
+        "topicId":  8,
+        "topicTitle":  "Gathering",
+        "translation":  "당신은 파티나 축하 행사를 준비하는 것을 도운 적이 있나요? 아마도 당신은 사람들을 초대하거나, 방을 꾸미거나, 음식이나 음료를 준비하는 것을 도왔을 수 있습니다. 파티나 축하 행사를 위해 무엇을 했는지 자세히 알려주세요."
+    },
+    {
+        "id":  34,
+        "text":  "When people get together for gatherings or celebrations, unusual incidents or unexpected things can happen. Tell me about something interesting or unexpected experience at a gathering or celebration you attended. What happened, and what made it unforgettable?",
+        "hint":  "get together(모이다), host a party(파티를 열다), invite guests(손님을 초대하다), prepare food and drinks(음식과 음료를 준비하다), decorate the place(장소를 꾸미다), catch up with people(근황을 나누다), make a toast(건배하다), unexpected incident(예상치 못한 사건), too much noise(너무 큰 소음), traffic problem(교통 문제), share responsibilities(역할을 나누다), make good memories(좋은 추억을 만들다)",
+        "topicId":  8,
+        "topicTitle":  "Gathering",
+        "translation":  "사람들이 모임이나 축하 행사를 위해 모일 때, 특이한 사건이나 예상치 못한 일들이 일어날 수 있습니다. 당신이 참석했던 모임이나 축하 행사에서 겪은 흥미롭고 예상치 못한 경험에 대해 말해주세요. 무슨 일이 일어났고, 무엇이 그것을 잊을 수 없게 만들었나요?"
+    },
+    {
+        "id":  35,
+        "text":  "Tell me about a rising industry or company in your country. What are the main industries? Why is that industry rising and popular? Tell me what is special about that company in detail.",
+        "hint":  "growing industry(성장하는 산업), promising company(유망한 회사), attract attention(관심을 끌다), release a new product(신제품을 출시하다), meet expectations(기대에 부응하다), disappoint customers(고객을 실망시키다), create jobs(일자리를 만들다), improve daily life(일상을 개선하다), become competitive(경쟁력을 갖추다), change quickly(빠르게 변하다), use the service(서비스를 이용하다), have a big impact(큰 영향을 주다)",
+        "topicId":  9,
+        "topicTitle":  "Industry",
+        "translation":  "당신의 나라에서 떠오르는 산업이나 회사에 대해 말해주세요. 주요 산업은 무엇인가요? 왜 그 산업은 성장하고 인기가 있나요? 그 회사의 특별한 점을 자세히 말해 주세요."
+    },
+    {
+        "id":  36,
+        "text":  "Please tell me about the most promising company in that industry you have just mentioned earlier. Why is that company becoming promising? Do people want to work there? What kinds of benefits does the company bring to your country? Use as many details as possible.",
+        "hint":  "growing industry(성장하는 산업), promising company(유망한 회사), attract attention(관심을 끌다), release a new product(신제품을 출시하다), meet expectations(기대에 부응하다), disappoint customers(고객을 실망시키다), create jobs(일자리를 만들다), improve daily life(일상을 개선하다), become competitive(경쟁력을 갖추다), change quickly(빠르게 변하다), use the service(서비스를 이용하다), have a big impact(큰 영향을 주다)",
+        "topicId":  9,
+        "topicTitle":  "Industry",
+        "translation":  "방금 말씀하신 그 업계에서 가장 유망한 회사를 알려주세요. 그 회사는 왜 유망해 졌나요? 사람들은 그곳에서 일하고 싶어 하나요? 그 회사는 당신의 나라에 어떤 종류의 이익을 가져다주나요? 가능한 한 많은 세부 정보를 알려주세요."
+    },
+    {
+        "id":  37,
+        "text":  "Tell me about recent changes in that company you just mentioned earlier. For instance, that company has released a new product or presented a new service. Please tell me about all the changes.",
+        "hint":  "growing industry(성장하는 산업), promising company(유망한 회사), attract attention(관심을 끌다), release a new product(신제품을 출시하다), meet expectations(기대에 부응하다), disappoint customers(고객을 실망시키다), create jobs(일자리를 만들다), improve daily life(일상을 개선하다), become competitive(경쟁력을 갖추다), change quickly(빠르게 변하다), use the service(서비스를 이용하다), have a big impact(큰 영향을 주다)",
+        "topicId":  9,
+        "topicTitle":  "Industry",
+        "translation":  "방금 말씀하신 그 회사의 최근 변화에 대해 말씀해 주세요. 예를 들어, 그 회사는 새로운 제품을 출시하거나 새로운 서비스를 제공합니다. 모든 변경 사항에 대해 말해주세요."
+    },
+    {
+        "id":  38,
+        "text":  "Have you used some products or services from the industry you mentioned earlier? What was it? What did you do, and how did you get them? Describe your experience in detail.",
+        "hint":  "growing industry(성장하는 산업), promising company(유망한 회사), attract attention(관심을 끌다), release a new product(신제품을 출시하다), meet expectations(기대에 부응하다), disappoint customers(고객을 실망시키다), create jobs(일자리를 만들다), improve daily life(일상을 개선하다), become competitive(경쟁력을 갖추다), change quickly(빠르게 변하다), use the service(서비스를 이용하다), have a big impact(큰 영향을 주다)",
+        "topicId":  9,
+        "topicTitle":  "Industry",
+        "translation":  "앞에서 말씀하신 업계의 제품이나 서비스를 사용해 보신 적이 있나요? 어떤 일이었나요? 당신은 무엇을 했고, 어떻게 그것들을 얻었나요? 당신의 경험을 자세히 묘사해 주세요."
+    },
+    {
+        "id":  39,
+        "text":  "Tell me about a typical restaurant in your country. What are they like? What kinds of food do they commonly offer? Please tell me as many details as possible.",
+        "hint":  "grab a meal(식사하다), make a reservation(예약하다), order a signature dish(대표 메뉴를 주문하다), share dishes(음식을 나눠 먹다), friendly service(친절한 서비스), reasonable price(합리적인 가격), cozy atmosphere(아늑한 분위기), wait in line(줄 서서 기다리다), get takeout(포장해 가다), order delivery(배달을 주문하다), try something new(새로운 것을 먹어보다), leave a review(리뷰를 남기다)",
+        "topicId":  10,
+        "topicTitle":  "Restaurants, Eat out",
+        "translation":  "당신의 나라의 전형적인 식당에 대해 말해주세요. 식당들은 어떤가요? 식당들은 보통 어떤 종류의 음식을 제공하나요? 가능한 한 많은 세부 사항을 알려주세요."
+    },
+    {
+        "id":  40,
+        "text":  "Tell me about your favorite restaurant near where you live. What does it look like? How often do you go there? What kinds of food do they serve?",
+        "hint":  "grab a meal(식사하다), make a reservation(예약하다), order a signature dish(대표 메뉴를 주문하다), share dishes(음식을 나눠 먹다), friendly service(친절한 서비스), reasonable price(합리적인 가격), cozy atmosphere(아늑한 분위기), wait in line(줄 서서 기다리다), get takeout(포장해 가다), order delivery(배달을 주문하다), try something new(새로운 것을 먹어보다), leave a review(리뷰를 남기다)",
+        "topicId":  10,
+        "topicTitle":  "Restaurants, Eat out",
+        "translation":  "당신이 사는 곳 근처에 당신이 가장 좋아하는 식당을 알려주세요. 어떻게 생겼나요? 얼마나 자주 거기에 가나요? 그들은 어떤 종류의 음식을 제공하나요?"
+    },
+    {
+        "id":  41,
+        "text":  "Can you tell me about your favorite take-out or delivery food restaurant? What does it look like? How often do you eat at that restaurant? What kinds of food do they offer? Describe it in detail.",
+        "hint":  "grab a meal(식사하다), make a reservation(예약하다), order a signature dish(대표 메뉴를 주문하다), share dishes(음식을 나눠 먹다), friendly service(친절한 서비스), reasonable price(합리적인 가격), cozy atmosphere(아늑한 분위기), wait in line(줄 서서 기다리다), get takeout(포장해 가다), order delivery(배달을 주문하다), try something new(새로운 것을 먹어보다), leave a review(리뷰를 남기다)",
+        "topicId":  10,
+        "topicTitle":  "Restaurants, Eat out",
+        "translation":  "당신이 가장 좋아하는 테이크아웃이나 배달음식점을 알려줄 수 있나요? 그곳은 어떻게 생겼나요? 당신은 얼마나 자주 그 식당에서 식사를 하나요? 그들은 어떤 종류의 음식을 제공하나요? 자세히 설명해 주세요."
+    },
+    {
+        "id":  42,
+        "text":  "Tell me about a restaurant you used to go to when you were young. What did it look like? What do you remember of that restaurant? What are the differences and the similarities? Explain how restaurants have changed over time.",
+        "hint":  "grab a meal(식사하다), make a reservation(예약하다), order a signature dish(대표 메뉴를 주문하다), share dishes(음식을 나눠 먹다), friendly service(친절한 서비스), reasonable price(합리적인 가격), cozy atmosphere(아늑한 분위기), wait in line(줄 서서 기다리다), get takeout(포장해 가다), order delivery(배달을 주문하다), try something new(새로운 것을 먹어보다), leave a review(리뷰를 남기다)",
+        "topicId":  10,
+        "topicTitle":  "Restaurants, Eat out",
+        "translation":  "어렸을 때 자주 가던 식당에 대해 말해주세요. 어떻게 생겼었나요? 당신은 그 식당에 대해 무엇을 기억하나요? 차이점과 유사점은 무엇인가요? 시간이 지남에 따라 식당이 어떻게 변했는지 설명해주세요."
+    },
+    {
+        "id":  43,
+        "text":  "Tell me about a memorable experience while you were at a restaurant, and something unusual or unexpected happened. What special dishes did you eat? Who were you with? Why was it so memorable? Tell me everything from beginning to end.",
+        "hint":  "grab a meal(식사하다), make a reservation(예약하다), order a signature dish(대표 메뉴를 주문하다), share dishes(음식을 나눠 먹다), friendly service(친절한 서비스), reasonable price(합리적인 가격), cozy atmosphere(아늑한 분위기), wait in line(줄 서서 기다리다), get takeout(포장해 가다), order delivery(배달을 주문하다), try something new(새로운 것을 먹어보다), leave a review(리뷰를 남기다)",
+        "topicId":  10,
+        "topicTitle":  "Restaurants, Eat out",
+        "translation":  "당신이 레스토랑에 있었을 때 기억에 남는 경험에 대해 말해주세요. 그리고 특이하거나 예상치 못한 일이 일어난 것에 대해 말해주세요. 당신은 어떤 특별한 음식을 먹었나요? 누구와 함께 있었나요? 왜 이 경험이 기억에 남나요? 처음부터 끝까지 모두 말해 주세요."
+    },
+    {
+        "id":  44,
+        "text":  "Tell me about a restaurant you used to go to when you were a child. What kind of restaurant was it, and what was the restaurant like? What did you eat, and who did you go with? Explain it in detail.",
+        "hint":  "grab a meal(식사하다), make a reservation(예약하다), order a signature dish(대표 메뉴를 주문하다), share dishes(음식을 나눠 먹다), friendly service(친절한 서비스), reasonable price(합리적인 가격), cozy atmosphere(아늑한 분위기), wait in line(줄 서서 기다리다), get takeout(포장해 가다), order delivery(배달을 주문하다), try something new(새로운 것을 먹어보다), leave a review(리뷰를 남기다)",
+        "topicId":  10,
+        "topicTitle":  "Restaurants, Eat out",
+        "translation":  "어렸을 때 자주 가던 식당에 대해 말해주세요. 어떤 종류의 식당이었고, 그 식당은 어땠나요? 당신은 무엇을 먹었고, 누구와 함께 갔나요? 자세히 설명해 주세요."
+    },
+    {
+        "id":  45,
+        "text":  "When was the last time you ate out? Where did you visit and who did you go with? What kind of restaurant was it? What did you have? Please tell me what happened in detail.",
+        "hint":  "grab a meal(식사하다), make a reservation(예약하다), order a signature dish(대표 메뉴를 주문하다), share dishes(음식을 나눠 먹다), friendly service(친절한 서비스), reasonable price(합리적인 가격), cozy atmosphere(아늑한 분위기), wait in line(줄 서서 기다리다), get takeout(포장해 가다), order delivery(배달을 주문하다), try something new(새로운 것을 먹어보다), leave a review(리뷰를 남기다)",
+        "topicId":  10,
+        "topicTitle":  "Restaurants, Eat out",
+        "translation":  "마지막으로 외식한 게 언제인가요? 당신은 어디를 방문했고 누구와 함께 갔나요? 어떤 종류의 레스토랑이었나요? 무엇을 드셨나요? 무슨 일이 있었는지 자세히 말해 주세요."
+    },
+    {
+        "id":  46,
+        "text":  "Talk about a memorable time when you used a take-out or delivery service for a special occasion. What kinds of food did you get from the restaurant? Please explain that experience in detail.",
+        "hint":  "grab a meal(식사하다), make a reservation(예약하다), order a signature dish(대표 메뉴를 주문하다), share dishes(음식을 나눠 먹다), friendly service(친절한 서비스), reasonable price(합리적인 가격), cozy atmosphere(아늑한 분위기), wait in line(줄 서서 기다리다), get takeout(포장해 가다), order delivery(배달을 주문하다), try something new(새로운 것을 먹어보다), leave a review(리뷰를 남기다)",
+        "topicId":  10,
+        "topicTitle":  "Restaurants, Eat out",
+        "translation":  "특별한 날을 위해 포장이나 배달 서비스를 이용했던 기억에 남는 시간에 대해 이야기해주세요. 당신은 그 식당에서 어떤 종류의 음식을 먹었나요? 그 경험을 자세히 설명해 주세요."
+    },
+    {
+        "id":  47,
+        "text":  "People make many different kinds of appointments. What kinds of appointments do you usually make with people around you? How do you make appointments? Tell me in detail.",
+        "hint":  "make an appointment(약속을 잡다), check my schedule(일정을 확인하다), set a time(시간을 정하다), confirm the place(장소를 확인하다), arrive on time(제시간에 도착하다), reschedule it(일정을 다시 잡다), cancel at the last minute(마지막 순간에 취소하다), run late(늦다), wait for my turn(차례를 기다리다), meet in person(직접 만나다), explain the situation(상황을 설명하다), handle the problem(문제를 처리하다)",
+        "topicId":  11,
+        "topicTitle":  "Appointment",
+        "translation":  "사람들은 많은 종류의 약속을 합니다. 당신은 보통 주변 사람들과 어떤 종류의 약속을 하나요? 약속은 어떻게 잡나요? 자세히 말해주세요."
+    },
+    {
+        "id":  48,
+        "text":  "What do you usually do when you make an appointment? What steps do you take, and what do you consider when making an appointment? Please provide as many details as possible.",
+        "hint":  "make an appointment(약속을 잡다), check my schedule(일정을 확인하다), set a time(시간을 정하다), confirm the place(장소를 확인하다), arrive on time(제시간에 도착하다), reschedule it(일정을 다시 잡다), cancel at the last minute(마지막 순간에 취소하다), run late(늦다), wait for my turn(차례를 기다리다), meet in person(직접 만나다), explain the situation(상황을 설명하다), handle the problem(문제를 처리하다)",
+        "topicId":  11,
+        "topicTitle":  "Appointment",
+        "translation":  "당신은 약속을 잡을 때 주로 무엇을 하나요? 당신은 약속을 잡을 때 어떤 절차를 밟고 무엇을 고려하나요? 가능한 한 많은 세부 정보를 제공해 주세요."
+    },
+    {
+        "id":  49,
+        "text":  "Please tell me about a memorable appointment you had. What was the appointment for? Was it with a doctor or a dentist? Where did you go? and what happened when you got there? Tell me what you did in detail.",
+        "hint":  "make an appointment(약속을 잡다), check my schedule(일정을 확인하다), set a time(시간을 정하다), confirm the place(장소를 확인하다), arrive on time(제시간에 도착하다), reschedule it(일정을 다시 잡다), cancel at the last minute(마지막 순간에 취소하다), run late(늦다), wait for my turn(차례를 기다리다), meet in person(직접 만나다), explain the situation(상황을 설명하다), handle the problem(문제를 처리하다)",
+        "topicId":  11,
+        "topicTitle":  "Appointment",
+        "translation":  "당신이 했던 기억에 남는 약속에 대해 말해주세요. 무슨 약속이었나요? 병원이나 치과였나요? 당신은 어디에 갔었나요? 그리고 그곳에 도착했을 때 무슨 일이 있었나요? 당신이 무엇을 했는지 자세히 말해주세요."
+    },
+    {
+        "id":  50,
+        "text":  "Unexpected things can occur during an appointment. Tell me about a memorable incident related to an appointment you made. What was it about, and who did you meet? Where did you go, and how did you deal with it?",
+        "hint":  "make an appointment(약속을 잡다), check my schedule(일정을 확인하다), set a time(시간을 정하다), confirm the place(장소를 확인하다), arrive on time(제시간에 도착하다), reschedule it(일정을 다시 잡다), cancel at the last minute(마지막 순간에 취소하다), run late(늦다), wait for my turn(차례를 기다리다), meet in person(직접 만나다), explain the situation(상황을 설명하다), handle the problem(문제를 처리하다)",
+        "topicId":  11,
+        "topicTitle":  "Appointment",
+        "translation":  "약속 중에는 예상치 못한 일이 발생할 수 있습니다. 당신이 한 약속과 관련된 기억에 남는 사건에 대해 말해주세요. 무엇에 관한 것이었고, 누구를 만났나요? 당신은 어디에 갔었고, 어떻게 대처했나요?"
+    },
+    {
+        "id":  51,
+        "text":  "Tell me about one experience when you had to cancel an appointment you made. What happened? Why did you have to cancel the appointment and how deal with it? Give as many details as you can.",
+        "hint":  "make an appointment(약속을 잡다), check my schedule(일정을 확인하다), set a time(시간을 정하다), confirm the place(장소를 확인하다), arrive on time(제시간에 도착하다), reschedule it(일정을 다시 잡다), cancel at the last minute(마지막 순간에 취소하다), run late(늦다), wait for my turn(차례를 기다리다), meet in person(직접 만나다), explain the situation(상황을 설명하다), handle the problem(문제를 처리하다)",
+        "topicId":  11,
+        "topicTitle":  "Appointment",
+        "translation":  "당신이 한 약속을 취소해야 했던 한 가지 경험에 대해 말해보세요. 무슨 일이었나요? 왜 약속을 취소해야 했고 어떻게 처리했나요? 할 수 있는 한 많은 세부 사항을 말해주세요."
+    },
+    {
+        "id":  52,
+        "text":  "I would like to know what people in your country do in their free time. Where do people go? What activities do people do? Tell me how people spend their free time in detail.",
+        "hint":  "have some free time(여가 시간이 있다), relax at home(집에서 쉬다), go out with friends(친구들과 외출하다), watch videos(영상을 보다), take a walk(산책하다), enjoy a hobby(취미를 즐기다), clear my mind(머리를 식히다), spend time alone(혼자 시간을 보내다), try something fun(재미있는 것을 해보다), feel less stressed(스트레스가 줄다), weekend routine(주말 일상), different from before(예전과 다른)",
+        "topicId":  12,
+        "topicTitle":  "Free time",
+        "translation":  "당신의 나라 사람들이 여가 시간에 무엇을 하는지 알고 싶습니다. 사람들은 어디로 가나요? 사람들은 어떤 활동을 하나요? 사람들이 여가 시간을 어떻게 보내는지 자세히 말해주세요."
+    },
+    {
+        "id":  53,
+        "text":  "Please tell me what kinds of activities people in your country do during their free time. Use as many details as possible to explain it.",
+        "hint":  "have some free time(여가 시간이 있다), relax at home(집에서 쉬다), go out with friends(친구들과 외출하다), watch videos(영상을 보다), take a walk(산책하다), enjoy a hobby(취미를 즐기다), clear my mind(머리를 식히다), spend time alone(혼자 시간을 보내다), try something fun(재미있는 것을 해보다), feel less stressed(스트레스가 줄다), weekend routine(주말 일상), different from before(예전과 다른)",
+        "topicId":  12,
+        "topicTitle":  "Free time",
+        "translation":  "당신의 나라 사람들은 여가 시간에 어떤 활동을 하는지 알려주세요. 그것을 설명하기 위해 가능한 한 많은 세부 사항을 말해주세요."
+    },
+    {
+        "id":  54,
+        "text":  "How has your free time changed over the years? What did you do when you had free time in the past? Did you have more or less free time than now? How was it different from now?",
+        "hint":  "have some free time(여가 시간이 있다), relax at home(집에서 쉬다), go out with friends(친구들과 외출하다), watch videos(영상을 보다), take a walk(산책하다), enjoy a hobby(취미를 즐기다), clear my mind(머리를 식히다), spend time alone(혼자 시간을 보내다), try something fun(재미있는 것을 해보다), feel less stressed(스트레스가 줄다), weekend routine(주말 일상), different from before(예전과 다른)",
+        "topicId":  12,
+        "topicTitle":  "Free time",
+        "translation":  "당신의 자유시간은 몇 년 동안 어떻게 변했나요? 당신은 과거에 자유 시간이 있었을 때 무엇을 했나요? 당신은 지금보다 자유시간이 많거나 적었나요? 지금과 어떻게 달랐나요?"
+    },
+    {
+        "id":  55,
+        "text":  "Please tell me about the last time you had some free time. When was it? What did you do? Did you go somewhere to spend your free time? Explain what you did in detail.",
+        "hint":  "have some free time(여가 시간이 있다), relax at home(집에서 쉬다), go out with friends(친구들과 외출하다), watch videos(영상을 보다), take a walk(산책하다), enjoy a hobby(취미를 즐기다), clear my mind(머리를 식히다), spend time alone(혼자 시간을 보내다), try something fun(재미있는 것을 해보다), feel less stressed(스트레스가 줄다), weekend routine(주말 일상), different from before(예전과 다른)",
+        "topicId":  12,
+        "topicTitle":  "Free time",
+        "translation":  "당신이 마지막으로 자유 시간을 가졌던 때를 말해 주세요. 그게 언제였나요? 무엇을 하셨나요? 당신은 여가 시간을 보내기 위해 어디를 갔었나요? 무엇을 했는지 자세히 설명해 주세요."
+    },
+    {
+        "id":  56,
+        "text":  "People go to the bank for many reasons. Why do people go to the bank in your country? Where are they? Please give me as many details as possible.",
+        "hint":  "open an account(계좌를 개설하다), withdraw money(돈을 인출하다), deposit money(돈을 입금하다), transfer money(돈을 이체하다), use mobile banking(모바일 뱅킹을 이용하다), wait for service(업무를 기다리다), talk to a teller(창구 직원과 이야기하다), check my balance(잔액을 확인하다), apply for a card(카드를 신청하다), solve a banking problem(은행 문제를 해결하다), visit a branch(지점을 방문하다), use an ATM(ATM을 이용하다)",
+        "topicId":  13,
+        "topicTitle":  "Banks",
+        "translation":  "사람들은 많은 이유로 은행에 갑니다. 당신의 나라에서는 사람들이 왜 은행에 가나요? 은행들은 어디에 있나요? 가능한 한 많은 세부 사항을 알려주세요."
+    },
+    {
+        "id":  57,
+        "text":  "Many people go to the bank for some reason. Why do people in your country go to the bank? What do they do before going there and when they visit the bank?",
+        "hint":  "open an account(계좌를 개설하다), withdraw money(돈을 인출하다), deposit money(돈을 입금하다), transfer money(돈을 이체하다), use mobile banking(모바일 뱅킹을 이용하다), wait for service(업무를 기다리다), talk to a teller(창구 직원과 이야기하다), check my balance(잔액을 확인하다), apply for a card(카드를 신청하다), solve a banking problem(은행 문제를 해결하다), visit a branch(지점을 방문하다), use an ATM(ATM을 이용하다)",
+        "topicId":  13,
+        "topicTitle":  "Banks",
+        "translation":  "많은 사람들이 여러 이유로 은행에 갑니다. 당신의 나라 사람들은 왜 은행에 가나요? 그들은 그곳에 가기 전에 무엇을 하고 그리고 방문을 했을 때는 무엇을 하나요?"
+    },
+    {
+        "id":  58,
+        "text":  "How have banks changed over the years? What did the bank look like in the past? How was the bank different from now? And what do they look like now?",
+        "hint":  "open an account(계좌를 개설하다), withdraw money(돈을 인출하다), deposit money(돈을 입금하다), transfer money(돈을 이체하다), use mobile banking(모바일 뱅킹을 이용하다), wait for service(업무를 기다리다), talk to a teller(창구 직원과 이야기하다), check my balance(잔액을 확인하다), apply for a card(카드를 신청하다), solve a banking problem(은행 문제를 해결하다), visit a branch(지점을 방문하다), use an ATM(ATM을 이용하다)",
+        "topicId":  13,
+        "topicTitle":  "Banks",
+        "translation":  "지난 몇 년 동안 은행은 어떻게 변해 왔나요? 과거에 은행은 어떻게 생겼나요? 은행은 지금과 어떻게 달랐나요? 그리고 그들은 지금 어떻게 생겼나요?"
+    },
+    {
+        "id":  59,
+        "text":  "Unexpected difficulties can occur when you are at a bank. Did you have any trouble while you were at the bank? Did the bank close, or did something unexpected happen? What was the problem? What did you do to solve the problem? Tell me everything.",
+        "hint":  "open an account(계좌를 개설하다), withdraw money(돈을 인출하다), deposit money(돈을 입금하다), transfer money(돈을 이체하다), use mobile banking(모바일 뱅킹을 이용하다), wait for service(업무를 기다리다), talk to a teller(창구 직원과 이야기하다), check my balance(잔액을 확인하다), apply for a card(카드를 신청하다), solve a banking problem(은행 문제를 해결하다), visit a branch(지점을 방문하다), use an ATM(ATM을 이용하다)",
+        "topicId":  13,
+        "topicTitle":  "Banks",
+        "translation":  "은행에 있을 때 예상치 못한 어려움이 발생할 수 있습니다. 은행에 있는 동안 무슨 문제가 생긴 적이 있었나요? 은행이 문을 닫았나요, 아니면 예상치 못한 일이 있었나요? 무엇이 문제였나요? 당신은 그 문제를 해결하기 위해 무엇을 했나요? 모두 다 말해주세요."
+    },
+    {
+        "id":  60,
+        "text":  "When was the last time you went to a bank? Which bank did you visit? Why did you go there? Please describe your recent experience in detail.",
+        "hint":  "open an account(계좌를 개설하다), withdraw money(돈을 인출하다), deposit money(돈을 입금하다), transfer money(돈을 이체하다), use mobile banking(모바일 뱅킹을 이용하다), wait for service(업무를 기다리다), talk to a teller(창구 직원과 이야기하다), check my balance(잔액을 확인하다), apply for a card(카드를 신청하다), solve a banking problem(은행 문제를 해결하다), visit a branch(지점을 방문하다), use an ATM(ATM을 이용하다)",
+        "topicId":  13,
+        "topicTitle":  "Banks",
+        "translation":  "은행에 마지막으로 간 게 언제인가요? 당신은 어느 은행을 방문했나요? 왜 그 은행에 갔나요? 당신의 최근 경험에 대해 자세히 설명해 주세요."
+    },
+    {
+        "id":  61,
+        "text":  "Nowadays, people try to eat healthy food to stay healthy. What kinds of food are healthy? Why is this food healthy? Explain the healthy food in detail.",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  14,
+        "topicTitle":  "Food",
+        "translation":  "요즘, 사람들은 건강을 유지하기 위해 건강식품을 먹으려고 노력합니다. 어떤 종류의 음식이 건강에 좋은가요? 이 음식은 왜 건강에 좋은가요? 건강에 좋은 음식에 대해 자세히 설명해 주세요."
+    },
+    {
+        "id":  62,
+        "text":  "What is popular food or dishes in your country? Why is this food popular? What is special about that dish? What food do people in your country typically eat? Describe it in detail.",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  14,
+        "topicTitle":  "Food",
+        "translation":  "당신의 나라에서 인기 있는 음식이나 요리는 무엇인가요? 왜 이 음식이 인기가 있나요? 그 요리의 특별한 점은 무엇인가요? 당신의 나라 사람들은 보통 어떤 음식을 먹나요? 자세히 설명해 주세요."
+    },
+    {
+        "id":  63,
+        "text":  "What food do you usually eat? Tell me everything about the food you eat on a regular day.",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  14,
+        "topicTitle":  "Food",
+        "translation":  "당신은 주로 어떤 음식을 먹나요? 당신이 평소에 먹는 음식에 대해 모든 것을 말해 주세요."
+    },
+    {
+        "id":  64,
+        "text":  "Tell me about a memorable experience you had while you were eating something. What food did you eat? Was it good or bad? What happened, and what did you do? Tell me about it in detail.",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  14,
+        "topicTitle":  "Food",
+        "translation":  "당신이 무언가를 먹으면서 겪었던 기억에 남는 경험에 대해 말해주세요. 어떤 음식을 먹었나요? 맛있었나요 맛없었나요? 무슨 일이 일어났고, 당신은 무엇을 했나요? 그것에 대해 자세히 말해 주세요."
+    },
+    {
+        "id":  65,
+        "text":  "Unexpected difficulties can occur while eating. Maybe the reservations at restaurants are canceled, or the food goes bad. Or something wrong happened. What was the problem you had? How did you deal with it? Explain all the details.",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  14,
+        "topicTitle":  "Food",
+        "translation":  "식사를 하는 동안 예상치 못한 어려움이 발생할 수 있습니다. 아마도 식당들의 예약이 취소되거나 음식이 상할 수 있습니다. 아니면 뭔가 잘못됐을 수 있습니다. 당신이 겪은 문제는 무엇이었나요? 어떻게 대처하셨나요? 모든 세부 사항을 설명해 주세요."
+    },
+    {
+        "id":  66,
+        "text":  "Do you use the internet when you complete a project or an assignment? Why do you use the internet for them? Tell me why it is useful in detail.",
+        "hint":  "search for information(정보를 검색하다), watch online videos(온라인 영상을 보다), use social media(SNS를 사용하다), shop online(온라인 쇼핑을 하다), do an assignment(과제를 하다), visit a website(웹사이트를 방문하다), save useful links(유용한 링크를 저장하다), compare reviews(리뷰를 비교하다), protect my privacy(개인정보를 보호하다), internet security(인터넷 보안), older users(나이 든 사용자), younger users(젊은 사용자)",
+        "topicId":  15,
+        "topicTitle":  "Internet",
+        "translation":  "당신은 프로젝트나 과제를 할 때 인터넷을 사용하나요? 당신은 왜 그것들을 위해 인터넷을 사용하나요? 인터넷이 왜 유용한지 자세히 말해주세요."
+    },
+    {
+        "id":  67,
+        "text":  "People use the internet. Which website do you usually visit? How often do you visit that website? What services do the website offer? Why do you like it?",
+        "hint":  "search for information(정보를 검색하다), watch online videos(온라인 영상을 보다), use social media(SNS를 사용하다), shop online(온라인 쇼핑을 하다), do an assignment(과제를 하다), visit a website(웹사이트를 방문하다), save useful links(유용한 링크를 저장하다), compare reviews(리뷰를 비교하다), protect my privacy(개인정보를 보호하다), internet security(인터넷 보안), older users(나이 든 사용자), younger users(젊은 사용자)",
+        "topicId":  15,
+        "topicTitle":  "Internet",
+        "translation":  "사람들은 인터넷을 사용합니다. 당신은 주로 어떤 웹사이트를 방문하나요? 당신은 얼마나 자주 그 웹사이트를 방문하나요? 그 웹사이트는 어떤 서비스를 제공하나요? 왜 그 웹사이트를 좋아하나요?"
+    },
+    {
+        "id":  68,
+        "text":  "What do you usually do on the internet? What services do you use? Do you like online shopping, playing games, or watching videos? Please tell me what activities you do on the internet.",
+        "hint":  "search for information(정보를 검색하다), watch online videos(온라인 영상을 보다), use social media(SNS를 사용하다), shop online(온라인 쇼핑을 하다), do an assignment(과제를 하다), visit a website(웹사이트를 방문하다), save useful links(유용한 링크를 저장하다), compare reviews(리뷰를 비교하다), protect my privacy(개인정보를 보호하다), internet security(인터넷 보안), older users(나이 든 사용자), younger users(젊은 사용자)",
+        "topicId":  15,
+        "topicTitle":  "Internet",
+        "translation":  "당신은 인터넷으로 보통 무엇을 하나요? 어떤 서비스를 이용하시나요? 당신은 온라인 쇼핑, 게임, 비디오 보는 것을 좋아하나요? 당신이 인터넷에서 어떤 활동을 하는지 알려주세요."
+    },
+    {
+        "id":  69,
+        "text":  "Tell me about the improvement of the internet over the years. How has the internet developed over the years? How has the internet affected our lives? What is the biggest change?",
+        "hint":  "search for information(정보를 검색하다), watch online videos(온라인 영상을 보다), use social media(SNS를 사용하다), shop online(온라인 쇼핑을 하다), do an assignment(과제를 하다), visit a website(웹사이트를 방문하다), save useful links(유용한 링크를 저장하다), compare reviews(리뷰를 비교하다), protect my privacy(개인정보를 보호하다), internet security(인터넷 보안), older users(나이 든 사용자), younger users(젊은 사용자)",
+        "topicId":  15,
+        "topicTitle":  "Internet",
+        "translation":  "지난 몇 년간 인터넷이 발전한 것에 대해 말해주세요. 인터넷은 몇 년 동안 어떻게 발전해 왔나요? 인터넷은 우리 삶에 어떤 영향을 끼쳤나요? 가장 큰 변화는 무엇인가요?"
+    },
+    {
+        "id":  70,
+        "text":  "Tell me about your first internet surfing experience. When was it? What did you do? What things do you remember about that experience? How did you access the internet? What was your first impression while surfing the internet?",
+        "hint":  "search for information(정보를 검색하다), watch online videos(온라인 영상을 보다), use social media(SNS를 사용하다), shop online(온라인 쇼핑을 하다), do an assignment(과제를 하다), visit a website(웹사이트를 방문하다), save useful links(유용한 링크를 저장하다), compare reviews(리뷰를 비교하다), protect my privacy(개인정보를 보호하다), internet security(인터넷 보안), older users(나이 든 사용자), younger users(젊은 사용자)",
+        "topicId":  15,
+        "topicTitle":  "Internet",
+        "translation":  "당신의 첫 인터넷 서핑 경험에 대해 말해주세요. 그게 언제였나요? 무엇을 하셨나요? 당신은 그 경험에 대해 어떤 것을 기억하나요? 인터넷에 어떻게 접속하셨나요? 인터넷 검색을 하면서 첫인상이 어땠나요?"
+    },
+    {
+        "id":  71,
+        "text":  "What websites did you visit on the internet yesterday? What did you do, and what was it about? Tell me what you did online recently.",
+        "hint":  "search for information(정보를 검색하다), watch online videos(온라인 영상을 보다), use social media(SNS를 사용하다), shop online(온라인 쇼핑을 하다), do an assignment(과제를 하다), visit a website(웹사이트를 방문하다), save useful links(유용한 링크를 저장하다), compare reviews(리뷰를 비교하다), protect my privacy(개인정보를 보호하다), internet security(인터넷 보안), older users(나이 든 사용자), younger users(젊은 사용자)",
+        "topicId":  15,
+        "topicTitle":  "Internet",
+        "translation":  "어제 인터넷에서 어떤 웹사이트를 방문했나요? 당신은 무엇을 했고, 무엇에 관한 웹사이트였나요? 최근에 온라인으로 무엇을 했는지 말해주세요."
+    },
+    {
+        "id":  72,
+        "text":  "Tell me about when you surf the internet to complete a project. When was it? What was the project about? What did you do on the internet for the project? Tell me everything in detail.",
+        "hint":  "search for information(정보를 검색하다), watch online videos(온라인 영상을 보다), use social media(SNS를 사용하다), shop online(온라인 쇼핑을 하다), do an assignment(과제를 하다), visit a website(웹사이트를 방문하다), save useful links(유용한 링크를 저장하다), compare reviews(리뷰를 비교하다), protect my privacy(개인정보를 보호하다), internet security(인터넷 보안), older users(나이 든 사용자), younger users(젊은 사용자)",
+        "topicId":  15,
+        "topicTitle":  "Internet",
+        "translation":  "프로젝트를 완료하기 위해 인터넷 서핑을 했을 때에 대해 알려주세요. 그게 언제였나요? 그 프로젝트는 무엇에 관한 것이었나요? 당신은 그 프로젝트를 위해 인터넷에서 무엇을 했나요? 모든 것을 자세히 말해 주세요."
+    },
+    {
+        "id":  73,
+        "text":  "Recycling is a common practice. How do people in your country recycle? What kind of items do people usually recycle? What is special about recycling? Please tell me about the recycling system in your country in detail.",
+        "hint":  "separate trash(쓰레기를 분리하다), sort recyclables(재활용품을 분류하다), rinse containers(용기를 헹구다), take out recycling(재활용품을 내놓다), follow the rules(규칙을 따르다), reduce waste(쓰레기를 줄이다), reuse items(물건을 재사용하다), protect the environment(환경을 보호하다), miss the pickup(수거를 놓치다), too large to throw away(버리기에는 너무 큰), recycling issue(재활용 문제), feel responsible(책임감을 느끼다)",
+        "topicId":  16,
+        "topicTitle":  "Recycling",
+        "translation":  "재활용은 일반적인 관행입니다. 당신의 나라 사람들은 어떻게 재활용을 하나요? 사람들은 보통 어떤 종류의 물건을 재활용하나요? 재활용의 특별한 점은 무엇인가요? 당신의 나라 재활용 시스템에 대해 자세히 알려주세요."
+    },
+    {
+        "id":  74,
+        "text":  "Tell me, how do you recycle at home? What items do you usually recycle? How often do you take out recyclable items? Where do you take the recycling items to? Describe each step you take when you recycle at home.",
+        "hint":  "separate trash(쓰레기를 분리하다), sort recyclables(재활용품을 분류하다), rinse containers(용기를 헹구다), take out recycling(재활용품을 내놓다), follow the rules(규칙을 따르다), reduce waste(쓰레기를 줄이다), reuse items(물건을 재사용하다), protect the environment(환경을 보호하다), miss the pickup(수거를 놓치다), too large to throw away(버리기에는 너무 큰), recycling issue(재활용 문제), feel responsible(책임감을 느끼다)",
+        "topicId":  16,
+        "topicTitle":  "Recycling",
+        "translation":  "집에서 어떻게 재활용하는지 말해주세요. 당신은 주로 어떤 물건을 재활용하나요? 재활용품을 얼마나 자주 버리시나요? 재활용품을 어디로 가져가나요? 여러분이 집에서 재활용할 때 취하는 각 단계를 묘사해 주세요."
+    },
+    {
+        "id":  75,
+        "text":  "Tell me about the ways you did recycling when you were a child. How is the way you recycle now different from those in the past? What are the differences and the similarities? Use as many details as possible to explain it.",
+        "hint":  "separate trash(쓰레기를 분리하다), sort recyclables(재활용품을 분류하다), rinse containers(용기를 헹구다), take out recycling(재활용품을 내놓다), follow the rules(규칙을 따르다), reduce waste(쓰레기를 줄이다), reuse items(물건을 재사용하다), protect the environment(환경을 보호하다), miss the pickup(수거를 놓치다), too large to throw away(버리기에는 너무 큰), recycling issue(재활용 문제), feel responsible(책임감을 느끼다)",
+        "topicId":  16,
+        "topicTitle":  "Recycling",
+        "translation":  "당신이 어렸을 때 재활용을 했던 방법에 대해 말해주세요. 당신이 지금 재활용하는 방법은 과거와 어떻게 다른가요? 차이점과 유사점은 무엇인가요? 그것을 설명하기 위해 가능한 한 많은 세부 사항을 말해주세요."
+    },
+    {
+        "id":  76,
+        "text":  "Tell me about a memorable experience you had while recycling. What incident event was it? What happened? And how did you deal with it? Why was it so special? Tell me all the experience in detail.",
+        "hint":  "separate trash(쓰레기를 분리하다), sort recyclables(재활용품을 분류하다), rinse containers(용기를 헹구다), take out recycling(재활용품을 내놓다), follow the rules(규칙을 따르다), reduce waste(쓰레기를 줄이다), reuse items(물건을 재사용하다), protect the environment(환경을 보호하다), miss the pickup(수거를 놓치다), too large to throw away(버리기에는 너무 큰), recycling issue(재활용 문제), feel responsible(책임감을 느끼다)",
+        "topicId":  16,
+        "topicTitle":  "Recycling",
+        "translation":  "당신이 재활용을 하면서 겪었던 기억에 남는 경험에 대해 말해주세요. 무슨 사건이었나요? 무슨 일이었나요? 어떻게 대처하셨나요? 그 일이 왜 그렇게 특별 했나요? 모든 경험을 자세히 말해주세요."
+    },
+    {
+        "id":  77,
+        "text":  "Sometimes, problems can occur while recycling. Perhaps, the pick-up service did not come as planned, or the recycling items were too big for the containers so you spilled the recycling items. Tell me what happened and how did you deal with it in detail.",
+        "hint":  "separate trash(쓰레기를 분리하다), sort recyclables(재활용품을 분류하다), rinse containers(용기를 헹구다), take out recycling(재활용품을 내놓다), follow the rules(규칙을 따르다), reduce waste(쓰레기를 줄이다), reuse items(물건을 재사용하다), protect the environment(환경을 보호하다), miss the pickup(수거를 놓치다), too large to throw away(버리기에는 너무 큰), recycling issue(재활용 문제), feel responsible(책임감을 느끼다)",
+        "topicId":  16,
+        "topicTitle":  "Recycling",
+        "translation":  "때때로, 재활용을 하는 동안 문제가 발생할 수 있습니다. 아마도 픽업 서비스가 예정대로 오지 않았거나, 컨테이너에 비해 재활용품이 너무 커서 재활용품을 흘린 것 같습니다. 무슨 일이 있었는지, 어떻게 대처했는지 자세히 말해 주세요."
+    },
+    {
+        "id":  78,
+        "text":  "Tell me about some articles you have recently seen about recycling in the news. What was the issue? What did you think when you heard of it? Use as many details as possible to explain it.",
+        "hint":  "separate trash(쓰레기를 분리하다), sort recyclables(재활용품을 분류하다), rinse containers(용기를 헹구다), take out recycling(재활용품을 내놓다), follow the rules(규칙을 따르다), reduce waste(쓰레기를 줄이다), reuse items(물건을 재사용하다), protect the environment(환경을 보호하다), miss the pickup(수거를 놓치다), too large to throw away(버리기에는 너무 큰), recycling issue(재활용 문제), feel responsible(책임감을 느끼다)",
+        "topicId":  16,
+        "topicTitle":  "Recycling",
+        "translation":  "최근에 뉴스에서 본 재활용에 관한 기사들에 대해 말해주세요. 무엇이 문제였나요? 그것에 대해 들었을 때 어떤 생각이 들었나요? 그것을 설명하기 위해 가능한 한 많은 세부 사항을 이용해주세요."
+    },
+    {
+        "id":  79,
+        "text":  "What do you like most about your cell phone? Do you like the camera or certain applications? What kinds of features does your cell phone have? Please tell me what features you like and why in detail.",
+        "hint":  "make a phone call(전화를 걸다), answer the phone(전화를 받다), talk for a long time(오랫동안 통화하다), send a message(메시지를 보내다), use the camera(카메라를 사용하다), check notifications(알림을 확인하다), run out of battery(배터리가 다 되다), lose my phone(휴대폰을 잃어버리다), fix the screen(화면을 고치다), keep in touch(연락하고 지내다), talk about daily life(일상 이야기를 하다), use useful apps(유용한 앱을 사용하다)",
+        "topicId":  17,
+        "topicTitle":  "Talk, Phone",
+        "translation":  "당신이 소유한 휴대폰의 어떤 점을 가장 좋아하나요? 당신은 카메라를 좋아하나요 아니면 특정한 어플리케이션을 좋아하나요? 당신의 휴대폰에는 어떤 기능이 있나요? 어떤 기능을 좋아하시는지, 왜 좋아하시는지 자세히 말씀해 주세요."
+    },
+    {
+        "id":  80,
+        "text":  "People talk on the phone with family or friends. Who do you usually talk with on the phone most often? What do you normally talk about? Describe it in detail.",
+        "hint":  "make a phone call(전화를 걸다), answer the phone(전화를 받다), talk for a long time(오랫동안 통화하다), send a message(메시지를 보내다), use the camera(카메라를 사용하다), check notifications(알림을 확인하다), run out of battery(배터리가 다 되다), lose my phone(휴대폰을 잃어버리다), fix the screen(화면을 고치다), keep in touch(연락하고 지내다), talk about daily life(일상 이야기를 하다), use useful apps(유용한 앱을 사용하다)",
+        "topicId":  17,
+        "topicTitle":  "Talk, Phone",
+        "translation":  "사람들은 가족이나 친구들과 전화통화를 합니다. 당신은 주로 누구와 전화 통화를 가장 자주 하나요? 당신은 보통 무슨 이야기를 하나요? 자세히 설명해 주세요."
+    },
+    {
+        "id":  81,
+        "text":  "You probably talk with someone on your cell phone every day. How often do you use your phone to make a call? When you talk on the phone, what do you usually talk about? Who do you usually talk to on the phone? Provide as many details as possible.",
+        "hint":  "make a phone call(전화를 걸다), answer the phone(전화를 받다), talk for a long time(오랫동안 통화하다), send a message(메시지를 보내다), use the camera(카메라를 사용하다), check notifications(알림을 확인하다), run out of battery(배터리가 다 되다), lose my phone(휴대폰을 잃어버리다), fix the screen(화면을 고치다), keep in touch(연락하고 지내다), talk about daily life(일상 이야기를 하다), use useful apps(유용한 앱을 사용하다)",
+        "topicId":  17,
+        "topicTitle":  "Talk, Phone",
+        "translation":  "여러분은 아마 매일 휴대폰으로 누군가와 대화를 할 것입니다. 당신은 얼마나 자주 전화를 거나요? 당신이 전화로 이야기할 때, 주로 무슨 이야기를 하나요? 당신은 보통 누구와 통화하나요? 가능한 한 많은 세부 정보를 제공해주세요."
+    },
+    {
+        "id":  82,
+        "text":  "Tell me about your first cell phone and compare it to your current phone. What is the difference between the phone you used back then and the phone you use now? Provide as many details as possible.",
+        "hint":  "make a phone call(전화를 걸다), answer the phone(전화를 받다), talk for a long time(오랫동안 통화하다), send a message(메시지를 보내다), use the camera(카메라를 사용하다), check notifications(알림을 확인하다), run out of battery(배터리가 다 되다), lose my phone(휴대폰을 잃어버리다), fix the screen(화면을 고치다), keep in touch(연락하고 지내다), talk about daily life(일상 이야기를 하다), use useful apps(유용한 앱을 사용하다)",
+        "topicId":  17,
+        "topicTitle":  "Talk, Phone",
+        "translation":  "당신의 첫 번째 핸드폰에 대해 말해주고 그것을 현재의 핸드폰과 비교해보세요. 그때 쓰던 핸드폰과 지금 쓰는 핸드폰의 차이점은 무엇인가요? 가능한 한 많은 세부 정보를 제공해주세요."
+    },
+    {
+        "id":  83,
+        "text":  "Have you ever experienced anything problem using your phone? What was the problem? How did you deal with it? Give me many details.",
+        "hint":  "make a phone call(전화를 걸다), answer the phone(전화를 받다), talk for a long time(오랫동안 통화하다), send a message(메시지를 보내다), use the camera(카메라를 사용하다), check notifications(알림을 확인하다), run out of battery(배터리가 다 되다), lose my phone(휴대폰을 잃어버리다), fix the screen(화면을 고치다), keep in touch(연락하고 지내다), talk about daily life(일상 이야기를 하다), use useful apps(유용한 앱을 사용하다)",
+        "topicId":  17,
+        "topicTitle":  "Talk, Phone",
+        "translation":  "휴대폰 사용에 문제가 생긴 적이 있나요? 뭐가 문제였나요? 어떻게 대처하셨나요? 자세히 이야기해주세요."
+    },
+    {
+        "id":  84,
+        "text":  "Tell me about a phone conversation you remember recently. Who were you talking with, and what did you talk about? Describe your last phone call in detail.",
+        "hint":  "make a phone call(전화를 걸다), answer the phone(전화를 받다), talk for a long time(오랫동안 통화하다), send a message(메시지를 보내다), use the camera(카메라를 사용하다), check notifications(알림을 확인하다), run out of battery(배터리가 다 되다), lose my phone(휴대폰을 잃어버리다), fix the screen(화면을 고치다), keep in touch(연락하고 지내다), talk about daily life(일상 이야기를 하다), use useful apps(유용한 앱을 사용하다)",
+        "topicId":  17,
+        "topicTitle":  "Talk, Phone",
+        "translation":  "최근에 기억나는 전화통화에 대해 말해주세요. 누구와 무슨 얘기를 했었어요? 당신의 마지막 전화 통화를 자세히 설명해주세요."
+    },
+    {
+        "id":  85,
+        "text":  "I\u0027d like to know about a country that is close to your country. What are your neighboring countries of yours? What are the geographical features of that country? What is different from your country? Explain what the country and people look like in detail.",
+        "hint":  "be surrounded by mountains(산으로 둘러싸여 있다), flow through the city(도시를 가로질러 흐르다), coastal area(해안 지역), natural scenery(자연 경관), famous landmark(유명한 랜드마크), neighboring country(이웃 나라), geographical feature(지리적 특징), go hiking(등산하러 가다), swim at the beach(해변에서 수영하다), ride a bike(자전거를 타다), look different from(다르게 보이다), recent news(최근 뉴스)",
+        "topicId":  18,
+        "topicTitle":  "Geography",
+        "translation":  "당신의 나라와 가까운 나라에 대해 알고 싶습니다. 당신의 이웃 나라는 어디인가요? 그 나라의 지리적 특징은 무엇인가요? 당신의 나라와 무엇이 다른가요? 그 나라와 사람들이 어떤 모습인지 자세히 설명해주세요."
+    },
+    {
+        "id":  86,
+        "text":  "Describe your country\u0027s geography. Are there many mountains, rivers, or other landforms? Is there a seashore part of the geography? Tell me about the layout of your country\u0027s land in detail.",
+        "hint":  "be surrounded by mountains(산으로 둘러싸여 있다), flow through the city(도시를 가로질러 흐르다), coastal area(해안 지역), natural scenery(자연 경관), famous landmark(유명한 랜드마크), neighboring country(이웃 나라), geographical feature(지리적 특징), go hiking(등산하러 가다), swim at the beach(해변에서 수영하다), ride a bike(자전거를 타다), look different from(다르게 보이다), recent news(최근 뉴스)",
+        "topicId":  18,
+        "topicTitle":  "Geography",
+        "translation":  "당신의 나라 지리를 묘사해주세요. 산, 강, 또는 다른 지형들이 많이 있나요? 그곳에는 해변이 있나요? 당신의 나라 지형에 대해 자세히 알려주세요."
+    },
+    {
+        "id":  87,
+        "text":  "What kinds of activities do people in your country do using geographical features? Do they go hiking, swimming, or riding a bicycle? What are the differences from other countries? Please give me all the details.",
+        "hint":  "be surrounded by mountains(산으로 둘러싸여 있다), flow through the city(도시를 가로질러 흐르다), coastal area(해안 지역), natural scenery(자연 경관), famous landmark(유명한 랜드마크), neighboring country(이웃 나라), geographical feature(지리적 특징), go hiking(등산하러 가다), swim at the beach(해변에서 수영하다), ride a bike(자전거를 타다), look different from(다르게 보이다), recent news(최근 뉴스)",
+        "topicId":  18,
+        "topicTitle":  "Geography",
+        "translation":  "당신의 나라 사람들은 지리적 특성을 이용하여 어떤 종류의 활동을 하나요? 그들은 하이킹, 수영, 또는 자전거를 타나요? 다른 나라와 다른 점은 무엇인가요? 저에게 모든 세부 사항을 알려주세요."
+    },
+    {
+        "id":  88,
+        "text":  "Tell me about a special landmark you have seen in your country. Where was it, and when did you see it? What were the geographical features of that place? What did the place look like? Describe a memorable time when you visited that place in detail.",
+        "hint":  "be surrounded by mountains(산으로 둘러싸여 있다), flow through the city(도시를 가로질러 흐르다), coastal area(해안 지역), natural scenery(자연 경관), famous landmark(유명한 랜드마크), neighboring country(이웃 나라), geographical feature(지리적 특징), go hiking(등산하러 가다), swim at the beach(해변에서 수영하다), ride a bike(자전거를 타다), look different from(다르게 보이다), recent news(최근 뉴스)",
+        "topicId":  18,
+        "topicTitle":  "Geography",
+        "translation":  "당신의 나라에서 본 특별한 랜드마크에 대해 말해주세요. 언제 어디서 보셨나요? 그곳의 지리적 특징은 무엇이었나요? 그곳은 어떻게 생겼나요? 당신이 그곳을 방문했을 때 기억에 남는 순간에 대해 자세히 묘사해주세요."
+    },
+    {
+        "id":  89,
+        "text":  "Tell me about a unique landform you saw when you were a child. When was it, and where did you go? Did you go there with your friends or parents? Why did you visit there? And what did you see? Describe what did you see and what happened in detail.",
+        "hint":  "be surrounded by mountains(산으로 둘러싸여 있다), flow through the city(도시를 가로질러 흐르다), coastal area(해안 지역), natural scenery(자연 경관), famous landmark(유명한 랜드마크), neighboring country(이웃 나라), geographical feature(지리적 특징), go hiking(등산하러 가다), swim at the beach(해변에서 수영하다), ride a bike(자전거를 타다), look different from(다르게 보이다), recent news(최근 뉴스)",
+        "topicId":  18,
+        "topicTitle":  "Geography",
+        "translation":  "어렸을 때 봤던 독특한 지형에 대해 말해주세요. 그게 언제였고, 어디로 갔었나요? 당신은 그곳에 친구나 부모님과 함께 갔나요? 당신은 왜 그곳을 방문했나요? 그리고 무엇을 보았나요? 무엇을 보고 무슨 일이 일어났는지 자세히 설명해주세요."
+    },
+    {
+        "id":  90,
+        "text":  "Your family probably has different responsibilities at home. Which chores is each family member responsible for? And how do they do that?",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  19,
+        "topicTitle":  "Housework",
+        "translation":  "여러분의 가족은 아마도 집에서 서로 다른 역할이 있을 것입니다. 각 가족 구성원은 어떤 집안일을 책임집니까? 그리고 그들은 그것을 어떻게 하나요?"
+    },
+    {
+        "id":  91,
+        "text":  "Everyone has to do housework regularly. What kind of chores do you usually do at home? What is your responsibility at home? Tell me in detail.",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  19,
+        "topicTitle":  "Housework",
+        "translation":  "모든 사람들은 규칙적으로 집안일을 해야 합니다. 당신은 보통 집에서 어떤 종류의 집안일을 하나요? 집에서 당신의 역할은 무엇인가요? 자세히 말해주세요."
+    },
+    {
+        "id":  92,
+        "text":  "Have you ever had housework that you were not able to do? Please explain why you were not able to do them. Use as many details as possible to explain it.",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  19,
+        "topicTitle":  "Housework",
+        "translation":  "당신은 집안일을 할 수 없었던 적이 있나요? 당신이 왜 그것들을 할 수 없었는지 설명해주세요. 그것을 설명하기 위해 가능한 한 많은 세부 사항을 이용해주세요."
+    },
+    {
+        "id":  93,
+        "text":  "What are you wearing now? What kind of clothes do you like to wear personally? Please tell me about your fashion style in detail.",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  20,
+        "topicTitle":  "Fashion",
+        "translation":  "당신은 지금 무엇을 입고 있나요? 당신은 개인적으로 어떤 종류의 옷을 입는 것을 좋아하나요? 당신의 패션 스타일에 대해 자세히 알려주세요."
+    },
+    {
+        "id":  94,
+        "text":  "What kinds of clothes do people in your country typically wear? What are fashion trends? What do people wear when they work and when they are at home? Are there different clothes for work and at home? Tell me about the fashion in your country in detail.",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  20,
+        "topicTitle":  "Fashion",
+        "translation":  "당신의 나라 사람들은 보통 어떤 종류의 옷을 입나요? 패션 트렌드는 무엇인가요? 사람들은 일할 때와 집에 있을 때 무엇을 입나요? 회사 옷이랑 집 옷이 다른가요? 당신의 나라 패션에 대해 자세히 말해주세요."
+    },
+    {
+        "id":  95,
+        "text":  "Fashion trends change over time. What kind of clothes were popular when you were young? How were the styles? And what about now? Please compare the fashion trends in the past and now.",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  20,
+        "topicTitle":  "Fashion",
+        "translation":  "패션 트렌드는 시간이 지남에 따라 변화합니다. 당신이 어렸을 때는 어떤 종류의 옷이 인기가 있었나요? 스타일은 어땠나요? 지금은 어떤가요? 과거의 패션 트렌드와 현재의 패션 트렌드를 비교해 보세요."
+    },
+    {
+        "id":  96,
+        "text":  "Please tell me about the last time you went clothes shopping. Where did you go to buy it? What items did you buy?",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  20,
+        "topicTitle":  "Fashion",
+        "translation":  "마지막으로 옷 사러 간 게 언제인지 말해 주세요. 당신은 그것을 사러 어디로 갔었나요? 당신은 어떤 것들을 샀나요?"
+    },
+    {
+        "id":  97,
+        "text":  "Tell me about hotels in your country. What are they like? Where are they usually located? Describe it in detail.",
+        "hint":  "check in(체크인하다), make a reservation(예약하다), stay overnight(하룻밤 묵다), ask the front desk(프런트에 문의하다), room service(룸서비스), clean room(깨끗한 방), comfortable bed(편안한 침대), good location(좋은 위치), friendly staff(친절한 직원), hotel facilities(호텔 시설), memorable stay(기억에 남는 숙박), check out(체크아웃하다)",
+        "topicId":  21,
+        "topicTitle":  "Hotel",
+        "translation":  "당신의 나라에 있는 호텔에 대해 알려주세요. 호텔들은 어떤가요? 그들은 보통 어디에 위치해 있나요? 자세히 설명해 주세요."
+    },
+    {
+        "id":  98,
+        "text":  "Please tell me what you do when you arrive at a hotel? What steps do you take? Tell me everything from beginning to end.",
+        "hint":  "check in(체크인하다), make a reservation(예약하다), stay overnight(하룻밤 묵다), ask the front desk(프런트에 문의하다), room service(룸서비스), clean room(깨끗한 방), comfortable bed(편안한 침대), good location(좋은 위치), friendly staff(친절한 직원), hotel facilities(호텔 시설), memorable stay(기억에 남는 숙박), check out(체크아웃하다)",
+        "topicId":  21,
+        "topicTitle":  "Hotel",
+        "translation":  "호텔에 도착하면 무슨 일을 하는지 말해 주세요. 당신은 어떤 조치를 단계를 취하나요? 처음부터 끝까지 모두 말해 주세요."
+    },
+    {
+        "id":  99,
+        "text":  "How has the hotel industry in your country developed over the years? How were they like in the past, and what about now? Tell me about it with specific examples.",
+        "hint":  "check in(체크인하다), make a reservation(예약하다), stay overnight(하룻밤 묵다), ask the front desk(프런트에 문의하다), room service(룸서비스), clean room(깨끗한 방), comfortable bed(편안한 침대), good location(좋은 위치), friendly staff(친절한 직원), hotel facilities(호텔 시설), memorable stay(기억에 남는 숙박), check out(체크아웃하다)",
+        "topicId":  21,
+        "topicTitle":  "Hotel",
+        "translation":  "당신의 나라 호텔 산업은 몇 년 동안 어떻게 발전해 왔나요? 그들은 과거에 어땠고, 지금은 어떤가요? 구체적인 예시와 함께 그것에 대해 말해주세요."
+    },
+    {
+        "id":  100,
+        "text":  "Tell me a memorable experience you stayed at a hotel. When and where is it? Who did you go with? Did something exciting or unexpected happen? Please explain what happened in as much detail as you can.",
+        "hint":  "check in(체크인하다), make a reservation(예약하다), stay overnight(하룻밤 묵다), ask the front desk(프런트에 문의하다), room service(룸서비스), clean room(깨끗한 방), comfortable bed(편안한 침대), good location(좋은 위치), friendly staff(친절한 직원), hotel facilities(호텔 시설), memorable stay(기억에 남는 숙박), check out(체크아웃하다)",
+        "topicId":  21,
+        "topicTitle":  "Hotel",
+        "translation":  "호텔에서 묵었던 기억에 남는 경험을 말해주세요. 언제 어디였나요? 누구랑 같이 갔었나요? 뭔가 흥분되거나 예상치 못한 일이 있었나요? 무슨 일이 있었는지 최대한 자세히 설명해 주세요."
+    },
+    {
+        "id":  101,
+        "text":  "When was the last time you stayed in a hotel? Where did you stay? Why were you there? What did you do at the hotel? Tell me everything from beginning to end.",
+        "hint":  "check in(체크인하다), make a reservation(예약하다), stay overnight(하룻밤 묵다), ask the front desk(프런트에 문의하다), room service(룸서비스), clean room(깨끗한 방), comfortable bed(편안한 침대), good location(좋은 위치), friendly staff(친절한 직원), hotel facilities(호텔 시설), memorable stay(기억에 남는 숙박), check out(체크아웃하다)",
+        "topicId":  21,
+        "topicTitle":  "Hotel",
+        "translation":  "마지막으로 호텔에 묵은 게 언제인가요? 어디에 머물렀나요? 왜 거기 있었나요? 당신은 호텔에서 무엇을 했나요? 처음부터 끝까지 모두 말해 주세요."
+    },
+    {
+        "id":  102,
+        "text":  "Please pick two of different your friends or family members. What are the differences and similarities between them? Describe each of them in detail.",
+        "hint":  "get along well(사이가 좋다), hang out together(함께 시간을 보내다), keep in touch(연락하고 지내다), share daily stories(일상 이야기를 나누다), rely on each other(서로 의지하다), have a lot in common(공통점이 많다), be completely different(완전히 다르다), visit someone\u0027s house(누군가의 집을 방문하다), childhood memory(어린 시절 기억), spend quality time(뜻깊은 시간을 보내다), have a casual conversation(가벼운 대화를 하다), feel close to(가깝게 느끼다)",
+        "topicId":  22,
+        "topicTitle":  "Family, Friends",
+        "translation":  "친구나 가족 중에서 두 명을 골라주세요. 그들 사이의 차이점과 유사한 점은 무엇인가요? 각각에 대해 자세히 설명해주세요."
+    },
+    {
+        "id":  103,
+        "text":  "When you are with your friends or family members, what do you typically talk about with them? What topic do you talk about most often? How was the last conversation you had with them? Tell me about the normal conversation in detail.",
+        "hint":  "get along well(사이가 좋다), hang out together(함께 시간을 보내다), keep in touch(연락하고 지내다), share daily stories(일상 이야기를 나누다), rely on each other(서로 의지하다), have a lot in common(공통점이 많다), be completely different(완전히 다르다), visit someone\u0027s house(누군가의 집을 방문하다), childhood memory(어린 시절 기억), spend quality time(뜻깊은 시간을 보내다), have a casual conversation(가벼운 대화를 하다), feel close to(가깝게 느끼다)",
+        "topicId":  22,
+        "topicTitle":  "Family, Friends",
+        "translation":  "친구나 가족과 함께 있을 때, 보통 그들과 어떤 이야기를 하나요? 당신은 어떤 주제에 대해 가장 자주 이야기하나요? 그들과 마지막으로 나눈 대화는 어땠나요? 일반적인 대화에 대해 자세히 말해주세요."
+    },
+    {
+        "id":  104,
+        "text":  "How was the way people in your country maintained their health when you were young, and how is it now? Tell me how people keep their health has changed over the years.",
+        "hint":  "stay healthy(건강을 유지하다), health-conscious(건강을 신경 쓰는), prevent illness(질병을 예방하다), try home workouts(홈트레이닝을 하다), eat less processed food(가공식품을 덜 먹다), track my steps(걸음 수를 기록하다), different health views(건강에 대한 다른 관점), older generation(기성세대), younger generation(젊은 세대), health issue(건강 이슈), public concern(사회적 관심), make lifestyle changes(생활 습관을 바꾸다)",
+        "topicId":  23,
+        "topicTitle":  "Health",
+        "translation":  "어렸을 때 당신의 나라 사람들이 건강을 유지하는 방식은 어땠고, 지금은 어떤가요? 사람들이 건강을 유지하는 방법이 지난 몇 년 동안 어떻게 변해왔는지 말해주세요."
+    },
+    {
+        "id":  105,
+        "text":  "People have different views on what is healthy. How does your parents\u0027 generation define health? And what do your age group think about being healthy? Tell me how different people think about health.",
+        "hint":  "stay healthy(건강을 유지하다), health-conscious(건강을 신경 쓰는), prevent illness(질병을 예방하다), try home workouts(홈트레이닝을 하다), eat less processed food(가공식품을 덜 먹다), track my steps(걸음 수를 기록하다), different health views(건강에 대한 다른 관점), older generation(기성세대), younger generation(젊은 세대), health issue(건강 이슈), public concern(사회적 관심), make lifestyle changes(생활 습관을 바꾸다)",
+        "topicId":  23,
+        "topicTitle":  "Health",
+        "translation":  "사람들은 무엇이 건강에 좋은지에 대해 서로 다른 견해를 가지고 있습니다. 부모님 세대는 건강을 어떻게 정의하나요? 그리고 여러분의 연령대는 건강해지는 것에 대해 어떻게 생각하나요? 사람들이 건강에 대해 어떻게 생각하는지 말해주세요."
+    },
+    {
+        "id":  106,
+        "text":  "Tell me about recent news you read or watched related to health issues. What was the news about? Do people talk about that news often? What do people think about this issue? Describe the news in detail.",
+        "hint":  "stay healthy(건강을 유지하다), health-conscious(건강을 신경 쓰는), prevent illness(질병을 예방하다), try home workouts(홈트레이닝을 하다), eat less processed food(가공식품을 덜 먹다), track my steps(걸음 수를 기록하다), different health views(건강에 대한 다른 관점), older generation(기성세대), younger generation(젊은 세대), health issue(건강 이슈), public concern(사회적 관심), make lifestyle changes(생활 습관을 바꾸다)",
+        "topicId":  23,
+        "topicTitle":  "Health",
+        "translation":  "건강 문제와 관련하여 최근에 읽거나 본 뉴스에 대해 말해주세요. 무슨 소식이었나요? 사람들이 그 뉴스에 대해 자주 이야기하나요? 사람들은 이 문제에 대해 어떻게 생각하나요? 그 뉴스를 자세히 설명해주세요."
+    },
+    {
+        "id":  107,
+        "text":  "Please pick two popular parks you know. And compare those two different parks. What are the differences and similarities between them? Which park do you like better? Tell me how they are different.",
+        "hint":  "go for a walk(산책하러 가다), sit on a bench(벤치에 앉다), have a picnic(소풍하다), children\u0027s playground(어린이 놀이터), exercise outdoors(야외에서 운동하다), enjoy fresh air(신선한 공기를 즐기다), green space(녹지 공간), crowded on weekends(주말에 붐비는), compare two parks(두 공원을 비교하다), family-friendly place(가족 친화적인 장소), park maintenance(공원 관리), feel relaxed(편안함을 느끼다)",
+        "topicId":  24,
+        "topicTitle":  "Parks",
+        "translation":  "당신이 알고 있는 인기 있는 공원 두 곳을 골라주세요. 그리고 이 두 공원을 비교해 보세요. 그들 사이의 차이점과 유사점은 무엇인가요? 어느 공원을 더 좋아하시나요? 공원이 어떻게 다른지 말해주세요."
+    },
+    {
+        "id":  108,
+        "text":  "Compare the activities that children do at parks with adults do at parks. What are the differences between them? How about the facilities at parks for children and adults?",
+        "hint":  "go for a walk(산책하러 가다), sit on a bench(벤치에 앉다), have a picnic(소풍하다), children\u0027s playground(어린이 놀이터), exercise outdoors(야외에서 운동하다), enjoy fresh air(신선한 공기를 즐기다), green space(녹지 공간), crowded on weekends(주말에 붐비는), compare two parks(두 공원을 비교하다), family-friendly place(가족 친화적인 장소), park maintenance(공원 관리), feel relaxed(편안함을 느끼다)",
+        "topicId":  24,
+        "topicTitle":  "Parks",
+        "translation":  "아이들이 공원에서 하는 활동을 어른들이 공원에서 하는 것과 비교해 보세요. 그들 사이의 차이점은 무엇인가요? 어린이와 어른을 위한 공원 시설은 어떤가요?"
+    },
+    {
+        "id":  109,
+        "text":  "Talk about some problems with parks in your country these days. What are the challenges parks face, and what is the biggest problem? What things do people need to do to solve the issues?",
+        "hint":  "go for a walk(산책하러 가다), sit on a bench(벤치에 앉다), have a picnic(소풍하다), children\u0027s playground(어린이 놀이터), exercise outdoors(야외에서 운동하다), enjoy fresh air(신선한 공기를 즐기다), green space(녹지 공간), crowded on weekends(주말에 붐비는), compare two parks(두 공원을 비교하다), family-friendly place(가족 친화적인 장소), park maintenance(공원 관리), feel relaxed(편안함을 느끼다)",
+        "topicId":  24,
+        "topicTitle":  "Parks",
+        "translation":  "요즘 당신의 나라 공원과 관련된 몇 가지 문제에 대해 이야기해주세요. 공원이 직면한 어려움은 무엇이고, 가장 큰 문제는 무엇인가요? 문제를 해결하기 위해 사람들이 해야 할 일은 무엇인가요?"
+    },
+    {
+        "id":  110,
+        "text":  "Many people go to bars. How have bars changed over the years? How are current bars different from bars in the past? What are the difference and the similarities?",
+        "hint":  "go out for drinks(술 마시러 나가다), order a drink(술을 주문하다), share snacks(안주를 나눠 먹다), lively atmosphere(활기찬 분위기), quiet bar(조용한 바), hang out with friends(친구들과 어울리다), talk over drinks(술 마시며 이야기하다), pay the bill(계산하다), nightlife culture(밤 문화), bar incident(술집 사건), police report(경찰 보도), change over time(시간이 지나며 변하다)",
+        "topicId":  25,
+        "topicTitle":  "Pub, Bar",
+        "translation":  "많은 사람들이 술집에 갑니다. 몇 년 동안 술집은 어떻게 변했나요? 현재 술집들은 과거의 술집과 어떻게 다른가요? 차이점과 유사점은 무엇인가요?"
+    },
+    {
+        "id":  111,
+        "text":  "What do people usually do at bars? How have the activities people do at bars changed over the years? What are things different from bars 5 or 10 years ago? Compare the differences and the similarities between the bars in the past and the bars today.",
+        "hint":  "go out for drinks(술 마시러 나가다), order a drink(술을 주문하다), share snacks(안주를 나눠 먹다), lively atmosphere(활기찬 분위기), quiet bar(조용한 바), hang out with friends(친구들과 어울리다), talk over drinks(술 마시며 이야기하다), pay the bill(계산하다), nightlife culture(밤 문화), bar incident(술집 사건), police report(경찰 보도), change over time(시간이 지나며 변하다)",
+        "topicId":  25,
+        "topicTitle":  "Pub, Bar",
+        "translation":  "사람들은 보통 술집에서 무엇을 하나요? 사람들이 술집에서 하는 활동들은 지난 몇 년 동안 어떻게 변해 왔나요? 5년 전이나 10년 전 술집과는 현재 무엇이 다른가요? 과거의 술집과 오늘날의 술집의 차이점과 유사점을 비교해 주세요."
+    },
+    {
+        "id":  112,
+        "text":  "Have you heard the news or a media report about bars or pubs where the police are involved? What happened? How did it turn out in the end? What do people say about this? Tell me everything in detail.",
+        "hint":  "go out for drinks(술 마시러 나가다), order a drink(술을 주문하다), share snacks(안주를 나눠 먹다), lively atmosphere(활기찬 분위기), quiet bar(조용한 바), hang out with friends(친구들과 어울리다), talk over drinks(술 마시며 이야기하다), pay the bill(계산하다), nightlife culture(밤 문화), bar incident(술집 사건), police report(경찰 보도), change over time(시간이 지나며 변하다)",
+        "topicId":  25,
+        "topicTitle":  "Pub, Bar",
+        "translation":  "당신은 경찰이 연루된 술집이나 펍에 대한 뉴스나 언론 보도를 들어본 적이 있나요? 무슨 일입니까? 결국엔 어떻게 됐나요? 사람들은 이것에 대해 뭐라고 하나요? 모든 것을 자세히 말해 주세요."
+    },
+    {
+        "id":  113,
+        "text":  "You indicated in the survey that you like to take vacations domestically. How was traveling domestically different when you were young compared to these days. Is it easier or more difficult now than in the past? Tell me how traveling has changed.",
+        "hint":  "travel within the country(국내 여행을 하다), choose a destination(목적지를 고르다), book transportation(교통편을 예약하다), find accommodation(숙소를 찾다), plan an itinerary(일정을 짜다), try local food(현지 음식을 먹어보다), visit tourist spots(관광지를 방문하다), travel on a budget(예산에 맞춰 여행하다), easier than before(예전보다 쉬운), travel concern(여행 걱정거리), crowded places(붐비는 장소), make good memories(좋은 추억을 만들다)",
+        "topicId":  26,
+        "topicTitle":  "Domestic Travel",
+        "translation":  "당신은 설문조사에서 국내에서 휴가를 보내는 것을 좋아한다고 했습니다. 어렸을 적에 국내 여행은 요즘과 어떻게 달랐나요? 과거보다 지금이 더 쉬운가요, 더 어려운가요? 여행이 어떻게 변했는지 말해주세요."
+    },
+    {
+        "id":  114,
+        "text":  "What are some issues concerning people traveling these days? What things are people most interested in? What things cause these concerns? Tell me what people discuss as the main concern of traveling",
+        "hint":  "travel within the country(국내 여행을 하다), choose a destination(목적지를 고르다), book transportation(교통편을 예약하다), find accommodation(숙소를 찾다), plan an itinerary(일정을 짜다), try local food(현지 음식을 먹어보다), visit tourist spots(관광지를 방문하다), travel on a budget(예산에 맞춰 여행하다), easier than before(예전보다 쉬운), travel concern(여행 걱정거리), crowded places(붐비는 장소), make good memories(좋은 추억을 만들다)",
+        "topicId":  26,
+        "topicTitle":  "Domestic Travel",
+        "translation":  "요즘에 사람들이 여행을 하는 데 어떤 문제가 있나요? 사람들이 가장 관심을 갖는 것은 무엇인가요? 어떤 것들이 이런 걱정을 생기게 하나요? 사람들이 여행의 주요 걱정거리로 논의하는 것을 말해주세요."
+    },
+    {
+        "id":  115,
+        "text":  "You indicated in the survey that you like to take vacations internationally. How has traveling overseas changed over the years? Do you think it has become easier than before, or has it got more difficult? Why do you think that? Describe what traveling to other countries was like in the past and now.",
+        "hint":  "travel abroad(해외여행을 가다), check my passport(여권을 확인하다), book a flight(항공편을 예약하다), exchange money(환전하다), language barrier(언어 장벽), foreign culture(외국 문화), tourist attraction(관광 명소), get lost(길을 잃다), miss a flight(비행기를 놓치다), travel worry(여행 걱정), plan carefully(꼼꼼히 계획하다), compare with the past(과거와 비교하다)",
+        "topicId":  27,
+        "topicTitle":  "Overseas Trip",
+        "translation":  "당신은 설문조사에서 해외로 휴가를 가는 것을 좋아한다고 했습니다. 지난 몇 년 동안 해외여행은 어떻게 변했나요? 전보다 쉬워졌다고 생각하나요, 아니면 더 어려워졌다고 생각하나요? 왜 그렇다고 생각하나요? 과거와 현재 다른 나라로 여행하는 것이 어떤지 묘사해주세요."
+    },
+    {
+        "id":  116,
+        "text":  "When people prepare to travel abroad, what things are they concerned about? It might be a hotel reservation, tourist attractions, or the traveling schedule. What is it? How are that concerns being done to address for the future?",
+        "hint":  "travel abroad(해외여행을 가다), check my passport(여권을 확인하다), book a flight(항공편을 예약하다), exchange money(환전하다), language barrier(언어 장벽), foreign culture(외국 문화), tourist attraction(관광 명소), get lost(길을 잃다), miss a flight(비행기를 놓치다), travel worry(여행 걱정), plan carefully(꼼꼼히 계획하다), compare with the past(과거와 비교하다)",
+        "topicId":  27,
+        "topicTitle":  "Overseas Trip",
+        "translation":  "사람들이 해외여행을 준비할 때, 그들은 어떤 것에 대해 걱정하나요? 아마도 호텔 예약, 관광지 또는 여행 일정일 수 있습니다. 걱정하는 것은 무엇인가요? 미래에 대한 우려는 어떻게 해결되고 있나요?"
+    },
+    {
+        "id":  117,
+        "text":  "Traveling has become more difficult in the last five years. What types of changes have you noted while traveling? How have the changes affected travelers or travelers\u0027 experiences? Do you think traveling has become more difficult than before?",
+        "hint":  "plan a trip(여행을 계획하다), pack my bags(짐을 싸다), book a hotel(호텔을 예약하다), use a travel app(여행 앱을 사용하다), change my schedule(일정을 바꾸다), deal with problems(문제를 처리하다), travel light(가볍게 여행하다), make an itinerary(여행 일정을 만들다), enjoy the scenery(경치를 즐기다), try local food(현지 음식을 먹어보다), easier than before(예전보다 쉬운), harder than before(예전보다 어려운)",
+        "topicId":  28,
+        "topicTitle":  "Traveling",
+        "translation":  "지난 5년 동안 여행은 더 어려워졌습니다. 여행 중에 어떤 종류의 변화를 경험하셨나요? 그 변화가 여행자나 여행자의 경험에 어떤 영향을 미쳤나요? 당신은 여행이 전보다 더 어려워졌다고 생각하나요?"
+    },
+    {
+        "id":  118,
+        "text":  "What are some issues regarding traveling these days? What concerns do people typically discuss before traveling? Tell me what things people consider very important to take trips.",
+        "hint":  "plan a trip(여행을 계획하다), pack my bags(짐을 싸다), book a hotel(호텔을 예약하다), use a travel app(여행 앱을 사용하다), change my schedule(일정을 바꾸다), deal with problems(문제를 처리하다), travel light(가볍게 여행하다), make an itinerary(여행 일정을 만들다), enjoy the scenery(경치를 즐기다), try local food(현지 음식을 먹어보다), easier than before(예전보다 쉬운), harder than before(예전보다 어려운)",
+        "topicId":  28,
+        "topicTitle":  "Traveling",
+        "translation":  "요즘 여행에 관한 문제에는 무엇이 있나요? 사람들은 여행하기 전에 일반적으로 어떤 걱정거리를 이야기하나요? 사람들이 여행을 가기 위해 중요하게 생각하는 것들을 말해주세요."
+    },
+    {
+        "id":  119,
+        "text":  "Please compare the movies today to the movies you watched when you were young. What are the differences and the similarities? Tell me how movies have changed over the years.",
+        "hint":  "watch a movie(영화를 보다), go to the theater(극장에 가다), favorite actor(좋아하는 배우), movie trend(영화 트렌드), special effects(특수 효과), streaming service(스트리밍 서비스), storyline(줄거리), acting skills(연기력), box office hit(흥행작), movie news(영화 뉴스), compare old and new movies(옛 영화와 요즘 영화를 비교하다), talk after the movie(영화 후 이야기하다)",
+        "topicId":  29,
+        "topicTitle":  "Movie",
+        "translation":  "오늘날의 영화를 어렸을 때 봤던 영화와 비교해 보세요. 차이점과 유사점은 무엇인가요? 지난 몇 년 동안 영화가 어떻게 변했는지 말해주세요."
+    },
+    {
+        "id":  120,
+        "text":  "What issues regarding movies do you usually discuss with your friends or family these days? Is there some news with actors or actresses recently? How did the news affect people\u0027s impressions? And What are the recent trends in the movie industry? Tell me everything in detail.",
+        "hint":  "watch a movie(영화를 보다), go to the theater(극장에 가다), favorite actor(좋아하는 배우), movie trend(영화 트렌드), special effects(특수 효과), streaming service(스트리밍 서비스), storyline(줄거리), acting skills(연기력), box office hit(흥행작), movie news(영화 뉴스), compare old and new movies(옛 영화와 요즘 영화를 비교하다), talk after the movie(영화 후 이야기하다)",
+        "topicId":  29,
+        "topicTitle":  "Movie",
+        "translation":  "요즘 친구나 가족과 영화 관련 어떤 이슈들을 논의하나요? 최근에 배우 또는 여배우의 소식이 있나요? 그 소식이 어떻게 사람들의 인상에 영향을 미쳤나요? 그리고 무엇이 최근 영화 산업의 트렌드인가요? 모든 걸 자세하게 말해주세요."
+    },
+    {
+        "id":  121,
+        "text":  "Please pick two different kinds of music or musician you like. Compare those two, and what are their differences and similarities? Give as many details as you can.",
+        "hint":  "listen to music(음악을 듣다), favorite musician(좋아하는 음악가), catchy melody(중독성 있는 멜로디), meaningful lyrics(의미 있는 가사), use headphones(헤드폰을 사용하다), music device(음악 기기), make a playlist(재생목록을 만들다), relieve stress(스트레스를 풀다), compare two artists(두 음악가를 비교하다), different music styles(다른 음악 스타일), new gadget(새로운 기기), sound quality(음질)",
+        "topicId":  30,
+        "topicTitle":  "Music",
+        "translation":  "당신이 좋아하는 두 종류의 음악이나 음악가를 골라주세요. 이 두 가지를 비교해 보세요. 그리고 그들의 차이점과 유사점은 무엇인가요? 할 수 있는 한 많은 세부 사항을 말해주세요."
+    },
+    {
+        "id":  122,
+        "text":  "I\u0027d like to know what gadgets or electronic equipment people are interested in these days? Why do people in your country like those music gadgets or equipment? What new products excite them and why? Tell me what people talk about it.",
+        "hint":  "listen to music(음악을 듣다), favorite musician(좋아하는 음악가), catchy melody(중독성 있는 멜로디), meaningful lyrics(의미 있는 가사), use headphones(헤드폰을 사용하다), music device(음악 기기), make a playlist(재생목록을 만들다), relieve stress(스트레스를 풀다), compare two artists(두 음악가를 비교하다), different music styles(다른 음악 스타일), new gadget(새로운 기기), sound quality(음질)",
+        "topicId":  30,
+        "topicTitle":  "Music",
+        "translation":  "요즘 사람들이 관심을 갖는 기기들이나 전자제품이 무엇인지 알고 싶습니다. 왜 당신의 나라 사람들은 그러한 음악 기기나 장비를 좋아하나요? 어떤 신제품이 그들을 흥분시키고 그 이유는 무엇인가요? 사람들이 그것에 대해 무슨 말을 하는지 말해주세요."
+    },
+    {
+        "id":  123,
+        "text":  "How is the way of using the internet different in different age groups? What does the younger group typically do on the internet, and how do the older people use the internet? Please discuss how they use the internet differently.",
+        "hint":  "search for information(정보를 검색하다), watch online videos(온라인 영상을 보다), use social media(SNS를 사용하다), shop online(온라인 쇼핑을 하다), do an assignment(과제를 하다), visit a website(웹사이트를 방문하다), save useful links(유용한 링크를 저장하다), compare reviews(리뷰를 비교하다), protect my privacy(개인정보를 보호하다), internet security(인터넷 보안), older users(나이 든 사용자), younger users(젊은 사용자)",
+        "topicId":  31,
+        "topicTitle":  "Internet",
+        "translation":  "서로 다른 연령대에서 인터넷을 사용하는 방법은 어떻게 다른가요? 젊은 그룹은 보통 인터넷에서 무엇을 하고, 나이든 사람들은 어떻게 인터넷을 사용하나요? 그들이 인터넷을 어떻게 다르게 사용하는지 말해주세요."
+    },
+    {
+        "id":  124,
+        "text":  "Tell me some issues regarding the internet these days. For example, security problems, personal information, or related to society. How have these concerns changed over the years, and how do they affect people in your country?",
+        "hint":  "search for information(정보를 검색하다), watch online videos(온라인 영상을 보다), use social media(SNS를 사용하다), shop online(온라인 쇼핑을 하다), do an assignment(과제를 하다), visit a website(웹사이트를 방문하다), save useful links(유용한 링크를 저장하다), compare reviews(리뷰를 비교하다), protect my privacy(개인정보를 보호하다), internet security(인터넷 보안), older users(나이 든 사용자), younger users(젊은 사용자)",
+        "topicId":  31,
+        "topicTitle":  "Internet",
+        "translation":  "요즘 인터넷과 관련된 이슈를 알려주세요. 예를 들어, 보안 문제, 개인 정보 또는 사회와 관련된 문제가 있습니다. 이러한 문제는 몇 년 동안 어떻게 변해왔으며, 당신의 나라 사람들에게 어떤 영향을 미치나요?"
+    },
+    {
+        "id":  125,
+        "text":  "How has the recycling practice changed over the years? Did the recycling materials change compared to in the past? Tell me all the changes regarding the recycling system in your country.",
+        "hint":  "separate trash(쓰레기를 분리하다), sort recyclables(재활용품을 분류하다), rinse containers(용기를 헹구다), take out recycling(재활용품을 내놓다), follow the rules(규칙을 따르다), reduce waste(쓰레기를 줄이다), reuse items(물건을 재사용하다), protect the environment(환경을 보호하다), miss the pickup(수거를 놓치다), too large to throw away(버리기에는 너무 큰), recycling issue(재활용 문제), feel responsible(책임감을 느끼다)",
+        "topicId":  32,
+        "topicTitle":  "Recycling",
+        "translation":  "지난 몇 년 동안 재활용 실천 방법이 어떻게 바뀌었나요? 재활용품들은 과거에 비해 달라졌나요? 당신의 나라 재활용 시스템에 대한 모든 변화를 말해주세요."
+    },
+    {
+        "id":  126,
+        "text":  "Please tell me about some recent issues related to recycling in your country. What was the news about? What does the media say about this problem? What do you think about this matter? How does this matter affect the environment?",
+        "hint":  "separate trash(쓰레기를 분리하다), sort recyclables(재활용품을 분류하다), rinse containers(용기를 헹구다), take out recycling(재활용품을 내놓다), follow the rules(규칙을 따르다), reduce waste(쓰레기를 줄이다), reuse items(물건을 재사용하다), protect the environment(환경을 보호하다), miss the pickup(수거를 놓치다), too large to throw away(버리기에는 너무 큰), recycling issue(재활용 문제), feel responsible(책임감을 느끼다)",
+        "topicId":  32,
+        "topicTitle":  "Recycling",
+        "translation":  "최근 당신의 나라의 재활용과 관련된 몇 가지 이슈에 대해 말해주세요. 무슨 뉴스였나요? 언론은 이 문제에 대해 뭐라고 하는가요? 이 문제에 대해 어떻게 생각하시나요? 이 문제가 환경에 어떤 영향을 미치나요?"
+    },
+    {
+        "id":  127,
+        "text":  "Tell me about a country that is geographically similar or neighboring to your country. What geographical features does this country have? What changes has this country had in recent years? Provide as many details as possible.",
+        "hint":  "be surrounded by mountains(산으로 둘러싸여 있다), flow through the city(도시를 가로질러 흐르다), coastal area(해안 지역), natural scenery(자연 경관), famous landmark(유명한 랜드마크), neighboring country(이웃 나라), geographical feature(지리적 특징), go hiking(등산하러 가다), swim at the beach(해변에서 수영하다), ride a bike(자전거를 타다), look different from(다르게 보이다), recent news(최근 뉴스)",
+        "topicId":  33,
+        "topicTitle":  "Geography",
+        "translation":  "당신의 나라와 지리적으로 비슷하거나 가까운 나라에 대해 알려주세요. 이 나라는 어떤 지리적 특징을 가지고 있나요? 최근 몇 년 동안 이 나라는 어떤 변화를 겪었나요? 가능한 한 많은 세부 정보를 제공해주세요."
+    },
+    {
+        "id":  128,
+        "text":  "Have you read or seen some articles about the country you just mentioned about? What do you think about these articles? What was the news? Was it economic, or political relationships news?",
+        "hint":  "be surrounded by mountains(산으로 둘러싸여 있다), flow through the city(도시를 가로질러 흐르다), coastal area(해안 지역), natural scenery(자연 경관), famous landmark(유명한 랜드마크), neighboring country(이웃 나라), geographical feature(지리적 특징), go hiking(등산하러 가다), swim at the beach(해변에서 수영하다), ride a bike(자전거를 타다), look different from(다르게 보이다), recent news(최근 뉴스)",
+        "topicId":  33,
+        "topicTitle":  "Geography",
+        "translation":  "방금 말한 나라에 대한 기사를 읽거나 본 적이 있나요? 이 기사들에 대해 어떻게 생각하시나요? 무슨 소식이었나요? 경제 뉴스였나요, 아니면 정치 관계 뉴스였나요?"
+    },
+    {
+        "id":  129,
+        "text":  "I\u0027d like to know how different are the ways to solve problems at home between you, and your parents. How do you solve problems when they occur in your home, and how do your parents solve problems in their house. Tell me the differences and the similarities.",
+        "hint":  "fix a problem at home(집 문제를 고치다), rent an apartment(아파트를 임대하다), pay rent(월세를 내다), housing cost(주거비), noisy neighbor(시끄러운 이웃), water leak(누수), repair service(수리 서비스), modern apartment(현대식 아파트), old house(오래된 집), housing issue(주택 문제), parents\u0027 way(부모님의 방식), my own way(나만의 방식)",
+        "topicId":  34,
+        "topicTitle":  "House",
+        "translation":  "당신과 당신의 부모님 사이에 집에서 문제를 해결하는 방법이 얼마나 다른지 알고 싶습니다. 당신의 집에서 문제가 발생했을 때 당신은 어떻게 해결하고, 당신의 부모님은 그들의 집에서 어떻게 문제를 해결하나요? 차이점과 유사점을 말해주세요."
+    },
+    {
+        "id":  130,
+        "text":  "Talk about some issues most people have when they rent a house or an apartment. What are the things people are concerned about? How do these problems affect people\u0027s lives? How do they deal with these issues?",
+        "hint":  "fix a problem at home(집 문제를 고치다), rent an apartment(아파트를 임대하다), pay rent(월세를 내다), housing cost(주거비), noisy neighbor(시끄러운 이웃), water leak(누수), repair service(수리 서비스), modern apartment(현대식 아파트), old house(오래된 집), housing issue(주택 문제), parents\u0027 way(부모님의 방식), my own way(나만의 방식)",
+        "topicId":  34,
+        "topicTitle":  "House",
+        "translation":  "대부분의 사람들이 집이나 아파트를 빌릴 때 겪는 몇 가지 문제에 대해 이야기해주세요. 사람들이 걱정하는 것은 무엇인가요? 이러한 문제들이 사람들의 삶에 어떤 영향을 미치나요? 그들은 이런 문제들을 어떻게 다루나요?"
+    },
+    {
+        "id":  131,
+        "text":  "Houses and apartments have changed a lot over the years. How have housing structures changed in the last 5 or 10 years? What were they like when you grew up, and what about now? And how have they developed?",
+        "hint":  "fix a problem at home(집 문제를 고치다), rent an apartment(아파트를 임대하다), pay rent(월세를 내다), housing cost(주거비), noisy neighbor(시끄러운 이웃), water leak(누수), repair service(수리 서비스), modern apartment(현대식 아파트), old house(오래된 집), housing issue(주택 문제), parents\u0027 way(부모님의 방식), my own way(나만의 방식)",
+        "topicId":  34,
+        "topicTitle":  "House",
+        "translation":  "집과 아파트는 지난 몇 년 동안 많이 바뀌었습니다. 지난 5년 또는 10년 동안 주택 구조가 어떻게 변했나요? 당신이 자랐을 때 집들은 어땠고, 지금은 어떤가요? 그리고 집들은 어떻게 발전했나요?"
+    },
+    {
+        "id":  132,
+        "text":  "Housing is a general topic in the news these days. Maybe there are too many homes on the market, or housing costs are too expensive. What issue do people discuss regarding housing? What are the problems, and how do people handle them?",
+        "hint":  "fix a problem at home(집 문제를 고치다), rent an apartment(아파트를 임대하다), pay rent(월세를 내다), housing cost(주거비), noisy neighbor(시끄러운 이웃), water leak(누수), repair service(수리 서비스), modern apartment(현대식 아파트), old house(오래된 집), housing issue(주택 문제), parents\u0027 way(부모님의 방식), my own way(나만의 방식)",
+        "topicId":  34,
+        "topicTitle":  "House",
+        "translation":  "주택은 요즘 뉴스에서 일반적인 주제입니다. 아마도 시장에 집이 너무 많거나, 주거비가 너무 비쌀 수 있습니다. 사람들은 주택과 관련하여 어떤 문제를 논의하나요? 무엇이 문제이고, 사람들은 그것들을 어떻게 다루나요?"
+    },
+    {
+        "id":  133,
+        "text":  "Let\u0027s talk about what people do for their future. What things do people prepare for a job? Do they receive specific job training or go to school? Describe what they do in detail.",
+        "hint":  "prepare for a job(취업을 준비하다), build a resume(이력서를 만들다), get a certificate(자격증을 따다), learn job skills(직무 기술을 배우다), job training(직업 훈련), popular company(인기 있는 회사), stable job(안정적인 직업), good benefits(좋은 복지), career goal(진로 목표), future plan(미래 계획), work in an industry(산업에서 일하다), stand out(돋보이다)",
+        "topicId":  35,
+        "topicTitle":  "Career",
+        "translation":  "사람들이 미래를 위해 무엇을 하는지 이야기해 봅시다. 사람들은 직업을 위해 어떤 것들을 준비하나요? 그들은 특정한 직업 훈련을 받나요, 아니면 학교에 가나요? 그들이 무엇을 하는지 자세히 설명해주세요."
+    },
+    {
+        "id":  134,
+        "text":  "Please tell me what companies or industries people in your country want to work in these days. What is the reason people are interested in those companies? Provide as many details as possible.",
+        "hint":  "prepare for a job(취업을 준비하다), build a resume(이력서를 만들다), get a certificate(자격증을 따다), learn job skills(직무 기술을 배우다), job training(직업 훈련), popular company(인기 있는 회사), stable job(안정적인 직업), good benefits(좋은 복지), career goal(진로 목표), future plan(미래 계획), work in an industry(산업에서 일하다), stand out(돋보이다)",
+        "topicId":  35,
+        "topicTitle":  "Career",
+        "translation":  "요즘 당신의 나라 사람들이 일하고 싶은 회사나 산업이 무엇인지 말해 주세요. 사람들이 그 회사들에 관심을 갖는 이유는 무엇인가요? 가능한 한 많은 세부 정보를 제공해 주세요."
+    },
+    {
+        "id":  135,
+        "text":  "I\u0027d like to know about popular technology in your country. How has that technology developed over the years? How was it different compared to technology now? How they affect people life?",
+        "hint":  "use it every day(매일 사용하다), make life easier(생활을 더 편하게 만들다), save time(시간을 절약하다), stay connected(연결되어 지내다), download an app(앱을 다운로드하다), update the software(소프트웨어를 업데이트하다), run out of battery(배터리가 다 되다), stop working(작동이 멈추다), fix the problem(문제를 해결하다), protect personal information(개인정보를 보호하다), be easy to use(사용하기 쉽다), depend on technology(기술에 의존하다)",
+        "topicId":  36,
+        "topicTitle":  "Technology",
+        "translation":  "당신의 나라에서 인기 있는 기술에 대해 알고 싶습니다. 그 기술은 몇 년 동안 어떻게 발전해 왔나요? 지금 기술과 비교했을 때 어떻게 달랐나요? 그것들이 사람들의 삶에 어떻게 영향을 미치나요?"
+    },
+    {
+        "id":  136,
+        "text":  "Tell me about recent news you read or watched related to technology. What was the news regarding technology? Do people talk about that issues often? How do people handle these issues?",
+        "hint":  "use it every day(매일 사용하다), make life easier(생활을 더 편하게 만들다), save time(시간을 절약하다), stay connected(연결되어 지내다), download an app(앱을 다운로드하다), update the software(소프트웨어를 업데이트하다), run out of battery(배터리가 다 되다), stop working(작동이 멈추다), fix the problem(문제를 해결하다), protect personal information(개인정보를 보호하다), be easy to use(사용하기 쉽다), depend on technology(기술에 의존하다)",
+        "topicId":  36,
+        "topicTitle":  "Technology",
+        "translation":  "최근에 읽었거나 본 기술과 관련된 뉴스를 말해주세요. 그 기술에 관한 뉴스는 무엇이었나요? 사람들이 그 문제에 대해 자주 이야기하나요? 사람들은 이 문제들을 어떻게 다루나요?"
+    },
+    {
+        "id":  137,
+        "text":  "I\u0027d like to know about the rising industries in your country. What industries do people talk about these days? What is this industry about? How has that industry changed over the years? How was it different compared to the industry now?",
+        "hint":  "growing industry(성장하는 산업), promising company(유망한 회사), attract attention(관심을 끌다), release a new product(신제품을 출시하다), meet expectations(기대에 부응하다), disappoint customers(고객을 실망시키다), create jobs(일자리를 만들다), improve daily life(일상을 개선하다), become competitive(경쟁력을 갖추다), change quickly(빠르게 변하다), use the service(서비스를 이용하다), have a big impact(큰 영향을 주다)",
+        "topicId":  37,
+        "topicTitle":  "Industry",
+        "translation":  "당신의 나라에서 떠오르는 산업에 대해 알고 싶습니다. 요즘 사람들은 어떤 산업에 대해 이야기하나요? 이 산업은 무엇에 관한 것인가요? 그 산업은 몇 년 동안 어떻게 변해 왔나요? 지금의 그 산업과 비교했을 때 과거에는 어떻게 달랐나요?"
+    },
+    {
+        "id":  138,
+        "text":  "Have the industry you just mentioned ever released a new product that couldn\u0027t meet people\u0027s expectations? What was the product about? Why were people disappointed about it? How did people react to this issue?",
+        "hint":  "growing industry(성장하는 산업), promising company(유망한 회사), attract attention(관심을 끌다), release a new product(신제품을 출시하다), meet expectations(기대에 부응하다), disappoint customers(고객을 실망시키다), create jobs(일자리를 만들다), improve daily life(일상을 개선하다), become competitive(경쟁력을 갖추다), change quickly(빠르게 변하다), use the service(서비스를 이용하다), have a big impact(큰 영향을 주다)",
+        "topicId":  37,
+        "topicTitle":  "Industry",
+        "translation":  "방금 말씀하신 업계에서 사람들의 기대에 미치지 못하는 신제품을 출시한 적이 있나요? 그 제품은 무엇에 관한 것이었나요? 왜 사람들은 그것에 대해 실망했나요? 사람들은 이 문제에 대해 어떻게 반응했나요?"
+    },
+    {
+        "id":  139,
+        "text":  "How has grocery shopping changed over the years? What food do people regularly buy at the grocery store? What are the trends in food in your country? How is grocery shopping nowadays different compared to grocery shopping in the past?",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  38,
+        "topicTitle":  "Food",
+        "translation":  "지난 몇 년간 식료품 쇼핑은 어떻게 변해왔나요? 사람들은 식료품점에서 정기적으로 어떤 음식을 사나요? 당신 나라의 음식 트렌드는 무엇인가요? 요즘 장보기는 과거의 장보기와 어떻게 다른가요?"
+    },
+    {
+        "id":  140,
+        "text":  "There are some issues related to food. What do you think about an issue with water and food shortage in the world? What efforts do you make to solve these problems? How do you consider these issues?",
+        "hint":  "daily life(일상생활), common situation(흔한 상황), useful expression(유용한 표현), personal experience(개인적인 경험), main reason(주된 이유), specific example(구체적인 예시), feel comfortable(편안하게 느끼다), handle it well(잘 처리하다), recent memory(최근 기억), overall impression(전체적인 인상), change over time(시간이 지나며 변하다), important point(중요한 점)",
+        "topicId":  38,
+        "topicTitle":  "Food",
+        "translation":  "음식과 관련된 몇 가지 문제가 있습니다. 당신은 세계의 물과 식량 부족에 대한 문제에 대해 어떻게 생각하나요? 당신은 이 문제들을 해결하기 위해 어떤 노력을 하시나요? 당신은 이 문제들을 어떻게 생각하시나요?"
+    },
+    {
+        "id":  141,
+        "text":  "People have gatherings and celebrations for particular reasons. How were gatherings and celebrations when you were a child? How were they different from now? How do people get together nowadays? Tell me how gatherings have changed over the years.",
+        "hint":  "get together(모이다), host a party(파티를 열다), invite guests(손님을 초대하다), prepare food and drinks(음식과 음료를 준비하다), decorate the place(장소를 꾸미다), catch up with people(근황을 나누다), make a toast(건배하다), unexpected incident(예상치 못한 사건), too much noise(너무 큰 소음), traffic problem(교통 문제), share responsibilities(역할을 나누다), make good memories(좋은 추억을 만들다)",
+        "topicId":  39,
+        "topicTitle":  "Gathering",
+        "translation":  "사람들은 특별한 이유로 모임과 축하 행사를 합니다. 당신이 어렸을 때 모임과 축하 행사는 어땠나요? 그것들은 지금과 어떻게 달랐나요? 요즘 사람들은 어떻게 모이나요? 지난 몇 년 동안 모임이 어떻게 변했는지 말해주세요."
+    },
+    {
+        "id":  142,
+        "text":  "Sometimes people can complain about the gatherings and celebrations. What concerns do people in your community have about gatherings and celebrations? Perhaps, they complain about traffic or noise. What do people concern about such gatherings?",
+        "hint":  "get together(모이다), host a party(파티를 열다), invite guests(손님을 초대하다), prepare food and drinks(음식과 음료를 준비하다), decorate the place(장소를 꾸미다), catch up with people(근황을 나누다), make a toast(건배하다), unexpected incident(예상치 못한 사건), too much noise(너무 큰 소음), traffic problem(교통 문제), share responsibilities(역할을 나누다), make good memories(좋은 추억을 만들다)",
+        "topicId":  39,
+        "topicTitle":  "Gathering",
+        "translation":  "때때로 사람들은 모임과 축하 행사에 대해 불평을 할 수 있습니다. 당신의 지역사회의 사람들은 모임과 축하행사에 대해 어떤 우려를 하나요? 아마도, 그들은 교통체증이나 소음에 대해 불평할 것입니다. 사람들이 그런 모임에 대해 우려하는 것은 무엇인가요?"
+    },
+    {
+        "id":  143,
+        "text":  "How have gatherings and celebrations changed over the years? What are the differences and the similarities? How was the way of getting together in the past, and what about now? Use as many details as possible to explain it.",
+        "hint":  "get together(모이다), host a party(파티를 열다), invite guests(손님을 초대하다), prepare food and drinks(음식과 음료를 준비하다), decorate the place(장소를 꾸미다), catch up with people(근황을 나누다), make a toast(건배하다), unexpected incident(예상치 못한 사건), too much noise(너무 큰 소음), traffic problem(교통 문제), share responsibilities(역할을 나누다), make good memories(좋은 추억을 만들다)",
+        "topicId":  39,
+        "topicTitle":  "Gathering",
+        "translation":  "지난 몇 년 동안 모임과 축하 행사는 어떻게 변했나요? 차이점과 유사점은 무엇인가요? 예전에 만나는 방법은 어땠고, 지금은 어떤가요? 그것을 설명하기 위해 가능한 한 많은 세부 사항을 이용해주세요."
+    },
+    {
+        "id":  144,
+        "text":  "Have you ever prepared some gatherings and celebrations before? It might require a lot of effort, money, and time. What was the difficulty when you prepared and discussed the event with people in your community?",
+        "hint":  "get together(모이다), host a party(파티를 열다), invite guests(손님을 초대하다), prepare food and drinks(음식과 음료를 준비하다), decorate the place(장소를 꾸미다), catch up with people(근황을 나누다), make a toast(건배하다), unexpected incident(예상치 못한 사건), too much noise(너무 큰 소음), traffic problem(교통 문제), share responsibilities(역할을 나누다), make good memories(좋은 추억을 만들다)",
+        "topicId":  39,
+        "topicTitle":  "Gathering",
+        "translation":  "당신은 이전에 모임과 축하 행사를 준비한 적이 있나요? 아마 그것은 많은 노력, 돈, 그리고 시간이 필요할지도 모릅니다. 당신이 속한 공동체의 사람들과 함께 행사를 준비하고 토론할 때 어려웠던 점은 무엇인가요?"
+    },
+    {
+        "id":  145,
+        "text":  "Let\u0027s talk about your favorite hair salon. Can you describe what it looks like? What do you like most about that place? How often do you go there? Please provide as many details as possible.",
+        "hint":  "get a haircut(머리를 자르다), make a hair appointment(미용실 예약을 하다), favorite stylist(좋아하는 스타일리스트), change my hairstyle(헤어스타일을 바꾸다), wash my hair(머리를 감다), trim the ends(끝을 다듬다), friendly service(친절한 서비스), reasonable price(합리적인 가격), recommend a style(스타일을 추천하다), feel satisfied(만족하다), bad haircut(마음에 안 드는 머리), memorable visit(기억에 남는 방문)",
+        "topicId":  40,
+        "topicTitle":  "Hair Salon",
+        "translation":  "당신이 자주 가는 미용실에 대해 이야기해봅시다. 그 미용실이 어떻게 생겼는지 묘사해 주실 수 있나요? 왜 그 장소를 그렇게 좋아하나요? 얼마나 자주 가나요? 가능한 많은 세부 내용들을 말해주세요."
+    },
+    {
+        "id":  146,
+        "text":  "When you go to a hair salon, what do you usually do there? Can you describe the process in order? What services do you typically get, and how does the visit usually go? Please explain step-by-step.",
+        "hint":  "get a haircut(머리를 자르다), make a hair appointment(미용실 예약을 하다), favorite stylist(좋아하는 스타일리스트), change my hairstyle(헤어스타일을 바꾸다), wash my hair(머리를 감다), trim the ends(끝을 다듬다), friendly service(친절한 서비스), reasonable price(합리적인 가격), recommend a style(스타일을 추천하다), feel satisfied(만족하다), bad haircut(마음에 안 드는 머리), memorable visit(기억에 남는 방문)",
+        "topicId":  40,
+        "topicTitle":  "Hair Salon",
+        "translation":  "언제 미용실에 가시나요? 그 곳에서 주로 무엇을 하시나요? 당신이 미용실에서 하는 일을 순서에 따라 설명해주실 수 있나요? 어떤 서비스를 주로 받으시고, 어떻게 시간을 보내시나요? 한 단계씩 설명해주세요."
+    },
+    {
+        "id":  147,
+        "text":  "Tell me about the first time you met your favorite hair designer. How did you find the salon or the stylist? What made you choose them? Please describe everything you remember about that experience in detail.",
+        "hint":  "get a haircut(머리를 자르다), make a hair appointment(미용실 예약을 하다), favorite stylist(좋아하는 스타일리스트), change my hairstyle(헤어스타일을 바꾸다), wash my hair(머리를 감다), trim the ends(끝을 다듬다), friendly service(친절한 서비스), reasonable price(합리적인 가격), recommend a style(스타일을 추천하다), feel satisfied(만족하다), bad haircut(마음에 안 드는 머리), memorable visit(기억에 남는 방문)",
+        "topicId":  40,
+        "topicTitle":  "Hair Salon",
+        "translation":  "당신이 가장 좋아하는 헤어 디자이너를 처음 만났던 때에 대하여 말해주세요. 그 미용실 또는 디자이너를 어떻게 찾았나요? 무엇이 당신의 선택에 영향을 미쳤나요? 그 경험에 대해 기억하시는 모든 것을 자세히 묘사해 주세요."
+    },
+    {
+        "id":  148,
+        "text":  "Please describe a memorable experience you had when you went to get a haircut. When and where did it happen? What exactly happened that made it unforgettable? Tell me the whole story from beginning to end, with as much detail as possible.",
+        "hint":  "get a haircut(머리를 자르다), make a hair appointment(미용실 예약을 하다), favorite stylist(좋아하는 스타일리스트), change my hairstyle(헤어스타일을 바꾸다), wash my hair(머리를 감다), trim the ends(끝을 다듬다), friendly service(친절한 서비스), reasonable price(합리적인 가격), recommend a style(스타일을 추천하다), feel satisfied(만족하다), bad haircut(마음에 안 드는 머리), memorable visit(기억에 남는 방문)",
+        "topicId":  40,
+        "topicTitle":  "Hair Salon",
+        "translation":  "머리를 하러 갔을 때 겪은 기억에 남는 경험을 묘사해 주세요. 언제 어디서 있었던 일인가요? 정확히 어떤 일이 발생해서 이 기억을 잊지 못하나요? 전체 이야기를 자세히 말해주세요."
+    }
+]

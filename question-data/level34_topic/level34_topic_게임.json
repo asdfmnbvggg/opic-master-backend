@@ -1,0 +1,74 @@
+﻿[
+    {
+        "id":  1,
+        "text":  "What kind of games do you play most often?",
+        "hint":  "mobile game(모바일 게임), computer game(컴퓨터 게임), console game(콘솔 게임), puzzle game(퍼즐 게임), action game(액션 게임), role-playing game(롤플레잉 게임), online game(온라인 게임), play with friends(친구들과 하다), stress relief(스트레스 해소), fun challenge(재미있는 도전)",
+        "translation":  "어떤 종류의 게임을 가장 자주 하나요?"
+    },
+    {
+        "id":  2,
+        "text":  "How does playing games affect your daily life?",
+        "hint":  "daily routine(일상 루틴), free time(여가 시간), stress relief(스트레스 해소), better mood(더 좋은 기분), lose track of time(시간 가는 줄 모르다), short break(짧은 휴식), play after work(퇴근 후 하다), sleep schedule(수면 일정), good habit(좋은 습관), self-control(자제력)",
+        "translation":  "게임을 하는 것이 당신의 일상에 어떤 영향을 주나요?"
+    },
+    {
+        "id":  3,
+        "text":  "Describe a good memory you had while playing a game.",
+        "hint":  "memorable moment(기억에 남는 순간), won the game(게임에서 이겼다), played with friends(친구들과 했다), team play(팀 플레이), high score(높은 점수), exciting match(신나는 경기), funny mistake(재미있는 실수), felt proud(뿌듯했다), good teamwork(좋은 팀워크), positive experience(긍정적인 경험)",
+        "translation":  "게임을 하면서 있었던 좋은 기억을 설명해 주세요."
+    },
+    {
+        "id":  4,
+        "text":  "Which game do you play the most these days? How often do you play it, and why do you like it?",
+        "hint":  "favorite game(가장 좋아하는 게임), play every day(매일 하다), online match(온라인 경기), interesting story(흥미로운 이야기), good graphics(좋은 그래픽), simple controls(간단한 조작), level up(레벨을 올리다), play with friends(친구들과 하다), enjoyable challenge(즐거운 도전), relaxing time(편안한 시간)",
+        "translation":  "요즘 가장 자주 하는 게임은 무엇인가요? 얼마나 자주 하고, 왜 좋아하나요?"
+    },
+    {
+        "id":  5,
+        "text":  "What device do you usually use for gaming, like your phone, PC, or console? Please tell me how you use it.",
+        "hint":  "smartphone(스마트폰), gaming computer(게임용 컴퓨터), console(콘솔), controller(컨트롤러), keyboard(키보드), mouse(마우스), headset(헤드셋), big screen(큰 화면), easy controls(쉬운 조작), portable device(휴대용 기기)",
+        "translation":  "게임할 때 보통 어떤 기기(휴대폰, PC, 콘솔 등)를 사용하나요? 어떻게 사용하는지 말해 주세요."
+    },
+    {
+        "id":  6,
+        "text":  "When did you first start playing games? What did you play at that time, and what was your first impression?",
+        "hint":  "first game(첫 게임), childhood memory(어린 시절 추억), played at home(집에서 했다), played with friends(친구들과 했다), simple game(간단한 게임), felt excited(신났다), new experience(새로운 경험), difficult at first(처음에는 어려운), learned quickly(빨리 배웠다), good memory(좋은 기억)",
+        "translation":  "게임을 처음 시작한 때는 언제인가요? 그때 어떤 게임을 했고, 첫인상은 어땠나요?"
+    },
+    {
+        "id":  7,
+        "text":  "You mentioned that you enjoy playing games. What types of games do you usually play? How often do you play them, and why do you prefer those types of games?",
+        "hint":  "mobile game(모바일 게임), online game(온라인 게임), puzzle game(퍼즐 게임), action game(액션 게임), role-playing game(롤플레잉 게임), play often(자주 하다), favorite type(좋아하는 종류), easy to play(하기 쉬운), fun challenge(재미있는 도전), stress relief(스트레스 해소)",
+        "translation":  "당신은 게임하는 것을 즐긴다고 말했습니다. 보통 어떤 종류의 게임을 하나요? 얼마나 자주 하고, 왜 그런 종류의 게임을 선호하나요?"
+    },
+    {
+        "id":  8,
+        "text":  "How does playing games influence your daily routine? Do games affect your mood, schedule, or habits? Please explain in detail.",
+        "hint":  "daily routine(일상 루틴), free time(여가 시간), better mood(더 좋은 기분), stress relief(스트레스 해소), play after work(퇴근 후 하다), sleep schedule(수면 일정), time management(시간 관리), short break(짧은 휴식), good habit(좋은 습관), self-control(자제력)",
+        "translation":  "게임하는 것이 당신의 일상 루틴에 어떤 영향을 주나요? 게임이 기분, 일정, 또는 습관에 영향을 주나요? 자세히 설명해 주세요."
+    },
+    {
+        "id":  9,
+        "text":  "Tell me about a memorable moment you had while playing a game. What happened, and why was it such a positive experience for you?",
+        "hint":  "memorable moment(기억에 남는 순간), won the game(게임에서 이겼다), played with friends(친구들과 했다), team play(팀 플레이), high score(높은 점수), exciting match(신나는 경기), funny mistake(재미있는 실수), felt proud(뿌듯했다), good teamwork(좋은 팀워크), positive experience(긍정적인 경험)",
+        "translation":  "게임을 하면서 있었던 기억에 남는 순간에 대해 말해 주세요. 무슨 일이 있었고, 왜 당신에게 긍정적인 경험이었나요?"
+    },
+    {
+        "id":  10,
+        "text":  "What game do you play most often these days? How frequently do you play it, and what makes it enjoyable for you?",
+        "hint":  "favorite game(가장 좋아하는 게임), play these days(요즘 하다), play every day(매일 하다), online match(온라인 경기), interesting story(흥미로운 이야기), good graphics(좋은 그래픽), simple controls(간단한 조작), level up(레벨을 올리다), play with friends(친구들과 하다), enjoyable challenge(즐거운 도전)",
+        "translation":  "요즘 가장 자주 하는 게임은 무엇인가요? 얼마나 자주 하고, 무엇이 그 게임을 즐겁게 만드나요?"
+    },
+    {
+        "id":  11,
+        "text":  "What device do you usually use when you play games? Do you prefer using your phone, computer, or console? Please describe how you use that device.",
+        "hint":  "smartphone(스마트폰), gaming computer(게임용 컴퓨터), console(콘솔), controller(컨트롤러), keyboard(키보드), mouse(마우스), headset(헤드셋), big screen(큰 화면), easy controls(쉬운 조작), portable device(휴대용 기기)",
+        "translation":  "게임할 때 보통 어떤 기기를 사용하나요? 휴대폰, 컴퓨터, 또는 콘솔 중 무엇을 선호하나요? 그 기기를 어떻게 사용하는지 묘사해 주세요."
+    },
+    {
+        "id":  12,
+        "text":  "Can you tell me about the first time you started playing games? What kind of game did you play, and what was your impression at that time?",
+        "hint":  "first game(첫 게임), childhood memory(어린 시절 추억), played at home(집에서 했다), played with friends(친구들과 했다), simple game(간단한 게임), felt excited(신났다), new experience(새로운 경험), difficult at first(처음에는 어려운), learned quickly(빨리 배웠다), first impression(첫인상)",
+        "translation":  "처음 게임을 시작했을 때에 대해 말해 줄 수 있나요? 어떤 종류의 게임을 했고, 그때 첫인상은 어땠나요?"
+    }
+]

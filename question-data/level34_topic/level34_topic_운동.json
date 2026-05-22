@@ -1,0 +1,146 @@
+﻿[
+    {
+        "id":  1,
+        "text":  "What kind of exercise do you do regularly? Describe your routine.",
+        "hint":  "regular exercise(규칙적인 운동), workout routine(운동 루틴), stretching(스트레칭), jogging(조깅), weight training(웨이트 트레이닝), warm-up(준비운동), cool down(마무리 운동), improve stamina(체력을 향상하다), healthy habit(건강한 습관), fitness goal(운동 목표)",
+        "translation":  "평소 어떤 운동을 하나요? 당신의 루틴을 설명해 주세요."
+    },
+    {
+        "id":  2,
+        "text":  "Tell me about a sport or physical activity you enjoy and why.",
+        "hint":  "physical activity(신체 활동), soccer(축구), swimming(수영), running(달리기), gym workout(헬스장 운동), fun exercise(재미있는 운동), stress relief(스트레스 해소), team play(팀 플레이), better health(더 좋은 건강), enjoyable challenge(즐거운 도전)",
+        "translation":  "즐겨 하는 스포츠나 신체 활동에 대해 말하고, 그 이유를 설명해 주세요."
+    },
+    {
+        "id":  3,
+        "text":  "How has exercise changed your life or health?",
+        "hint":  "better health(더 좋은 건강), more energy(더 많은 에너지), stronger body(더 튼튼한 몸), better sleep(더 좋은 수면), less stress(더 적은 스트레스), improved stamina(향상된 체력), positive mood(긍정적인 기분), daily routine(일상 루틴), healthy lifestyle(건강한 생활 방식), confidence(자신감)",
+        "translation":  "운동이 당신의 생활이나 건강을 어떻게 바꿔 주었나요?"
+    },
+    {
+        "id":  4,
+        "text":  "You said you like watching sports. Tell me about your favorite team.",
+        "hint":  "favorite team(좋아하는 팀), team spirit(팀 정신), exciting games(신나는 경기들), famous players(유명한 선수들), strong teamwork(강한 팀워크), loyal fans(충성스러운 팬들), home stadium(홈 경기장), winning record(승리 기록), cheering(응원), proud feeling(자랑스러운 기분)",
+        "translation":  "스포츠 보는 걸 좋아한다고 하셨는데요. 가장 좋아하는 팀에 대해 말해 주세요."
+    },
+    {
+        "id":  5,
+        "text":  "Who is your favorite sports player, and why do you like that person?",
+        "hint":  "favorite athlete(좋아하는 운동선수), strong skills(뛰어난 실력), hard work(노력), leadership(리더십), sportsmanship(스포츠맨십), impressive performance(인상적인 경기력), famous player(유명한 선수), role model(롤모델), confidence(자신감), dedication(헌신)",
+        "translation":  "가장 좋아하는 스포츠 선수는 누구인가요? 그리고 왜 좋아하나요?"
+    },
+    {
+        "id":  6,
+        "text":  "You said you like playing soccer. How often do you play, where do you play, and who do you play with?",
+        "hint":  "play soccer(축구를 하다), once a week(일주일에 한 번), soccer field(축구장), with friends(친구들과 함께), team practice(팀 연습), warm-up(준비운동), pass the ball(공을 패스하다), score a goal(골을 넣다), fun match(재미있는 경기), teamwork(팀워크)",
+        "translation":  "축구를 좋아한다고 하셨는데요. 얼마나 자주 하고, 어디에서 하고, 누구와 함께 하나요?"
+    },
+    {
+        "id":  7,
+        "text":  "Tell me about a sports game you watched in person. What was the game like?",
+        "hint":  "live game(직관 경기), stadium(경기장), cheering crowd(응원하는 관중), favorite team(좋아하는 팀), exciting atmosphere(신나는 분위기), close match(접전), scored goal(득점했다), loud cheers(큰 환호), memorable moment(기억에 남는 순간), felt excited(신났다)",
+        "translation":  "직접 본 스포츠 경기에 대해 말해 주세요. 경기 분위기는 어땠나요?"
+    },
+    {
+        "id":  8,
+        "text":  "How did you first learn this sport? How old were you, and who taught you?",
+        "hint":  "first learned(처음 배웠다), childhood(어린 시절), coach(코치), school club(학교 동아리), friend taught me(친구가 가르쳐 줬다), basic skills(기본 기술), practice hard(열심히 연습하다), difficult at first(처음엔 어려운), improved slowly(천천히 나아졌다), good memory(좋은 기억)",
+        "translation":  "이 운동을 처음 어떻게 배우게 되었나요? 몇 살 때였고, 누가 가르쳐 줬나요?"
+    },
+    {
+        "id":  9,
+        "text":  "Tell me about your usual sports routine. When and where do you go, and what do you do from start to finish?",
+        "hint":  "exercise routine(운동 루틴), warm-up(준비운동), stretching(스트레칭), main workout(본 운동), cardio exercise(유산소 운동), strength training(근력 운동), take a break(휴식을 취하다), drink water(물을 마시다), cool down(마무리 운동), shower(샤워하다)",
+        "translation":  "평소 운동 루틴을 말해 주세요. 언제 어디로 가고, 시작부터 끝까지 무엇을 하나요?"
+    },
+    {
+        "id":  10,
+        "text":  "When you go to exercise, what do you prepare? Where do you go, and who do you go with?",
+        "hint":  "sports clothes(운동복), running shoes(운동화), water bottle(물병), towel(수건), gym bag(운동 가방), headphones(헤드폰), stretch first(먼저 스트레칭하다), go to gym(헬스장에 가다), with friends(친구들과 함께), check schedule(일정을 확인하다)",
+        "translation":  "운동하러 갈 때 무엇을 준비하나요? 어디로 가고, 누구와 함께 가나요?"
+    },
+    {
+        "id":  11,
+        "text":  "Tell me about the last time you played a sport. When was it, and who were you with?",
+        "hint":  "last workout(최근 운동), last weekend(지난 주말), played soccer(축구를 했다), went to gym(헬스장에 갔다), with friends(친구들과 함께), team match(팀 경기), practiced skills(기술을 연습했다), felt tired(피곤했다), felt happy(행복했다), good exercise(좋은 운동)",
+        "translation":  "마지막으로 운동한 때에 대해 말해 주세요. 언제였고, 누구와 함께 했나요?"
+    },
+    {
+        "id":  12,
+        "text":  "How did you feel after your last workout? Was it easy or hard for you?",
+        "hint":  "felt refreshed(상쾌했다), felt tired(피곤했다), challenging workout(힘든 운동), easy exercise(쉬운 운동), sore muscles(근육통), sense of achievement(성취감), better mood(더 좋은 기분), proud of myself(스스로 뿌듯한), needed rest(휴식이 필요했다), healthy feeling(건강한 느낌)",
+        "translation":  "최근 운동하고 나서 기분이 어땠나요? 당신에게 쉬웠나요, 어려웠나요?"
+    },
+    {
+        "id":  13,
+        "text":  "You mentioned that you exercise regularly. What kind of exercise do you usually do? Can you describe your routine in detail?",
+        "hint":  "regular exercise(규칙적인 운동), workout routine(운동 루틴), stretching(스트레칭), jogging(조깅), weight training(웨이트 트레이닝), warm-up(준비운동), cool down(마무리 운동), improve stamina(체력을 향상하다), healthy habit(건강한 습관), fitness goal(운동 목표)",
+        "translation":  "당신은 규칙적으로 운동한다고 말했습니다. 보통 어떤 운동을 하나요? 루틴을 자세히 묘사해 줄 수 있나요?"
+    },
+    {
+        "id":  14,
+        "text":  "What kind of physical activity do you enjoy the most? Why do you like it? Please explain in detail.",
+        "hint":  "physical activity(신체 활동), soccer(축구), swimming(수영), running(달리기), gym workout(헬스장 운동), fun exercise(재미있는 운동), stress relief(스트레스 해소), team play(팀 플레이), better health(더 좋은 건강), enjoyable challenge(즐거운 도전)",
+        "translation":  "어떤 신체 활동을 가장 즐기나요? 왜 그것을 좋아하나요? 자세히 설명해 주세요."
+    },
+    {
+        "id":  15,
+        "text":  "How has exercising affected your daily life or health? What changes have you noticed since you started exercising?",
+        "hint":  "better health(더 좋은 건강), more energy(더 많은 에너지), stronger body(더 튼튼한 몸), better sleep(더 좋은 수면), less stress(더 적은 스트레스), improved stamina(향상된 체력), positive mood(긍정적인 기분), daily routine(일상 루틴), healthy lifestyle(건강한 생활 방식), confidence(자신감)",
+        "translation":  "운동이 당신의 일상생활이나 건강에 어떤 영향을 주었나요? 운동을 시작한 이후 어떤 변화를 느꼈나요?"
+    },
+    {
+        "id":  16,
+        "text":  "You mentioned that you enjoy watching sports. Can you tell me about your favorite team? Why do you like that team?",
+        "hint":  "favorite team(좋아하는 팀), team spirit(팀 정신), exciting games(신나는 경기들), famous players(유명한 선수들), strong teamwork(강한 팀워크), loyal fans(충성스러운 팬들), home stadium(홈 경기장), winning record(승리 기록), cheering(응원), proud feeling(자랑스러운 기분)",
+        "translation":  "당신은 스포츠 관람을 즐긴다고 말했습니다. 가장 좋아하는 팀에 대해 말해 줄 수 있나요? 왜 그 팀을 좋아하나요?"
+    },
+    {
+        "id":  17,
+        "text":  "Who is your favorite sports athlete? What do you like about that person? Please explain in detail.",
+        "hint":  "favorite athlete(좋아하는 운동선수), strong skills(뛰어난 실력), hard work(노력), leadership(리더십), sportsmanship(스포츠맨십), impressive performance(인상적인 경기력), famous player(유명한 선수), role model(롤모델), confidence(자신감), dedication(헌신)",
+        "translation":  "가장 좋아하는 스포츠 운동선수는 누구인가요? 그 사람의 어떤 점을 좋아하나요? 자세히 설명해 주세요."
+    },
+    {
+        "id":  18,
+        "text":  "You said you enjoy playing sports. How often do you play, where do you usually play, and who do you play with?",
+        "hint":  "play soccer(축구를 하다), once a week(일주일에 한 번), soccer field(축구장), with friends(친구들과 함께), team practice(팀 연습), warm-up(준비운동), pass the ball(공을 패스하다), score a goal(골을 넣다), fun match(재미있는 경기), teamwork(팀워크)",
+        "translation":  "당신은 스포츠를 하는 것을 즐긴다고 했습니다. 얼마나 자주 하고, 보통 어디에서 하며, 누구와 함께 하나요?"
+    },
+    {
+        "id":  19,
+        "text":  "Tell me about a sports game you watched in person. What was the atmosphere like, and what made it memorable?",
+        "hint":  "live game(직관 경기), stadium(경기장), cheering crowd(응원하는 관중), favorite team(좋아하는 팀), exciting atmosphere(신나는 분위기), close match(접전), scored goal(득점했다), loud cheers(큰 환호), memorable moment(기억에 남는 순간), felt excited(신났다)",
+        "translation":  "직접 본 스포츠 경기에 대해 말해 주세요. 분위기는 어땠고, 무엇이 기억에 남게 만들었나요?"
+    },
+    {
+        "id":  20,
+        "text":  "How did you first learn this sport? How old were you, and who taught you? Please describe your experience.",
+        "hint":  "first learned(처음 배웠다), childhood(어린 시절), coach(코치), school club(학교 동아리), friend taught me(친구가 가르쳐 줬다), basic skills(기본 기술), practice hard(열심히 연습하다), difficult at first(처음엔 어려운), improved slowly(천천히 나아졌다), good memory(좋은 기억)",
+        "translation":  "이 운동을 처음 어떻게 배웠나요? 몇 살이었고, 누가 가르쳐 주었나요? 경험을 묘사해 주세요."
+    },
+    {
+        "id":  21,
+        "text":  "Can you describe your usual exercise routine from beginning to end? When and where do you go, and what do you do?",
+        "hint":  "exercise routine(운동 루틴), warm-up(준비운동), stretching(스트레칭), main workout(본 운동), cardio exercise(유산소 운동), strength training(근력 운동), take a break(휴식을 취하다), drink water(물을 마시다), cool down(마무리 운동), shower(샤워하다)",
+        "translation":  "평소 운동 루틴을 처음부터 끝까지 묘사해 줄 수 있나요? 언제 어디로 가고, 무엇을 하나요?"
+    },
+    {
+        "id":  22,
+        "text":  "What do you usually prepare before going to exercise? Where do you go, and who do you usually go with?",
+        "hint":  "sports clothes(운동복), running shoes(운동화), water bottle(물병), towel(수건), gym bag(운동 가방), headphones(헤드폰), stretch first(먼저 스트레칭하다), go to gym(헬스장에 가다), with friends(친구들과 함께), check schedule(일정을 확인하다)",
+        "translation":  "운동하러 가기 전에 보통 무엇을 준비하나요? 어디로 가고, 보통 누구와 함께 가나요?"
+    },
+    {
+        "id":  23,
+        "text":  "Tell me about the last time you exercised or played a sport. When was it, and who were you with?",
+        "hint":  "last workout(최근 운동), last weekend(지난 주말), played soccer(축구를 했다), went to gym(헬스장에 갔다), with friends(친구들과 함께), team match(팀 경기), practiced skills(기술을 연습했다), felt tired(피곤했다), felt happy(행복했다), good exercise(좋은 운동)",
+        "translation":  "마지막으로 운동하거나 스포츠를 했던 때에 대해 말해 주세요. 언제였고, 누구와 함께였나요?"
+    },
+    {
+        "id":  24,
+        "text":  "How did you feel after your most recent workout? Was it challenging or easy for you? Please explain in detail.",
+        "hint":  "felt refreshed(상쾌했다), felt tired(피곤했다), challenging workout(힘든 운동), easy exercise(쉬운 운동), sore muscles(근육통), sense of achievement(성취감), better mood(더 좋은 기분), proud of myself(스스로 뿌듯한), needed rest(휴식이 필요했다), healthy feeling(건강한 느낌)",
+        "translation":  "가장 최근 운동 후 기분이 어땠나요? 당신에게 힘들었나요, 쉬웠나요? 자세히 설명해 주세요."
+    }
+]

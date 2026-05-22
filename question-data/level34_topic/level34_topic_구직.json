@@ -1,0 +1,50 @@
+﻿[
+    {
+        "id":  1,
+        "text":  "You said you are looking for a job. What kind of job do you want, and how are you preparing for it?",
+        "hint":  "job posting(채용 공고), resume(이력서), cover letter(자기소개서), interview practice(면접 연습), career goal(진로 목표), company research(회사 조사), application form(지원서), work experience(업무 경험), job skills(직무 역량), portfolio(포트폴리오)",
+        "translation":  "구직 중이라고 하셨는데요. 어떤 일을 원하고, 어떻게 준비하고 있나요?"
+    },
+    {
+        "id":  2,
+        "text":  "When you look for a job, do you feel stressed? How do you manage that stress?",
+        "hint":  "job stress(구직 스트레스), pressure(압박감), uncertainty(불확실성), interview anxiety(면접 불안), rejection(불합격), competition(경쟁), take a break(휴식을 취하다), exercise(운동), positive mindset(긍정적인 마음가짐), manage stress(스트레스를 관리하다)",
+        "translation":  "구직할 때 스트레스를 받나요? 그 스트레스를 어떻게 관리하나요?"
+    },
+    {
+        "id":  3,
+        "text":  "Have you had a job interview before? How was it? Please tell me about it.",
+        "hint":  "job interview(면접), interviewer(면접관), interview room(면접실), common questions(자주 나오는 질문), nervous(긴장한), confident answer(자신 있는 답변), prepared examples(준비한 예시), first impression(첫인상), communication skills(의사소통 능력), felt relieved(안도했다)",
+        "translation":  "면접을 본 경험이 있나요? 어땠는지 이야기해 주세요."
+    },
+    {
+        "id":  4,
+        "text":  "What do you usually do in a day for job searching, like checking postings or preparing your resume?",
+        "hint":  "check job postings(채용 공고를 확인하다), update resume(이력서를 수정하다), write cover letter(자기소개서를 쓰다), practice interviews(면접을 연습하다), research companies(회사를 조사하다), apply online(온라인으로 지원하다), organize schedule(일정을 정리하다), build portfolio(포트폴리오를 만들다), improve skills(역량을 향상하다), daily routine(일상 루틴)",
+        "translation":  "구직할 때 하루에 보통 무엇을 하나요? 채용 공고 확인이나 이력서 준비 같은 일을 말해 주세요."
+    },
+    {
+        "id":  5,
+        "text":  "You mentioned that you are currently looking for a job. What kind of job are you interested in? How are you preparing for it these days? Please explain in detail.",
+        "hint":  "job posting(채용 공고), resume(이력서), cover letter(자기소개서), interview practice(면접 연습), career goal(진로 목표), company research(회사 조사), application form(지원서), work experience(업무 경험), job skills(직무 역량), portfolio(포트폴리오)",
+        "translation":  "당신은 현재 구직 중이라고 말했습니다. 어떤 종류의 일에 관심이 있나요? 요즘 그것을 위해 어떻게 준비하고 있나요? 자세히 설명해 주세요."
+    },
+    {
+        "id":  6,
+        "text":  "Do you feel any pressure or stress while searching for a job? What causes that stress, and how do you usually deal with it?",
+        "hint":  "job stress(구직 스트레스), pressure(압박감), uncertainty(불확실성), interview anxiety(면접 불안), rejection(불합격), competition(경쟁), take a break(휴식을 취하다), exercise(운동), positive mindset(긍정적인 마음가짐), manage stress(스트레스를 관리하다)",
+        "translation":  "구직하는 동안 압박감이나 스트레스를 느끼나요? 무엇이 그 스트레스를 만들고, 보통 어떻게 대처하나요?"
+    },
+    {
+        "id":  7,
+        "text":  "Have you ever attended a job interview? Can you describe that experience? How did it go, and how did you feel during the interview?",
+        "hint":  "job interview(면접), interviewer(면접관), interview room(면접실), common questions(자주 나오는 질문), nervous(긴장한), confident answer(자신 있는 답변), prepared examples(준비한 예시), first impression(첫인상), communication skills(의사소통 능력), felt relieved(안도했다)",
+        "translation":  "면접에 참석한 적이 있나요? 그 경험을 묘사해 줄 수 있나요? 어떻게 진행되었고, 면접 중 기분이 어땠나요?"
+    },
+    {
+        "id":  8,
+        "text":  "What do you usually do during the day when you are preparing for a job? Do you check job postings, update your resume, or practice interviews? Please describe your daily routine in detail.",
+        "hint":  "check job postings(채용 공고를 확인하다), update resume(이력서를 수정하다), write cover letter(자기소개서를 쓰다), practice interviews(면접을 연습하다), research companies(회사를 조사하다), apply online(온라인으로 지원하다), organize schedule(일정을 정리하다), build portfolio(포트폴리오를 만들다), improve skills(역량을 향상하다), daily routine(일상 루틴)",
+        "translation":  "취업을 준비하는 동안 하루에 보통 무엇을 하나요? 채용 공고를 확인하거나, 이력서를 수정하거나, 면접을 연습하나요? 당신의 일상 루틴을 자세히 묘사해 주세요."
+    }
+]

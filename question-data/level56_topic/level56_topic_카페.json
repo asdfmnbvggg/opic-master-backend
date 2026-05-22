@@ -1,0 +1,122 @@
+[
+    {
+        "id":  1,
+        "text":  "You indicated in the survey that you go to cafes or coffee shops. Tell me about the café you often go to. Where is the café located? What does it look like? Is there something special about that café?",
+        "hint":  "café(카페), coffee shop(커피숍), often go to(자주 가다), located in(~에 위치한), look like(~처럼 생기다), cozy atmosphere(아늑한 분위기), interior(인테리어), special feature(특별한 점), favorite menu(좋아하는 메뉴), describe(묘사하다)",
+        "translation":  "당신은 설문조사에서 카페나 커피숍에 간다고 답했습니다. 당신이 자주 가는 카페에 대해 말해주세요. 그 카페는 어디에 위치해 있나요? 어떻게 생겼나요? 그 카페에 특별한 것이 있나요?"
+    },
+    {
+        "id":  2,
+        "text":  "What do you normally do when you go to a café? Do you read or eat something? Or do you have meetings or gatherings? Please tell me what you like to do at the café in detail.",
+        "hint":  "normally do(보통 하다), go to a café(카페에 가다), read(읽다), eat something(무언가를 먹다), meeting(회의), gathering(모임), study(공부하다), drink coffee(커피를 마시다), relax(휴식하다), in detail(자세히)",
+        "translation":  "당신은 카페에 가면 보통 무엇을 하나요? 무언가를 읽거나 먹나요? 아니면 회의나 모임을 하나요? 카페에서 무엇을 하는 것을 좋아하는지 자세히 말해 주세요."
+    },
+    {
+        "id":  3,
+        "text":  "How have coffee shops changed over the years? How were they like in the past, and what about now? Tell me all the changes in detail.",
+        "hint":  "coffee shops(커피숍), changed over the years(몇 년 동안 변해 왔다), in the past(과거에는), now(지금은), modern interior(현대적인 인테리어), menu variety(메뉴 다양성), digital ordering(디지털 주문), study space(공부 공간), atmosphere(분위기), changes in detail(자세한 변화)",
+        "translation":  "카페는 몇 년 동안 어떻게 변해 왔나요? 과거에는 어땠고, 지금은 어떤가요? 모든 변화에 대해 자세히 말해 주세요."
+    },
+    {
+        "id":  4,
+        "text":  "Please tell me about a memorable experience you have had at a café. When was it? Who were you with? What made this experience so special?",
+        "hint":  "memorable experience(기억에 남는 경험), at a café(카페에서), when(언제), who I was with(함께 있던 사람), special experience(특별한 경험), meaningful moment(의미 있는 순간), conversation(대화), celebration(기념), good atmosphere(좋은 분위기), unforgettable(잊을 수 없는)",
+        "translation":  "카페에서 겪은 기억에 남는 경험을 말해주세요. 그게 언제였나요? 누구와 함께 있었나요? 무엇이 이 경험을 그렇게 특별하게 만들었나요?"
+    },
+    {
+        "id":  5,
+        "text":  "Sometimes, unexpected things can occur when you are at a café. Have you experienced something incident that happened at a café? What happened? Who was involved? And how did you deal with the situation? Tell me as many details as possible.",
+        "hint":  "unexpected things(예상치 못한 일), occur(일어나다), incident(사건), at a café(카페에서), what happened(무슨 일이 있었는지), involved(연루된), deal with the situation(상황을 처리하다), stay calm(침착함을 유지하다), solve the problem(문제를 해결하다), as many details as possible(가능한 많은 세부사항)",
+        "translation":  "때때로, 카페에 있을 때 예상치 못한 일들이 일어날 수 있습니다. 카페에서 일어난 어떤 사건을 경험한 적이 있나요? 무슨 일이 있었나요? 누가 연루되었나요? 그리고 당신은 그 상황을 어떻게 처리했나요? 가능한 한 많은 세부 사항을 말해 주세요."
+    },
+    {
+        "id":  6,
+        "text":  "You mentioned that you often go to cafés or coffee shops. Can you describe a café you like to visit? Where is it located, and what is it like inside? What makes that café special to you?",
+        "hint":  "often go to cafés(카페에 자주 가다), coffee shops(커피숍), like to visit(방문하기 좋아하다), located in(~에 위치한), inside(내부), cozy(아늑한), quiet(조용한), special to me(나에게 특별한), comfortable seats(편안한 좌석), describe(묘사하다)",
+        "translation":  "당신은 카페나 커피숍에 자주 간다고 말했습니다. 방문하기 좋아하는 카페를 묘사해 줄 수 있나요? 어디에 위치해 있고 내부는 어떤가요? 무엇이 그 카페를 당신에게 특별하게 만드나요?"
+    },
+    {
+        "id":  7,
+        "text":  "What do you usually do when you spend time at a café? Do you study, read, eat, or meet people there? Please describe your typical activities at a café in detail.",
+        "hint":  "spend time at a café(카페에서 시간을 보내다), study(공부하다), read(읽다), eat(먹다), meet people(사람들을 만나다), typical activities(전형적인 활동), order coffee(커피를 주문하다), chat with friends(친구들과 대화하다), work on a laptop(노트북으로 작업하다), in detail(자세히)",
+        "translation":  "카페에서 시간을 보낼 때 보통 무엇을 하나요? 그곳에서 공부하거나, 책을 읽거나, 먹거나, 사람들을 만나나요? 카페에서 하는 전형적인 활동을 자세히 묘사해주세요."
+    },
+    {
+        "id":  8,
+        "text":  "How have cafés changed compared to the past? What were coffee shops like before, and what are they like now? Please explain the changes in detail.",
+        "hint":  "changed compared to the past(과거와 비교해 변하다), cafés(카페), coffee shops(커피숍), before(이전에는), now(지금은), interior design(인테리어 디자인), atmosphere(분위기), menu options(메뉴 선택지), takeout(테이크아웃), explain in detail(자세히 설명하다)",
+        "translation":  "과거와 비교했을 때 카페는 어떻게 변했나요? 예전의 커피숍은 어땠고 지금은 어떤가요? 변화를 자세히 설명해주세요."
+    },
+    {
+        "id":  9,
+        "text":  "Tell me about a memorable time you had at a café. When did it happen, and who were you with? What made that experience meaningful or special?",
+        "hint":  "memorable time(기억에 남는 때), at a café(카페에서), when it happened(언제 일어났는지), who I was with(함께 있던 사람), meaningful(의미 있는), special(특별한), good conversation(좋은 대화), important meeting(중요한 만남), pleasant atmosphere(쾌적한 분위기), memory(기억)",
+        "translation":  "카페에서 있었던 기억에 남는 때에 대해 말해주세요. 언제 일어났고 누구와 함께 있었나요? 무엇이 그 경험을 의미 있거나 특별하게 만들었나요?"
+    },
+    {
+        "id":  10,
+        "text":  "Have you ever had an unexpected experience at a café? What happened, and who was involved? How did you handle the situation? Please describe it with as many details as possible.",
+        "hint":  "unexpected experience(예상치 못한 경험), at a café(카페에서), what happened(무슨 일이 있었는지), involved(연루된), handle the situation(상황을 처리하다), mistake in order(주문 실수), crowded café(붐비는 카페), ask for help(도움을 요청하다), describe(묘사하다), as many details as possible(가능한 많은 세부사항)",
+        "translation":  "카페에서 예상치 못한 경험을 한 적이 있나요? 무슨 일이 있었고 누가 관련되어 있었나요? 그 상황을 어떻게 처리했나요? 가능한 한 많은 세부사항으로 묘사해주세요."
+    },
+    {
+        "id":  11,
+        "text":  "You said you often go to cafés or coffee shops. Can you describe a café you like to visit? Where is it located, what is the atmosphere like, and what makes that place different from other cafés?",
+        "hint":  "often go to cafés(카페에 자주 가다), coffee shops(커피숍), like to visit(방문하기 좋아하다), located in(~에 위치한), atmosphere(분위기), different from other cafés(다른 카페들과 다른), cozy(아늑한), unique interior(독특한 인테리어), favorite menu(좋아하는 메뉴), special feature(특별한 특징)",
+        "translation":  "당신은 카페나 커피숍에 자주 간다고 했습니다. 방문하기 좋아하는 카페를 묘사해 줄 수 있나요? 어디에 위치해 있고, 분위기는 어떠하며, 그 장소가 다른 카페들과 다른 점은 무엇인가요?"
+    },
+    {
+        "id":  12,
+        "text":  "When you spend time at a café, what do you usually do there? Please describe whether you study, work, read, meet friends, or relax, and explain why cafés are a good place for those activities.",
+        "hint":  "spend time at a café(카페에서 시간을 보내다), usually do(보통 하다), study(공부하다), work(일하다), read(읽다), meet friends(친구를 만나다), relax(휴식하다), good place(좋은 장소), activities(활동), café environment(카페 환경)",
+        "translation":  "카페에서 시간을 보낼 때 보통 무엇을 하나요? 공부, 일, 독서, 친구 만나기, 또는 휴식을 하는지 묘사하고, 왜 카페가 그런 활동을 하기에 좋은 장소인지 설명해주세요."
+    },
+    {
+        "id":  13,
+        "text":  "How have cafés or coffee shops changed over the past few years? Please compare cafés in the past with cafés today in terms of atmosphere, menu, interior design, technology, and the way people use the space.",
+        "hint":  "changed over the past few years(지난 몇 년 동안 변했다), cafés(카페), coffee shops(커피숍), compare(비교하다), in the past(과거에는), today(오늘날), atmosphere(분위기), menu(메뉴), interior design(인테리어 디자인), technology(기술), use the space(공간을 사용하다)",
+        "translation":  "지난 몇 년 동안 카페나 커피숍은 어떻게 변했나요? 분위기, 메뉴, 인테리어 디자인, 기술, 그리고 사람들이 공간을 사용하는 방식 면에서 과거의 카페와 오늘날의 카페를 비교해주세요."
+    },
+    {
+        "id":  14,
+        "text":  "Tell me about a memorable experience you had at a café. When did it happen, who were you with, what did you do there, and why was that moment meaningful to you?",
+        "hint":  "memorable experience(기억에 남는 경험), at a café(카페에서), when did it happen(언제 일어났나요), who were you with(누구와 함께 있었나요), what did you do(무엇을 했나요), meaningful moment(의미 있는 순간), conversation(대화), celebration(기념), special memory(특별한 기억), pleasant atmosphere(쾌적한 분위기)",
+        "translation":  "카페에서 있었던 기억에 남는 경험에 대해 말해주세요. 언제 일어났고, 누구와 함께 있었으며, 그곳에서 무엇을 했고, 왜 그 순간이 당신에게 의미 있었나요?"
+    },
+    {
+        "id":  15,
+        "text":  "Have you ever had an unexpected experience at a café, such as a crowded space, a wrong order, a noisy customer, or a special event? What happened, who was involved, and how did you handle the situation?",
+        "hint":  "unexpected experience(예상치 못한 경험), crowded space(붐비는 공간), wrong order(잘못된 주문), noisy customer(시끄러운 손님), special event(특별 행사), what happened(무슨 일이 있었는지), involved(관련된), handle the situation(상황을 처리하다), stay calm(침착하게 있다), solve the issue(문제를 해결하다)",
+        "translation":  "붐비는 공간, 잘못된 주문, 시끄러운 손님, 또는 특별 행사처럼 카페에서 예상치 못한 경험을 한 적이 있나요? 무슨 일이 있었고, 누가 관련되어 있었으며, 그 상황을 어떻게 처리했나요?"
+    },
+    {
+        "id":  16,
+        "text":  "You mentioned that you enjoy visiting cafés. Describe your absolute favorite coffee shop. Where is it situated, and what kind of unique aesthetic or vibe does it have? Is it a modern, minimalist space or a warm, vintage-style café? Explain what specific features distinguish this place from the countless other cafés in your city.",
+        "hint":  "absolute favorite(가장 좋아하는), coffee shop(커피숍), situated(위치한), unique aesthetic(독특한 미적 감각), vibe(분위기), modern minimalist space(현대적이고 미니멀한 공간), warm vintage-style café(따뜻한 빈티지 스타일 카페), specific features(특정 특징들), distinguish from(~와 구별하다), countless cafés(수많은 카페들)",
+        "translation":  "당신은 카페 방문을 즐긴다고 말했습니다. 가장 좋아하는 커피숍을 묘사해주세요. 어디에 위치해 있고, 어떤 독특한 미적 감각이나 분위기를 가지고 있나요? 현대적이고 미니멀한 공간인가요, 아니면 따뜻한 빈티지 스타일의 카페인가요? 당신의 도시의 수많은 다른 카페들과 이곳을 구별해 주는 특정 특징들을 설명해주세요."
+    },
+    {
+        "id":  17,
+        "text":  "Cafés in your country are no longer just places to drink coffee. When you spend time at a café, what is your primary objective? Whether it’s focused work, social gatherings, or quiet reading, explain why the café environment is more effective for these activities than your home or office.",
+        "hint":  "no longer just places(더 이상 단순한 장소가 아니다), drink coffee(커피를 마시다), primary objective(주요 목적), focused work(집중해서 일하기), social gatherings(사교 모임), quiet reading(조용한 독서), café environment(카페 환경), more effective(더 효과적인), home or office(집이나 사무실), productivity(생산성)",
+        "translation":  "당신의 나라에서 카페는 더 이상 단순히 커피를 마시는 장소가 아닙니다. 카페에서 시간을 보낼 때 당신의 주요 목적은 무엇인가요? 집중해서 일하기, 사교 모임, 조용한 독서 등 무엇이든, 왜 카페 환경이 집이나 사무실보다 이런 활동에 더 효과적인지 설명해주세요."
+    },
+    {
+        "id":  18,
+        "text":  "The café industry has transformed significantly over the last few years. Compare the traditional coffee shops of the past with the modern ones we see today. Focus on how technology, like mobile ordering, diverse menus, like specialty desserts, and the overall interior concepts have evolved to meet changing consumer needs.",
+        "hint":  "café industry(카페 산업), transformed significantly(크게 변화했다), traditional coffee shops(전통적인 커피숍), modern ones(현대적인 카페들), technology(기술), mobile ordering(모바일 주문), diverse menus(다양한 메뉴), specialty desserts(특별한 디저트), interior concepts(인테리어 콘셉트), consumer needs(소비자 요구)",
+        "translation":  "카페 산업은 지난 몇 년 동안 크게 변화했습니다. 과거의 전통적인 커피숍과 오늘날 보는 현대적인 카페를 비교해주세요. 모바일 주문 같은 기술, 특별한 디저트 같은 다양한 메뉴, 그리고 전반적인 인테리어 콘셉트가 변화하는 소비자 요구를 충족하기 위해 어떻게 발전했는지에 초점을 맞춰 설명해주세요."
+    },
+    {
+        "id":  19,
+        "text":  "Tell me about a time you spent at a café that remains particularly vivid in your memory. Who were you with and what was the main highlight of that day? It could be an important conversation, a small celebration, or even a moment of deep personal reflection. Why does that specific experience stand out to you?",
+        "hint":  "particularly vivid(특히 생생한), in my memory(기억 속에), who were you with(누구와 함께 있었나요), main highlight(주요 하이라이트), important conversation(중요한 대화), small celebration(작은 축하), personal reflection(개인적인 성찰), specific experience(특정 경험), stand out(두드러지다), meaningful moment(의미 있는 순간)",
+        "translation":  "기억 속에 특히 생생하게 남아 있는 카페에서 보낸 시간에 대해 말해주세요. 누구와 함께 있었고, 그날의 주요 하이라이트는 무엇이었나요? 중요한 대화, 작은 축하, 또는 깊은 개인적인 성찰의 순간일 수도 있습니다. 왜 그 특정 경험이 당신에게 두드러지게 남아 있나요?"
+    },
+    {
+        "id":  20,
+        "text":  "Public spaces like cafés can sometimes present unexpected challenges. Tell me about a time you had a less-than-ideal experience at a café, such as dealing with excessive noise, a long wait time, or an order mistake. How did you react to the situation, and did it change your perspective on that particular café?",
+        "hint":  "public spaces(공공장소), unexpected challenges(예상치 못한 어려움), less-than-ideal experience(그다지 좋지 않은 경험), excessive noise(과도한 소음), long wait time(긴 대기 시간), order mistake(주문 실수), react to the situation(상황에 반응하다), change my perspective(관점을 바꾸다), particular café(특정 카페), deal with(대처하다)",
+        "translation":  "카페 같은 공공장소는 때때로 예상치 못한 어려움을 줄 수 있습니다. 과도한 소음, 긴 대기 시간, 또는 주문 실수처럼 카페에서 그다지 좋지 않은 경험을 했던 때에 대해 말해주세요. 그 상황에 어떻게 반응했고, 그것이 그 특정 카페에 대한 관점을 바꾸었나요?"
+    }
+]

@@ -90,7 +90,7 @@ CORS_ALLOW_ORIGINS = [
     origin.strip()
     for origin in os.getenv(
         "CORS_ALLOW_ORIGINS",
-        "http://localhost:5173,http://127.0.0.1:5173",
+        "http://localhost:5173,http://127.0.0.1:5173,capacitor://localhost,http://localhost,https://localhost,ionic://localhost",
     ).split(",")
     if origin.strip()
 ]

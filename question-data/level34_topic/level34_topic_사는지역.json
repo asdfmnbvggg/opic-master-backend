@@ -1,0 +1,51 @@
+﻿[
+    {
+        "id":  1,
+        "text":  "Tell me about the area where you live. What is it like?",
+        "hint":  "residential area(주거 지역), quiet neighborhood(조용한 동네), apartment complex(아파트 단지), nearby park(근처 공원), convenience store(편의점), subway station(지하철역), clean streets(깨끗한 거리), safe area(안전한 지역), friendly neighbors(친절한 이웃들), comfortable environment(편안한 환경)",
+        "translation":  "당신이 사는 지역에 대해 말해 주세요. 어떤 곳인가요?"
+    },
+    {
+        "id":  2,
+        "text":  "What do you like most about your neighborhood?",
+        "hint":  "convenient location(편리한 위치), quiet atmosphere(조용한 분위기), lively street(활기찬 거리), friendly neighbors(친절한 이웃들), nearby facilities(근처 시설들), good transportation(좋은 교통), safe at night(밤에도 안전한), many stores(많은 가게들), clean environment(깨끗한 환경), comfortable life(편한 생활)",
+        "translation":  "동네에서 가장 좋아하는 점은 무엇인가요?"
+    },
+    {
+        "id":  3,
+        "text":  "Describe any changes you've seen in your living area over time.",
+        "hint":  "new buildings(새 건물들), better roads(더 좋은 도로), more cafes(더 많은 카페들), new subway station(새 지하철역), cleaner streets(더 깨끗한 거리), more crowded(더 붐비는), safer area(더 안전한 지역), modern facilities(현대적인 시설), developed area(발전한 지역), changed a lot(많이 변했다)",
+        "translation":  "시간이 지나면서 사는 지역에서 본 변화가 있다면 설명해 주세요."
+    },
+    {
+        "id":  4,
+        "text":  "Let's talk about transportation in your area. What transportation do people usually use there?",
+        "hint":  "subway station(지하철역), bus stop(버스 정류장), taxi stand(택시 승강장), bike lane(자전거 도로), public transportation(대중교통), easy commute(쉬운 통근), short distance(짧은 거리), convenient transfer(편리한 환승), traffic jam(교통 체증), walking distance(걸어갈 거리)",
+        "translation":  "사는 지역의 교통수단에 대해 이야기해 볼게요. 그곳에서는 사람들이 보통 어떤 교통수단을 이용하나요?"
+    },
+    {
+        "id":  5,
+        "text":  "Can you describe the area where you live? What kind of environment is it, and what facilities or places are nearby? Please explain in detail.",
+        "hint":  "residential area(주거 지역), quiet neighborhood(조용한 동네), apartment complex(아파트 단지), nearby park(근처 공원), convenience store(편의점), subway station(지하철역), clean streets(깨끗한 거리), safe area(안전한 지역), friendly neighbors(친절한 이웃들), comfortable environment(편안한 환경)",
+        "translation":  "당신이 사는 지역을 묘사해 줄 수 있나요? 어떤 환경이고, 근처에는 어떤 시설이나 장소들이 있나요? 자세히 설명해 주세요."
+    },
+    {
+        "id":  6,
+        "text":  "What do you like most about the area where you live? Is it convenient, quiet, or lively? Please explain the reasons in detail.",
+        "hint":  "convenient location(편리한 위치), quiet atmosphere(조용한 분위기), lively street(활기찬 거리), friendly neighbors(친절한 이웃들), nearby facilities(근처 시설들), good transportation(좋은 교통), safe at night(밤에도 안전한), many stores(많은 가게들), clean environment(깨끗한 환경), comfortable life(편한 생활)",
+        "translation":  "당신이 사는 지역에서 가장 좋아하는 점은 무엇인가요? 편리하거나, 조용하거나, 활기찬가요? 이유를 자세히 설명해 주세요."
+    },
+    {
+        "id":  7,
+        "text":  "How has your living area changed over the years? What improvements or developments have you noticed? Please describe the changes in detail.",
+        "hint":  "new buildings(새 건물들), better roads(더 좋은 도로), more cafes(더 많은 카페들), new subway station(새 지하철역), cleaner streets(더 깨끗한 거리), more crowded(더 붐비는), safer area(더 안전한 지역), modern facilities(현대적인 시설), developed area(발전한 지역), changed a lot(많이 변했다)",
+        "translation":  "몇 년 동안 당신이 사는 지역은 어떻게 변했나요? 어떤 개선이나 발전을 보았나요? 그 변화를 자세히 묘사해 주세요."
+    },
+    {
+        "id":  8,
+        "text":  "Let's talk about transportation in your area. What transportation systems are available, and why are they convenient for people living there?",
+        "hint":  "subway station(지하철역), bus stop(버스 정류장), taxi stand(택시 승강장), bike lane(자전거 도로), public transportation(대중교통), easy commute(쉬운 통근), short distance(짧은 거리), convenient transfer(편리한 환승), traffic jam(교통 체증), walking distance(걸어갈 거리)",
+        "translation":  "당신 지역의 교통에 대해 이야기해 봅시다. 어떤 교통 시스템이 있고, 그곳에 사는 사람들에게 왜 편리한가요?"
+    }
+]
+

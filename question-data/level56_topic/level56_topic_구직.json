@@ -1,0 +1,74 @@
+[
+    {
+        "id":  1,
+        "text":  "You said you are currently looking for a job. What kind of position or industry are you most interested in, and what specific skills or experiences are you trying to build for that job?",
+        "hint":  "looking for a job(구직 중이다), position(직무), industry(산업), interested in(~에 관심이 있는), specific skills(구체적인 기술), experiences(경험), build skills(기술을 쌓다), career goal(경력 목표), job preparation(취업 준비), professional development(직무 역량 개발)",
+        "translation":  "당신은 현재 구직 중이라고 말했습니다. 어떤 직무나 산업에 가장 관심이 있고, 그 일을 위해 어떤 구체적인 기술이나 경험을 쌓으려고 하고 있나요?"
+    },
+    {
+        "id":  2,
+        "text":  "Many people feel pressure while looking for a job. What part of the job-searching process is the most stressful for you, and how do you usually manage that stress in your daily life?",
+        "hint":  "feel pressure(압박감을 느끼다), looking for a job(구직 중), job-searching process(구직 과정), stressful(스트레스가 많은), manage stress(스트레스를 관리하다), daily life(일상생활), interview preparation(면접 준비), waiting for results(결과를 기다리기), stay positive(긍정적으로 지내다), routine(루틴)",
+        "translation":  "많은 사람들이 구직 중에 압박감을 느낍니다. 구직 과정에서 어떤 부분이 당신에게 가장 스트레스를 주고, 일상생활에서 그 스트레스를 보통 어떻게 관리하나요?"
+    },
+    {
+        "id":  3,
+        "text":  "Tell me about a job interview or application process you experienced before. What did you prepare, what happened during the process, and what did you learn from it?",
+        "hint":  "job interview(취업 면접), application process(지원 과정), experienced before(전에 경험한), prepare(준비하다), during the process(그 과정 동안), learn from it(그것에서 배우다), resume(이력서), cover letter(자기소개서), interview questions(면접 질문), feedback(피드백)",
+        "translation":  "전에 경험했던 취업 면접이나 지원 과정에 대해 말해주세요. 무엇을 준비했고, 그 과정에서 무슨 일이 있었으며, 그것으로부터 무엇을 배웠나요?"
+    },
+    {
+        "id":  4,
+        "text":  "Describe your typical day when you are preparing for a job. How do you divide your time between checking job postings, writing your resume, studying, and practicing for interviews?",
+        "hint":  "typical day(전형적인 하루), preparing for a job(취업을 준비하다), divide time(시간을 나누다), checking job postings(채용 공고 확인), writing a resume(이력서 작성), studying(공부하기), practicing for interviews(면접 연습), job search routine(구직 루틴), time management(시간 관리), daily schedule(하루 일정)",
+        "translation":  "취업을 준비할 때 당신의 전형적인 하루를 묘사해주세요. 채용 공고 확인, 이력서 작성, 공부, 면접 연습 사이에서 시간을 어떻게 나누나요?"
+    },
+    {
+        "id":  5,
+        "text":  "You said you are currently looking for a job. What kind of position or industry are you focusing on these days, and how are you connecting your past experiences, skills, and personal strengths to that job?",
+        "hint":  "currently looking for a job(현재 구직 중이다), position(직무), industry(산업), focusing on(~에 집중하다), past experiences(과거 경험), skills(기술), personal strengths(개인 강점), connect to the job(직무와 연결하다), career goal(경력 목표), self-introduction(자기소개)",
+        "translation":  "당신은 현재 구직 중이라고 했습니다. 요즘 어떤 직무나 산업에 집중하고 있으며, 과거 경험, 기술, 개인적인 강점을 그 일과 어떻게 연결하고 있나요?"
+    },
+    {
+        "id":  6,
+        "text":  "Job searching can be stressful because people have to deal with uncertainty, competition, and repeated evaluation. What part of the job-searching process puts the most pressure on you, and how do you try to stay motivated during that period?",
+        "hint":  "job searching(구직), stressful(스트레스가 많은), uncertainty(불확실성), competition(경쟁), repeated evaluation(반복적인 평가), pressure(압박감), stay motivated(동기를 유지하다), during that period(그 기간 동안), interview stress(면접 스트레스), mental management(멘탈 관리)",
+        "translation":  "구직은 불확실성, 경쟁, 반복적인 평가를 감당해야 하기 때문에 스트레스가 될 수 있습니다. 구직 과정에서 어떤 부분이 가장 큰 압박을 주고, 그 기간 동안 어떻게 동기를 유지하려고 하나요?"
+    },
+    {
+        "id":  7,
+        "text":  "Tell me about a job interview or application process you went through before. What did you prepare, what questions or challenges did you face, and how did that experience change the way you prepare for jobs now?",
+        "hint":  "job interview(취업 면접), application process(지원 과정), went through(겪었다), prepare(준비하다), questions(질문), challenges(어려움), face(마주하다), change the way I prepare(준비 방식을 바꾸다), resume(이력서), interview practice(면접 연습)",
+        "translation":  "전에 겪었던 취업 면접이나 지원 과정에 대해 말해주세요. 무엇을 준비했고, 어떤 질문이나 어려움을 마주했으며, 그 경험이 지금 취업을 준비하는 방식을 어떻게 바꾸었나요?"
+    },
+    {
+        "id":  8,
+        "text":  "Describe your typical day while preparing for a job. How do you balance checking job postings, improving your resume, studying job-related skills, practicing interviews, and taking care of your mental health?",
+        "hint":  "typical day(전형적인 하루), preparing for a job(취업 준비), balance(균형을 맞추다), checking job postings(채용 공고 확인), improving resume(이력서 개선), job-related skills(직무 관련 기술), practicing interviews(면접 연습), mental health(정신 건강), daily routine(일상 루틴), avoid burnout(번아웃을 피하다)",
+        "translation":  "취업을 준비하는 동안의 전형적인 하루를 묘사해주세요. 채용 공고 확인, 이력서 개선, 직무 관련 기술 공부, 면접 연습, 그리고 정신 건강 관리를 어떻게 균형 있게 하나요?"
+    },
+    {
+        "id":  9,
+        "text":  "You mentioned that you are currently seeking a new job or career opportunity. Which specific industry or position are you targeting, and what is the strategic connection between this role and your background? Explain how you are translating your past experiences, technical skills, and unique strengths into a compelling value proposition for potential employers.",
+        "hint":  "seeking a career opportunity(새로운 경력 기회를 찾다), specific industry(특정 산업), position(직무), targeting(목표로 하다), strategic connection(전략적 연결), background(배경), past experiences(과거 경험), technical skills(기술 역량), unique strengths(고유한 강점), value proposition(가치 제안)",
+        "translation":  "당신은 현재 새로운 일자리나 경력 기회를 찾고 있다고 말했습니다. 어떤 특정 산업이나 직무를 목표로 하고 있으며, 그 역할과 당신의 배경 사이에는 어떤 전략적인 연결이 있나요? 과거 경험, 기술 역량, 고유한 강점을 잠재적 고용주에게 설득력 있는 가치 제안으로 어떻게 바꾸고 있는지 설명해주세요."
+    },
+    {
+        "id":  10,
+        "text":  "The job-hunting process is often an emotional rollercoaster due to the constant evaluation and uncertainty. Which particular stage, whether it\u0027s the endless applications or the high-pressure interviews, do you find most taxing? How do you maintain your mental stamina and stay motivated despite the competitive nature of today\u0027s job market?",
+        "hint":  "job-hunting process(구직 과정), emotional rollercoaster(감정의 롤러코스터), constant evaluation(끊임없는 평가), uncertainty(불확실성), endless applications(끝없는 지원), high-pressure interviews(압박감이 큰 면접), taxing(힘든), mental stamina(정신적 체력), stay motivated(동기를 유지하다), competitive job market(경쟁적인 취업 시장)",
+        "translation":  "구직 과정은 끊임없는 평가와 불확실성 때문에 감정의 롤러코스터가 되기 쉽습니다. 끝없는 지원이든 압박감이 큰 면접이든, 어떤 특정 단계가 가장 힘들게 느껴지나요? 오늘날의 경쟁적인 취업 시장 속에서도 정신적 체력을 유지하고 동기를 잃지 않기 위해 어떻게 하나요?"
+    },
+    {
+        "id":  11,
+        "text":  "Reflect on a specific interview or application process from your past. What was your preparation strategy at that time, and what kind of \"curveball\" questions or challenges did you encounter? Looking back, how did the outcome of that experience, whether successful or not, fundamentally reshape your current approach to job searching?",
+        "hint":  "specific interview(특정 면접), application process(지원 과정), preparation strategy(준비 전략), at that time(그 당시), curveball questions(예상 밖의 질문), challenges(어려움), encounter(마주치다), looking back(돌이켜 보면), outcome(결과), current approach(현재 접근 방식)",
+        "translation":  "과거의 특정 면접이나 지원 과정을 돌아보세요. 그 당시 준비 전략은 무엇이었고, 어떤 예상 밖의 질문이나 어려움을 마주했나요? 돌이켜 보면 성공 여부와 관계없이 그 경험의 결과가 현재 구직에 접근하는 방식을 어떻게 근본적으로 바꾸었나요?"
+    },
+    {
+        "id":  12,
+        "text":  "Being a job seeker is a full-time job in itself. Walk me through your typical daily schedule as you prepare for your next career move. How do you allocate your time between scouring job boards, refining your resume, and upskilling, while also ensuring you prioritize mental well-being to avoid burnout?",
+        "hint":  "job seeker(구직자), full-time job(전일제 일), daily schedule(하루 일정), career move(경력 이동), allocate time(시간을 배분하다), scouring job boards(채용 사이트를 샅샅이 살피다), refining resume(이력서를 다듬다), upskilling(역량 강화), mental well-being(정신적 안녕), avoid burnout(번아웃을 피하다)",
+        "translation":  "구직자가 되는 것은 그 자체로 전일제 일과 같습니다. 다음 경력 이동을 준비하는 전형적인 하루 일정을 차근차근 설명해주세요. 번아웃을 피하기 위해 정신적 안녕을 우선시하면서도 채용 사이트를 살피고, 이력서를 다듬고, 역량을 강화하는 데 시간을 어떻게 배분하나요?"
+    }
+]

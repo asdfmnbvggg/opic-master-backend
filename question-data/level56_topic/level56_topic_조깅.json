@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "text": "Safety is important. What items do you bring or wear when you go jogging? What do you take to avoid injury? Tell me about your items for safety in detail",
+        "hint": "safety(안전), go jogging(조깅하다), bring(가져가다), wear(착용하다), avoid injury(부상을 피하다), running shoes(운동화), comfortable clothes(편한 옷), water bottle(물병), stretch(스트레칭하다), in detail(자세히)",
+        "translation": "안전은 중요합니다. 조깅을 할 때 어떤 것들을 가져가거나 착용하시나요? 부상을 피하기 위해 무엇을 하시나요? 안전을 위한 당신의 물건들에 대해 자세히 말해주세요."
+    },
+    {
+        "id": 2,
+        "text": "Talk about how has your conditions changed over time. How was your condition before you started jogging, and what about now?",
+        "hint": "condition(상태), changed over time(시간이 지나며 변하다), before I started jogging(조깅을 시작하기 전에), now(지금), physical condition(신체 상태), stamina(체력), healthier(더 건강한), feel lighter(몸이 가벼워지다), improved fitness(향상된 체력), compare(비교하다)",
+        "translation": "시간이 지남에 따라 당신의 상태가 어떻게 변했는지 이야기해주세요. 조깅을 시작하기 전 상태는 어땠고, 지금은 어떤가요?"
+    },
+    {
+        "id": 3,
+        "text": "Have you ever had a particularly memorable experience while jogging? What was it? When and where did you go jogging? Who did you go with? What happened, and how did you feel? Tell me about the experience from beginning to end.",
+        "hint": "memorable experience(기억에 남는 경험), while jogging(조깅하는 동안), when and where(언제 어디서), go with someone(~와 함께 가다), what happened(무슨 일이 있었는지), how I felt(어떻게 느꼈는지), from beginning to end(처음부터 끝까지), unexpected event(예상치 못한 일), special moment(특별한 순간), vivid memory(생생한 기억)",
+        "translation": "조깅을 하면서 특별히 기억에 남는 경험을 한 적이 있나요? 어떤 일이 있었나요? 언제 어디서 조깅을 하셨나요? 누구랑 같이 갔었나요? 무슨 일이 일어났고 기분이 어땠나요? 그 경험에 대해 처음부터 끝까지 말해주세요."
+    },
+    {
+        "id": 4,
+        "text": "When you go jogging, how do you take care of your safety? What do you usually wear or bring with you? What do you do to prevent injuries? Please explain your safety routine in detail.",
+        "hint": "take care of safety(안전에 신경 쓰다), wear(입다), bring with me(가지고 가다), prevent injuries(부상을 예방하다), warm up(준비 운동하다), stretch(스트레칭하다), running shoes(러닝화), reflective clothing(반사 옷), stay hydrated(수분을 유지하다), safety routine(안전 루틴)",
+        "translation": "조깅을 할 때 안전을 어떻게 챙기나요? 보통 무엇을 입거나 가지고 가나요? 부상을 예방하기 위해 무엇을 하나요? 당신의 안전 루틴을 자세히 설명해주세요."
+    }
+]

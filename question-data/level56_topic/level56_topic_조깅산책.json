@@ -1,0 +1,122 @@
+[
+    {
+        "id":  1,
+        "text":  "You indicated in the survey that you like to go walking. How often do you go walking? When and where do you normally go walking? Please describe your routine when you are walking.",
+        "hint":  "go walking(걷기를 하다), how often(얼마나 자주), normally(보통), walking route(산책 경로), neighborhood(동네), park(공원), morning walk(아침 산책), evening walk(저녁 산책), walking routine(걷기 루틴), describe(묘사하다)",
+        "translation":  "당신은 설문조사에서 걷기를 좋아한다고 답했습니다. 얼마나 자주 걷기를 하시나요? 일반적으로 언제 어디서 걷기를 하시나요? 당신이 걷기를 할 때의 루틴을 묘사해주세요."
+    },
+    {
+        "id":  2,
+        "text":  "Safety is important. What items do you bring or wear when you go jogging? What do you take to avoid injury? Tell me about your items for safety in detail",
+        "hint":  "safety(안전), go jogging(조깅하다), bring(가져가다), wear(착용하다), avoid injury(부상을 피하다), running shoes(운동화), comfortable clothes(편한 옷), water bottle(물병), stretch(스트레칭하다), in detail(자세히)",
+        "translation":  "안전은 중요합니다. 조깅을 할 때 어떤 것들을 가져가거나 착용하시나요? 부상을 피하기 위해 무엇을 하시나요? 안전을 위한 당신의 물건들에 대해 자세히 말해주세요."
+    },
+    {
+        "id":  3,
+        "text":  "Talk about how has your conditions changed over time. How was your condition before you started jogging, and what about now?",
+        "hint":  "condition(상태), changed over time(시간이 지나며 변하다), before I started jogging(조깅을 시작하기 전에), now(지금), physical condition(신체 상태), stamina(체력), healthier(더 건강한), feel lighter(몸이 가벼워지다), improved fitness(향상된 체력), compare(비교하다)",
+        "translation":  "시간이 지남에 따라 당신의 상태가 어떻게 변했는지 이야기해주세요. 조깅을 시작하기 전 상태는 어땠고, 지금은 어떤가요?"
+    },
+    {
+        "id":  4,
+        "text":  "Have you ever had a particularly memorable experience while jogging? What was it? When and where did you go jogging? Who did you go with? What happened, and how did you feel? Tell me about the experience from beginning to end.",
+        "hint":  "memorable experience(기억에 남는 경험), while jogging(조깅하는 동안), when and where(언제 어디서), go with someone(~와 함께 가다), what happened(무슨 일이 있었는지), how I felt(어떻게 느꼈는지), from beginning to end(처음부터 끝까지), unexpected event(예상치 못한 일), special moment(특별한 순간), vivid memory(생생한 기억)",
+        "translation":  "조깅을 하면서 특별히 기억에 남는 경험을 한 적이 있나요? 어떤 일이 있었나요? 언제 어디서 조깅을 하셨나요? 누구랑 같이 갔었나요? 무슨 일이 일어났고 기분이 어땠나요? 그 경험에 대해 처음부터 끝까지 말해주세요."
+    },
+    {
+        "id":  5,
+        "text":  "Now, tell me why you started walking at first. When did you start walking regularly? Explain how did you first become interested in walking.",
+        "hint":  "started walking(걷기 시작했다), at first(처음에), regularly(규칙적으로), first became interested(처음 관심을 갖게 되다), walking habit(걷기 습관), health reason(건강상의 이유), relieve stress(스트레스를 풀다), daily routine(일상 루틴), motivation(동기), explain(설명하다)",
+        "translation":  "이제, 처음에 왜 걷기 시작했는지 말해주세요. 언제부터 규칙적으로 걷기 시작 했나요? 어떻게 처음 걷기에 관심을 갖게 되었는지 설명해주세요."
+    },
+    {
+        "id":  6,
+        "text":  "You mentioned that you enjoy walking. How often do you go walking, and when do you usually do it? Where do you typically go? Please describe what you usually do while walking.",
+        "hint":  "enjoy walking(걷기를 즐기다), how often(얼마나 자주), usually do it(보통 하다), typically go(주로 가다), while walking(걷는 동안), listen to music(음악을 듣다), enjoy the scenery(풍경을 즐기다), clear my mind(생각을 정리하다), walking path(산책로), describe(묘사하다)",
+        "translation":  "당신은 걷기를 즐긴다고 말했습니다. 얼마나 자주 걷기를 하고, 보통 언제 하나요? 주로 어디에 가나요? 걷는 동안 보통 무엇을 하는지 묘사해주세요."
+    },
+    {
+        "id":  7,
+        "text":  "When you go jogging, how do you take care of your safety? What do you usually wear or bring with you? What do you do to prevent injuries? Please explain your safety routine in detail.",
+        "hint":  "take care of safety(안전에 신경 쓰다), wear(입다), bring with me(가지고 가다), prevent injuries(부상을 예방하다), warm up(준비 운동하다), stretch(스트레칭하다), running shoes(러닝화), reflective clothing(반사 옷), stay hydrated(수분을 유지하다), safety routine(안전 루틴)",
+        "translation":  "조깅을 할 때 안전을 어떻게 챙기나요? 보통 무엇을 입거나 가지고 가나요? 부상을 예방하기 위해 무엇을 하나요? 당신의 안전 루틴을 자세히 설명해주세요."
+    },
+    {
+        "id":  8,
+        "text":  "How has your physical condition changed since you started jogging or walking regularly? What was it like before, and how is it now? Please describe the differences in detail.",
+        "hint":  "physical condition(신체 상태), changed since(이후로 변하다), started jogging(조깅을 시작하다), walking regularly(규칙적으로 걷다), before(이전), now(현재), stamina(체력), healthier lifestyle(더 건강한 생활), less tired(덜 피곤한), describe the differences(차이점을 묘사하다)",
+        "translation":  "규칙적으로 조깅이나 걷기를 시작한 이후 당신의 신체 상태는 어떻게 변했나요? 이전에는 어땠고 지금은 어떤가요? 차이점을 자세히 묘사해주세요."
+    },
+    {
+        "id":  9,
+        "text":  "Tell me about a memorable time you had while walking or jogging. When and where did it happen? Who were you with? What happened, and how did you feel? Please describe the experience step by step.",
+        "hint":  "memorable time(기억에 남는 때), while walking or jogging(걷거나 조깅하는 동안), when and where(언제 어디서), who I was with(함께 있던 사람), what happened(무슨 일이 있었는지), how I felt(어떻게 느꼈는지), step by step(단계별로), special experience(특별한 경험), unexpected moment(예상치 못한 순간), describe(묘사하다)",
+        "translation":  "걷거나 조깅하면서 있었던 기억에 남는 때에 대해 말해주세요. 언제 어디서 일어났나요? 누구와 함께 있었나요? 무슨 일이 있었고 기분이 어땠나요? 그 경험을 순서대로 묘사해주세요."
+    },
+    {
+        "id":  10,
+        "text":  "Can you tell me how you first got interested in walking regularly? When did you start, and what made you begin this habit? Please explain in detail.",
+        "hint":  "got interested in(관심을 갖게 되다), walking regularly(규칙적으로 걷기), when I started(시작한 때), begin this habit(이 습관을 시작하다), health goal(건강 목표), reduce stress(스트레스를 줄이다), daily exercise(매일 운동), motivation(동기), explain in detail(자세히 설명하다), keep doing it(계속하다)",
+        "translation":  "어떻게 처음 규칙적으로 걷는 것에 관심을 갖게 되었는지 말해 줄 수 있나요? 언제 시작했고, 무엇이 이 습관을 시작하게 만들었나요? 자세히 설명해주세요."
+    },
+    {
+        "id":  11,
+        "text":  "You said you enjoy walking or jogging. How often do you usually do it, when do you normally go, and what kind of places do you prefer for walking or jogging?",
+        "hint":  "walking or jogging(걷기 또는 조깅), how often(얼마나 자주), normally go(보통 가다), prefer(선호하다), walking path(산책로), park trail(공원 산책로), neighborhood(동네), early morning(이른 아침), evening(저녁), routine(루틴)",
+        "translation":  "당신은 걷기나 조깅을 즐긴다고 했습니다. 보통 얼마나 자주 하고, 언제 주로 가며, 걷기나 조깅을 위해 어떤 장소를 선호하나요?"
+    },
+    {
+        "id":  12,
+        "text":  "When you go jogging or walking, how do you prepare to stay safe and avoid injuries? Please describe what you wear, what items you bring, and what you do before and after exercising.",
+        "hint":  "stay safe(안전을 유지하다), avoid injuries(부상을 피하다), prepare(준비하다), wear(입다), bring items(물건을 가져가다), before exercising(운동 전), after exercising(운동 후), running shoes(러닝화), stretch(스트레칭하다), water bottle(물병)",
+        "translation":  "조깅이나 걷기를 할 때 안전을 지키고 부상을 피하기 위해 어떻게 준비하나요? 무엇을 입고, 어떤 물건을 가져가며, 운동 전후에 무엇을 하는지 묘사해주세요."
+    },
+    {
+        "id":  13,
+        "text":  "How has your physical condition or daily energy changed since you started walking or jogging regularly? Please compare how you felt before with how you feel now.",
+        "hint":  "physical condition(신체 상태), daily energy(일상 에너지), changed since(이후로 변했다), walking regularly(규칙적으로 걷기), jogging regularly(규칙적으로 조깅하기), compare(비교하다), felt before(예전에 느꼈다), feel now(지금 느끼다), stamina(체력), less tired(덜 피곤한)",
+        "translation":  "규칙적으로 걷기나 조깅을 시작한 이후 신체 상태나 일상 에너지는 어떻게 변했나요? 예전에 느꼈던 것과 지금 느끼는 것을 비교해주세요."
+    },
+    {
+        "id":  14,
+        "text":  "Tell me about a memorable experience you had while walking or jogging. When and where did it happen, who were you with, and what made that experience special or unforgettable?",
+        "hint":  "memorable experience(기억에 남는 경험), while walking or jogging(걷거나 조깅하는 동안), when and where(언제 어디서), who were you with(누구와 함께 있었는지), special(특별한), unforgettable(잊을 수 없는), beautiful scenery(아름다운 풍경), unexpected event(예상치 못한 일), personal achievement(개인적인 성취), vivid memory(생생한 기억)",
+        "translation":  "걷기나 조깅을 하면서 겪었던 기억에 남는 경험에 대해 말해주세요. 언제 어디서 일어났고, 누구와 함께 있었으며, 무엇이 그 경험을 특별하거나 잊을 수 없게 만들었나요?"
+    },
+    {
+        "id":  15,
+        "text":  "Can you tell me how you first became interested in walking or jogging? When did you start doing it regularly, what motivated you, and how has this habit changed over time?",
+        "hint":  "first became interested(처음 관심을 갖게 되다), walking or jogging(걷기 또는 조깅), started regularly(규칙적으로 시작했다), motivated me(나에게 동기를 주다), habit changed(습관이 변했다), over time(시간이 지나면서), health reason(건강상의 이유), stress relief(스트레스 해소), exercise habit(운동 습관), lifestyle change(생활 방식 변화)",
+        "translation":  "어떻게 처음 걷기나 조깅에 관심을 갖게 되었는지 말해 줄 수 있나요? 언제 규칙적으로 시작했고, 무엇이 동기가 되었으며, 시간이 지나면서 이 습관은 어떻게 변했나요?"
+    },
+    {
+        "id":  16,
+        "text":  "You indicated that you enjoy walking or jogging. Tell me about your preferred environment for these activities. Do you prefer a well-paved urban path or a natural trail in a park? Please explain how often you go and how the specific time of day—whether it\u0027s early morning or late at night—affects your overall experience.",
+        "hint":  "preferred environment(선호하는 환경), activities(활동), well-paved urban path(잘 포장된 도시 길), natural trail(자연 산책로), park(공원), how often(얼마나 자주), time of day(하루 중 시간대), early morning(이른 아침), late at night(늦은 밤), overall experience(전반적인 경험)",
+        "translation":  "당신은 걷기나 조깅을 즐긴다고 답했습니다. 이런 활동을 위해 선호하는 환경에 대해 말해주세요. 잘 포장된 도시 길을 선호하나요, 아니면 공원의 자연 산책로를 선호하나요? 얼마나 자주 가는지, 그리고 이른 아침이든 늦은 밤이든 특정 시간대가 전반적인 경험에 어떤 영향을 주는지 설명해주세요."
+    },
+    {
+        "id":  17,
+        "text":  "Safety is a crucial part of any exercise routine. Walk me through your pre-workout and post-workout rituals. What kind of specialized gear or clothing do you wear to prevent injuries, and what specific steps do you take to warm up or cool down? Describe any essential items you always carry with you for safety or convenience.",
+        "hint":  "safety(안전), crucial part(중요한 부분), exercise routine(운동 루틴), pre-workout(운동 전), post-workout(운동 후), specialized gear(전문 장비), clothing(옷), prevent injuries(부상을 예방하다), warm up(준비 운동하다), cool down(정리 운동하다), essential items(필수품)",
+        "translation":  "안전은 어떤 운동 루틴에서든 중요한 부분입니다. 운동 전과 운동 후의 습관을 차근차근 설명해주세요. 부상을 예방하기 위해 어떤 전문 장비나 옷을 착용하고, 준비 운동이나 정리 운동을 위해 어떤 구체적인 단계를 거치나요? 안전이나 편의를 위해 항상 가지고 다니는 필수품도 묘사해주세요."
+    },
+    {
+        "id":  18,
+        "text":  "I’d like to hear about the changes you\u0027ve noticed since you started walking or jogging regularly. Compare your overall stamina and energy levels from before you took up this habit to how you feel today. Beyond the physical aspects, has this routine had any positive impact on your mental well-being or stress management?",
+        "hint":  "changes noticed(알아차린 변화), started regularly(규칙적으로 시작했다), overall stamina(전반적인 체력), energy levels(에너지 수준), took up this habit(이 습관을 시작했다), how I feel today(오늘날 느끼는 것), physical aspects(신체적인 측면), mental well-being(정신적 건강), stress management(스트레스 관리), positive impact(긍정적인 영향)",
+        "translation":  "규칙적으로 걷기나 조깅을 시작한 이후 알아차린 변화에 대해 듣고 싶습니다. 이 습관을 시작하기 전의 전반적인 체력과 에너지 수준을 오늘날 느끼는 것과 비교해주세요. 신체적인 측면을 넘어서, 이 루틴이 정신적 건강이나 스트레스 관리에 긍정적인 영향을 주었나요?"
+    },
+    {
+        "id":  19,
+        "text":  "Tell me about a particular time while you were out jogging or walking that really stands out in your mind. Maybe you witnessed a beautiful sunset, encountered an unexpected event, or achieved a personal milestone. Describe the entire situation in detail and explain why that specific day was so memorable.",
+        "hint":  "particular time(특정한 때), jogging or walking(조깅이나 걷기), stands out in my mind(마음속에 두드러지게 남다), beautiful sunset(아름다운 일몰), unexpected event(예상치 못한 일), personal milestone(개인적인 이정표), entire situation(전체 상황), in detail(자세히), specific day(특정한 날), memorable(기억에 남는)",
+        "translation":  "조깅이나 걷기를 하러 나갔을 때 마음속에 정말 두드러지게 남는 특정한 때에 대해 말해주세요. 아름다운 일몰을 보았거나, 예상치 못한 일을 겪었거나, 개인적인 목표를 달성했을 수도 있습니다. 전체 상황을 자세히 묘사하고 왜 그 특정한 날이 그렇게 기억에 남았는지 설명해주세요."
+    },
+    {
+        "id":  20,
+        "text":  "Reflect on the very beginning of your jogging or walking habit. What was the initial motivation that got you started, and how did you feel during those first few sessions? How has your approach to this exercise evolved over time? For example, have you become more disciplined, or has your purpose for walking changed as you\u0027ve grown older?",
+        "hint":  "very beginning(아주 처음), jogging or walking habit(조깅이나 걷기 습관), initial motivation(처음 동기), got me started(시작하게 만들었다), first few sessions(처음 몇 번), approach to exercise(운동에 대한 접근 방식), evolved over time(시간이 지나며 변화했다), more disciplined(더 규칙적인), purpose for walking(걷는 목적), grown older(나이가 들다)",
+        "translation":  "조깅이나 걷기 습관의 아주 처음을 돌이켜 보세요. 당신을 시작하게 만든 처음 동기는 무엇이었고, 처음 몇 번 운동할 때 기분은 어땠나요? 시간이 지나면서 이 운동에 대한 접근 방식은 어떻게 변화했나요? 예를 들어 더 규칙적으로 하게 되었나요, 아니면 나이가 들면서 걷는 목적이 바뀌었나요?"
+    }
+]

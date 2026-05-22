@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "text": "You indicated in the survey that you like to go to a concert. What kind of concert do you like the most? Why do you like that concert? Please tell me about it in detail.",
+        "hint": "concert(콘서트), survey(설문조사), like to go to(가기를 좋아하다), kind of concert(콘서트 종류), like the most(가장 좋아하다), live music(라이브 음악), performance(공연), atmosphere(분위기), exciting(신나는), in detail(자세히)",
+        "translation": "당신은 설문조사에서 콘서트에 가는 것을 좋아한다고 답했습니다. 당신은 어떤 종류의 콘서트를 가장 좋아하나요? 왜 그 콘서트를 좋아하나요? 그것에 대해 자세히 말해 주세요."
+    },
+    {
+        "id": 2,
+        "text": "You indicated in the survey that you like going to concerts. Tell me about a theater or auditorium you often go to. Where is it located? What do you like about that place? Tell me about the concert you watched at this venue in detail.",
+        "hint": "theater(극장), auditorium(공연장), often go to(자주 가다), located in(~에 위치한), venue(장소), concert hall(콘서트홀), seats(좌석), sound system(음향 시설), watched a concert(콘서트를 보다), in detail(자세히)",
+        "translation": "당신은 설문 조사에서 콘서트에 간다고 답했습니다. 자주 가는 극장이나 공연장에 대해 말해주세요. 그것은 어디에 위치해 있나요? 그 장소의 어떤 점을 좋아하시나요? 이 장소에서 본 콘서트에 대해 자세히 말해주세요."
+    },
+    {
+        "id": 3,
+        "text": "What is your routine when you go to the auditorium? What do you do before the concert and after? Please describe your routine in as much detail as possible.",
+        "hint": "routine(일과), auditorium(공연장), before the concert(콘서트 전에), after the concert(콘서트 후에), buy tickets(표를 사다), meet friends(친구들을 만나다), arrive early(일찍 도착하다), take photos(사진을 찍다), eat dinner(저녁을 먹다), describe(묘사하다)",
+        "translation": "공연장에 갈 때 당신의 하루 일과는 어떻게 되나요? 당신은 콘서트 전후에 무엇을 하나요? 당신의 일과를 가능한 한 자세히 묘사해 주세요."
+    },
+    {
+        "id": 4,
+        "text": "How has your interest in concerts changed over the last few years? What kind of play did you like in the past? What about now?",
+        "hint": "interest(관심), changed(변했다), over the last few years(지난 몇 년 동안), in the past(과거에), these days(요즘), music taste(음악 취향), prefer(선호하다), live performance(라이브 공연), compared to(비교해서), now(지금)",
+        "translation": "지난 몇 년간 콘서트에 대한 관심이 어떻게 변했나요? 당신은 과거에 어떤 종류의 공연을 좋아했나요? 지금은 어떤가요?"
+    },
+    {
+        "id": 5,
+        "text": "Tell me about the most memorable concert you have seen. When was it, and where is it held? Who was the singer? How did you feel when you were watching the concert? Provide as many details as possible.",
+        "hint": "memorable concert(기억에 남는 콘서트), have seen(본 적이 있는), when(언제), where(어디에서), held(열렸다), singer(가수), feel(느끼다), watching the concert(콘서트를 보는 동안), excited(흥분한), as many details as possible(가능한 한 자세히)",
+        "translation": "당신이 본 콘서트 중 가장 기억에 남는 콘서트에 대해 말해주세요. 언제, 어디서 열렸나요? 그 가수는 누구였나요? 콘서트를 보고 있을 때 기분이 어땠나요? 가능한 한 많은 세부 정보를 알려주세요."
+    },
+    {
+        "id": 6,
+        "text": "Tell me about the last time you went to a concert recently. When was it? Which concert did you see? Who did you go with and did you enjoy the concert? Describe a particularly memorable experience in detail.",
+        "hint": "recently(최근에), last time(마지막으로), went to a concert(콘서트에 갔다), which concert(어떤 콘서트), go with(함께 가다), enjoy(즐기다), memorable experience(기억에 남는 경험), crowd(관객), favorite song(좋아하는 노래), in detail(자세히)",
+        "translation": "최근에 콘서트에 간 게 언제인지 말해주세요. 그게 언제였나요? 어떤 콘서트를 보셨나요? 당신은 누구와 함께 갔었고 콘서트는 재미있었나요? 특히 기억에 남는 경험을 자세히 묘사해 주세요."
+    },
+    {
+        "id": 7,
+        "text": "You mentioned that you enjoy going to concerts. What type of concert do you like the most? What makes that kind of concert enjoyable for you? Please explain in detail.",
+        "hint": "enjoy going to concerts(콘서트에 가는 것을 즐기다), type of concert(콘서트 종류), like the most(가장 좋아하다), enjoyable(즐거운), live band(라이브 밴드), singer(가수), energy(에너지), audience(관객), special mood(특별한 분위기), explain in detail(자세히 설명하다)",
+        "translation": "당신은 콘서트에 가는 것을 즐긴다고 말했습니다. 어떤 종류의 콘서트를 가장 좋아하나요? 그 콘서트가 당신에게 즐거운 이유는 무엇인가요? 자세히 설명해 주세요."
+    },
+    {
+        "id": 8,
+        "text": "Can you describe a concert hall or venue you often visit? Where is it located, and what do you like about it? Tell me about a concert you watched there in detail.",
+        "hint": "concert hall(콘서트홀), venue(공연 장소), often visit(자주 방문하다), located in(~에 위치한), like about it(그것에 대해 좋아하는 점), stage(무대), lighting(조명), sound quality(음향 품질), watched there(그곳에서 본), in detail(자세히)",
+        "translation": "자주 방문하는 콘서트홀이나 공연 장소를 묘사해 주시겠어요? 그것은 어디에 위치해 있고, 그곳의 어떤 점을 좋아하나요? 그곳에서 본 콘서트에 대해 자세히 말해 주세요."
+    },
+    {
+        "id": 9,
+        "text": "What do you usually do when you go to a concert venue? What do you do before the concert starts and after it ends? Please describe your concert-day routine in detail.",
+        "hint": "usually do(보통 하다), concert venue(콘서트 장소), before it starts(시작하기 전에), after it ends(끝난 후에), concert-day routine(콘서트 당일 일과), check tickets(티켓을 확인하다), buy merchandise(굿즈를 사다), find my seat(자리를 찾다), take pictures(사진을 찍다), in detail(자세히)",
+        "translation": "콘서트 장소에 갈 때 보통 무엇을 하나요? 콘서트가 시작되기 전과 끝난 후에는 무엇을 하나요? 콘서트 당일의 일과를 자세히 묘사해 주세요."
+    },
+    {
+        "id": 10,
+        "text": "How has your interest in concerts changed over the past few years? What kinds of concerts did you enjoy before, and what kinds do you prefer now?",
+        "hint": "interest in concerts(콘서트에 대한 관심), changed(변했다), past few years(지난 몇 년), enjoy before(전에 즐기다), prefer now(지금 선호하다), music genre(음악 장르), taste changed(취향이 변했다), bigger concerts(큰 콘서트), smaller venues(작은 공연장), compare(비교하다)",
+        "translation": "지난 몇 년 동안 콘서트에 대한 관심이 어떻게 변했나요? 예전에는 어떤 종류의 콘서트를 즐겼고, 지금은 어떤 종류를 더 선호하나요?"
+    },
+    {
+        "id": 11,
+        "text": "Tell me about the most unforgettable concert you have ever attended. When and where was it held? Who performed there? How did you feel while watching the concert? Please give as many details as possible.",
+        "hint": "unforgettable concert(잊을 수 없는 콘서트), attended(참석했다), when and where(언제 어디서), held(열렸다), performed(공연했다), while watching(보는 동안), emotional(감동적인), cheering(응원), stage presence(무대 장악력), as many details as possible(가능한 한 자세히)",
+        "translation": "당신이 참석했던 콘서트 중 가장 잊을 수 없는 콘서트에 대해 말해 주세요. 언제 어디서 열렸나요? 누가 공연했나요? 콘서트를 보는 동안 기분이 어땠나요? 가능한 한 자세히 말해 주세요."
+    },
+    {
+        "id": 12,
+        "text": "Think about the most recent concert you went to. When was it, and what concert did you attend? Who did you go with? Did you enjoy it? Please describe one especially memorable moment in detail.",
+        "hint": "most recent concert(가장 최근 콘서트), went to(갔다), when(언제), attend(참석하다), go with(함께 가다), enjoy it(즐기다), especially memorable moment(특히 기억에 남는 순간), favorite performance(좋아하는 공연), atmosphere(분위기), in detail(자세히)",
+        "translation": "가장 최근에 갔던 콘서트를 생각해 보세요. 언제였고, 어떤 콘서트에 참석했나요? 누구와 함께 갔나요? 재미있었나요? 특히 기억에 남는 순간 하나를 자세히 묘사해 주세요."
+    }
+]

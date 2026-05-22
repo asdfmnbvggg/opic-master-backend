@@ -1,0 +1,123 @@
+﻿[
+    {
+        "id":  1,
+        "text":  "Tell me about your neighbors. What are they like?",
+        "hint":  "next-door neighbor(옆집 이웃), friendly(친근한), quiet(조용한), helpful(도움을 주는), polite(예의 바른), apartment complex(아파트 단지), community(공동체), familiar face(익숙한 얼굴), greeting(인사), small talk(가벼운 대화)",
+        "translation":  "당신의 이웃에 대해 말해 주세요. 어떤 사람들인가요?"
+    },
+    {
+        "id":  2,
+        "text":  "How often do you interact with your neighbors?",
+        "hint":  "say hello(인사하다), small talk(가벼운 대화), elevator(엘리베이터), hallway(복도), meet often(자주 만나다), wave(손을 흔들다), polite greeting(공손한 인사), help each other(서로 돕다), weekend(주말), short conversation(짧은 대화)",
+        "translation":  "이웃과 얼마나 자주 교류하나요?"
+    },
+    {
+        "id":  3,
+        "text":  "Describe a positive experience you've had with a neighbor.",
+        "hint":  "positive experience(긍정적인 경험), kind neighbor(친절한 이웃), helped me(나를 도와주었다), shared food(음식을 나눴다), lost item(잃어버린 물건), thankful(감사한), warm feeling(따뜻한 느낌), community event(동네 행사), good memory(좋은 기억), closer relationship(더 가까운 관계)",
+        "translation":  "이웃과 있었던 좋은 경험을 설명해 주세요."
+    },
+    {
+        "id":  4,
+        "text":  "You said you live in an apartment. Tell me about your neighborhood. Where is it, and what is it like?",
+        "hint":  "apartment complex(아파트 단지), residential area(주거 지역), quiet street(조용한 거리), convenient location(편리한 위치), subway station(지하철역), bus stop(버스 정류장), small shops(작은 가게들), park nearby(근처 공원), safe(안전한), peaceful(평화로운)",
+        "translation":  "아파트에 산다고 하셨는데요. 동네에 대해 말해 주세요. 어디에 있고, 어떤 분위기인가요?"
+    },
+    {
+        "id":  5,
+        "text":  "Tell me about your neighbors. Who are they, and what do you usually do with them?",
+        "hint":  "elderly couple(노부부), young family(젊은 가족), office worker(직장인), college student(대학생), next-door neighbor(옆집 이웃), friendly person(친절한 사람), quiet neighbor(조용한 이웃), same building(같은 건물), say hello(인사하다), casual chat(가벼운 수다)",
+        "translation":  "이웃에 대해 말해 주세요. 어떤 사람들이고, 보통 함께 무엇을 하나요?"
+    },
+    {
+        "id":  6,
+        "text":  "Tell me about a memorable experience in your neighborhood. What happened?",
+        "hint":  "memorable experience(기억에 남는 경험), neighborhood event(동네 행사), kind neighbor(친절한 이웃), helped each other(서로 도왔다), sudden problem(갑작스러운 문제), shared food(음식을 나눴다), funny moment(재미있는 순간), thankful(감사한), warm atmosphere(따뜻한 분위기), unforgettable(잊을 수 없는)",
+        "translation":  "동네에서 있었던 기억에 남는 경험을 말해 주세요. 무슨 일이 있었나요?"
+    },
+    {
+        "id":  7,
+        "text":  "How has your neighborhood changed since you were young? What is similar, and what is different?",
+        "hint":  "old buildings(오래된 건물들), new apartments(새 아파트들), more stores(더 많은 가게들), better transportation(더 좋은 교통), crowded streets(붐비는 거리), cleaner area(더 깨끗한 지역), modern facilities(현대적인 시설), childhood memory(어린 시절 추억), changed a lot(많이 변했다), more convenient(더 편리한)",
+        "translation":  "어릴 때와 비교해서 동네가 어떻게 변했나요? 비슷한 점과 다른 점은 무엇인가요?"
+    },
+    {
+        "id":  8,
+        "text":  "Let's talk about your neighborhood. Where do you live? Is it in a city or a quiet area?",
+        "hint":  "apartment complex(아파트 단지), residential area(주거 지역), downtown(시내), quiet area(조용한 지역), convenient(편리한), subway station(지하철역), bus stop(버스 정류장), near my home(집 근처), safe(안전한), peaceful(평화로운)",
+        "translation":  "당신의 동네에 대해 이야기해 봅시다. 어디에 사나요? 도시인가요, 아니면 조용한 지역인가요?"
+    },
+    {
+        "id":  9,
+        "text":  "Please describe your neighborhood. Is it busy or calm? What does it look like?",
+        "hint":  "busy street(붐비는 거리), calm atmosphere(차분한 분위기), tall buildings(높은 건물들), small shops(작은 가게들), trees(나무들), clean streets(깨끗한 거리), playground(놀이터), walking path(산책로), modern(현대적인), cozy(아늑한)",
+        "translation":  "당신의 동네를 묘사해 주세요. 붐비나요, 아니면 차분한가요? 어떤 모습인가요?"
+    },
+    {
+        "id":  10,
+        "text":  "What places are in your neighborhood near your home? Are there parks, cafes, or stores?",
+        "hint":  "park(공원), cafe(카페), convenience store(편의점), supermarket(슈퍼마켓), bakery(빵집), pharmacy(약국), restaurant(식당), gym(헬스장), school(학교), library(도서관)",
+        "translation":  "집 근처 이웃 동네에는 어떤 장소들이 있나요? 공원, 카페, 가게들이 있나요?"
+    },
+    {
+        "id":  11,
+        "text":  "Tell me about a neighborhood place you often go near your house. Why do you like that place?",
+        "hint":  "favorite cafe(좋아하는 카페), local park(동네 공원), small restaurant(작은 식당), comfortable(편안한), close to home(집에서 가까운), good food(맛있는 음식), quiet place(조용한 장소), friendly staff(친절한 직원), nice view(좋은 경치), relaxing(편안한)",
+        "translation":  "집 근처 이웃 동네에서 자주 가는 장소에 대해 말해 주세요. 왜 그 장소를 좋아하나요?"
+    },
+    {
+        "id":  12,
+        "text":  "Can you tell me about your neighbors? Who are they?",
+        "hint":  "next-door neighbor(옆집 이웃), elderly couple(노부부), young family(젊은 가족), college student(대학생), office worker(직장인), friendly person(친절한 사람), quiet neighbor(조용한 이웃), familiar face(익숙한 얼굴), same building(같은 건물), community member(동네 주민)",
+        "translation":  "당신의 이웃에 대해 말해 줄 수 있나요? 그들은 누구인가요?"
+    },
+    {
+        "id":  13,
+        "text":  "What are your neighbors like? Are they kind, quiet, or friendly?",
+        "hint":  "kind(친절한), quiet(조용한), friendly(친근한), polite(예의 바른), helpful(도움을 주는), considerate(배려심 있는), warm-hearted(마음이 따뜻한), talkative(말이 많은), respectful(존중하는), easygoing(느긋한)",
+        "translation":  "당신의 이웃들은 어떤 사람들인가요? 친절하거나, 조용하거나, 다정한가요?"
+    },
+    {
+        "id":  14,
+        "text":  "Do you talk to your neighbors often? What do you usually say?",
+        "hint":  "say hello(인사하다), small talk(가벼운 대화), ask about the weather(날씨를 묻다), talk in the elevator(엘리베이터에서 이야기하다), greeting(인사), smile(미소 짓다), short conversation(짧은 대화), weekend plans(주말 계획), daily life(일상생활), polite words(공손한 말)",
+        "translation":  "이웃들과 자주 이야기하나요? 보통 무슨 말을 하나요?"
+    },
+    {
+        "id":  15,
+        "text":  "What do you do when you meet your neighbors? Do you just say hello or have a short talk?",
+        "hint":  "meet neighbors(이웃을 만나다), say hello(인사하다), short talk(짧은 대화), wave(손을 흔들다), smile(미소 짓다), elevator(엘리베이터), hallway(복도), help each other(서로 돕다), polite greeting(공손한 인사), casual chat(가벼운 수다)",
+        "translation":  "이웃을 만나면 무엇을 하나요? 그냥 인사만 하나요, 아니면 짧게 대화하나요?"
+    },
+    {
+        "id":  16,
+        "text":  "Has your neighborhood changed? What was it like before?",
+        "hint":  "changed a lot(많이 변했다), old buildings(오래된 건물들), fewer stores(적은 가게들), quiet streets(조용한 거리), small town feeling(작은 동네 느낌), less crowded(덜 붐비는), old playground(오래된 놀이터), local shops(동네 가게들), simple life(단순한 생활), childhood memory(어린 시절 추억)",
+        "translation":  "당신의 동네가 변했나요? 예전에는 어땠나요?"
+    },
+    {
+        "id":  17,
+        "text":  "What is your neighborhood like now? Is it better than before?",
+        "hint":  "new buildings(새 건물들), more convenient(더 편리한), better transportation(더 좋은 교통), many cafes(많은 카페들), cleaner streets(더 깨끗한 거리), safer(더 안전한), more crowded(더 붐비는), modern facilities(현대적인 시설), lively(활기찬), improved(개선된)",
+        "translation":  "지금 당신의 동네는 어떤가요? 예전보다 더 좋아졌나요?"
+    },
+    {
+        "id":  18,
+        "text":  "Tell me about a memorable experience in your neighborhood. When did it happen?",
+        "hint":  "memorable experience(기억에 남는 경험), neighborhood event(동네 행사), festival(축제), rainy day(비 오는 날), helped a neighbor(이웃을 도왔다), shared food(음식을 나눴다), met a friend(친구를 만났다), special moment(특별한 순간), last summer(지난 여름), unforgettable(잊을 수 없는)",
+        "translation":  "동네에서 있었던 기억에 남는 경험에 대해 말해 주세요. 언제 일어난 일인가요?"
+    },
+    {
+        "id":  19,
+        "text":  "What happened in your neighborhood at that time? Why do you remember it?",
+        "hint":  "unexpected event(예상치 못한 일), kind neighbor(친절한 이웃), helped me(나를 도와주었다), lost item(잃어버린 물건), community event(동네 행사), warm feeling(따뜻한 느낌), thankful(감사한), funny situation(재미있는 상황), strong memory(강한 기억), meaningful(의미 있는)",
+        "translation":  "그때 이웃 동네에서 무슨 일이 있었나요? 왜 그 일을 기억하나요?"
+    },
+    {
+        "id":  20,
+        "text":  "How did you feel about that neighborhood experience?",
+        "hint":  "felt thankful(감사했다), felt happy(행복했다), felt touched(감동받았다), felt surprised(놀랐다), felt comfortable(편안했다), good memory(좋은 기억), closer to neighbors(이웃과 더 가까워진), warm atmosphere(따뜻한 분위기), positive experience(긍정적인 경험), proud of my neighborhood(동네가 자랑스러운)",
+        "translation":  "그 이웃 동네 경험에 대해 어떤 기분이 들었나요?"
+    }
+]
+

@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "text": "Tell me about a trip you took recently. Where did you go, who did you go with, and what did you do there that made the trip memorable?",
+    "hint": "recent trip(최근 여행), where I went(간 곳), who I went with(함께 간 사람), memorable(기억에 남는), activities(활동), travel experience(여행 경험), special moment(특별한 순간), sightseeing(관광), local food(현지 음식), describe(묘사하다)",
+    "translation": "최근에 다녀온 여행에 대해 말해주세요. 어디에 갔고, 누구와 함께 갔으며, 그곳에서 무엇을 해서 여행이 기억에 남았나요?"
+  },
+  {
+    "id": 2,
+    "text": "During one of your trips, was there a place that left a strong impression on you? Please describe what the place looked like and explain why it felt special to you.",
+    "hint": "during a trip(여행 중에), left a strong impression(강한 인상을 남기다), place(장소), looked like(어떻게 생겼는지), felt special(특별하게 느껴지다), beautiful scenery(아름다운 경치), atmosphere(분위기), landmark(명소), unforgettable(잊을 수 없는), explain(설명하다)",
+    "translation": "여행 중 당신에게 강한 인상을 남긴 장소가 있었나요? 그 장소가 어떻게 생겼는지 묘사하고, 왜 당신에게 특별하게 느껴졌는지 설명해주세요."
+  },
+  {
+    "id": 3,
+    "text": "How has the way you travel changed compared to the past? Please compare your travel style, planning process, transportation, or the things you enjoy doing during trips.",
+    "hint": "way I travel(여행 방식), changed compared to the past(과거와 비교해 변하다), travel style(여행 스타일), planning process(계획 과정), transportation(교통수단), enjoy doing(즐겨 하다), during trips(여행 중에), compare(비교하다), differences(차이점), over time(시간이 지나며)",
+    "translation": "과거와 비교해서 당신의 여행 방식은 어떻게 변했나요? 여행 스타일, 계획 과정, 교통수단, 또는 여행 중 즐기는 것들을 비교해주세요."
+  },
+  {
+    "id": 4,
+    "text": "Before you go on a trip, how do you usually prepare? Please describe how you choose the destination, book transportation or accommodation, pack your things, and plan your schedule.",
+    "hint": "prepare for a trip(여행을 준비하다), choose the destination(목적지를 고르다), book transportation(교통편을 예약하다), accommodation(숙소), pack things(짐을 싸다), plan a schedule(일정을 계획하다), checklist(체크리스트), itinerary(여행 일정), reservation(예약), describe(묘사하다)",
+    "translation": "여행을 가기 전에 보통 어떻게 준비하나요? 목적지를 고르고, 교통편이나 숙소를 예약하고, 짐을 싸고, 일정을 계획하는 과정을 묘사해주세요."
+  },
+  {
+    "id": 5,
+    "text": "Tell me about an unexpected situation you experienced while traveling. What happened, how did you react, and what did you learn from that experience?",
+    "hint": "unexpected situation(예상치 못한 상황), while traveling(여행 중에), what happened(무슨 일이 있었는지), react(반응하다), learn from experience(경험에서 배우다), travel problem(여행 문제), stay calm(침착함을 유지하다), solve the problem(문제를 해결하다), memorable lesson(기억에 남는 교훈), explain(설명하다)",
+    "translation": "여행 중 경험한 예상치 못한 상황에 대해 말해주세요. 무슨 일이 있었고, 어떻게 반응했으며, 그 경험에서 무엇을 배웠나요?"
+  },
+  {
+    "id": 6,
+    "text": "Think about a trip you took when you were younger. Where did you go, who were you with, and how was that trip different from the trips you take these days?",
+    "hint": "when I was younger(어렸을 때), trip(여행), where I went(간 곳), who I was with(함께 있었던 사람), different from these days(요즘과 다른), childhood trip(어릴 적 여행), family vacation(가족 여행), travel style(여행 방식), memories(추억), compare(비교하다)",
+    "translation": "어렸을 때 갔던 여행을 떠올려 보세요. 어디에 갔고, 누구와 함께 있었으며, 그 여행은 요즘 하는 여행과 어떻게 달랐나요?"
+  },
+  {
+    "id": 7,
+    "text": "When you are on vacation, what kinds of activities do you usually enjoy the most? Please explain what you like to do, why you enjoy those activities, and how they make your trip better.",
+    "hint": "on vacation(휴가 중에), activities(활동), enjoy the most(가장 즐기다), sightseeing(관광), trying local food(현지 음식 먹어보기), taking photos(사진 찍기), relaxing(휴식하기), make the trip better(여행을 더 좋게 만들다), personal preference(개인 취향), explain(설명하다)",
+    "translation": "휴가 중에는 보통 어떤 활동을 가장 즐기나요? 무엇을 좋아하고, 왜 그 활동들을 즐기며, 그것들이 어떻게 여행을 더 좋게 만드는지 설명해주세요."
+  },
+  {
+    "id": 8,
+    "text": "Tell me about a trip you took recently. Where did you go, who did you travel with, what did you do there, and what made that trip different from your usual trips?",
+    "hint": "recent trip(최근 여행), where did you go(어디에 갔나요), travel with(함께 여행하다), what did you do(무엇을 했나요), different from usual trips(평소 여행과 다른), special activity(특별한 활동), travel companion(여행 동반자), memorable moment(기억에 남는 순간), travel style(여행 방식), unique experience(독특한 경험)",
+    "translation": "최근에 다녀온 여행에 대해 말해주세요. 어디에 갔고, 누구와 함께 여행했으며, 그곳에서 무엇을 했고, 그 여행이 평소 여행과 달랐던 점은 무엇인가요?"
+  },
+  {
+    "id": 9,
+    "text": "During one of your trips, was there a place that left a strong impression on you? Please describe what the place looked like, what kind of atmosphere it had, and why it felt meaningful or special to you.",
+    "hint": "during a trip(여행 중에), left a strong impression(강한 인상을 남기다), place looked like(장소가 어떻게 생겼는지), atmosphere(분위기), meaningful(의미 있는), special(특별한), scenic view(멋진 경치), quiet place(조용한 장소), local culture(지역 문화), personal memory(개인적인 기억)",
+    "translation": "여행 중 당신에게 강한 인상을 남긴 장소가 있었나요? 그 장소가 어떻게 생겼고, 어떤 분위기를 가지고 있었으며, 왜 당신에게 의미 있거나 특별하게 느껴졌는지 묘사해주세요."
+  },
+  {
+    "id": 10,
+    "text": "How has the way you travel changed over time? Please compare your past and current travel style in terms of planning, transportation, budget, activities, and the way you use technology during trips.",
+    "hint": "way I travel(여행 방식), changed over time(시간이 지나며 변했다), past and current(과거와 현재), travel style(여행 스타일), planning(계획), transportation(교통), budget(예산), activities(활동), use technology(기술을 사용하다), travel apps(여행 앱)",
+    "translation": "시간이 지나면서 여행 방식은 어떻게 변했나요? 계획, 교통, 예산, 활동, 그리고 여행 중 기술을 사용하는 방식 면에서 과거와 현재의 여행 스타일을 비교해주세요."
+  },
+  {
+    "id": 11,
+    "text": "Before you go on a trip, how do you usually prepare? Please explain how you choose a destination, compare transportation and accommodation options, make a schedule, pack your luggage, and handle unexpected changes.",
+    "hint": "prepare for a trip(여행을 준비하다), choose a destination(목적지를 고르다), compare options(선택지를 비교하다), transportation(교통), accommodation(숙소), make a schedule(일정을 만들다), pack luggage(짐을 싸다), unexpected changes(예상치 못한 변화), flexible plan(유연한 계획), travel checklist(여행 체크리스트)",
+    "translation": "여행을 가기 전에 보통 어떻게 준비하나요? 목적지를 고르고, 교통과 숙소 선택지를 비교하고, 일정을 만들고, 짐을 싸고, 예상치 못한 변화에 대처하는 방법을 설명해주세요."
+  },
+  {
+    "id": 12,
+    "text": "Tell me about an unexpected situation you experienced while traveling. What happened, how did it affect your plan, how did you deal with it, and what did you learn from that experience?",
+    "hint": "unexpected situation(예상치 못한 상황), while traveling(여행 중에), affect my plan(계획에 영향을 주다), deal with it(대처하다), learn from experience(경험에서 배우다), missed transportation(교통편을 놓치다), bad weather(나쁜 날씨), change plans(계획을 바꾸다), stay calm(침착하게 있다), travel lesson(여행 교훈)",
+    "translation": "여행 중 경험한 예상치 못한 상황에 대해 말해주세요. 무슨 일이 있었고, 그것이 계획에 어떤 영향을 주었으며, 어떻게 대처했고, 그 경험에서 무엇을 배웠나요?"
+  },
+  {
+    "id": 13,
+    "text": "Think about a trip you took when you were younger. Where did you go, who were you with, what do you remember most clearly, and how was that trip different from the trips you take these days?",
+    "hint": "when I was younger(어렸을 때), trip(여행), where did you go(어디에 갔나요), who were you with(누구와 함께 있었나요), remember clearly(분명히 기억하다), different from these days(요즘과 다른), childhood memory(어린 시절 기억), family vacation(가족 여행), travel style(여행 방식), compare(비교하다)",
+    "translation": "어렸을 때 갔던 여행을 떠올려 보세요. 어디에 갔고, 누구와 함께 있었으며, 무엇을 가장 분명히 기억하고, 그 여행은 요즘 하는 여행들과 어떻게 달랐나요?"
+  },
+  {
+    "id": 14,
+    "text": "When you are on vacation, what kinds of activities do you enjoy the most? Please explain how you choose activities during a trip, why you enjoy them, and how they affect your overall travel experience.",
+    "hint": "on vacation(휴가 중에), activities(활동), enjoy the most(가장 즐기다), choose activities(활동을 선택하다), during a trip(여행 중에), overall travel experience(전반적인 여행 경험), sightseeing(관광), local food(현지 음식), adventure(모험), relaxation(휴식)",
+    "translation": "휴가 중에는 어떤 활동을 가장 즐기나요? 여행 중 활동을 어떻게 선택하고, 왜 그것들을 즐기며, 그것들이 전반적인 여행 경험에 어떤 영향을 주는지 설명해주세요."
+  },
+  {
+    "id": 15,
+    "text": "Tell me about a trip you took recently. Beyond the basic details of where and with whom, I’d like to know how this specific journey deviated from your usual travel patterns. Did you try a different pace, a new type of accommodation, or a unique activity that made this trip stand out from your previous ones?",
+    "hint": "recent trip(최근 여행), basic details(기본적인 세부사항), journey(여정), deviated from usual patterns(평소 패턴에서 벗어났다), different pace(다른 속도), new accommodation(새로운 숙소), unique activity(독특한 활동), stand out(두드러지다), previous trips(이전 여행들), travel pattern(여행 패턴)",
+    "translation": "최근에 다녀온 여행에 대해 말해주세요. 어디에 누구와 갔는지 같은 기본적인 세부사항을 넘어서, 이 특정 여행이 평소 여행 패턴과 어떻게 달랐는지 알고 싶습니다. 다른 속도, 새로운 유형의 숙소, 또는 이전 여행들과 다르게 두드러지게 만든 독특한 활동을 시도했나요?"
+  },
+  {
+    "id": 16,
+    "text": "During your travels, have you ever encountered a place that left an indelible mark on your soul? Describe the visual aesthetics and the unique \"vibe\" of that location. Why did this place resonate with you so deeply, and what personal meaning does it hold for you now?",
+    "hint": "encountered a place(장소를 마주하다), indelible mark(지워지지 않는 인상), visual aesthetics(시각적 아름다움), unique vibe(독특한 분위기), location(장소), resonate deeply(깊이 와닿다), personal meaning(개인적인 의미), meaningful place(의미 있는 장소), travel memory(여행 기억), emotional impact(감정적 영향)",
+    "translation": "여행 중 마음에 지워지지 않는 인상을 남긴 장소를 만난 적이 있나요? 그 장소의 시각적 아름다움과 독특한 분위기를 묘사해주세요. 왜 그 장소가 당신에게 그렇게 깊이 와닿았고, 지금 당신에게 어떤 개인적인 의미를 가지고 있나요?"
+  },
+  {
+    "id": 17,
+    "text": "How has your approach to traveling evolved over the years? Compare your past and present travel styles, specifically focusing on how technological advancements, like AI trip planners or real-time navigation, and your changing priorities regarding budget and activities have reshaped your journeys.",
+    "hint": "approach to traveling(여행에 대한 접근 방식), evolved over the years(수년 동안 변화했다), past and present(과거와 현재), technological advancements(기술 발전), AI trip planners(AI 여행 플래너), real-time navigation(실시간 길찾기), changing priorities(변화하는 우선순위), budget(예산), activities(활동), reshaped journeys(여정을 바꾸었다)",
+    "translation": "수년 동안 여행에 대한 접근 방식은 어떻게 변화했나요? AI 여행 플래너나 실시간 길찾기 같은 기술 발전, 그리고 예산과 활동에 대한 변화하는 우선순위가 여행을 어떻게 바꾸었는지에 초점을 맞춰 과거와 현재의 여행 스타일을 비교해주세요."
+  },
+  {
+    "id": 18,
+    "text": "Walk me through your meticulous travel preparation process before you embark on a journey. How do you analyze various transportation and accommodation options to find the best value, and what is your strategy for building a flexible schedule that can account for unforeseen logistical changes?",
+    "hint": "meticulous preparation process(꼼꼼한 준비 과정), embark on a journey(여행을 떠나다), analyze options(선택지를 분석하다), transportation(교통), accommodation(숙소), best value(가장 좋은 가치), strategy(전략), flexible schedule(유연한 일정), unforeseen changes(예상치 못한 변화), logistics(이동과 일정 관리)",
+    "translation": "여행을 떠나기 전 꼼꼼한 여행 준비 과정을 차근차근 설명해주세요. 가장 좋은 가치를 찾기 위해 다양한 교통과 숙소 선택지를 어떻게 분석하고, 예상치 못한 이동이나 일정 변화에 대비할 수 있는 유연한 일정을 만들기 위한 전략은 무엇인가요?"
+  },
+  {
+    "id": 19,
+    "text": "Traveling often comes with unexpected hurdles. Tell me about a time you faced a significant disruption during a trip. How did this event affect your itinerary, what steps did you take to manage the situation, and what did the experience teach you about adaptability and resilience in a foreign environment?",
+    "hint": "unexpected hurdles(예상치 못한 장애물), significant disruption(큰 차질), during a trip(여행 중에), affect itinerary(일정에 영향을 주다), steps I took(취한 단계들), manage the situation(상황을 관리하다), adaptability(적응력), resilience(회복력), foreign environment(낯선 환경), travel crisis(여행 위기)",
+    "translation": "여행에는 종종 예상치 못한 장애물이 따릅니다. 여행 중 큰 차질을 겪었던 때에 대해 말해주세요. 그 사건이 일정에 어떤 영향을 주었고, 상황을 관리하기 위해 어떤 단계를 취했으며, 그 경험이 낯선 환경에서의 적응력과 회복력에 대해 무엇을 가르쳐 주었나요?"
+  },
+  {
+    "id": 20,
+    "text": "Reflect on a journey from your childhood. What specific sensory details, smells, sights, or feelings, do you remember most vividly? Contrast that experience with your current travel style, focusing on the shift from being a passive observer to an active, responsible traveler.",
+    "hint": "childhood journey(어린 시절 여행), sensory details(감각적 세부사항), smells(냄새), sights(광경), feelings(감정), remember vividly(생생하게 기억하다), contrast(대조하다), current travel style(현재 여행 스타일), passive observer(수동적인 관찰자), responsible traveler(책임감 있는 여행자)",
+    "translation": "어린 시절의 여행을 돌아보세요. 냄새, 광경, 감정 같은 어떤 구체적인 감각적 세부사항을 가장 생생하게 기억하나요? 수동적인 관찰자에서 적극적이고 책임감 있는 여행자로 변한 점에 초점을 맞춰 그 경험을 현재의 여행 스타일과 대조해주세요."
+  },
+  {
+    "id": 21,
+    "text": "When you are on vacation, what is your philosophy for selecting activities? Do you prefer high-energy adventure or slow, mindful exploration? Explain how these chosen activities influence the overall \"narrative\" of your trip and how they contribute to your sense of fulfillment.",
+    "hint": "vacation(휴가), philosophy for selecting activities(활동 선택 철학), high-energy adventure(활동적인 모험), slow exploration(느린 탐험), mindful exploration(의식적인 탐험), chosen activities(선택한 활동들), overall narrative(전체 이야기), sense of fulfillment(충족감), travel experience(여행 경험), personal preference(개인 취향)",
+    "translation": "휴가 중 활동을 선택하는 당신의 철학은 무엇인가요? 활동적인 모험을 선호하나요, 아니면 느리고 의식적인 탐험을 선호하나요? 선택한 활동들이 여행의 전체적인 '이야기'에 어떤 영향을 주고, 충족감에 어떻게 기여하는지 설명해주세요."
+  }
+]

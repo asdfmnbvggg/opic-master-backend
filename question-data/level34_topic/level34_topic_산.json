@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "text": "Do you enjoy hiking? Tell me about your usual hiking routine.",
+        "hint": "start early(일찍 시작하다), check the route(경로를 확인하다), walk slowly(천천히 걷다), take breaks(휴식을 취하다), drink water(물을 마시다), reach the peak(정상에 도착하다), take pictures(사진을 찍다), eat snacks(간식을 먹다), come down(내려오다), finish safely(안전하게 마치다)",
+        "translation": "등산이나 하이킹을 즐기시나요? 평소 루틴을 말해 주세요."
+    },
+    {
+        "id": 2,
+        "text": "Describe your favorite mountain or hiking course and tell me why you like it.",
+        "hint": "hiking trail(등산로), mountain path(산길), forest(숲), peak(정상), beautiful view(아름다운 경치), fresh air(상쾌한 공기), quiet nature(조용한 자연), steep hill(가파른 언덕), rest area(쉼터), clear sky(맑은 하늘)",
+        "translation": "가장 좋아하는 산이나 하이킹 코스를 설명하고, 왜 좋아하는지 말해 주세요."
+    },
+    {
+        "id": 3,
+        "text": "How do you feel after hiking, and how often do you go?",
+        "hint": "feel refreshed(상쾌하다), reduce stress(스트레스를 줄이다), better stamina(더 좋은 체력), stronger legs(더 튼튼한 다리), clear mind(맑은 정신), healthy body(건강한 몸), sense of achievement(성취감), peaceful feeling(평화로운 느낌), more energy(더 많은 에너지), mental health(정신 건강)",
+        "translation": "등산하고 나면 기분이 어떤가요? 그리고 얼마나 자주 가나요?"
+    },
+    {
+        "id": 4,
+        "text": "Where do you usually go hiking? Where is that place? Please describe it simply.",
+        "hint": "hiking trail(등산로), mountain path(산길), forest(숲), peak(정상), beautiful view(아름다운 경치), fresh air(상쾌한 공기), quiet nature(조용한 자연), steep hill(가파른 언덕), rest area(쉼터), clear sky(맑은 하늘)",
+        "translation": "보통 어디로 등산하러 가나요? 그곳은 어디에 있나요? 간단하게 설명해 주세요."
+    },
+    {
+        "id": 5,
+        "text": "Tell me about a memorable moment during hiking. What happened? Why do you remember it?",
+        "hint": "memorable hike(기억에 남는 등산), beautiful sunrise(아름다운 일출), sudden rain(갑작스러운 비), difficult trail(어려운 코스), amazing view(놀라운 경치), helped a friend(친구를 도왔다), took photos(사진을 찍었다), felt proud(뿌듯했다), special moment(특별한 순간), unforgettable memory(잊을 수 없는 기억)",
+        "translation": "등산 중 기억에 남는 순간을 말해 주세요. 무슨 일이 있었나요? 왜 기억에 남나요?"
+    },
+    {
+        "id": 6,
+        "text": "You said you like hiking. What are the good points of hiking for your body and mind?",
+        "hint": "feel refreshed(상쾌하다), reduce stress(스트레스를 줄이다), better stamina(더 좋은 체력), stronger legs(더 튼튼한 다리), clear mind(맑은 정신), healthy body(건강한 몸), sense of achievement(성취감), peaceful feeling(평화로운 느낌), more energy(더 많은 에너지), mental health(정신 건강)",
+        "translation": "등산을 좋아한다고 하셨는데요. 몸과 마음에 어떤 좋은 점이 있나요?"
+    },
+    {
+        "id": 7,
+        "text": "When you go hiking, what do you prepare? How do you stay safe on the trail?",
+        "hint": "water bottle(물병), snacks(간식), hiking shoes(등산화), backpack(배낭), first-aid kit(구급상자), check weather(날씨를 확인하다), trail map(등산 지도), stretching(스트레칭), walk carefully(조심히 걷다), avoid injury(부상을 피하다)",
+        "translation": "등산 갈 때 무엇을 준비하나요? 산길에서 안전하게 걷기 위해 어떻게 하나요?"
+    },
+    {
+        "id": 8,
+        "text": "Why do you like hiking? When did you start liking it? How do you feel after coming down the mountain?",
+        "hint": "hiking trail(등산로), mountain path(산길), forest(숲), peak(정상), beautiful view(아름다운 경치), fresh air(상쾌한 공기), quiet nature(조용한 자연), steep hill(가파른 언덕), rest area(쉼터), clear sky(맑은 하늘)",
+        "translation": "왜 등산을 좋아하나요? 언제부터 좋아하게 되었나요? 산에서 내려온 뒤 기분은 어떤가요?"
+    },
+    {
+        "id": 9,
+        "text": "Tell me about the most interesting mountain or trail you have visited. Where was it, and why was it interesting?",
+        "hint": "hiking trail(등산로), mountain path(산길), forest(숲), peak(정상), beautiful view(아름다운 경치), fresh air(상쾌한 공기), quiet nature(조용한 자연), steep hill(가파른 언덕), rest area(쉼터), clear sky(맑은 하늘)",
+        "translation": "가본 곳 중 가장 흥미로웠던 산이나 코스를 말해 주세요. 어디였고, 왜 흥미로웠나요?"
+    },
+    {
+        "id": 10,
+        "text": "How did you start hiking for the first time? What made you keep hiking?",
+        "hint": "first hike(첫 등산), with friends(친구들과 함께), family trip(가족 여행), wanted exercise(운동하고 싶었다), liked nature(자연을 좋아했다), felt healthy(건강해진 느낌이었다), new hobby(새 취미), kept going(계속했다), motivation(동기부여), good habit(좋은 습관)",
+        "translation": "처음 등산을 시작한 계기는 무엇인가요? 계속하게 된 이유는 무엇인가요?"
+    },
+    {
+        "id": 11,
+        "text": "How long is your usual hike, and how much time does it take? Please tell me your hiking routine.",
+        "hint": "start early(일찍 시작하다), check the route(경로를 확인하다), walk slowly(천천히 걷다), take breaks(휴식을 취하다), drink water(물을 마시다), reach the peak(정상에 도착하다), take pictures(사진을 찍다), eat snacks(간식을 먹다), come down(내려오다), finish safely(안전하게 마치다)",
+        "translation": "보통 등산 코스는 어느 정도 길이이고, 시간이 얼마나 걸리나요? 평소 등산 루틴을 말해 주세요."
+    },
+    {
+        "id": 12,
+        "text": "What do you usually wear for hiking? Please tell me about your shoes and clothes.",
+        "hint": "hiking shoes(등산화), comfortable pants(편한 바지), breathable shirt(통기성 좋은 셔츠), light jacket(가벼운 재킷), hat(모자), gloves(장갑), backpack(배낭), warm socks(따뜻한 양말), raincoat(우비), proper outfit(적절한 복장)",
+        "translation": "등산할 때 보통 어떤 옷을 입나요? 신발과 복장에 대해 말해 주세요."
+    },
+    {
+        "id": 13,
+        "text": "You mentioned that you enjoy hiking. Can you describe your usual hiking routine? What do you normally do when you go hiking?",
+        "hint": "start early(일찍 시작하다), check the route(경로를 확인하다), walk slowly(천천히 걷다), take breaks(휴식을 취하다), drink water(물을 마시다), reach the peak(정상에 도착하다), take pictures(사진을 찍다), eat snacks(간식을 먹다), come down(내려오다), finish safely(안전하게 마치다)",
+        "translation": "당신은 등산을 즐긴다고 말했습니다. 평소 등산 루틴을 묘사해 줄 수 있나요? 등산을 갈 때 보통 무엇을 하나요?"
+    },
+    {
+        "id": 14,
+        "text": "Can you describe a mountain or hiking trail you really like? Where is it, and what makes it special to you?",
+        "hint": "favorite mountain(좋아하는 산), hiking trail(등산로), forest path(숲길), beautiful view(아름다운 경치), fresh air(상쾌한 공기), quiet nature(조용한 자연), clear stream(맑은 계곡), rest area(쉼터), easy course(쉬운 코스), special place(특별한 장소)",
+        "translation": "정말 좋아하는 산이나 등산로를 묘사해 줄 수 있나요? 어디에 있고, 당신에게 무엇이 특별한가요?"
+    },
+    {
+        "id": 15,
+        "text": "How often do you go hiking, and how do you usually feel after finishing a hike? Please explain in detail.",
+        "hint": "once a month(한 달에 한 번), on weekends(주말에), after hiking(등산 후), feel refreshed(상쾌하다), feel tired(피곤하다), sense of achievement(성취감), better mood(더 좋은 기분), healthy feeling(건강한 느낌), reduce stress(스트레스를 줄이다), proud of myself(스스로 뿌듯하다)",
+        "translation": "얼마나 자주 등산을 가고, 등산을 마친 후 보통 기분이 어떤가요? 자세히 설명해 주세요."
+    },
+    {
+        "id": 16,
+        "text": "Where do you usually go hiking? Can you briefly describe that place and its surroundings?",
+        "hint": "nearby mountain(근처 산), hiking trail(등산로), forest(숲), mountain path(산길), tall trees(높은 나무들), fresh air(상쾌한 공기), quiet surroundings(조용한 주변), beautiful scenery(아름다운 풍경), rest area(쉼터), clean trail(깨끗한 길)",
+        "translation": "보통 어디로 등산을 가나요? 그 장소와 주변 환경을 간단히 묘사해 줄 수 있나요?"
+    },
+    {
+        "id": 17,
+        "text": "Tell me about a memorable experience you had while hiking. What happened, and why do you still remember it?",
+        "hint": "memorable hike(기억에 남는 등산), sudden rain(갑작스러운 비), difficult trail(어려운 코스), helped a friend(친구를 도왔다), beautiful sunrise(아름다운 일출), amazing view(놀라운 경치), took photos(사진을 찍었다), felt proud(뿌듯했다), special moment(특별한 순간), still remember(아직도 기억하다)",
+        "translation": "등산 중 있었던 기억에 남는 경험에 대해 말해 주세요. 무슨 일이 있었고, 왜 아직도 기억하나요?"
+    },
+    {
+        "id": 18,
+        "text": "What do you think are the benefits of hiking for your physical and mental health? Please explain your thoughts.",
+        "hint": "physical health(신체 건강), mental health(정신 건강), stronger legs(더 튼튼한 다리), better stamina(더 좋은 체력), reduce stress(스트레스를 줄이다), clear mind(맑은 정신), fresh air(상쾌한 공기), healthy habit(건강한 습관), peaceful feeling(평화로운 느낌), more energy(더 많은 에너지)",
+        "translation": "등산이 신체적, 정신적 건강에 주는 장점은 무엇이라고 생각하나요? 당신의 생각을 설명해 주세요."
+    },
+    {
+        "id": 19,
+        "text": "What do you usually prepare before going hiking? How do you make sure you stay safe during your hike?",
+        "hint": "water bottle(물병), snacks(간식), hiking shoes(등산화), backpack(배낭), first-aid kit(구급상자), check weather(날씨를 확인하다), trail map(등산 지도), stretching(스트레칭), walk carefully(조심히 걷다), avoid injury(부상을 피하다)",
+        "translation": "등산을 가기 전에 보통 무엇을 준비하나요? 등산 중 안전을 어떻게 확인하나요?"
+    },
+    {
+        "id": 20,
+        "text": "Why do you enjoy hiking? When did you first become interested in it? How do you usually feel after coming back from a hike?",
+        "hint": "enjoy nature(자연을 즐기다), first hike(첫 등산), with friends(친구들과 함께), family trip(가족 여행), wanted exercise(운동하고 싶었다), stress relief(스트레스 해소), felt healthy(건강해진 느낌이었다), good habit(좋은 습관), after hiking(등산 후), feel refreshed(상쾌하다)",
+        "translation": "왜 등산을 즐기나요? 언제 처음 관심을 갖게 되었나요? 등산에서 돌아온 후 보통 기분이 어떤가요?"
+    },
+    {
+        "id": 21,
+        "text": "Tell me about one of the most interesting hiking trails you have visited. Where was it, and what made it so unique?",
+        "hint": "interesting trail(흥미로운 등산로), unique course(독특한 코스), rocky path(바위길), forest trail(숲길), mountain peak(산 정상), amazing view(놀라운 경치), quiet place(조용한 장소), difficult section(어려운 구간), photo spot(사진 명소), unforgettable trail(잊을 수 없는 길)",
+        "translation": "방문했던 등산로 중 가장 흥미로운 곳 하나에 대해 말해 주세요. 어디였고, 무엇이 그렇게 독특했나요?"
+    },
+    {
+        "id": 22,
+        "text": "How did you first start hiking? What made you continue this activity over time?",
+        "hint": "first started(처음 시작했다), friend recommendation(친구 추천), family trip(가족 여행), wanted exercise(운동하고 싶었다), liked nature(자연을 좋아했다), felt refreshed(상쾌했다), new hobby(새 취미), regular routine(규칙적인 루틴), health reason(건강상의 이유), kept going(계속했다)",
+        "translation": "어떻게 처음 등산을 시작했나요? 시간이 지나도 이 활동을 계속하게 만든 이유는 무엇인가요?"
+    },
+    {
+        "id": 23,
+        "text": "How long does your usual hiking trip take? Can you describe your typical hiking schedule?",
+        "hint": "two hours(두 시간), half day(반나절), morning start(아침 시작), check route(경로를 확인하다), take breaks(휴식을 취하다), reach peak(정상에 도착하다), eat lunch(점심을 먹다), take photos(사진을 찍다), come down safely(안전하게 내려오다), typical schedule(전형적인 일정)",
+        "translation": "평소 등산은 얼마나 걸리나요? 당신의 전형적인 등산 일정을 묘사해 줄 수 있나요?"
+    },
+    {
+        "id": 24,
+        "text": "What do you usually wear when you go hiking? Please describe your typical outfit, including your shoes and clothes.",
+        "hint": "hiking shoes(등산화), comfortable pants(편한 바지), breathable shirt(통기성 좋은 셔츠), light jacket(가벼운 재킷), hat(모자), gloves(장갑), backpack(배낭), warm socks(따뜻한 양말), raincoat(우비), proper outfit(적절한 복장)",
+        "translation": "등산할 때 보통 무엇을 입나요? 신발과 옷을 포함해 전형적인 복장을 묘사해 주세요."
+    }
+]

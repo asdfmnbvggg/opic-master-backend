@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "text": "Do you enjoy jogging or walking? Tell me about your routine.",
+        "hint": "start slowly(천천히 시작하다), walking route(산책 경로), steady pace(일정한 속도), short break(짧은 휴식), listen to music(음악을 듣다), check distance(거리를 확인하다), finish at home(집에서 마치다), cool down(마무리 운동), thirty minutes(30분), daily habit(매일 습관)",
+        "translation": "조깅이나 산책을 즐기시나요? 평소 루틴을 말해 주세요."
+    },
+    {
+        "id": 2,
+        "text": "Describe a favorite place where you like to jog or walk and why.",
+        "hint": "nearby park(근처 공원), walking path(산책로), riverside(강변), quiet street(조용한 거리), fresh air(상쾌한 공기), beautiful view(아름다운 경치), many trees(많은 나무들), safe area(안전한 지역), not crowded(붐비지 않는), relaxing place(편안한 장소)",
+        "translation": "조깅이나 산책하기 좋아하는 장소를 설명하고, 왜 좋아하는지 말해 주세요."
+    },
+    {
+        "id": 3,
+        "text": "How does jogging or walking make you feel, and how often do you do it?",
+        "hint": "feel refreshed(상쾌하다), reduce stress(스트레스를 줄이다), better stamina(더 좋은 체력), healthy body(건강한 몸), clear mind(맑은 정신), better mood(더 좋은 기분), sleep better(잠을 더 잘 자다), lose weight(살을 빼다), more energy(더 많은 에너지), regular exercise(규칙적인 운동)",
+        "translation": "조깅이나 산책을 하면 기분이 어떤가요? 그리고 얼마나 자주 하나요?"
+    },
+    {
+        "id": 4,
+        "text": "Where do you usually go jogging? Where is it? Please describe your favorite jogging place.",
+        "hint": "nearby park(근처 공원), walking path(산책로), riverside(강변), quiet street(조용한 거리), fresh air(상쾌한 공기), beautiful view(아름다운 경치), many trees(많은 나무들), safe area(안전한 지역), not crowded(붐비지 않는), relaxing place(편안한 장소)",
+        "translation": "보통 어디에서 조깅하나요? 그곳은 어디에 있나요? 가장 좋아하는 조깅 장소를 설명해 주세요."
+    },
+    {
+        "id": 5,
+        "text": "Tell me about a memorable time you had while walking. What happened? Why do you still remember it?",
+        "hint": "memorable walk(기억에 남는 산책), sunset view(노을 경치), sudden rain(갑작스러운 비), met a friend(친구를 만났다), beautiful weather(아름다운 날씨), took pictures(사진을 찍었다), felt peaceful(평화로웠다), special moment(특별한 순간), unexpected event(예상치 못한 일), good memory(좋은 기억)",
+        "translation": "산책하다가 있었던 기억에 남는 일을 말해 주세요. 무슨 일이 있었나요? 왜 아직도 기억에 남나요?"
+    },
+    {
+        "id": 6,
+        "text": "You said you like jogging. What are the good points of jogging for your body and mind?",
+        "hint": "feel refreshed(상쾌하다), reduce stress(스트레스를 줄이다), better stamina(더 좋은 체력), healthy body(건강한 몸), clear mind(맑은 정신), better mood(더 좋은 기분), sleep better(잠을 더 잘 자다), lose weight(살을 빼다), more energy(더 많은 에너지), regular exercise(규칙적인 운동)",
+        "translation": "조깅을 좋아한다고 하셨는데요. 조깅의 몸과 마음에 좋은 점은 무엇인가요?"
+    },
+    {
+        "id": 7,
+        "text": "When you go jogging, what do you prepare? What do you do to avoid getting hurt?",
+        "hint": "running shoes(운동화), comfortable clothes(편한 옷), water bottle(물병), smartphone(스마트폰), earbuds(이어폰), stretching(스트레칭), warm-up(준비운동), safe route(안전한 길), watch traffic(차를 조심하다), avoid injury(부상을 피하다)",
+        "translation": "조깅하러 갈 때 무엇을 준비하나요? 다치지 않으려면 어떻게 하나요?"
+    },
+    {
+        "id": 8,
+        "text": "Why do you like walking? When did you start liking it? How do you feel after a walk?",
+        "hint": "feel refreshed(상쾌하다), reduce stress(스트레스를 줄이다), better stamina(더 좋은 체력), healthy body(건강한 몸), clear mind(맑은 정신), better mood(더 좋은 기분), sleep better(잠을 더 잘 자다), lose weight(살을 빼다), more energy(더 많은 에너지), regular exercise(규칙적인 운동)",
+        "translation": "왜 걷기를 좋아하나요? 언제부터 좋아하게 되었나요? 걷고 나면 기분이 어떤가요?"
+    },
+    {
+        "id": 9,
+        "text": "Tell me about the most interesting place where you went jogging. Where was it, and why was it interesting?",
+        "hint": "nearby park(근처 공원), walking path(산책로), riverside(강변), quiet street(조용한 거리), fresh air(상쾌한 공기), beautiful view(아름다운 경치), many trees(많은 나무들), safe area(안전한 지역), not crowded(붐비지 않는), relaxing place(편안한 장소)",
+        "translation": "조깅했던 곳 중 가장 흥미로웠던 장소를 말해 주세요. 어디였고, 왜 흥미로웠나요?"
+    },
+    {
+        "id": 10,
+        "text": "How did you start jogging for the first time? What made you keep doing it?",
+        "hint": "first started(처음 시작했다), health reason(건강상의 이유), doctor advice(의사의 조언), new habit(새 습관), morning walk(아침 산책), felt better(기분이 좋아졌다), kept going(계속했다), easy exercise(쉬운 운동), motivation(동기부여), regular routine(규칙적인 루틴)",
+        "translation": "처음 조깅을 시작한 계기는 무엇인가요? 계속하게 된 이유는 무엇인가요?"
+    },
+    {
+        "id": 11,
+        "text": "How far do you usually walk, and how long does it take? Please tell me your usual walking routine.",
+        "hint": "start slowly(천천히 시작하다), walking route(산책 경로), steady pace(일정한 속도), short break(짧은 휴식), listen to music(음악을 듣다), check distance(거리를 확인하다), finish at home(집에서 마치다), cool down(마무리 운동), thirty minutes(30분), daily habit(매일 습관)",
+        "translation": "보통 얼마나 걷고, 시간이 얼마나 걸리나요? 평소 산책 루틴을 말해 주세요."
+    },
+    {
+        "id": 12,
+        "text": "What do you usually wear when you go for a walk? Please tell me about your shoes and outfit.",
+        "hint": "running shoes(운동화), comfortable clothes(편한 옷), water bottle(물병), smartphone(스마트폰), earbuds(이어폰), stretching(스트레칭), warm-up(준비운동), safe route(안전한 길), watch traffic(차를 조심하다), avoid injury(부상을 피하다)",
+        "translation": "산책할 때 보통 어떤 옷을 입나요? 신발과 복장에 대해 말해 주세요."
+    },
+    {
+        "id": 13,
+        "text": "You said you enjoy walking. How often do you go walking, and when do you usually do it? Why do you prefer that time?",
+        "hint": "once a day(하루에 한 번), three times a week(일주일에 세 번), morning walk(아침 산책), evening walk(저녁 산책), after dinner(저녁 식사 후), quiet time(조용한 시간), cool weather(시원한 날씨), regular habit(규칙적인 습관), free time(여가 시간), good schedule(좋은 일정)",
+        "translation": "당신은 걷기를 즐긴다고 했습니다. 얼마나 자주 걷고, 보통 언제 하나요? 왜 그 시간을 선호하나요?"
+    },
+    {
+        "id": 14,
+        "text": "Where do you usually go walking? Can you describe the place and explain why you like it?",
+        "hint": "nearby park(근처 공원), walking path(산책로), riverside(강변), quiet street(조용한 거리), fresh air(상쾌한 공기), beautiful view(아름다운 경치), many trees(많은 나무들), safe area(안전한 지역), not crowded(붐비지 않는), relaxing place(편안한 장소)",
+        "translation": "보통 어디로 산책을 가나요? 그 장소를 묘사하고 왜 좋아하는지 설명해 줄 수 있나요?"
+    },
+    {
+        "id": 15,
+        "text": "Tell me about your walking routine. What do you usually do from the moment you start walking until you finish?",
+        "hint": "start slowly(천천히 시작하다), walking route(산책 경로), steady pace(일정한 속도), listen to music(음악을 듣다), check steps(걸음 수를 확인하다), take a short break(짧게 쉬다), enjoy the view(경치를 즐기다), return home(집으로 돌아오다), cool down(마무리 운동), drink water(물을 마시다)",
+        "translation": "당신의 산책 루틴에 대해 말해 주세요. 걷기 시작하는 순간부터 끝날 때까지 보통 무엇을 하나요?"
+    },
+    {
+        "id": 16,
+        "text": "When you go jogging or walking, what do you usually wear or bring with you? Why are those items important to you?",
+        "hint": "running shoes(운동화), comfortable clothes(편한 옷), water bottle(물병), smartphone(스마트폰), earbuds(이어폰), light jacket(가벼운 재킷), fitness watch(운동 시계), towel(수건), safety item(안전용품), weather check(날씨 확인)",
+        "translation": "조깅이나 산책을 갈 때 보통 무엇을 입거나 가져가나요? 왜 그 물건들이 당신에게 중요한가요?"
+    },
+    {
+        "id": 17,
+        "text": "What do you do to stay safe while walking or jogging? Can you explain your habits in detail?",
+        "hint": "safe route(안전한 길), bright area(밝은 곳), watch traffic(차를 조심하다), use crosswalk(횡단보도를 이용하다), avoid dark places(어두운 곳을 피하다), stretch first(먼저 스트레칭하다), wear bright clothes(밝은 옷을 입다), keep phone charged(휴대폰을 충전해 두다), walk carefully(조심히 걷다), avoid injury(부상을 피하다)",
+        "translation": "걷거나 조깅할 때 안전을 위해 무엇을 하나요? 당신의 습관을 자세히 설명해 줄 수 있나요?"
+    },
+    {
+        "id": 18,
+        "text": "How has your physical condition changed since you started walking regularly? Can you compare your condition before and now?",
+        "hint": "better stamina(더 좋은 체력), healthier body(더 건강한 몸), less tired(덜 피곤한), more energy(더 많은 에너지), better sleep(더 좋은 수면), reduced stress(줄어든 스트레스), stronger legs(더 튼튼한 다리), lighter body(가벼운 몸), before and now(전과 지금), regular exercise(규칙적인 운동)",
+        "translation": "규칙적으로 걷기 시작한 이후 몸 상태가 어떻게 변했나요? 전과 지금의 상태를 비교해 줄 수 있나요?"
+    },
+    {
+        "id": 19,
+        "text": "Tell me about a memorable experience you had while walking or jogging. Where did it happen, and what made it special?",
+        "hint": "memorable walk(기억에 남는 산책), sunset view(노을 경치), sudden rain(갑작스러운 비), met a friend(친구를 만났다), beautiful weather(아름다운 날씨), took pictures(사진을 찍었다), felt peaceful(평화로웠다), special moment(특별한 순간), unexpected event(예상치 못한 일), good memory(좋은 기억)",
+        "translation": "걷거나 조깅하는 동안 있었던 기억에 남는 경험에 대해 말해 주세요. 어디에서 일어났고, 무엇이 특별했나요?"
+    },
+    {
+        "id": 20,
+        "text": "Who do you usually walk or jog with? Why do you prefer going with that person or alone?",
+        "hint": "alone(혼자), with friends(친구들과 함께), with family(가족과 함께), walking partner(산책 친구), talk together(함께 이야기하다), comfortable person(편한 사람), same pace(같은 속도), enjoy together(함께 즐기다), quiet time(조용한 시간), personal time(개인 시간)",
+        "translation": "보통 누구와 산책하거나 조깅하나요? 왜 그 사람과 함께 가거나 혼자 가는 것을 선호하나요?"
+    },
+    {
+        "id": 21,
+        "text": "How do you feel when you are walking? Does it help you in any way, such as reducing stress?",
+        "hint": "feel refreshed(상쾌하다), reduce stress(스트레스를 줄이다), clear mind(맑은 정신), better mood(더 좋은 기분), peaceful feeling(평화로운 느낌), more energy(더 많은 에너지), relaxing time(편안한 시간), healthy habit(건강한 습관), think clearly(명확히 생각하다), feel calm(차분해지다)",
+        "translation": "걸을 때 기분이 어떤가요? 스트레스 감소처럼 어떤 식으로든 도움이 되나요?"
+    },
+    {
+        "id": 22,
+        "text": "Why did you first start walking regularly? Can you explain what made you continue this habit?",
+        "hint": "health reason(건강상의 이유), new habit(새 습관), first started(처음 시작했다), doctor advice(의사의 조언), felt better(기분이 좋아졌다), easy exercise(쉬운 운동), kept going(계속했다), daily routine(일상 루틴), motivation(동기부여), enjoy walking(걷기를 즐기다)",
+        "translation": "왜 처음 규칙적으로 걷기 시작했나요? 무엇이 이 습관을 계속하게 만들었는지 설명해 줄 수 있나요?"
+    }
+]

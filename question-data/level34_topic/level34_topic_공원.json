@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "text": "Tell me about a park you like to visit. What makes it special?",
+        "hint": "sunny day(화창한 날), picnic mat(돗자리), street performance(거리 공연), lost item(잃어버린 물건), sudden rain(갑작스러운 비), beautiful sunset(아름다운 노을), funny moment(재미있는 순간), family outing(가족 나들이), took photos(사진을 찍었다), felt refreshed(상쾌했다)",
+        "translation": "좋아하는 공원에 대해 말해 주세요. 그곳이 특별한 이유는 무엇인가요?"
+    },
+    {
+        "id": 2,
+        "text": "Describe the scenery and atmosphere at the park.",
+        "hint": "walking path(산책로), trees(나무들), grass(잔디), bench(벤치), pond(연못), playground(놀이터), flowers(꽃들), quiet(조용한), clean(깨끗한), near my home(집 근처)",
+        "translation": "공원의 경치와 분위기를 설명해 주세요."
+    },
+    {
+        "id": 3,
+        "text": "What activities do you do when you go to the park?",
+        "hint": "park(공원), walking path(산책로), bench(벤치), trees(나무들), fresh air(상쾌한 공기), picnic(피크닉), exercise(운동), relax(쉬다), friends(친구들), weekend(주말)",
+        "translation": "공원에 가면 어떤 활동을 하나요?"
+    },
+    {
+        "id": 4,
+        "text": "Please describe the park you often go to. Where is it located? What does it look like? What do people do there?",
+        "hint": "walking path(산책로), trees(나무들), grass(잔디), bench(벤치), pond(연못), playground(놀이터), flowers(꽃들), quiet(조용한), clean(깨끗한), near my home(집 근처)",
+        "translation": "자주 가는 공원에 대해 설명해 주세요. 어디에 위치해 있나요? 어떻게 생겼나요? 사람들은 거기서 무엇을 하나요?"
+    },
+    {
+        "id": 5,
+        "text": "What do you normally do at the park? Tell me about the typical activities when you go to the park.",
+        "hint": "park(공원), walking path(산책로), bench(벤치), trees(나무들), fresh air(상쾌한 공기), picnic(피크닉), exercise(운동), relax(쉬다), friends(친구들), weekend(주말)",
+        "translation": "공원에서 보통 뭘 하세요? 공원에 가면 보통 어떤 활동을 하는지 말해주세요."
+    },
+    {
+        "id": 6,
+        "text": "Tell me about one memorable experience at the park. What happened, and why was it memorable?",
+        "hint": "sunny day(화창한 날), picnic mat(돗자리), street performance(거리 공연), lost item(잃어버린 물건), sudden rain(갑작스러운 비), beautiful sunset(아름다운 노을), funny moment(재미있는 순간), family outing(가족 나들이), took photos(사진을 찍었다), felt refreshed(상쾌했다)",
+        "translation": "공원에서 있었던 기억에 남는 경험 하나를 이야기해 주세요. 무슨 일이 있었고, 왜 기억에 남는가요?"
+    },
+    {
+        "id": 7,
+        "text": "Please describe the park you often go to. Where is it located? What does it look like?",
+        "hint": "walking path(산책로), trees(나무들), grass(잔디), bench(벤치), pond(연못), playground(놀이터), flowers(꽃들), quiet(조용한), clean(깨끗한), near my home(집 근처)",
+        "translation": "자주 가는 공원에 대해 설명해 주세요. 어디에 위치해 있나요? 어떻게 생겼나요?"
+    },
+    {
+        "id": 8,
+        "text": "I also enjoy going to a park. Ask me 3 or 4 questions about the park I often go to.",
+        "hint": "park(공원), walking path(산책로), bench(벤치), trees(나무들), fresh air(상쾌한 공기), picnic(피크닉), exercise(운동), relax(쉬다), friends(친구들), weekend(주말)",
+        "translation": "저도 공원에 가는 걸 좋아해요. 제가 자주 가는 공원에 대해 3~4가지 질문을 해보세요."
+    },
+    {
+        "id": 9,
+        "text": "You said you like going to parks. What park do you usually go to? Where is it?",
+        "hint": "walking path(산책로), trees(나무들), grass(잔디), bench(벤치), pond(연못), playground(놀이터), flowers(꽃들), quiet(조용한), clean(깨끗한), near my home(집 근처)",
+        "translation": "당신은 공원에 가는 것을 좋아한다고 했습니다. 보통 어느 공원에 가나요? 그 공원은 어디에 있나요?"
+    },
+    {
+        "id": 10,
+        "text": "Please describe the park. Is it big or small? What can you see there?",
+        "hint": "walking path(산책로), trees(나무들), grass(잔디), bench(벤치), pond(연못), playground(놀이터), flowers(꽃들), quiet(조용한), clean(깨끗한), near my home(집 근처)",
+        "translation": "그 공원을 묘사해 주세요. 큰가요, 작은가요? 그곳에서 무엇을 볼 수 있나요?"
+    },
+    {
+        "id": 11,
+        "text": "Who do you usually go to the park with? Do you go alone, with friends, or with family?",
+        "hint": "take a walk(산책하다), jogging(조깅), sit on a bench(벤치에 앉다), listen to music(음악을 듣다), take pictures(사진을 찍다), have a picnic(피크닉하다), meet friends(친구를 만나다), with family(가족과 함께), on weekends(주말에), relax(쉬다)",
+        "translation": "보통 누구와 함께 공원에 가나요? 혼자 가나요, 친구와 가나요, 아니면 가족과 가나요?"
+    },
+    {
+        "id": 12,
+        "text": "How often do you go to the park? Do you go there often or only sometimes?",
+        "hint": "take a walk(산책하다), jogging(조깅), sit on a bench(벤치에 앉다), listen to music(음악을 듣다), take pictures(사진을 찍다), have a picnic(피크닉하다), meet friends(친구를 만나다), with family(가족과 함께), on weekends(주말에), relax(쉬다)",
+        "translation": "얼마나 자주 공원에 가나요? 자주 가나요, 아니면 가끔만 가나요?"
+    },
+    {
+        "id": 13,
+        "text": "What do you usually do at the park? Do you walk, take pictures, or relax there?",
+        "hint": "take a walk(산책하다), jogging(조깅), sit on a bench(벤치에 앉다), listen to music(음악을 듣다), take pictures(사진을 찍다), have a picnic(피크닉하다), meet friends(친구를 만나다), with family(가족과 함께), on weekends(주말에), relax(쉬다)",
+        "translation": "공원에서 보통 무엇을 하나요? 걷거나, 사진을 찍거나, 그곳에서 쉬나요?"
+    },
+    {
+        "id": 14,
+        "text": "Tell me about your usual day at the park. What do you do first when you arrive? What do you do before you leave?",
+        "hint": "take a walk(산책하다), jogging(조깅), sit on a bench(벤치에 앉다), listen to music(음악을 듣다), take pictures(사진을 찍다), have a picnic(피크닉하다), meet friends(친구를 만나다), with family(가족과 함께), on weekends(주말에), relax(쉬다)",
+        "translation": "공원에서 보내는 평소 하루에 대해 말해 주세요. 도착하면 먼저 무엇을 하나요? 떠나기 전에는 무엇을 하나요?"
+    },
+    {
+        "id": 15,
+        "text": "Tell me about a memorable experience at a park. When did it happen? Who were you with?",
+        "hint": "sunny day(화창한 날), picnic mat(돗자리), street performance(거리 공연), lost item(잃어버린 물건), sudden rain(갑작스러운 비), beautiful sunset(아름다운 노을), funny moment(재미있는 순간), family outing(가족 나들이), took photos(사진을 찍었다), felt refreshed(상쾌했다)",
+        "translation": "공원에서의 기억에 남는 경험에 대해 말해 주세요. 언제 있었던 일인가요? 누구와 함께였나요?"
+    },
+    {
+        "id": 16,
+        "text": "Did anything special or unexpected happen at the park? Please tell me what happened.",
+        "hint": "sunny day(화창한 날), picnic mat(돗자리), street performance(거리 공연), lost item(잃어버린 물건), sudden rain(갑작스러운 비), beautiful sunset(아름다운 노을), funny moment(재미있는 순간), family outing(가족 나들이), took photos(사진을 찍었다), felt refreshed(상쾌했다)",
+        "translation": "공원에서 특별하거나 예상치 못한 일이 있었나요? 무슨 일이 있었는지 말해 주세요."
+    },
+    {
+        "id": 17,
+        "text": "How did you first become interested in going to parks? When did you start going there?",
+        "hint": "childhood(어린 시절), first visit(첫 방문), exercise(운동), fresh air(상쾌한 공기), stress relief(스트레스 해소), habit(습관), used to play(예전에 놀았다), now I walk(지금은 걷는다), peaceful(평화로운), healthy(건강한)",
+        "translation": "어떻게 처음 공원에 가는 것에 흥미를 갖게 되었나요? 언제부터 그곳에 가기 시작했나요?"
+    },
+    {
+        "id": 18,
+        "text": "Has your interest in parks changed over time? What did you like before? What do you like now?",
+        "hint": "childhood(어린 시절), first visit(첫 방문), exercise(운동), fresh air(상쾌한 공기), stress relief(스트레스 해소), habit(습관), used to play(예전에 놀았다), now I walk(지금은 걷는다), peaceful(평화로운), healthy(건강한)",
+        "translation": "공원에 대한 관심이 시간이 지나며 변했나요? 예전에는 무엇을 좋아했나요? 지금은 무엇을 좋아하나요?"
+    },
+    {
+        "id": 19,
+        "text": "Tell me about the last time you went to a park. When was it? Which park did you go to?",
+        "hint": "sunny day(화창한 날), picnic mat(돗자리), street performance(거리 공연), lost item(잃어버린 물건), sudden rain(갑작스러운 비), beautiful sunset(아름다운 노을), funny moment(재미있는 순간), family outing(가족 나들이), took photos(사진을 찍었다), felt refreshed(상쾌했다)",
+        "translation": "마지막으로 공원에 갔던 때에 대해 말해 주세요. 언제였나요? 어느 공원에 갔나요?"
+    },
+    {
+        "id": 20,
+        "text": "What did you do at the park recently? Who did you go with? How did you feel?",
+        "hint": "sunny day(화창한 날), picnic mat(돗자리), street performance(거리 공연), lost item(잃어버린 물건), sudden rain(갑작스러운 비), beautiful sunset(아름다운 노을), funny moment(재미있는 순간), family outing(가족 나들이), took photos(사진을 찍었다), felt refreshed(상쾌했다)",
+        "translation": "최근에 공원에서 무엇을 했나요? 누구와 함께 갔나요? 기분이 어땠나요?"
+    }
+]
